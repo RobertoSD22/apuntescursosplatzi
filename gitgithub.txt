@@ -33,12 +33,17 @@ comando --help  - Te indica todas las combinaciones de argumentos que hay para e
 
 git init                    - Se crea el repositorio (se genera el archivo .git) y el staging (IMAGEN1)
 git add                     - +archivo - El archivo pasa a vivir en staging (git empieza a revisar si hay cambios o no hay)
+git add .                   - Agrega todos los cambios hechos a los archivos hechos en ese directorio
 git reset HEAD --           - +archivo - Devuelve a su estado anterior al archivo (por ejemplo si estaba en "untracket" lo pasa a ese, si estaba en "unstaged" a ese)
 git rm --catched            - +archivo - Remueve el archivo de staging, lo manda a UNTRACKET (aun que tenga cambios y tenga todo un historial)
 git rm --force              - +archivo - Eimina el archivo de git y del disco duro, guarda que existio alguna vez por si lo queremos RECUPERAR
 git commit                  - +archivo - El archivo pasa de staging al repositorio (se genera una nueva versión de cambios)
 git checkout                - Con este comando te traes los ultimos cambios que hubo en el repositorio
 git status                  - Nos permite ver el estado de  nuestros archivos
+git config                  - Te muestra los argumentos para las configuraciones que existen para git
+git config -l               - Te muestra las configuraciones que existen (IMAGEN4)
+git config -l --show-origin - Te muestra donde estan guardadas las configuraciones fisicamente
+git log                     - +archivo - Te muestra la historia de ese archivo, como ha ido cambiando
 
 STAGING                 - Es un area en memoria ram que utiliza git para preparar los archivos y enviarlos a repositorio
 MASTER                  - Es el nombre por defecto del repositorio donde guardamos nuestros archivos con sus cambios
@@ -62,10 +67,13 @@ ARCHIVOS UNTRACKET      - Cuando un archivo aun no se rastrea por GIT, no se les
 - En windows las mayusculas y minusculas no importan cuando se trata de nombres de carpetas (EN LINUX Y UNIX SI, puedes tener la carpeta "User" con mayuscula y "user" con minuscula y son diferentes)
 - .gitignore tambien cuenta como un archivo para ser trackeado
 - En la clase 9 en los comentarios del video dice que se le puede cambiar el nombre e la rama MASTER!
+- Los cambios "ATOMICOS" es que cada archivo se guarda de manera independiente
+- En los comandos cuando usas un "-" usas la letra inicial, cuando usas "--" usas la palabra completa
 
 ===== RESUMEN CLASES =====
 
 7   - Una clase rápida de linea de comandos
 8   - Git init, que es el staging y los repositorios (a partir de aqui cree el repositorio para los apuntes)
 9   - Ramas, merge, hotfix, development
+10  - Practicando el git init, git add, git rm --cached, git commit -m, git config, git add ., git log
 
