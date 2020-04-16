@@ -1,0 +1,60 @@
+=================== APUNTES DEL CURSO DE GIT/GITHUB =======================
+
+===== HERRAMIENTAS =====
+
+    - GIT                   V 2.26.1
+    - Visual Studio Code    V 1.44.1
+
+
+===== COMANDOS =====
+
+!               - +Numero de comando - En conjunto con el comando "history" te permite ejecutar uno de los comandos de la lista en base al numero listado (por ejemplo "!89")
+cat             - + Nombre_archivo -  Te muestra el contenido de un archivo de texto 
+cd              - Sirve para navegar entre directorios, "CHANGE DIRECTORY"
+cd /            - Nos manda al home (tal cual lo escribi, con espacio despues del cd), en git bash nos muestra una / sobre la linea verde
+cd /c           - Te manda al disco duro con el nombre, tambien podría ser cd /d por ejemplo
+cd .            - Es la carpeta donde te encuentras
+cd ..           - Es la carpeta anterior o la padre (El espacio importa en Linux y Unix, en Windows es todo pegado)
+clear           - Limpia la consola
+Ctrl + l        - Limpia la consola (otra forma de limpiar la consola) ES UNA COMBINACIÓN DE TECLAS! no un comando
+history         - Te enlista todos los comandos que has ejecutado anteriormente
+ls              - Muestra los archivos que se encuentran en la ruta donde nos encontramos
+ls -l           - Lista los archivos (en forma vertical) ("l" es un argumento sobre el comando)
+ls -a           - Muestra los archivos ocultos ("a" es un argumento sobre el comando)
+ls -al          - Indica que nos liste tambien los ARCHIVOS OCULTOS y LISTADOS ("al" es un argumento sobre el comando)
+mkdir           - Crea carpetas "MAKE DIRECTORY"
+pwd             - Muestra en que ubicación te encuentras dentro de la maquina
+rm              - + Nombre_archivo - Borra el archivo que le digas
+touch           - Crea archivos (DE TODO TIPO!!!, solo hay que agregar la extensión)
+
+comando --help  - Te indica todas las combinaciones de argumentos que hay para el comando y una descripción
+
+===== CONCEPTOS DE LAS CLASES =====
+
+git init                    - Se crea el repositorio (se genera el archivo .git) y el staging (IMAGEN1)
+git add                     - +archivo - El archivo pasa a vivir en staging (git empieza a revisar si hay cambios o no hay)
+git reset HEAD --           - +archivo - Devuelve a su estado anterior al archivo (por ejemplo si estaba en "untracket" lo pasa a ese, si estaba en "unstaged" a ese)
+git rm --catched            - +archivo - Remueve el archivo de staging, lo manda a UNTRACKET (aun que tenga cambios y tenga todo un historial)
+git rm --force              - +archivo - Eimina el archivo de git y del disco duro, guarda que existio alguna vez por si lo queremos RECUPERAR
+git commit                  - +archivo - El archivo pasa de staging al repositorio (se genera una nueva versión de cambios)
+git checkout                - Con este comando te traes los ultimos cambios que hubo en el repositorio (o puedes usarlo para solo ciertos archivos)
+git status                  - Nos permite ver el estado de  nuestros archivos
+
+STAGING                 - Es un area en memoria ram que utiliza git para preparar los archivos y enviarlos a repositorio
+MASTER                  - Es el nombre por defecto del repositorio donde guardamos nuestros archivos con sus cambios
+ARCHIVOS UNSTAGED       - Cuando los archivos tienen cambios o no son la ultima versión del respositorio
+ARCHIVOS UNTRACKET      - Cuando un archivo aun no se rastrea por GIT (no esta visualizado por git IMAGEN2)
+
+
+===== TIPS & RECORDAR =====
+
+- En windows se usa c:\  pero en linux y unix unicamente se usa \
+- Por defecto gitbash te abre la carpeta en windows de tu usuario (C:\User\Roberto   por ejemplo)
+- En windows las mayusculas y minusculas no importan cuando se trata de nombres de carpetas (EN LINUX Y UNIX SI, puedes tener la carpeta "User" con mayuscula y "user" con minuscula y son diferentes)
+- .gitignore tambien cuenta como un archivo para ser trackeado
+
+===== RESUMEN CLASES =====
+
+7   - Una clase rápida de linea de comandos
+8   - Git init, que es el staging y los repositorios (a partir de aqui cree el repositorio para los apuntes)
+
