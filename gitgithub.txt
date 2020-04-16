@@ -33,19 +33,27 @@ comando --help  - Te indica todas las combinaciones de argumentos que hay para e
 
 git init                    - Se crea el repositorio (se genera el archivo .git) y el staging (IMAGEN1)
 git add                     - +archivo - El archivo pasa a vivir en staging (git empieza a revisar si hay cambios o no hay)
-git restore --stage         - +archivo - Devuelve el archivo a UNSTAGED (si le diste commit lo pone en STAGING)
 git reset HEAD --           - +archivo - Devuelve a su estado anterior al archivo (por ejemplo si estaba en "untracket" lo pasa a ese, si estaba en "unstaged" a ese)
 git rm --catched            - +archivo - Remueve el archivo de staging, lo manda a UNTRACKET (aun que tenga cambios y tenga todo un historial)
 git rm --force              - +archivo - Eimina el archivo de git y del disco duro, guarda que existio alguna vez por si lo queremos RECUPERAR
 git commit                  - +archivo - El archivo pasa de staging al repositorio (se genera una nueva versión de cambios)
-git checkout                - Con este comando te traes los ultimos cambios que hubo en el repositorio (o puedes usarlo para solo ciertos archivos)
+git checkout                - Con este comando te traes los ultimos cambios que hubo en el repositorio
 git status                  - Nos permite ver el estado de  nuestros archivos
 
 STAGING                 - Es un area en memoria ram que utiliza git para preparar los archivos y enviarlos a repositorio
 MASTER                  - Es el nombre por defecto del repositorio donde guardamos nuestros archivos con sus cambios
-ARCHIVOS UNSTAGED       - Cuando los archivos tienen cambios o no son la ultima versión del respositorio
-ARCHIVOS UNTRACKET      - Cuando un archivo aun no se rastrea por GIT (no esta visualizado por git IMAGEN2)
+ARCHIVOS UNSTAGED       - Cuando los archivos tienen cambios o no son la ultima versión del respositorio pero ya se les dio un git add en algun momento
+ARCHIVOS UNTRACKET      - Cuando un archivo aun no se rastrea por GIT, no se les ha dado git add nunca (no esta visualizado por git IMAGEN2)
 
+
+    *********** RAMAS ***********
+    - A veces necesitas una rama para experimentos (development) y una rama para corregir bugs (hotfix en la industria) (IMAGEN3)
+    - BRANCH            - Es una rama del proyecto
+    - MERGE             - Cuando combinas dos branches (IMAGEN3)
+    - CHECKOUT          - Creas una nuevo branch
+    - MASTER            - La rama/branch que va a producción
+    - DEVELOPMENT       - La rama/branch que contiene las nuevas features, caracteristicas y experimentos
+    - HOTFIX            - La rama/branch en la que se arreglan los bugs y que se tienen que unir a la rama master tan printo como sea posible
 
 ===== TIPS & RECORDAR =====
 
@@ -53,9 +61,11 @@ ARCHIVOS UNTRACKET      - Cuando un archivo aun no se rastrea por GIT (no esta v
 - Por defecto gitbash te abre la carpeta en windows de tu usuario (C:\User\Roberto   por ejemplo)
 - En windows las mayusculas y minusculas no importan cuando se trata de nombres de carpetas (EN LINUX Y UNIX SI, puedes tener la carpeta "User" con mayuscula y "user" con minuscula y son diferentes)
 - .gitignore tambien cuenta como un archivo para ser trackeado
+- En la clase 9 en los comentarios del video dice que se le puede cambiar el nombre e la rama MASTER!
 
 ===== RESUMEN CLASES =====
 
 7   - Una clase rápida de linea de comandos
 8   - Git init, que es el staging y los repositorios (a partir de aqui cree el repositorio para los apuntes)
+9   - Ramas, merge, hotfix, development
 
