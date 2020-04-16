@@ -33,6 +33,7 @@ comando --help  - Te indica todas las combinaciones de argumentos que hay para e
 
 git init                    - Se crea el repositorio (se genera el archivo .git) y el staging (IMAGEN1)
 git add                     - +archivo - El archivo pasa a vivir en staging (git empieza a revisar si hay cambios o no hay)
+git restore --stage         - +archivo - Devuelve el archivo a UNSTAGED (si le diste commit lo pone en STAGING)
 git reset HEAD --           - +archivo - Devuelve a su estado anterior al archivo (por ejemplo si estaba en "untracket" lo pasa a ese, si estaba en "unstaged" a ese)
 git rm --catched            - +archivo - Remueve el archivo de staging, lo manda a UNTRACKET (aun que tenga cambios y tenga todo un historial)
 git rm --force              - +archivo - Eimina el archivo de git y del disco duro, guarda que existio alguna vez por si lo queremos RECUPERAR
