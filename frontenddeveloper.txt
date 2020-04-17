@@ -5,8 +5,14 @@
 
 ===== CONCEPTOS DE LAS CLASES =====
 
+HTTP                - Hyper Text Transfer Protocol - El protocolo de transferencia de hipertexto, la base que permite la comunicacion de datos entre los dispositivos (computadores y servidores)
+URL                 - Uniform Resource Locator - Localizador de recursos uniforme, la dirección del sitio web, es la manera en que agregamos un nombre a un punto de la red (como platzi.com)
+HTML                - Hyper Text Markup Language - Lenguaje de marcado de hypertexto, un lenguaje para describir la estructura de la pagina web
+CSS                 - Cascade Style Sheets - Hojas de estilo en cascada, son una serie de reglas que describen la apariencia de una página web
+
 ===== TIPS & RECORDAR =====
 
 ===== RESUMEN CLASES =====
 
 1       - Introducción, comenzo con diciendo que es un curso de HTML y CSS, no se porque
+2       - Video de youtube, conceptos como HTTP, URL, HTML y CSS
