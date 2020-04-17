@@ -76,3 +76,4 @@ ANATOMIA DE UN DOCUMENTO HTML
 4       - Conceptos como DOM, CSSOM, Render Tree, pasos para que un navegador construye una pagina web
 5       - Tips para aprender CSS (IMAGEN 5), si no los pone en una clase posterior los agregare yo
 6       - Conceptos de partes de un elemento de HTML, atributos y elementos vacios
+7       - Conceptos del DOCTYPE, HTML, HEAD y BODY
