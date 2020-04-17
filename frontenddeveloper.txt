@@ -93,3 +93,4 @@ TIPOS DE ERRORES
 8   - No hay video, es una página donde ponen todas las etiquetas más usadas en HTML
 9   - Concepto de CODIGO SEMANTICO (buenisimo)
 10  - Tipos de errores en HTML y se pueden validar en esta página: https://validator.w3.org/
+11  - Ejercicio con las etiquetas (no las había explicado y ya nos puso un ejercicio!)
