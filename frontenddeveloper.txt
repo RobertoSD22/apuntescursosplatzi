@@ -51,14 +51,15 @@ ANIDAMIENTO
 
 ELEMENTOS VACIOS
 
-    - No llevan contenido pero llevan atributos especiales, como por ejemplo "<img>"
+    - No llevan contenido pero llevan atributos especiales, como por ejemplo "<img>", "<input>", "<br>", "<hr>"
     - Tampoco tienen etiqueta de cierre
 
 ANATOMIA DE UN DOCUMENTO HTML
 
     - <!DOCTYPE html>   Nos asegura que el archivo sea analizado como html en los diferentes navegadores
+                        Aqui definimos que el documento está bajo estándar HTML5
     - <htm>             Root element, etiqueta principal
-    - <head>            No tiene implicación visual en el navegador, incluye la codificación en caracteres (UTF-8 por ejemplo)
+    - <head>            No tiene implicación visual en el navegador, incluye la codificación en caracteres (UTF-8 por ejemplo), incluye los metadatos e incluye enlaces (como los de javascript)
     - <title>           La etiqueda de nuestra aplicación (se ve en la pestaña del navegador)
     - <body>            Todo lo que se ve en la pantalla/navegador
 
@@ -77,3 +78,4 @@ ANATOMIA DE UN DOCUMENTO HTML
 5       - Tips para aprender CSS (IMAGEN 5), si no los pone en una clase posterior los agregare yo
 6       - Conceptos de partes de un elemento de HTML, atributos y elementos vacios
 7       - Conceptos del DOCTYPE, HTML, HEAD y BODY
+8       - No hay video, es una página donde ponen todas las etiquetas más usadas en HTML
