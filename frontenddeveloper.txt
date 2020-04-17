@@ -1,0 +1,12 @@
+=================== APUNTES DEL CURSO DE Frontend Developer =======================
+
+===== HERRAMIENTAS =====
+
+
+===== CONCEPTOS DE LAS CLASES =====
+
+===== TIPS & RECORDAR =====
+
+===== RESUMEN CLASES =====
+
+1       - Introducción, comenzo con diciendo que es un curso de HTML y CSS, no se porque
