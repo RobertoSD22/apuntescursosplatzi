@@ -75,6 +75,17 @@ TIPOS DE ERRORES
     - Errores SINTÁCTICOS: Son errores de escritura en el codigo que hacen que el programa no funcione
     - Errores LÓGICOS: La sintaxis es correcta pero el código no hace lo que debería, por lo que el programa funciona de forma incorrecta
 
+ANATOMIA DE UNA DECLARACIÓN CSS
+
+    - SELECTOR: Son la referencia a los elementos HTML, (puede ser el nombre del componente <p>, el id del componente id="identificador", puede ser el nombre de una clase de css o puede ser generico/cuando no tiene nombre el selector y le pega a todos los componentes)
+                Van seguidos de corchetes por ejemplo: rob {}
+    - PROPIEDAD: Son el tipo de estilo que queremos darle a los elementos.
+                 Van seguidos de ":", van dentro de las llaves del selector
+                 Se pueden escribir varias propiedades dentro del selector
+    - VALOR: Son el estilo que queremos que tomen nuestros elementos HTML con respecto a la propiedad
+             Van seguidos de ";"
+    - DECLARACIÓN: Es la conjunción de todos los componentes anteriores
+
 ===== TIPS & RECORDAR =====
 
 - https://htmlreference.io/ se puede ver todos los componentes de HTML
@@ -94,3 +105,4 @@ TIPOS DE ERRORES
 9   - Concepto de CODIGO SEMANTICO (buenisimo)
 10  - Tipos de errores en HTML y se pueden validar en esta página: https://validator.w3.org/
 11  - Ejercicio con las etiquetas (no las había explicado y ya nos puso un ejercicio!)
+12  - Anatomia del CSS
