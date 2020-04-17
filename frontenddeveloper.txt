@@ -2,6 +2,7 @@
 
 ===== HERRAMIENTAS =====
 
+    HTML5
 
 ===== CONCEPTOS DE LAS CLASES =====
 
@@ -69,6 +70,11 @@ CODIGO SEMANTICO
     - Un ejemplo es <i> e <em> visualmente hacen lo mismo, pero <em> hace que se le de enfasis a esa palabra dentro del parrafo, mientras que <i> solo cambia el tipo de texto
     - Tambien es importante para darle mantenimiento al codigo, que otra persona no llegue y no sepa que demonios hiciste
 
+TIPOS DE ERRORES
+
+    - Errores SINTÁCTICOS: Son errores de escritura en el codigo que hacen que el programa no funcione
+    - Errores LÓGICOS: La sintaxis es correcta pero el código no hace lo que debería, por lo que el programa funciona de forma incorrecta
+
 ===== TIPS & RECORDAR =====
 
 - https://htmlreference.io/ se puede ver todos los componentes de HTML
@@ -77,12 +83,13 @@ CODIGO SEMANTICO
 
 ===== RESUMEN CLASES =====
 
-1       - Introducción, comenzo con diciendo que es un curso de HTML y CSS, no se porque
-2       - Video de youtube, conceptos como HTTP, URL, HTML y CSS
-3       - Explicación de que es HTML y CSS
-4       - Conceptos como DOM, CSSOM, Render Tree, pasos para que un navegador construye una pagina web
-5       - Tips para aprender CSS (IMAGEN 3), si no los pone en una clase posterior los agregare yo
-6       - Conceptos de partes de un elemento de HTML, atributos y elementos vacios
-7       - Conceptos del DOCTYPE, HTML, HEAD y BODY
-8       - No hay video, es una página donde ponen todas las etiquetas más usadas en HTML
-9       - Concepto de CODIGO SEMANTICO (buenisimo)
+1   - Introducción, comenzo con diciendo que es un curso de HTML y CSS, no se porque
+2   - Video de youtube, conceptos como HTTP, URL, HTML y CSS
+3   - Explicación de que es HTML y CSS
+4   - Conceptos como DOM, CSSOM, Render Tree, pasos para que un navegador construye una pagina web
+5   - Tips para aprender CSS (IMAGEN 3), si no los pone en una clase posterior los agregare yo
+6   - Conceptos de partes de un elemento de HTML, atributos y elementos vacios
+7   - Conceptos del DOCTYPE, HTML, HEAD y BODY
+8   - No hay video, es una página donde ponen todas las etiquetas más usadas en HTML
+9   - Concepto de CODIGO SEMANTICO (buenisimo)
+10  - Tipos de errores en HTML y se pueden validar en esta página: https://validator.w3.org/
