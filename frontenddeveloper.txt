@@ -63,6 +63,12 @@ ANATOMIA DE UN DOCUMENTO HTML
     - <title>           La etiqueda de nuestra aplicación (se ve en la pestaña del navegador)
     - <body>            Todo lo que se ve en la pantalla/navegador
 
+CODIGO SEMANTICO
+
+    - Darle una estructura a nuestra página (IMAGEN 5), ya que hay etiquetas especiales para cada sección que van dentro del BODY, como <nav>, <article>, etc.
+    - Un ejemplo es <i> e <em> visualmente hacen lo mismo, pero <em> hace que se le de enfasis a esa palabra dentro del parrafo, mientras que <i> solo cambia el tipo de texto
+    - Tambien es importante para darle mantenimiento al codigo, que otra persona no llegue y no sepa que demonios hiciste
+
 ===== TIPS & RECORDAR =====
 
 - https://htmlreference.io/ se puede ver todos los componentes de HTML
@@ -75,7 +81,8 @@ ANATOMIA DE UN DOCUMENTO HTML
 2       - Video de youtube, conceptos como HTTP, URL, HTML y CSS
 3       - Explicación de que es HTML y CSS
 4       - Conceptos como DOM, CSSOM, Render Tree, pasos para que un navegador construye una pagina web
-5       - Tips para aprender CSS (IMAGEN 5), si no los pone en una clase posterior los agregare yo
+5       - Tips para aprender CSS (IMAGEN 3), si no los pone en una clase posterior los agregare yo
 6       - Conceptos de partes de un elemento de HTML, atributos y elementos vacios
 7       - Conceptos del DOCTYPE, HTML, HEAD y BODY
 8       - No hay video, es una página donde ponen todas las etiquetas más usadas en HTML
+9       - Concepto de CODIGO SEMANTICO (buenisimo)
