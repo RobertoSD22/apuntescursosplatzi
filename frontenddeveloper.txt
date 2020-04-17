@@ -12,13 +12,38 @@ HTML                - Hyper Text Markup Language - Lenguaje de marcado de hypert
 CSS                 - Cascade Style Sheets - Hojas de estilo en cascada, son una serie de reglas que describen la apariencia de una página web
                       Es un lenguaje que permite crear páginas web con un diseño agradable para los usuarios
 
+DOM                 - Document Objet Model - Transforma el codigo HTML a objetos que son entendibles para el navegador
+CSSOM               - CSS Object Model - Transforma el codigo de CSS a objetos que son entendibles para el navegador
+Render Tree         - Es la union del DOM y el CSSOM para renderizar el proceso que hemos hecho en el codigo
+
+Pasos para hacer la transformación de codigo:
+
+    1.- Coger el codigo y transforma en Bytes (IMAGEN1)
+    2.- Despues los Bytes los transforma en caracteres (IMAGEN1)
+    3.- Transforma los caracteres en tokens (la etiqueta que abre, que cierra, quien va primero y despues), que caracteres pertenecen a que elemento (IMAGEN1)
+    4.- Transforma los tokens en Nodes, son objetos que entiende el navegador (IMAGEN1)
+    5.- Coge todos los elementos y los transforma en un arbol (IMAGEN1)
+
+Pasos que sigue el navegador para construir las páginas web:
+
+    1.- Procesa el HTML para construir el DOM. (IMAGEN2)
+    2.- Procesa el CSS para construir el CSSOM. (IMAGEN2)
+    3.- El DOM se une con el CSSOM para crear el Render Tree. (IMAGEN2)
+    4.- Se aplican los estilos CSS en el Render Tree. (IMAGEN2)
+    5.- Se ““pintan”” los nodos en la pantalla para que los usuarios vean el contenido de la página web. (IMAGEN2)
+
+
+
+
 ===== TIPS & RECORDAR =====
 
 - https://htmlreference.io/ se puede ver todos los componentes de HTML
 - https://cssreference.io/ se pueden ver todos los atributos de CSS
+- RENDERIZAR es presentar la pantalla en el navegador
 
 ===== RESUMEN CLASES =====
 
 1       - Introducción, comenzo con diciendo que es un curso de HTML y CSS, no se porque
 2       - Video de youtube, conceptos como HTTP, URL, HTML y CSS
 3       - Explicación de que es HTML y CSS
+4       - Conceptos como DOM, CSSOM, Render Tree, pasos para que un navegador construye una pagina web
