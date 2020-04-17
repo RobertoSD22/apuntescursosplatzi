@@ -32,8 +32,27 @@ Pasos que sigue el navegador para construir las páginas web:
     4.- Se aplican los estilos CSS en el Render Tree. (IMAGEN2)
     5.- Se ““pintan”” los nodos en la pantalla para que los usuarios vean el contenido de la página web. (IMAGEN2)
 
+ANATOMIA DE UN ELEMENTO HTML (IMAGEN4)
 
+    - ETIQUETA DE APERTURA (por ejemplo <h1>), tiene el nombre del elemento y esta envuelto en parentesis angulares
+    - CONTENIDO (por ejemplo "Esto es un título")
+    - ETIQUETA DE CIERRE (por ejemplo </h1>) tiene el nombre del elemento y esta envuelto en parentesis angulares más un slash
 
+ATRIBUTOS
+
+    - Van sobre los elementos HTML
+    - Siempre van sobre la etiqueta de apertura
+    - El valor del atributo va entre comillas
+    - Los atributos nos permiten definir características especiales para nuestros elementos
+
+ANIDAMIENTO
+
+    - Etiquetas que van dentro de otras
+
+ELEMENTOS VACIOS
+
+    - No llevan contenido pero llevan atributos especiales, como por ejemplo "<img>"
+    - Tampoco tienen etiqueta de cierre
 
 ===== TIPS & RECORDAR =====
 
@@ -48,3 +67,4 @@ Pasos que sigue el navegador para construir las páginas web:
 3       - Explicación de que es HTML y CSS
 4       - Conceptos como DOM, CSSOM, Render Tree, pasos para que un navegador construye una pagina web
 5       - Tips para aprender CSS (IMAGEN 5), si no los pone en una clase posterior los agregare yo
+6       - Conceptos de partes de un elemento de HTML, atributos y elementos vacios
