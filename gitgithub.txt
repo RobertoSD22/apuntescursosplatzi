@@ -16,7 +16,6 @@ cd /c           - Te manda al disco duro con el nombre, tambien podría ser cd /
 cd .            - Es la carpeta donde te encuentras
 cd ..           - Es la carpeta anterior o la padre (El espacio importa en Linux y Unix, en Windows es todo pegado)
 clear           - Limpia la consola
-Ctrl + l        - Limpia la consola (otra forma de limpiar la consola) ES UNA COMBINACIÓN DE TECLAS! no un comando
 history         - Te enlista todos los comandos que has ejecutado anteriormente
 ls              - Muestra los archivos que se encuentran en la ruta donde nos encontramos
 ls -l           - Lista los archivos (en forma vertical) ("l" es un argumento sobre el comando)
@@ -28,6 +27,8 @@ rm              - + Nombre_archivo - Borra el archivo que le digas
 touch           - Crea archivos (DE TODO TIPO!!!, solo hay que agregar la extensión)
 
 comando --help  - Te indica todas las combinaciones de argumentos que hay para el comando y una descripción
+Ctrl + l        - Limpia la consola (otra forma de limpiar la consola) ES UNA COMBINACIÓN DE TECLAS! no un comando
+Esc + Shift +zz - Te saca de del editor de textos llamado "vim", este editor lo manda por default si haces un commit y no agregas un comentario
 
 ===== CONCEPTOS DE LAS CLASES =====
 
@@ -43,7 +44,9 @@ git status                  - Nos permite ver el estado de  nuestros archivos
 git config                  - Te muestra los argumentos para las configuraciones que existen para git
 git config -l               - Te muestra las configuraciones que existen (IMAGEN4)
 git config -l --show-origin - Te muestra donde estan guardadas las configuraciones fisicamente
+git diff                    - +hashArchivo1 +hashArchivo2 te muestra las diferencias entre ambas versiones, los hashes salen del git log del archivo que quieres comparar
 git log                     - +archivo - Te muestra la historia de ese archivo, como ha ido cambiando
+git show                    - +archivo - Te muestra todos los cambios que hubieron en un archivo
 
 STAGING                 - Es un area en memoria ram que utiliza git para preparar los archivos y enviarlos a repositorio
 MASTER                  - Es el nombre por defecto del repositorio donde guardamos nuestros archivos con sus cambios
@@ -76,4 +79,5 @@ ARCHIVOS UNTRACKET      - Cuando un archivo aun no se rastrea por GIT, no se les
 8   - Git init, que es el staging y los repositorios (a partir de aqui cree el repositorio para los apuntes)
 9   - Ramas, merge, hotfix, development
 10  - Practicando el git init, git add, git rm --cached, git commit -m, git config, git add ., git log
+11  - Practicando con git show, git diff y git log
 
