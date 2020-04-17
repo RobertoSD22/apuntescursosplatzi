@@ -8,11 +8,17 @@
 HTTP                - Hyper Text Transfer Protocol - El protocolo de transferencia de hipertexto, la base que permite la comunicacion de datos entre los dispositivos (computadores y servidores)
 URL                 - Uniform Resource Locator - Localizador de recursos uniforme, la dirección del sitio web, es la manera en que agregamos un nombre a un punto de la red (como platzi.com)
 HTML                - Hyper Text Markup Language - Lenguaje de marcado de hypertexto, un lenguaje para describir la estructura de la pagina web
+                      Es un lenguaje de marcado para decirle al navegador como estructurar la página que visitas
 CSS                 - Cascade Style Sheets - Hojas de estilo en cascada, son una serie de reglas que describen la apariencia de una página web
+                      Es un lenguaje que permite crear páginas web con un diseño agradable para los usuarios
 
 ===== TIPS & RECORDAR =====
+
+- https://htmlreference.io/ se puede ver todos los componentes de HTML
+- https://cssreference.io/ se pueden ver todos los atributos de CSS
 
 ===== RESUMEN CLASES =====
 
 1       - Introducción, comenzo con diciendo que es un curso de HTML y CSS, no se porque
 2       - Video de youtube, conceptos como HTTP, URL, HTML y CSS
+3       - Explicación de que es HTML y CSS
