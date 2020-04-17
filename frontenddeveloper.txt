@@ -47,3 +47,4 @@ Pasos que sigue el navegador para construir las páginas web:
 2       - Video de youtube, conceptos como HTTP, URL, HTML y CSS
 3       - Explicación de que es HTML y CSS
 4       - Conceptos como DOM, CSSOM, Render Tree, pasos para que un navegador construye una pagina web
+5       - Tips para aprender CSS (IMAGEN 5), si no los pone en una clase posterior los agregare yo
