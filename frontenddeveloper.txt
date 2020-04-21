@@ -95,11 +95,13 @@ TIPOS DE SELECTORES (IMAGEN 6)
 PSEUDO-CLASES (IMAGEN 7)
 
     - Se utilizan como clases o estilos definidos, por ejemplo para tomar el primer elemento del tipo de elemento que se le de o el ultimo o jugar con las posiciones en base a matemaricas con ellos
+    - Llevan : despues del selector
     - Ejemplo: p:first-child, p:last-child, p:nth-child(2n) o p:nth-child(2n+1)
 
 PSEUDO-ELEMENTOS (IMAGENES 8)
 
     - Se le dice en que parte del elemento se quiere recibir los estilos
+    - Llevan :: despues del selector
     - Se utilizan para insertar elementos dentro del contenido del componente por ejemplo:
     - .ribbon::before {
         content: "Este parrafo iria ates de lo que este dentro del estilo"
