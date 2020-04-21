@@ -98,7 +98,7 @@ PSEUDO-CLASES (IMAGEN 7)
     - Llevan : despues del selector
     - Ejemplo: p:first-child, p:last-child, p:nth-child(2n) o p:nth-child(2n+1)
 
-PSEUDO-ELEMENTOS (IMAGENES 8)
+PSEUDO-ELEMENTOS (IMAGEN 8)
 
     - Se le dice en que parte del elemento se quiere recibir los estilos
     - Llevan :: despues del selector
@@ -108,7 +108,17 @@ PSEUDO-ELEMENTOS (IMAGENES 8)
         background-color: "#FFBA10"
         border-color: black;
         border-style: dotted;
-    } 
+    }
+
+MODELO DE CAJA (IMAGEN 9) (EJERCICIO modelo-de-caja.html)
+
+    - Todos los elementos de HTML lo tienen, se ve con el inspector del navegador
+    - Se compone de 4 elementos:
+
+        * El contenido - Lo que esta de color azul, que tiene las dimensiones
+        * El padding - Esta entre el contenido y el borde, se encuentra dentro del elemento
+        * El border - Borde del elemento
+        * El margin - El espacio a fuera del componente (funciona con otros elementos a los lados)
 
 ===== TIPS & RECORDAR =====
 
@@ -117,6 +127,7 @@ PSEUDO-ELEMENTOS (IMAGENES 8)
 - RENDERIZAR es presentar la pantalla en el navegador
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements Pseudo elementos
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes Pseudo clases
+- https://colorhunt.co/ colores que combinan entre si
 
 ===== RESUMEN CLASES =====
 
@@ -133,3 +144,4 @@ PSEUDO-ELEMENTOS (IMAGENES 8)
 11  - Ejercicio con las etiquetas (no las había explicado y ya nos puso un ejercicio!)
 12  - Anatomia del CSS
 13  - Tipo de selectores (universales, tipo, clase y id) PSEUDO CLASES y PSEUDO ELEMENTOS
+14  - MODELO DE CAJA
