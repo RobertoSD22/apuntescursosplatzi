@@ -61,7 +61,6 @@ ANATOMIA DE UN DOCUMENTO HTML
                         Aqui definimos que el documento está bajo estándar HTML5
     - <htm>             Root element, etiqueta principal
     - <head>            No tiene implicación visual en el navegador, incluye la codificación en caracteres (UTF-8 por ejemplo), incluye los metadatos e incluye enlaces (como los de javascript)
-    - <title>           La etiqueda de nuestra aplicación (se ve en la pestaña del navegador)
     - <body>            Todo lo que se ve en la pantalla/navegador
 
 CODIGO SEMANTICO
@@ -86,11 +85,36 @@ ANATOMIA DE UNA DECLARACIÓN CSS
              Van seguidos de ";"
     - DECLARACIÓN: Es la conjunción de todos los componentes anteriores
 
+TIPOS DE SELECTORES (IMAGEN 6)
+
+    UNIVERSAL: Se pone un asterisco, se aplica a todos nuestros elementos del html
+    TIPO: Se pone por componente (no es tan recomendable)
+    CLASE: Se crea una clase, es un atributo por componente que se llama "class"
+    ID: Se crea por ID, es un atributo ID (no es tan recomendable)
+
+PSEUDO-CLASES (IMAGEN 7)
+
+    - Se utilizan como clases o estilos definidos, por ejemplo para tomar el primer elemento del tipo de elemento que se le de o el ultimo o jugar con las posiciones en base a matemaricas con ellos
+    - Ejemplo: p:first-child, p:last-child, p:nth-child(2n) o p:nth-child(2n+1)
+
+PSEUDO-ELEMENTOS (IMAGENES 8)
+
+    - Se le dice en que parte del elemento se quiere recibir los estilos
+    - Se utilizan para insertar elementos dentro del contenido del componente por ejemplo:
+    - .ribbon::before {
+        content: "Este parrafo iria ates de lo que este dentro del estilo"
+        background-color: "#FFBA10"
+        border-color: black;
+        border-style: dotted;
+    } 
+
 ===== TIPS & RECORDAR =====
 
 - https://htmlreference.io/ se puede ver todos los componentes de HTML
 - https://cssreference.io/ se pueden ver todos los atributos de CSS
 - RENDERIZAR es presentar la pantalla en el navegador
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements Pseudo elementos
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes Pseudo clases
 
 ===== RESUMEN CLASES =====
 
@@ -106,3 +130,4 @@ ANATOMIA DE UNA DECLARACIÓN CSS
 10  - Tipos de errores en HTML y se pueden validar en esta página: https://validator.w3.org/
 11  - Ejercicio con las etiquetas (no las había explicado y ya nos puso un ejercicio!)
 12  - Anatomia del CSS
+13  - Tipo de selectores (universales, tipo, clase y id) PSEUDO CLASES y PSEUDO ELEMENTOS
