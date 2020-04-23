@@ -151,6 +151,26 @@ DISPLAY en CSS
     - La diferencia de uso entre Flexbox y Css Grid, es que CSS Grid es para el layout de 2 dimensiones y Flexbox para una dimensión. 
       Es decir, CSS Grid, sirve para aplicar el layout a toda la página, y Flexbox para aplicar layout a elementos de la página.
 
+ATRIBUTOS MÁS UTILIZADOS EN CSS
+
+    - WIDTH
+    - HEIGHT
+    - BACKGROUND        - Puede poner imagenes de fondo
+    - BACKGROUND-COLOR
+    - COLOR
+    - BORDER
+    - BORDER-RADIUS
+    - MARGIN
+    - PADDING           - Define la distancia entre el borde y un elemento
+    - FONT-SIZE
+    - FONT-FAMILY
+    - OPACITY
+    - OUTLINE           - Es la lunea azul que se dibuja dentro de los elementos como los input
+    - BOX-SIZING        - Se usa para que los elementos queden con el mismo tamaño a pesar de que por ejemplo el borde haga que crezcan
+    - TRANSITION        - NO ES UNA ANIMACIÓN, permiten cambiar los valores de las propiedades durante una duración determinada
+                          Va de un punto A a un punto B sin interrupciones o saltos
+    - ANIMATION         - Es una propiedad que permite que animemos nuestros elementos
+
 ===== TIPS & RECORDAR =====
 
 - https://htmlreference.io/ se puede ver todos los componentes de HTML
@@ -180,3 +200,4 @@ DISPLAY en CSS
 14  - MODELO DE CAJA
 15  - VALORES ABSOLUTOS, RELATIVOS y Ejercicio del header de platzi
 16  - DISPLAYS, una lectura con los displays
+17  - ATRIBUTOS más utilizados en css
