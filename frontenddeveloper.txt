@@ -176,6 +176,21 @@ POSICIONAMIENTO EN CSS (IMAGEN 12)
     - Establece como van a estar ubicados los elementos de la pantalla (no le entiendo)
     - Tiene 7 valores: relative, absolute, fixed, sticky, static, initial, inherital
 
+ARQUITECTURAS DE CSS
+
+    - Evitar tener miles de lineas de codigo de estilos
+    - OBJETIVOS:
+        - PREDECIBLES:  Se establecen reglas
+        - REUTILIZABLE: Que se usen en varios lados sin escribir mas lineas
+        - MANTENIBLE:   Que alguien más pueda trabajar con el
+        - ESCALABLE:    Que sea posible que crezca de buena manera
+    -BUENAS PRACTICAS:
+        - Establecer reglas con el equipo
+        - Explicar la estructura base
+        - Establecer estándares de codificación
+        - Evitar largas hojas de estilo
+        - Documentación
+
 ===== TIPS & RECORDAR =====
 
 - https://htmlreference.io/ se puede ver todos los componentes de HTML
@@ -207,3 +222,4 @@ POSICIONAMIENTO EN CSS (IMAGEN 12)
 16  - DISPLAYS, una lectura con los displays
 17  - ATRIBUTOS más utilizados en css
 18  - POSICIONES CSS
+19  - ARQUITECTURA CSS
