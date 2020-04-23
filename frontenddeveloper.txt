@@ -179,7 +179,7 @@ POSICIONAMIENTO EN CSS (IMAGEN 12)
 ARQUITECTURAS DE CSS
 
     - Evitar tener miles de lineas de codigo de estilos
-    - OBJETIVOS:
+    - OBJETIVOS: (IMAGEN 13)
         - PREDECIBLES:  Se establecen reglas
         - REUTILIZABLE: Que se usen en varios lados sin escribir mas lineas
         - MANTENIBLE:   Que alguien más pueda trabajar con el
@@ -190,6 +190,20 @@ ARQUITECTURAS DE CSS
         - Establecer estándares de codificación
         - Evitar largas hojas de estilo
         - Documentación
+
+MÉTODOLOGIAS CSS 
+        - Nos permiten que nuestro codigo sea más mantenible y escalable
+        - OOCSS: Separa el diseño del contenido (Ejercicio OOCSS.html)
+        - BEM: Block Element Modify, separa los elementos, los bloques y los modificadores (Ejercicio BEM.html)
+        - SMACSS (IMAGEN 14): Arquitectura de CSS escalable y modular, cuenta con 5 pasos: 
+            - Componentes base - Dividir nuestro css en componentes base (como los botones)
+            - Layaout - Elementos que se usan en la pagina una sola vez
+            - Module - Componentes que se usan en la aplicación más de una vez
+            - Estados - Cuando los componentes cambian de forma o color o son modificados en sus caracteristicas
+            - Temas - Son la convinación de colores aplicados a las aplicaciones
+        - ITCSS (IMAGEN 15): Triangulo invertido de CSS, no indica que podemos dividir los archivos de css en diferentes partes para que no se convinen entre si
+                 Evitar la especeficidad (enfocado al !important)
+        - Atomic Design (IMAGEN 16): Se baso en quimica, lo separo en atomos (los elementos mas chicos), en moleculas (como un conjunto de elementos chicos), organismos, templates y paginas completas
 
 ===== TIPS & RECORDAR =====
 
@@ -223,3 +237,4 @@ ARQUITECTURAS DE CSS
 17  - ATRIBUTOS más utilizados en css
 18  - POSICIONES CSS
 19  - ARQUITECTURA CSS
+20  - METODOLOGIAS CSS
