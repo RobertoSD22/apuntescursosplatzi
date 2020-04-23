@@ -132,6 +132,25 @@ UNIDADES DE MEDIDA RELATIVAS (IMAGEN 11) (EJERCICIO header.html)
     - Por ejemplo: vmax, em, ch, ex, rem, cmin, cw, vh
     - Las medidas relativas se ajustan a todos los tipos de pantalla que existen
 
+DISPLAY en CSS
+
+    - Todos los elementos en CSS son cuadros o rectángulos
+    - El comportamiento se define a traves de la propiedad display
+    - EJEMPLOS:
+        - BLOCK: Los elementos se visualizan uno debajo del otro
+                 Algunos elementos con este display por defecto son: <p>, <h1>, <section>, <div> <ul>
+        - INLINE: Los elementos se visualizan de izquierda a derecha
+                  Algunos elementos con este display por defecto son: <span>, <em>, <b>
+        - INLINE-BLOCK: Igual que INLINE pero respetando el width y el height de los elementos
+        - NONE: Sirve para ocultar elementos sin desaparecerlos del DOM
+        - TABLE: Se comportan como elementos table
+        - FLEX: Va acompañado para Flexbox junto con mas atributos
+        - GRID: Más poderoso que FLEX, un sistema de layout CSS GRID.
+                Se usa en el elemento contedenor o padre con display: grid
+        
+    - La diferencia de uso entre Flexbox y Css Grid, es que CSS Grid es para el layout de 2 dimensiones y Flexbox para una dimensión. 
+      Es decir, CSS Grid, sirve para aplicar el layout a toda la página, y Flexbox para aplicar layout a elementos de la página.
+
 ===== TIPS & RECORDAR =====
 
 - https://htmlreference.io/ se puede ver todos los componentes de HTML
@@ -140,6 +159,8 @@ UNIDADES DE MEDIDA RELATIVAS (IMAGEN 11) (EJERCICIO header.html)
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements Pseudo elementos
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes Pseudo clases
 - https://colorhunt.co/ colores que combinan entre si
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ DISPLAY FLEX
+- https://css-tricks.com/snippets/css/complete-guide-grid/ DISPLAY GRID
 
 ===== RESUMEN CLASES =====
 
@@ -158,3 +179,4 @@ UNIDADES DE MEDIDA RELATIVAS (IMAGEN 11) (EJERCICIO header.html)
 13  - Tipo de selectores (universales, tipo, clase y id) PSEUDO CLASES y PSEUDO ELEMENTOS
 14  - MODELO DE CAJA
 15  - VALORES ABSOLUTOS, RELATIVOS y Ejercicio del header de platzi
+16  - DISPLAYS, una lectura con los displays
