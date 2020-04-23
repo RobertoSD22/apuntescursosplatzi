@@ -171,6 +171,11 @@ ATRIBUTOS MÁS UTILIZADOS EN CSS
                           Va de un punto A a un punto B sin interrupciones o saltos
     - ANIMATION         - Es una propiedad que permite que animemos nuestros elementos
 
+POSICIONAMIENTO EN CSS (IMAGEN 12)
+
+    - Establece como van a estar ubicados los elementos de la pantalla (no le entiendo)
+    - Tiene 7 valores: relative, absolute, fixed, sticky, static, initial, inherital
+
 ===== TIPS & RECORDAR =====
 
 - https://htmlreference.io/ se puede ver todos los componentes de HTML
@@ -201,3 +206,4 @@ ATRIBUTOS MÁS UTILIZADOS EN CSS
 15  - VALORES ABSOLUTOS, RELATIVOS y Ejercicio del header de platzi
 16  - DISPLAYS, una lectura con los displays
 17  - ATRIBUTOS más utilizados en css
+18  - POSICIONES CSS
