@@ -120,6 +120,18 @@ MODELO DE CAJA (IMAGEN 9) (EJERCICIO modelo-de-caja.html)
         * El border - Borde del elemento
         * El margin - El espacio a fuera del componente (funciona con otros elementos a los lados)
 
+UNIDADES DE MEDIDA ABSOLUTAS (IMAGEN 10) (EJERCICIO header.html)
+
+    - No se fijan en la medida de otro elemento, solo se necesitan a ellas mismas
+    - Por ejemplo: cm, mm, in, px, pc, pt
+    - No se ven afectados por nadie (width, height)
+
+UNIDADES DE MEDIDA RELATIVAS (IMAGEN 11) (EJERCICIO header.html)
+
+    - Estan relativas a otra unidad de medida o elemento, estan los porcentajes
+    - Por ejemplo: vmax, em, ch, ex, rem, cmin, cw, vh
+    - Las medidas relativas se ajustan a todos los tipos de pantalla que existen
+
 ===== TIPS & RECORDAR =====
 
 - https://htmlreference.io/ se puede ver todos los componentes de HTML
@@ -145,3 +157,4 @@ MODELO DE CAJA (IMAGEN 9) (EJERCICIO modelo-de-caja.html)
 12  - Anatomia del CSS
 13  - Tipo de selectores (universales, tipo, clase y id) PSEUDO CLASES y PSEUDO ELEMENTOS
 14  - MODELO DE CAJA
+15  - VALORES ABSOLUTOS, RELATIVOS y Ejercicio del header de platzi
