@@ -223,6 +223,7 @@ COMPONENTE
 - https://css-tricks.com/snippets/css/complete-guide-grid/ DISPLAY GRID
 - https://storybook.js.org/ STORYBOOKS
 -  list-style: none;    quita las viñetas en las listas!!
+-  margin: 10px 0px;    se ponen dos, el primero va al bottom y top,  y el segundo a left y right
 
 ===== RESUMEN CLASES =====
 
@@ -249,3 +250,4 @@ COMPONENTE
 21  - Reto bien chafa de métodologia
 22  - COMPONENTES, STORYBOOKS
 23  - EJERCICIO MENU DESPLEGABLE con metodologia BEM (Ejercicio buscador.html)
+24  - EJERCICIO MENU DESPLEGABLE Parte 2
