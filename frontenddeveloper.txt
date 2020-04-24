@@ -222,6 +222,7 @@ COMPONENTE
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ DISPLAY FLEX
 - https://css-tricks.com/snippets/css/complete-guide-grid/ DISPLAY GRID
 - https://storybook.js.org/ STORYBOOKS
+-  list-style: none;    quita las viñetas en las listas!!
 
 ===== RESUMEN CLASES =====
 
@@ -247,3 +248,4 @@ COMPONENTE
 20  - METODOLOGIAS CSS
 21  - Reto bien chafa de métodologia
 22  - COMPONENTES, STORYBOOKS
+23  - EJERCICIO MENU DESPLEGABLE con metodologia BEM (Ejercicio buscador.html)
