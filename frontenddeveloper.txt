@@ -165,7 +165,7 @@ ATRIBUTOS MÁS UTILIZADOS EN CSS
     - FONT-SIZE
     - FONT-FAMILY
     - OPACITY
-    - OUTLINE           - Es la lunea azul que se dibuja dentro de los elementos como los input
+    - OUTLINE           - Es la linea azul que se dibuja dentro de los elementos como los input
     - BOX-SIZING        - Se usa para que los elementos queden con el mismo tamaño a pesar de que por ejemplo el borde haga que crezcan
     - TRANSITION        - NO ES UNA ANIMACIÓN, permiten cambiar los valores de las propiedades durante una duración determinada
                           Va de un punto A a un punto B sin interrupciones o saltos
@@ -251,3 +251,4 @@ COMPONENTE
 22  - COMPONENTES, STORYBOOKS
 23  - EJERCICIO MENU DESPLEGABLE con metodologia BEM (Ejercicio buscador.html)
 24  - EJERCICIO MENU DESPLEGABLE Parte 2
+25  - EJERCICIO BUSCADOR
