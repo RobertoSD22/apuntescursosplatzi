@@ -209,6 +209,11 @@ COMPONENTE
     - Es un elemento muy pequeño que podemos utilizar despues para crear futuros componentes
     - Se puede hacer por carpetas con todos los archivos html, css o js
     - Se pueden usar Storybooks
+
+PREPROCESADORES:
+    - Sirven para evitar tantas lineas de codigo y extender las funcionalidades de CSS común
+    - Permite tener variables, funciones, mixins, reutilizar codigo, flexibilidad de desarrollo
+    - LESS, SASS, Stylus son los más populares
     
 =================================================== FLEXBOX =======================================================
 JUSTIFY-CONTENT (HORIZONTALMENTE)
@@ -367,3 +372,4 @@ ORDER (tambien funciona aqui como en flex, igual a partir de 0)
 33  - EJERCICIO LOGIN EN DISPOSITIVO MOVIL
 34  - EJERCICIO Maquetación de todos los componentes
 35  - EJERCICIO Pantalla de error con animatecss (No la hice, queria avanzar, ya lo he hecho antes)
+36  - Preprocesadores de css
