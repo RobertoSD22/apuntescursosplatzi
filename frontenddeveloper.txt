@@ -318,13 +318,14 @@ ORDER (tambien funciona aqui como en flex, igual a partir de 0)
 - https://storybook.js.org/ STORYBOOKS
 - https://flexboxfroggy.com/#es  FLEX-BOX
 - https://cssgridgarden.com/#es  GRID
--  list-style: none;    quita las viñetas en las listas!!
--  margin: 10px 0px;    se ponen dos, el primero va al bottom y top,  y el segundo a left y right
+- list-style: none;    quita las viñetas en las listas!!
+- margin: 10px 0px;    se ponen dos, el primero va al bottom y top,  y el segundo a left y right
 - overflow: hidden: Oculta el contenido sobrante (como la imagen es cuadrada, los bordes saldrían)
 - cursor: pointer: Cambia la flecha del cursor por una mano!!
 - white-space: nowrap: Todos los elementos se van en una linea, no se van hacia abajo
 - position: relative: Todos los elementos que contenga se van a poner en relación a este padre
 - object-fit: cover: Las imagenes recobran su resolución en las medidas que se le da
+- background: linear-gradient(#21C088, #AB88FF) : Va de un color a otro en tonalidad
 - HAY UN CURSO para usar transform y animated!!!!
 
 ===== RESUMEN CLASES =====
@@ -359,3 +360,4 @@ ORDER (tambien funciona aqui como en flex, igual a partir de 0)
 28  - EJERCICIO FLEXBOX con ranas
 29  - EJERCICIO GRID con zanahorias
 30  - EJERCICIO LOGIN (Ejercicio iniciar-sesion.html)
+31  - EJERCICIO LOGIN 2da parte (Ejercicio iniciar-sesion.html y styles.css)
