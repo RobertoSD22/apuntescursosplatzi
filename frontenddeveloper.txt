@@ -228,6 +228,7 @@ COMPONENTE
 - cursor: pointer: Cambia la flecha del cursor por una mano!!
 - white-space: nowrap: Todos los elementos se van en una linea, no se van hacia abajo
 - position: relative: Todos los elementos que contenga se van a poner en relación a este padre
+- object-fit: cover: Las imagenes recobran su resolución en las medidas que se le da
 - HAY UN CURSO para usar transform y animated!!!!
 
 ===== RESUMEN CLASES =====
@@ -258,3 +259,4 @@ COMPONENTE
 24  - EJERCICIO MENU DESPLEGABLE Parte 2 (Ejercicio buscador.html)
 25  - EJERCICIO BUSCADOR (Ejercicio buscador.html)
 26  - EJERCICIO CARRUSEL (Ejercicio carrusel.html)
+27  - EJERCICIO CARRUSEL - ITEMS (Ejercicio carrusel.html)
