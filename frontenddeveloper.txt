@@ -221,6 +221,10 @@ ACCESIBILIDAD
     LECTOR DE PANTALLA
         - Se encarga de leer toda la pantalla elemento por elemento
 
+STORYBOOKS
+
+    - Describen los componentes de nuestra aplicación
+
 =================================================== FLEXBOX =======================================================
 JUSTIFY-CONTENT (HORIZONTALMENTE)
 
