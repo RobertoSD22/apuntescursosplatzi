@@ -326,6 +326,7 @@ ORDER (tambien funciona aqui como en flex, igual a partir de 0)
 - position: relative: Todos los elementos que contenga se van a poner en relación a este padre
 - object-fit: cover: Las imagenes recobran su resolución en las medidas que se le da
 - background: linear-gradient(#21C088, #AB88FF) : Va de un color a otro en tonalidad
+- letter-spacing: 1px: Espacio entre letras para una palabra o palabras
 - HAY UN CURSO para usar transform y animated!!!!
 
 ===== RESUMEN CLASES =====
@@ -361,3 +362,4 @@ ORDER (tambien funciona aqui como en flex, igual a partir de 0)
 29  - EJERCICIO GRID con zanahorias
 30  - EJERCICIO LOGIN (Ejercicio iniciar-sesion.html)
 31  - EJERCICIO LOGIN 2da parte (Ejercicio iniciar-sesion.html y styles.css)
+32  - EJERCICIO LOGIN 3ra parte (Ejercicio iniciar-sesion.html y styles.css)
