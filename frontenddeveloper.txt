@@ -3,6 +3,10 @@
 ===== HERRAMIENTAS =====
 
     HTML5
+    CSS3
+
+    SASS  no la use, solo vimos teoria
+    ANDI  no la use, solo vimos teoria
 
 ===== CONCEPTOS DE LAS CLASES =====
 
