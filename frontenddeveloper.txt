@@ -364,4 +364,5 @@ ORDER (tambien funciona aqui como en flex, igual a partir de 0)
 30  - EJERCICIO LOGIN (Ejercicio iniciar-sesion.html)
 31  - EJERCICIO LOGIN 2da parte (Ejercicio iniciar-sesion.html y styles.css)
 32  - EJERCICIO LOGIN 3ra parte (Ejercicio iniciar-sesion.html y styles.css)
-33  - EJERCICIO LOGIN EN DISPOSITIVO MOVIL 
+33  - EJERCICIO LOGIN EN DISPOSITIVO MOVIL
+34  - EJERCICIO Maquetación de todos los componentes
