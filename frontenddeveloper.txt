@@ -224,6 +224,11 @@ COMPONENTE
 - https://storybook.js.org/ STORYBOOKS
 -  list-style: none;    quita las viñetas en las listas!!
 -  margin: 10px 0px;    se ponen dos, el primero va al bottom y top,  y el segundo a left y right
+- overflow: hidden: Oculta el contenido sobrante (como la imagen es cuadrada, los bordes saldrían)
+- cursor: pointer: Cambia la flecha del cursor por una mano!!
+- white-space: nowrap: Todos los elementos se van en una linea, no se van hacia abajo
+- position: relative: Todos los elementos que contenga se van a poner en relación a este padre
+- HAY UN CURSO para usar transform y animated!!!!
 
 ===== RESUMEN CLASES =====
 
@@ -250,5 +255,6 @@ COMPONENTE
 21  - Reto bien chafa de métodologia
 22  - COMPONENTES, STORYBOOKS
 23  - EJERCICIO MENU DESPLEGABLE con metodologia BEM (Ejercicio buscador.html)
-24  - EJERCICIO MENU DESPLEGABLE Parte 2
-25  - EJERCICIO BUSCADOR
+24  - EJERCICIO MENU DESPLEGABLE Parte 2 (Ejercicio buscador.html)
+25  - EJERCICIO BUSCADOR (Ejercicio buscador.html)
+26  - EJERCICIO CARRUSEL (Ejercicio carrusel.html)
