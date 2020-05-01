@@ -1,0 +1,32 @@
+=================== APUNTES DEL CURSO DE Javascript BASICO =======================
+
+===== HERRAMIENTAS =====
+
+===== CONCEPTOS DE LAS CLASES =====
+
+JAVASCRIPT
+
+    - Es un Lenguaje Interpretado:          Lo lee el navegador
+                     Compilado:             Porque lo compila desde el navegador el motor V8 de Javascript 
+                     Orientado a objetos:   Se generan clases y objetos
+                     Debilmente tipado:     No se le asigna un tipo, y javascript interpreta el tipo
+                     Dinamico:              Corre directamente en runtime (no se tiene que compilar) IMAGEN1.png
+    - Lenguaje para generar páginas dinamicas
+    - Solución para las páginas estaticas
+
+FOWARD
+
+    - Es compatible con versiones futuras
+    - JS no lo es
+
+BACKWARD
+
+    - Puedes escibir codigo de versiones anteriores sin que se afecte el codigo nuevo
+    - JS si lo es
+
+===== TIPS & RECORDAR =====
+
+    - V8 (Motor que se encarga de interpretar el codigo de Javascript en el navegador)
+    - HAY UN CURSO DE V8!!
+
+===== RESUMEN CLASES =====
