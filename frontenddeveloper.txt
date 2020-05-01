@@ -307,6 +307,7 @@ ORDER (tambien funciona aqui como en flex, igual a partir de 0)
 
 ===== TIPS & RECORDAR =====
 
+- Si la pantalla va a verse en movil es mejor empezar con esas dimensiones y despues con la web
 - https://htmlreference.io/ se puede ver todos los componentes de HTML
 - https://cssreference.io/ se pueden ver todos los atributos de CSS
 - RENDERIZAR es presentar la pantalla en el navegador
@@ -363,3 +364,4 @@ ORDER (tambien funciona aqui como en flex, igual a partir de 0)
 30  - EJERCICIO LOGIN (Ejercicio iniciar-sesion.html)
 31  - EJERCICIO LOGIN 2da parte (Ejercicio iniciar-sesion.html y styles.css)
 32  - EJERCICIO LOGIN 3ra parte (Ejercicio iniciar-sesion.html y styles.css)
+33  - EJERCICIO LOGIN EN DISPOSITIVO MOVIL 
