@@ -258,6 +258,53 @@ ALIGN-CONTENT (Agrupa los elementos separados por lineas(con el flex-wrap) y los
 
 =================================================== /FLEXBOX =======================================================
 
+=================================================== GRID =======================================================
+GRID-TEMPLATE-COLUMNS (Da el número de columnas que se quieren usar junto con los porcentajes)
+	EJEMPLO: grid-template-columns: 20% 20% 20% 20% 20%;
+	Tambien puede recibir otras medidas como valores absolutos, pixeles, pulgadas, ect, o una combinación
+	EJEMPLO: grid-template-columns: 100PX 3em 40%
+
+REPEAT (En lugar de repetir varias veces los porcentajes, la propiedad REPEAT hace que evites eso)
+	EJEPLO: grid-template-columns: repeat(5, 20%);
+		La primera es el numero de columnas, el segundo es el porcentaje que tendran todas ellas
+
+FR (Una nueva medida, que es en base al número de columnas y la fracción que quieres que ocupe cada componente)
+	EJEMPLO: grid-template-columns: 1fr 5fr (dos columnas, la primera ocupa 1/6 y la segunda 5/6)
+	EJEMPLO COMBINANDO: grid-template-columns: 50px 1fr 1fr 1fr 50px
+	EJEMPLO COMBINANDO: grid-template-columns: 75px 3fr 2fr
+
+GRID-TEMPLATE-ROWS(Funciona igual de columns, solo para filas)
+
+GRID-TEMPLATE (Combina grid-template-rows y grid-template-column)
+
+
+
+
+
+GRID-COLUMN-START (apartir de que LINEA se va a ubicar el componente(no son columnas son lineas))
+GRID-COLUMN-END (en conjunto con start, dice cuantos espacios ocupara el componente)
+
+	CON VALORES NEGATIVOS EMPIEZA A CONTAR AL CONTRARIO DE LA CUADRICULA
+
+SPAN (en lugar de definir en base dos propiedades con SPAN le dices cuanto se tiene que "expandir")
+	
+	EJEMPLO: grid-column-end: span 2
+
+GRID-COLUMN (Abrevia column-start y column-end, separando con una diagonal /)
+
+	SE PUEDE USAR CON SPAN, EJEMPLO: grid-column: 2 / span 3
+
+GRID-ROW-START (Apartir de que fila debe ubicarse)
+GRID-ROW (IGUAL que column es la abreviación) 
+
+GRID-AREA (La convinación de grid-row y grid-column, admite 4 valores- grid-row-start, grid-column-start, grid-row-end, grid-column-end)
+
+	EJEMPLO: grid-area: 1 / 1 / 3 / 6;
+
+ORDER (tambien funciona aqui como en flex, igual a partir de 0)
+
+=================================================== /GRID =======================================================
+
 ===== TIPS & RECORDAR =====
 
 - https://htmlreference.io/ se puede ver todos los componentes de HTML
@@ -270,6 +317,7 @@ ALIGN-CONTENT (Agrupa los elementos separados por lineas(con el flex-wrap) y los
 - https://css-tricks.com/snippets/css/complete-guide-grid/ DISPLAY GRID
 - https://storybook.js.org/ STORYBOOKS
 - https://flexboxfroggy.com/#es  FLEX-BOX
+- https://cssgridgarden.com/#es  GRID
 -  list-style: none;    quita las viñetas en las listas!!
 -  margin: 10px 0px;    se ponen dos, el primero va al bottom y top,  y el segundo a left y right
 - overflow: hidden: Oculta el contenido sobrante (como la imagen es cuadrada, los bordes saldrían)
@@ -309,3 +357,4 @@ ALIGN-CONTENT (Agrupa los elementos separados por lineas(con el flex-wrap) y los
 26  - EJERCICIO CARRUSEL (Ejercicio carrusel.html)
 27  - EJERCICIO CARRUSEL - ITEMS (Ejercicio carrusel.html)
 28  - EJERCICIO FLEXBOX con ranas
+29  - EJERCICIO GRID con zanahorias
