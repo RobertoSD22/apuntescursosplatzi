@@ -31,6 +31,11 @@ BACKWARD
     - MOVIL:        Tiene React Native (Aplicaciones de Android y IOS)
     - WEB DESKTOP:  Tiene Electron
 
+ELEMENTOS DE UN LENGUAJE DE PROGRAMACIÓN
+
+    - DATOS que se guardan en memoria
+    - TAREAS (funciones)
+
 VALORES PRIMITIVOS
 
     - String
@@ -49,10 +54,13 @@ TYPEOF
 
     - Nos dice de que tipo es el valor que ingresamos
 
-ELEMENTOS DE UN LENGUAJE DE PROGRAMACIÓN
+VARIABLES
 
-    - DATOS ue se guardan en memoria
-    - TAREAS (funciones)
+    - Es la representación de algun lugar en memoria que vamos a reservar para guardar un valor
+    - var es la palabra reservada de JS para entender que es una variable
+    - ESTADOS DE UNA VARIABLE:
+        -DECLARAR
+        -INICIALIZAR
 
 ===== TIPS & RECORDAR =====
 
@@ -64,3 +72,4 @@ ELEMENTOS DE UN LENGUAJE DE PROGRAMACIÓN
 1   - Que es JAVASCRIPT, FOWARD Y BACKWARD
 2   - ¿Porque estudiar Javascript?
 3   - Instalo Visual Studio Code y VALORES PRIMITIVOS y OBJETO (valores.js)
+4   - VARIABLES, Estados de una variable
