@@ -214,7 +214,13 @@ PREPROCESADORES:
     - Sirven para evitar tantas lineas de codigo y extender las funcionalidades de CSS común
     - Permite tener variables, funciones, mixins, reutilizar codigo, flexibilidad de desarrollo
     - LESS, SASS, Stylus son los más populares
-    
+
+ACCESIBILIDAD
+    - Es pensar en las personas con una discapcidad visual que no tienen la posibilidad de ver lo mismo que la mayoria de nosotros vemos
+
+    LECTOR DE PANTALLA
+        - Se encarga de leer toda la pantalla elemento por elemento
+
 =================================================== FLEXBOX =======================================================
 JUSTIFY-CONTENT (HORIZONTALMENTE)
 
@@ -375,3 +381,4 @@ ORDER (tambien funciona aqui como en flex, igual a partir de 0)
 36  - Preprocesadores de css
 37  - Instalar el preprocesador SASS (No lo hice en esta clase, espero no hacerlo)
 38  - Descripcion de las funcionalidades de SASS
+39  - Concepto de accesibilidad (para personas con discapcidad)
