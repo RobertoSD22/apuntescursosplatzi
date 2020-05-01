@@ -383,3 +383,4 @@ ORDER (tambien funciona aqui como en flex, igual a partir de 0)
 38  - Descripcion de las funcionalidades de SASS
 39  - Concepto de accesibilidad (para personas con discapcidad)
 40  - Herramientas para mejorar la accesibilidad (ANDI o voiceover), los tabindex sirven, arial-label (para los placeholders en los componentes)
+41  - Conclusión del curso (no hay más información)
