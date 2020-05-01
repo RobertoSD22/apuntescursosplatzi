@@ -210,6 +210,53 @@ COMPONENTE
     - Se puede hacer por carpetas con todos los archivos html, css o js
     - Se pueden usar Storybooks
     
+=================================================== FLEXBOX =======================================================
+JUSTIFY-CONTENT (HORIZONTALMENTE)
+
+    flex-start: Alinea elementos al lado izquierdo del contenedor.
+    flex-end: Alinea elementos al lado derecho del contenedor.
+    center: Alinea elementos en el centro del contenedor.
+    space-between: Muestra elementos con la misma distancia entre ellos.
+    space-around: Muestra elementos con la misma separación alrededor de ellos.
+
+ALIGN-ITEMS (VERTICALMENTE)
+
+    flex-start: Alinea elementos a la parte superior del contenedor.
+    flex-end: Alinea elementos a la parte inferior del contenedor.
+    center: Alinea elementos en el centro (verticalmente hablando) del contenedor.
+    baseline: Muestra elementos en la línea base del contenedor
+    stretch: Elementos se estiran para ajustarse al contenedor.
+
+FLEX-DIRECTION (LA DIRECCION)
+
+    row: Elementos son colocados en la misma dirección del texto.
+    row-reverse: Elementos son colocados en la dirección opuesta al texto.
+    column: Elementos se colocan de arriba hacia abajo.
+    column-reverse: Elementos se colocan de abajo hacia arriba.
+
+ORDER (ordena los elementos, por defecto son 0)
+
+ALIGN-SELF(como ALIG-ITEMS pero solo uno de los elementos)
+
+FLEX-WRAP(Alinea todos los elementos de una fila)
+
+    nowrap: Cada elemento se ajusta en una sola línea.
+    wrap: los elementos se envuelven alrededor de líneas adicionales.
+    wrap-reverse: Los elementos se envuelven alrededor de líneas adicionales en reversa.
+
+FLEX-FLOW (Combinación de flex-direction y flex-wrap, se tienen que poner ambos valores)
+
+ALIGN-CONTENT (Agrupa los elementos separados por lineas(con el flex-wrap) y los posiciona en una parte de la pantalla)
+    - NO FUNCIONA SI SOLO HAY UNA LINEA
+
+    flex-start: Las líneas se posicionan en la parte superior del contenedor.
+    flex-end: Las líneas se posicionan en la parte inferior del contenedor.
+    center: Las líneas se posicionan en el centro (verticalmente hablando) del contenedor.
+    space-between: Las líneas se muestran con la misma distancia entre ellas.
+    space-around: Las líneas se muestran con la misma separación alrededor de ellas.
+    stretch: Las líneas se estiran para ajustarse al contenedor.
+
+=================================================== /FLEXBOX =======================================================
 
 ===== TIPS & RECORDAR =====
 
@@ -222,6 +269,7 @@ COMPONENTE
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ DISPLAY FLEX
 - https://css-tricks.com/snippets/css/complete-guide-grid/ DISPLAY GRID
 - https://storybook.js.org/ STORYBOOKS
+- https://flexboxfroggy.com/#es  FLEX-BOX
 -  list-style: none;    quita las viñetas en las listas!!
 -  margin: 10px 0px;    se ponen dos, el primero va al bottom y top,  y el segundo a left y right
 - overflow: hidden: Oculta el contenido sobrante (como la imagen es cuadrada, los bordes saldrían)
@@ -260,3 +308,4 @@ COMPONENTE
 25  - EJERCICIO BUSCADOR (Ejercicio buscador.html)
 26  - EJERCICIO CARRUSEL (Ejercicio carrusel.html)
 27  - EJERCICIO CARRUSEL - ITEMS (Ejercicio carrusel.html)
+28  - EJERCICIO FLEXBOX con ranas
