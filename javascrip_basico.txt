@@ -24,9 +24,19 @@ BACKWARD
     - Puedes escibir codigo de versiones anteriores sin que se afecte el codigo nuevo
     - JS si lo es
 
+¿Porque estudiar Javascript?
+
+    - FRONT:        Tiene opciones como Angular, React y VUE
+    - BACK:         Tiene NodeJS
+    - MOVIL:        Tiene React Native (Aplicaciones de Android y IOS)
+    - WEB DESKTOP:  Tiene Electron
+
 ===== TIPS & RECORDAR =====
 
     - V8 (Motor que se encarga de interpretar el codigo de Javascript en el navegador)
     - HAY UN CURSO DE V8!!
 
 ===== RESUMEN CLASES =====
+
+1   - Que es JAVASCRIPT, FOWARD Y BACKWARD
+2   - ¿Porque estudiar Javascript?
