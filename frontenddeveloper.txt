@@ -366,3 +366,4 @@ ORDER (tambien funciona aqui como en flex, igual a partir de 0)
 32  - EJERCICIO LOGIN 3ra parte (Ejercicio iniciar-sesion.html y styles.css)
 33  - EJERCICIO LOGIN EN DISPOSITIVO MOVIL
 34  - EJERCICIO Maquetación de todos los componentes
+35  - EJERCICIO Pantalla de error con animatecss (No la hice, queria avanzar, ya lo he hecho antes)
