@@ -31,6 +31,29 @@ BACKWARD
     - MOVIL:        Tiene React Native (Aplicaciones de Android y IOS)
     - WEB DESKTOP:  Tiene Electron
 
+VALORES PRIMITIVOS
+
+    - String
+    - Number
+    - Boolean
+    - VALORES VACIOS (EMPTY VALUES)
+        -null
+        -undefined
+
+VALORES NO PRIMITIVOS O TIPO OBJETO
+
+    - Arreglo []
+    - Objeto {nombre: "Roberto"}
+
+TYPEOF
+
+    - Nos dice de que tipo es el valor que ingresamos
+
+ELEMENTOS DE UN LENGUAJE DE PROGRAMACIÓN
+
+    - DATOS ue se guardan en memoria
+    - TAREAS (funciones)
+
 ===== TIPS & RECORDAR =====
 
     - V8 (Motor que se encarga de interpretar el codigo de Javascript en el navegador)
@@ -40,3 +63,4 @@ BACKWARD
 
 1   - Que es JAVASCRIPT, FOWARD Y BACKWARD
 2   - ¿Porque estudiar Javascript?
+3   - Instalo Visual Studio Code y VALORES PRIMITIVOS y OBJETO (valores.js)
