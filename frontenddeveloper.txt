@@ -388,3 +388,5 @@ ORDER (tambien funciona aqui como en flex, igual a partir de 0)
 39  - Concepto de accesibilidad (para personas con discapcidad)
 40  - Herramientas para mejorar la accesibilidad (ANDI o voiceover), los tabindex sirven, arial-label (para los placeholders en los componentes)
 41  - Conclusión del curso (no hay más información)
+42  - Storybooks
+43  - Clase extra de flexbox
