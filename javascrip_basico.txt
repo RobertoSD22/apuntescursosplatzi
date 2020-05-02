@@ -68,15 +68,36 @@ FUNCIONES
 
     - Son un conjunto de sentencias para generar acciones con las variables que se generaron
     - Hay dos tipos de funciones (funciones.js):
-        - DECLARATIVAS: function + nombre + parentesis + llaves
-        - EXPRESION o ANONIMAS: var + nombre + function + parentesis + llaves
+        - DECLARATIVAS (function declaration / function statement) : function + nombre + parentesis + llaves
+        - EXRESIVAS o ANONIMAS (function expression): var + nombre + function + parentesis + llaves
                                 No se les da un nombre
+
+DIFERENCIAS
+
+    - Las funciones declarativas se pueden mandar llamar antes de que se declaren
+    - Las funciones expresivas se tienen que declarar primero y luego mandar llamar.
+
+HOISTING
+
+    - Las funciones siempre se mueven arriba del scope. Por lo tanto, podemos elegir donde declararlas y usarlas.
+    - La declaración de las variables se mueven arriba del scope, pero no la asignación. Antes de usar una variable, habrá que crearla y asignarla.
+
+    -  Se trata del comportamiento predeterminado para la declaración de las variables, funciones, y en general, la declaración de cualquier contexto en Javascript.
+
+SCOPE
+
+    - Es el alcance que tienen que tienen las variables
+    - Hay dos tipos de scope:
+        - GLOBAL: Se accede desde cualquier parte
+        - LOCAL: Dentro de una funcion
 
 ===== TIPS & RECORDAR =====
 
     - V8 (Motor que se encarga de interpretar el codigo de Javascript en el navegador)
     - HAY UN CURSO DE V8!!
     - console.log ('Hola ${variable}'); Puedes imprimir la variable dentro del string
+
+    - HOISTING   https://medium.com/@anhurtado/qu%C3%A9-es-el-hoisting-en-javascript-aeae1af4ae3e  
 
 ===== RESUMEN CLASES =====
 
@@ -85,3 +106,4 @@ FUNCIONES
 3   - Instalo Visual Studio Code y VALORES PRIMITIVOS y OBJETO (valores.js)
 4   - VARIABLES, Estados de una variable (variables.js)
 5   - FUNCIONES, TIPOS de funciones (funciones.js)
+6   - HOISTING, diferencia entre una funcion declarativa y una expresiva (hoisting.js)
