@@ -88,8 +88,8 @@ SCOPE
 
     - Es el alcance que tienen que tienen las variables
     - Hay dos tipos de scope:
-        - GLOBAL: Se accede desde cualquier parte
-        - LOCAL: Dentro de una funcion
+        - GLOBAL: Se accede desde cualquier parte (Se genera una vez que nuestro archivo de javascript se inicialice en el navegador)
+        - LOCAL: Dentro de una funcion (se inicializa cuando declaramos una funcion)
 
 ===== TIPS & RECORDAR =====
 
@@ -107,3 +107,4 @@ SCOPE
 4   - VARIABLES, Estados de una variable (variables.js)
 5   - FUNCIONES, TIPOS de funciones (funciones.js)
 6   - HOISTING, diferencia entre una funcion declarativa y una expresiva (hoisting.js)
+7   - SCOPE, Locales y Globales
