@@ -97,11 +97,21 @@ ECMASCRIPT
     - En el año de 1997 se crea un comité (TC39) en la ECMA para estandarizar JavaScript. A partir de entonces, los estándares de JavaScript se rigen como ECMAScript.
     - European Computer Manufacturers Association (ECMA)
 
+COERCION (IMAGEN2.jpg)
+    - Se da, gracias a que javascript es debilmente tipado
+    - Forzar a que un objeto se comporte como si fuera de otro tipo
+    - Cambia un valor de tipos
+    - Hay dos tipos:
+        - IMPLICITAS: (AYUDA)El lenguaje nos ayuda, cambia de un tipo de valor a otro tipo de valor
+        - EXPLICITAS: (OBLIGANDO)Es la forma en que se obliga a cambiar un valor de tipo a otro tipo
+
 ===== TIPS & RECORDAR =====
 
     - V8 (Motor que se encarga de interpretar el codigo de Javascript en el navegador)
     - HAY UN CURSO DE V8!!
     - console.log ('Hola ${variable}'); Puedes imprimir la variable dentro del string
+    - CONVERTIR una variable a String: String(a)    var a = 30;
+                             a Number: Number(b)    var b = "200";
 
     - HOISTING   https://medium.com/@anhurtado/qu%C3%A9-es-el-hoisting-en-javascript-aeae1af4ae3e  
 
@@ -115,3 +125,4 @@ ECMASCRIPT
 6   - HOISTING, diferencia entre una funcion declarativa y una expresiva (hoisting.js)
 7   - SCOPE, Locales y Globales
 8   - HOISTING (Especifico, en la clase 6 era de diferencias de las funciones)
+9   - COERCION
