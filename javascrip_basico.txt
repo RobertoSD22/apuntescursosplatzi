@@ -69,7 +69,7 @@ FUNCIONES
     - Son un conjunto de sentencias para generar acciones con las variables que se generaron
     - Hay dos tipos de funciones (funciones.js):
         - DECLARATIVAS (function declaration / function statement) : function + nombre + parentesis + llaves
-        - EXRESIVAS o ANONIMAS (function expression): var + nombre + function + parentesis + llaves
+        - EXPRESIVAS o ANONIMAS (function expression): var + nombre + function + parentesis + llaves
                                 No se les da un nombre
 
 DIFERENCIAS
@@ -105,6 +105,25 @@ COERCION (IMAGEN2.jpg)
         - IMPLICITAS: (AYUDA)El lenguaje nos ayuda, cambia de un tipo de valor a otro tipo de valor
         - EXPLICITAS: (OBLIGANDO)Es la forma en que se obliga a cambiar un valor de tipo a otro tipo
 
+Valores FALSY
+
+    - 0 es      FALSY/FALSO     Boolean(0)
+    - null es   FALSY/FALSO     Boolean(null)
+    - NaN es    FALSY/FALSO     Boolean(NaN)
+    - undefined FALSY/FALSO     Boolean(undefined)
+    - false     FALSY/FALSO     Boolean(false)
+    - ""        FALSY/FALSO     Boolean("")
+
+Valores THRUTHY
+
+    - Cualquier cadena no vacia                 THRUTHY     Boolean("hola")
+    - " " (El espacio tambien cuenta como true) THRUTHY     Boolean(" ")
+    - Números mayores a 0                       THRUTHY     Boolean(22)
+    - Un Arreglo                                THRUTHY     Boolean([])
+    - Un Objeto                                 THRUTHY     Boolean({})
+    - Cualquier funcion                         THRUTHY     Boolean(function(){})
+
+
 ===== TIPS & RECORDAR =====
 
     - V8 (Motor que se encarga de interpretar el codigo de Javascript en el navegador)
@@ -112,6 +131,7 @@ COERCION (IMAGEN2.jpg)
     - console.log ('Hola ${variable}'); Puedes imprimir la variable dentro del string
     - CONVERTIR una variable a String: String(a)    var a = 30;
                              a Number: Number(b)    var b = "200";
+    - NaN: NOT A NUMBER
 
     - HOISTING   https://medium.com/@anhurtado/qu%C3%A9-es-el-hoisting-en-javascript-aeae1af4ae3e  
 
@@ -126,3 +146,4 @@ COERCION (IMAGEN2.jpg)
 7   - SCOPE, Locales y Globales
 8   - HOISTING (Especifico, en la clase 6 era de diferencias de las funciones)
 9   - COERCION
+10  - THRUTHY / FALSY
