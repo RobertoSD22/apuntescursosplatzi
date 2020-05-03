@@ -82,7 +82,9 @@ HOISTING
     - Las funciones siempre se mueven arriba del scope. Por lo tanto, podemos elegir donde declararlas y usarlas.
     - La declaración de las variables se mueven arriba del scope, pero no la asignación. Antes de usar una variable, habrá que crearla y asignarla.
 
-    -  Se trata del comportamiento predeterminado para la declaración de las variables, funciones, y en general, la declaración de cualquier contexto en Javascript.
+    - Se trata del comportamiento predeterminado para la declaración de las variables, funciones, y en general, la declaración de cualquier contexto en Javascript.
+    - El hoisting solo aparece en funciones y variables del ecmascript 5 para abajo
+    - El hoisting del ecmascript 6 en adelante aparece en funciones, variables, const y let
 
 SCOPE
 
@@ -90,6 +92,10 @@ SCOPE
     - Hay dos tipos de scope:
         - GLOBAL: Se accede desde cualquier parte (Se genera una vez que nuestro archivo de javascript se inicialice en el navegador)
         - LOCAL: Dentro de una funcion (se inicializa cuando declaramos una funcion)
+
+ECMASCRIPT
+    - En el año de 1997 se crea un comité (TC39) en la ECMA para estandarizar JavaScript. A partir de entonces, los estándares de JavaScript se rigen como ECMAScript.
+    - European Computer Manufacturers Association (ECMA)
 
 ===== TIPS & RECORDAR =====
 
@@ -108,3 +114,4 @@ SCOPE
 5   - FUNCIONES, TIPOS de funciones (funciones.js)
 6   - HOISTING, diferencia entre una funcion declarativa y una expresiva (hoisting.js)
 7   - SCOPE, Locales y Globales
+8   - HOISTING (Especifico, en la clase 6 era de diferencias de las funciones)
