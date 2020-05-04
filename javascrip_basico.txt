@@ -145,7 +145,14 @@ OPERADORES
                     ++ Incrementar en 1 un valor
                     +=2 Incrementar un valor en 2
 
+CONDICIONALES (if.js)
 
+    - Son reglas que nos sirve para validar si algo es cierto o falso (IF,ELSE IF, ELSE)
+    - OPERADOR TERNARIO: Generar el if y el else en una sola linea (condicion ? true : false;)
+
+
+
+    
 
 ===== TIPS & RECORDAR =====
 
@@ -175,3 +182,4 @@ OPERADORES
 9   - COERCION
 10  - THRUTHY / FALSY
 11  - OPERADORES (Esta clase no esta tan buena, hay que hacer observacion)
+12  - CONDICIONALES (if.js)
