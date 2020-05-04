@@ -6,13 +6,39 @@
 
 ===== CONCEPTOS DE LAS CLASES =====
 
+HISTORIA DE Javascript
+
+    - Se crea en muy poco tiempo
+    - El primer navegador fue Mosaic, se le integra javascript hasta su versión 2 del navegador
+    - Javascript nace a finales de 1995 y principios de 1996
+    - (IMAGEN1) Javascript es creado por Brendan Eich (Se pruncia "Brendan AIK")
+    - (IMAGEN2) Brendan Eich, antes de Javascript genero un lenguaje llamado "Mocha" (moka)
+    - Brendan Eich, despues de mocha hizo livescript y posterior a ese sale javascript
+    - Le llaman "JAVASCRIPT" gracias a que JAVA estaba en auge y para que fuera aceptado por la comunidad
+    - ECMA entra en 1997 para decir que el unico lenguaje va a ser Javascript y que ellos diran los standares de ese lenguaje
+
+    - V8 nace en 2008
+
+ECMA
+
+    - Es un grupo que nace para ponerle orden al lenguaje de javascript
+    - Dictaminaron que javascript es el lenguaje que correria en el navegador
+
+ECMAScript
+
+    - Es una especificación estandarizada por Ecma International
+
+
 
 
 
 ===== TIPS & RECORDAR =====
+
+    - http://www.evolutionoftheweb.com/         EVOLUCION DE LA WEB, Historia de los navegadores
 
 
 
 ===== RESUMEN CLASES =====
 
 1   -   Presentación del curso, no hay temas
+2   -   Historia de Javascript, CREADOR, AÑO DE CREACIÓN, ECMA, ECMASCRIPT (IMAGEN1, IMAGEN2)
