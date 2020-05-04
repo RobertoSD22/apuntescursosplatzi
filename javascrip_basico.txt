@@ -163,13 +163,18 @@ ARRAYS (array.js)
     - Con UNSHIFT agregas al inicio del arreglo
     - Con SHIFT eliminas al inicio del arreglo
 
-LOOPS / CICLOS (loops.js)
+LOOPS / CICLOS (loops.js) con FOR y FOR OF
 
     - Sirve para recorrer nuestro arreglo
     - Existen dos:
         - For con indice    : con el indice indicando la posición del arreglo
         - For of            : con los valores contenidos en el arreglo
         - For in            : itera OBJETOS!!!!!!! (no lo enseñan en el curso, viene en una pregunta)
+
+LOOPS / CICLOS con WHILE
+
+    - Igual recorre el arreglo mientras se cumpla una condición
+
 
 
 
@@ -207,3 +212,4 @@ LOOPS / CICLOS (loops.js)
 13  - SWITCH (switch.js)
 14  - ARRAYS (array.js)
 15  - LOOPS / CICLOS (loops.js)
+16  - WHILE
