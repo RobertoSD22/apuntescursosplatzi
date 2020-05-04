@@ -155,6 +155,18 @@ SWITCH (switch.js)
     - Igual que el if nos sirve para validar
     - NOTA: Cuando no hay break en los case, entra en todas las validaciones y hace todo lo que esta ahi!!!
 
+ARRAYS (array.js)
+
+    - Es un tipo objeto que guarda varios valores
+    - Con PUSH se agrega al final un valor al arreglo
+    - Con POP eliminas el ultimo elemento del arreglo
+    - Con UNSHIFT agregas al inicio del arreglo
+    - Con SHIFT eliminas al inicio del arreglo
+
+
+
+
+
 
 
 ===== TIPS & RECORDAR =====
@@ -187,3 +199,4 @@ SWITCH (switch.js)
 11  - OPERADORES (Esta clase no esta tan buena, hay que hacer observacion)
 12  - CONDICIONALES (if.js)
 13  - SWITCH (switch.js)
+14  - ARRAYS (array.js)
