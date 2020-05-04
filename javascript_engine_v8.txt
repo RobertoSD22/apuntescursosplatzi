@@ -28,13 +28,20 @@ ECMAScript
 
     - Es una especificación estandarizada por Ecma International
 
+JAVASCRIPT ENGINE (IMAGEN 3)
 
+    - Es el motor de javascript, siempre corre en el navegador
+    - Es un interprete entre el codigo generado en tu JS y el navegador (IMAGEN 3) tambien es llamado:
+        -  Just in time compiler
 
 
 
 ===== TIPS & RECORDAR =====
 
     - http://www.evolutionoftheweb.com/         EVOLUCION DE LA WEB, Historia de los navegadores
+    - https://www.campusmvp.es/recursos/post/fundamentos-de-javascript-por-que-deberias-saber-como-funciona-el-motor.aspx   COMO FUNCIONAN LOS MOTORES MODERNOS
+    
+    - FUNDAMENTOS DE INGENIERIA DE SOFTWARE! Curso recomendado en la clase 3
 
 
 
@@ -42,3 +49,4 @@ ECMAScript
 
 1   -   Presentación del curso, no hay temas
 2   -   Historia de Javascript, CREADOR, AÑO DE CREACIÓN, ECMA, ECMASCRIPT (IMAGEN1, IMAGEN2)
+3   -   JAVASCRIPT ENGINE (que es, como funciona)
