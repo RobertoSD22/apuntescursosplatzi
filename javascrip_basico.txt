@@ -150,9 +150,12 @@ CONDICIONALES (if.js)
     - Son reglas que nos sirve para validar si algo es cierto o falso (IF,ELSE IF, ELSE)
     - OPERADOR TERNARIO: Generar el if y el else en una sola linea (condicion ? true : false;)
 
+SWITCH (switch.js)
+
+    - Igual que el if nos sirve para validar
+    - NOTA: Cuando no hay break en los case, entra en todas las validaciones y hace todo lo que esta ahi!!!
 
 
-    
 
 ===== TIPS & RECORDAR =====
 
@@ -183,3 +186,4 @@ CONDICIONALES (if.js)
 10  - THRUTHY / FALSY
 11  - OPERADORES (Esta clase no esta tan buena, hay que hacer observacion)
 12  - CONDICIONALES (if.js)
+13  - SWITCH (switch.js)
