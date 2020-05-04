@@ -114,14 +114,37 @@ Valores FALSY
     - false     FALSY/FALSO     Boolean(false)
     - ""        FALSY/FALSO     Boolean("")
 
-Valores THRUTHY
+Valores TRUTHY
 
-    - Cualquier cadena no vacia                 THRUTHY     Boolean("hola")
-    - " " (El espacio tambien cuenta como true) THRUTHY     Boolean(" ")
-    - Números mayores a 0                       THRUTHY     Boolean(22)
-    - Un Arreglo                                THRUTHY     Boolean([])
-    - Un Objeto                                 THRUTHY     Boolean({})
-    - Cualquier funcion                         THRUTHY     Boolean(function(){})
+    - Cualquier cadena no vacia                 TRUTHY     Boolean("hola")
+    - " " (El espacio tambien cuenta como true) TRUTHY     Boolean(" ")
+    - Números mayores a 0                       TRUTHY     Boolean(22)
+    - Un Arreglo                                TRUTHY     Boolean([])
+    - Un Objeto                                 TRUTHY     Boolean({})
+    - Cualquier funcion                         TRUTHY     Boolean(function(){})
+    - True                                      TRUTHY     Boolean(true)
+
+OPERADORES
+
+    - ARITMETICOS/BINARIOS:    + (suma) , -  (resta), * (multiplicación) , / (división)
+                                Binarios porque es entre dos valores
+                                
+    - UNITY:        ! (negación)
+                    Un solo operador con un solo valor
+    - ASIGNACION:   = (igual)
+
+    - COMPARACIÓN   == (comparar)  NOTA: puede comparar entre diferentes tipos, como numeros y strings (el valor perse)
+                    === (comparar) Compara que los tipos y los valores sean iguales
+                    < (menor que)
+                    > (mayor que)
+                    <= (mejor o igual)
+                    >= (mayor o igual)
+    - LOGICOS       && (and)
+                    || (or)
+
+                    ++ Incrementar en 1 un valor
+                    +=2 Incrementar un valor en 2
+
 
 
 ===== TIPS & RECORDAR =====
@@ -133,7 +156,11 @@ Valores THRUTHY
                              a Number: Number(b)    var b = "200";
     - NaN: NOT A NUMBER
 
-    - HOISTING   https://medium.com/@anhurtado/qu%C3%A9-es-el-hoisting-en-javascript-aeae1af4ae3e  
+    - HOISTING   https://medium.com/@anhurtado/qu%C3%A9-es-el-hoisting-en-javascript-aeae1af4ae3e
+
+
+
+
 
 ===== RESUMEN CLASES =====
 
@@ -147,3 +174,4 @@ Valores THRUTHY
 8   - HOISTING (Especifico, en la clase 6 era de diferencias de las funciones)
 9   - COERCION
 10  - THRUTHY / FALSY
+11  - OPERADORES (Esta clase no esta tan buena, hay que hacer observacion)
