@@ -158,7 +158,7 @@ SWITCH (switch.js)
 ARRAYS (array.js)
 
     - Es un tipo objeto que guarda varios valores
-    - Hoy dos tipos de métodos para un arreglo:
+    - Hoy dos tipos de funciones para un arreglo:
         - MUTAR UN ARREGLO:
             - Con PUSH se agrega al final un valor al arreglo
             - Con POP eliminas el ultimo elemento del arreglo
@@ -236,3 +236,4 @@ FUNCION CONSTRUCTORA
 18  - FUNCION CONSTRUCTORA
 19  - FILTER & MAPS para ARRAYS
 20  - FIND, FOREACH & SOME para ARRAYS
+21  - DESPEDIDA (recomienda curso de V8 o de fundamentos de javascript)
