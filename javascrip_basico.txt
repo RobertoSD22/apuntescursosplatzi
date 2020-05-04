@@ -175,7 +175,11 @@ LOOPS / CICLOS con WHILE
 
     - Igual recorre el arreglo mientras se cumpla una condición
 
+OBJECTS (objects.js)
 
+    - Es en base aun paradigma de objetos como se toman los objetos en javascript
+    - Los objetos se manejan con variables
+    - Un objeto puede tener atributos como funciones!!
 
 
 
@@ -213,3 +217,4 @@ LOOPS / CICLOS con WHILE
 14  - ARRAYS (array.js)
 15  - LOOPS / CICLOS (loops.js)
 16  - WHILE
+17  - OBJECTS
