@@ -34,6 +34,11 @@ JAVASCRIPT ENGINE (IMAGEN 3)
     - Es un interprete entre el codigo generado en tu JS y el navegador (IMAGEN 3) tambien es llamado:
         -  Just in time compiler
 
+V8
+    - El motor de javascript que corre en el navegador de Chrome
+    - Es opensource por lo que otros navegadores lo han adoptado, como Opera o Edge
+    - Nace gracias a google maps, para que google maps corra más rápido (en la parte de renderizar los mapas y otras funciones)
+
 
 
 ===== TIPS & RECORDAR =====
@@ -50,3 +55,4 @@ JAVASCRIPT ENGINE (IMAGEN 3)
 1   -   Presentación del curso, no hay temas
 2   -   Historia de Javascript, CREADOR, AÑO DE CREACIÓN, ECMA, ECMASCRIPT (IMAGEN1, IMAGEN2)
 3   -   JAVASCRIPT ENGINE (que es, como funciona)
+4   -   V8 (ques es y como nace)
