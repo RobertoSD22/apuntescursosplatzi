@@ -2,7 +2,7 @@
 
 ===== HERRAMIENTAS =====
 
-Javascript 5
+Javascript
 
 ===== CONCEPTOS DE LAS CLASES =====
 
