@@ -181,6 +181,13 @@ OBJECTS (objects.js)
     - Los objetos se manejan con variables
     - Un objeto puede tener atributos como funciones!!
 
+FUNCION CONSTRUCTORA
+
+    - Nos ayuda a generar varios objetos a la vez
+    - Se genera el template del objeto
+    - new genera una instancia de un objeto
+
+
 
 
 
@@ -217,4 +224,5 @@ OBJECTS (objects.js)
 14  - ARRAYS (array.js)
 15  - LOOPS / CICLOS (loops.js)
 16  - WHILE
-17  - OBJECTS
+17  - OBJECTS (objects.js)
+18  - FUNCION CONSTRUCTORA
