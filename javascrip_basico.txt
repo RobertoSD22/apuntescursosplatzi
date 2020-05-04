@@ -158,10 +158,15 @@ SWITCH (switch.js)
 ARRAYS (array.js)
 
     - Es un tipo objeto que guarda varios valores
-    - Con PUSH se agrega al final un valor al arreglo
-    - Con POP eliminas el ultimo elemento del arreglo
-    - Con UNSHIFT agregas al inicio del arreglo
-    - Con SHIFT eliminas al inicio del arreglo
+    - Hoy dos tipos de métodos para un arreglo:
+        - MUTAR UN ARREGLO:
+            - Con PUSH se agrega al final un valor al arreglo
+            - Con POP eliminas el ultimo elemento del arreglo
+            - Con UNSHIFT agregas al inicio del arreglo
+            - Con SHIFT eliminas al inicio del arreglo
+        - RECORRER EL CONTENIDO DEL ARRAY:
+            - filter: filtra en base a validaciones (genera un nuevo array)
+            - map: 
 
 LOOPS / CICLOS (loops.js) con FOR y FOR OF
 
@@ -226,3 +231,4 @@ FUNCION CONSTRUCTORA
 16  - WHILE
 17  - OBJECTS (objects.js)
 18  - FUNCION CONSTRUCTORA
+19  - FILTER & MAPS para ARRAYS
