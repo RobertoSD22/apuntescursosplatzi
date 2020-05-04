@@ -165,8 +165,11 @@ ARRAYS (array.js)
             - Con UNSHIFT agregas al inicio del arreglo
             - Con SHIFT eliminas al inicio del arreglo
         - RECORRER EL CONTENIDO DEL ARRAY:
-            - filter: filtra en base a validaciones (genera un nuevo array)
-            - map: 
+            - filter: filtra en base a validaciones sobre el atributo de un objeto (genera un nuevo array)
+            - some:   filtra en base a validaciones sobre el atributo de un objeto (Solo regresa true o false)
+            - map:    regresa un atributo de los objetos (genera un nuevo array)
+            - find:   filtra en base al valor de un atributo del objeto (genera un nevo array)
+            - forEach: NO MODIFICA EL ARRAY, solo lo recorre
 
 LOOPS / CICLOS (loops.js) con FOR y FOR OF
 
@@ -232,3 +235,4 @@ FUNCION CONSTRUCTORA
 17  - OBJECTS (objects.js)
 18  - FUNCION CONSTRUCTORA
 19  - FILTER & MAPS para ARRAYS
+20  - FIND, FOREACH & SOME para ARRAYS
