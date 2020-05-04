@@ -1,0 +1,18 @@
+=================== APUNTES DEL CURSO DE Javascript BASICO =======================
+
+===== HERRAMIENTAS =====
+
+- Google Chrome (devtools)
+
+===== CONCEPTOS DE LAS CLASES =====
+
+
+
+
+===== TIPS & RECORDAR =====
+
+
+
+===== RESUMEN CLASES =====
+
+1   -   Presentación del curso, no hay temas
