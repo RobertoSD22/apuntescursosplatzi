@@ -96,7 +96,13 @@ STACK OVERFLOW (IMAGEN 6)
       - Cuando pasa esto Chrome manda un error de "Hubo un máximo de llamadas, te excediste no vamos a continuar con esto"
       NOTA: esto hacia que el navegador se cerrara
 
+ASINCRONISMO (ASYNCHRONOUS) (IMAGEN7)
 
+    - Las funciones por defecto/default de window se las da al navegador!!!, no las ejecuta el motor de javascript
+    - El motor de javascript sigue ejecutando las tareas que el tiene
+    - Cuando terina el navegador pone las tareas en un callback queue para que cuando termine el motor de javascript de ejecutar
+      sus tareas las mueva y las termine
+    - Hay un EVENT LOOP que se encarga de estar preguntando a javascript si ya termino de ejecutar sus tareas
 
 ===== TIPS & RECORDAR =====
 
@@ -124,3 +130,4 @@ STACK OVERFLOW (IMAGEN 6)
 9   -   GARBAGE COLLECTION (shG8h.gif)
 10  -   STACK OVERFLOW (IMAGEN 6)
 11  -   COMO FUNCIONA en RUNTIME los conceptos pasados, porque puede llegar a ser lento javascript al ser sincrono (IMAGEN7)
+12  -   ASINCRONISMO (IMAGEN7)
