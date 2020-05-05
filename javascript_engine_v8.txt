@@ -39,7 +39,17 @@ V8
     - Es opensource por lo que otros navegadores lo han adoptado, como Opera o Edge
     - Nace gracias a google maps, para que google maps corra más rápido (en la parte de renderizar los mapas y otras funciones)
 
+FUNCIONAMIENTO DEL V8 
 
+    1.- Una vez que corre el archivo en el engine, antes de empezar a traducir, el motor GENERA UN ENTORNO GLOBAL, 
+    2.- Se genera el objeto principal que se llama WINDOW
+    3.- Despues genera una variable que se llama "this" que es igual a WINDOW
+    4.- Empieza a correr nuestro código en el contexto de ejecución y lo corre a traves de un stack de tareas (las apila una por una)
+    5.- Ya que esta interactuando el motor con el navegador, genera un PARSEO del documento completo, 
+        lo cual le ayuda a encontrar las claves principales (key words)
+    6.- Se genera el Arbol de sintaxis abstracta (AST) con las key words, el cual va a parsear el navegador despues
+    7.- Interpreta el arbol (y ahi entra un profiler que ayuda a optimizar el código) JUSTAMENTE donde entra el HOISTING
+    8.- Al final genera Bytecode el cual entiende la maquina
 
 ===== TIPS & RECORDAR =====
 
@@ -56,3 +66,4 @@ V8
 2   -   Historia de Javascript, CREADOR, AÑO DE CREACIÓN, ECMA, ECMASCRIPT (IMAGEN1, IMAGEN2)
 3   -   JAVASCRIPT ENGINE (que es, como funciona)
 4   -   V8 (ques es y como nace)
+5   -   ¿Que pasa dentro del motor de Javascript V8?
