@@ -83,6 +83,11 @@ CALL STACK (IMAGEN 5)
 
     - Javascript solo puede hacer una tarea a la vez por eso apila la tareas!!
 
+GARBAGE COLLECTION (shG8h.gif)
+
+    - Liberar espacio de variables y/o funciones que ya no se utilizan o cambian de valor (el valor anterior se elimina)
+    - Una vez que hay cosas que ya no se estan utilizando en el stack se hace un MARK y despues un SWEEP, para liberar ese espacio
+
 ===== TIPS & RECORDAR =====
 
     - UNDEFINED - Es un key word de javascript
@@ -104,4 +109,5 @@ CALL STACK (IMAGEN 5)
 5   -   ¿Que pasa dentro del motor de Javascript V8?
 6   -   OBJETO GLOBAL WINDOW, VARIABLE THIS Y HOISTING
 7   -   MEMORY HEAP
-8   -   CALL STACK
+8   -   CALL STACK Y SINGLE THREAD (IMAGEN 5)
+9   -   GARBAGE COLLECTION (shG8h.gif)
