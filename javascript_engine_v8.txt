@@ -67,14 +67,21 @@ HOISTING
     - HOISTING SOLO OCURRE CON LAS VARIABLES Y FUNCIONES
     - Cuando se trata de CONSTANTES manda error ya que dice que primero se debe inicializar para ser utilizada
 
-SINGLE THREAD (Synchronous)
-
-    - Javascript solo puede hacer una tarea a la vez
-
 MEMORY HEAP
 
     - Donde se guardan los valores de todas nuestras variables, constantes y lets, así como las funciones
     - No se guarda de forma numerica o lineal, se guardan en diferentes partes
+
+CALL STACK (IMAGEN 5)
+
+    - Se utiliza para saber como se va a comportar nuestro codigo ya en el navegador
+    - Las tareas se empiezan a apilar de abajo hacia arriba con forme se van llamando
+    - Conorme se van terminando las tareas las va quitando del call stack
+    - Como primer tarea pone siempre el objeto global
+
+    SINGLE THREAD (Synchronous)
+
+    - Javascript solo puede hacer una tarea a la vez por eso apila la tareas!!
 
 ===== TIPS & RECORDAR =====
 
@@ -97,3 +104,4 @@ MEMORY HEAP
 5   -   ¿Que pasa dentro del motor de Javascript V8?
 6   -   OBJETO GLOBAL WINDOW, VARIABLE THIS Y HOISTING
 7   -   MEMORY HEAP
+8   -   CALL STACK
