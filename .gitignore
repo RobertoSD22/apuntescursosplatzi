@@ -1,8 +1,10 @@
 #Tipos de archivos
 *.jpg
+*.png
 
 #Carpetas
 /gitgithub
 /frontenddeveloper
 /javascript_basico
 /javascript_engine_v8
+/fundamentos_javascript
