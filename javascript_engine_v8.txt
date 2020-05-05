@@ -131,3 +131,4 @@ ASINCRONISMO (ASYNCHRONOUS) (IMAGEN7)
 10  -   STACK OVERFLOW (IMAGEN 6)
 11  -   COMO FUNCIONA en RUNTIME los conceptos pasados, porque puede llegar a ser lento javascript al ser sincrono (IMAGEN7)
 12  -   ASINCRONISMO (IMAGEN7)
+13  -   RECAPITULACIÓN
