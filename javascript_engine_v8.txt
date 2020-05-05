@@ -81,7 +81,7 @@ CALL STACK (IMAGEN 5)
 
     SINGLE THREAD (Synchronous)
 
-    - Javascript solo puede hacer una tarea a la vez por eso apila la tareas!!
+    - Javascript solo puede hacer una tarea a la vez por eso apila la tareas!!  JAVASCRIPT ES SINCRONO!!!
 
 GARBAGE COLLECTION (shG8h.gif)
 
@@ -105,6 +105,7 @@ STACK OVERFLOW (IMAGEN 6)
     - http://www.evolutionoftheweb.com/         EVOLUCION DE LA WEB, Historia de los navegadores
     - https://www.campusmvp.es/recursos/post/fundamentos-de-javascript-por-que-deberias-saber-como-funciona-el-motor.aspx   COMO FUNCIONAN LOS MOTORES MODERNOS
     - https://astexplorer.net/ ARBOL SINTAXICO (Generar el arbol con el codigo javascript)
+    - http://latentflip.com/loupe/ RUNTIME
 
     - FUNDAMENTOS DE INGENIERIA DE SOFTWARE! Curso recomendado en la clase 3
     - CURSO DE ECMASCRIPT 6! Curso recomendado en la clase 6, donde se revisa que son las constantes y los lets
@@ -122,3 +123,4 @@ STACK OVERFLOW (IMAGEN 6)
 8   -   CALL STACK Y SINGLE THREAD (IMAGEN 5)
 9   -   GARBAGE COLLECTION (shG8h.gif)
 10  -   STACK OVERFLOW (IMAGEN 6)
+11  -   COMO FUNCIONA en RUNTIME los conceptos pasados, porque puede llegar a ser lento javascript al ser sincrono (IMAGEN7)
