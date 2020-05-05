@@ -88,6 +88,16 @@ GARBAGE COLLECTION (shG8h.gif)
     - Liberar espacio de variables y/o funciones que ya no se utilizan o cambian de valor (el valor anterior se elimina)
     - Una vez que hay cosas que ya no se estan utilizando en el stack se hace un MARK y despues un SWEEP, para liberar ese espacio
 
+STACK OVERFLOW (IMAGEN 6)
+
+    - Cuando tenemos un ciclo, funcion o algo que hace que desbordemos nuestro Call Stack
+    - Chrome hizo modificaciones para que en caso de que haya un cierto numero de peticiones de algo que nos puede
+      llevar a un stack overflow deja de ejecutar ese codigo
+      - Cuando pasa esto Chrome manda un error de "Hubo un máximo de llamadas, te excediste no vamos a continuar con esto"
+      NOTA: esto hacia que el navegador se cerrara
+
+
+
 ===== TIPS & RECORDAR =====
 
     - UNDEFINED - Es un key word de javascript
@@ -111,3 +121,4 @@ GARBAGE COLLECTION (shG8h.gif)
 7   -   MEMORY HEAP
 8   -   CALL STACK Y SINGLE THREAD (IMAGEN 5)
 9   -   GARBAGE COLLECTION (shG8h.gif)
+10  -   STACK OVERFLOW (IMAGEN 6)
