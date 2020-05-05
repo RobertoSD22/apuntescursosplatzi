@@ -39,7 +39,7 @@ V8
     - Es opensource por lo que otros navegadores lo han adoptado, como Opera o Edge
     - Nace gracias a google maps, para que google maps corra más rápido (en la parte de renderizar los mapas y otras funciones)
 
-FUNCIONAMIENTO DEL V8 
+FUNCIONAMIENTO DEL V8 (IMAGEN 4)
 
     1.- Una vez que corre el archivo en el engine, antes de empezar a traducir, el motor GENERA UN ENTORNO GLOBAL, 
     2.- Se genera el objeto principal que se llama WINDOW
@@ -48,16 +48,36 @@ FUNCIONAMIENTO DEL V8
     5.- Ya que esta interactuando el motor con el navegador, genera un PARSEO del documento completo, 
         lo cual le ayuda a encontrar las claves principales (key words)
     6.- Se genera el Arbol de sintaxis abstracta (AST) con las key words, el cual va a parsear el navegador despues
-    7.- Interpreta el arbol (y ahi entra un profiler que ayuda a optimizar el código) JUSTAMENTE donde entra el HOISTING
+    7.- El INTERPRETE lee linea por linea el arbol 
+    7.1.- En paralelo El PROFILER optimiza el código y es donde JUSTAMENTE entra el HOISTING
     8.- Al final genera Bytecode el cual entiende la maquina
+
+OBJETO GLOBAL WINDOW Y VARIABLE THIS
+
+    - WINDOW Ya trae funciones por defecto que se pueden utilizar sobre el codigo JS que uno genere
+    - THIS es una variable que hace referencia a window
+    - Puede mandarse llamar como window o como this
+
+HOISTING
+
+    - Cuando empieza a correr el motor de javascript y encuentra lo que parecen ser variables no declaradas y/o inicializadas, 
+      las declara e iguala a UNDEFINED para que reserve en memoria el espacio 
+      (MEMORY HEAP - el proceso donde java guarda variables y funciones en memoria)
+    - En las funciones no hay problema, ya que primero las guarda en memoria y luego revisan de que tratan para mandarlas llamar.
+
+    - HOISTING SOLO OCURRE CON LAS VARIABLES Y FUNCIONES
+    - Cuando se trata de CONSTANTES manda error ya que dice que primero se debe inicializar para ser utilizada
 
 ===== TIPS & RECORDAR =====
 
+    - UNDEFINED - Es un key word de javascript
+
     - http://www.evolutionoftheweb.com/         EVOLUCION DE LA WEB, Historia de los navegadores
     - https://www.campusmvp.es/recursos/post/fundamentos-de-javascript-por-que-deberias-saber-como-funciona-el-motor.aspx   COMO FUNCIONAN LOS MOTORES MODERNOS
-    
-    - FUNDAMENTOS DE INGENIERIA DE SOFTWARE! Curso recomendado en la clase 3
+    - https://astexplorer.net/ ARBOL SINTAXICO (Generar el arbol con el codigo javascript)
 
+    - FUNDAMENTOS DE INGENIERIA DE SOFTWARE! Curso recomendado en la clase 3
+    - CURSO DE ECMASCRIPT 6! Curso recomendado en la clase 6, donde se revisa que son las constantes y los lets
 
 
 ===== RESUMEN CLASES =====
@@ -67,3 +87,4 @@ FUNCIONAMIENTO DEL V8
 3   -   JAVASCRIPT ENGINE (que es, como funciona)
 4   -   V8 (ques es y como nace)
 5   -   ¿Que pasa dentro del motor de Javascript V8?
+6   -   OBJETO GLOBAL WINDOW, VARIABLE THIS Y HOISTING
