@@ -45,8 +45,7 @@ FUNCIONAMIENTO DEL V8 (IMAGEN 4)
     2.- Se genera el objeto principal que se llama WINDOW
     3.- Despues genera una variable que se llama "this" que es igual a WINDOW
     4.- Empieza a correr nuestro código en el contexto de ejecución y lo corre a traves de un stack de tareas (las apila una por una)
-    5.- Ya que esta interactuando el motor con el navegador, genera un PARSEO del documento completo, 
-        lo cual le ayuda a encontrar las claves principales (key words)
+    5.- Genera un PARSEO del documento completo, o cual le ayuda a encontrar las claves principales (key words)
     6.- Se genera el Arbol de sintaxis abstracta (AST) con las key words, el cual va a parsear el navegador despues
     7.- El INTERPRETE lee linea por linea el arbol 
     7.1.- En paralelo El PROFILER optimiza el código y es donde JUSTAMENTE entra el HOISTING
@@ -68,6 +67,15 @@ HOISTING
     - HOISTING SOLO OCURRE CON LAS VARIABLES Y FUNCIONES
     - Cuando se trata de CONSTANTES manda error ya que dice que primero se debe inicializar para ser utilizada
 
+SINGLE THREAD (Synchronous)
+
+    - Javascript solo puede hacer una tarea a la vez
+
+MEMORY HEAP
+
+    - Donde se guardan los valores de todas nuestras variables, constantes y lets, así como las funciones
+    - No se guarda de forma numerica o lineal, se guardan en diferentes partes
+
 ===== TIPS & RECORDAR =====
 
     - UNDEFINED - Es un key word de javascript
@@ -88,3 +96,4 @@ HOISTING
 4   -   V8 (ques es y como nace)
 5   -   ¿Que pasa dentro del motor de Javascript V8?
 6   -   OBJETO GLOBAL WINDOW, VARIABLE THIS Y HOISTING
+7   -   MEMORY HEAP
