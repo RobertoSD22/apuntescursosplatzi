@@ -2,6 +2,8 @@
 
 ===== HERRAMIENTAS =====
 
+    Javascript
+    Chrome
 
 ===== CONCEPTOS DE LAS CLASES =====
 
@@ -10,11 +12,15 @@
 ===== TIPS & RECORDAR =====
 
     - 1ra clase - "El asincronismo es el concepto primordial, divide un dev que esta aprendiendo con uno más pro"
-    
+    - 3ra clase - Las variables pueden ir declaradas e inicializadas en una sola fila
+                  Las variables pueden cambiar de tipo
+
     - Repositorio donde que se utiliza en el curso:              https://github.com/platzi/FundamentosJSCurso
 
+    - CTRL + R = Limpia la consola de google!!!!!!!
 
 ===== RESUMEN CLASES =====
 
 1   -   Presentación
 2   -   Nos brindan un repositorio de github
+3   -   Variables (clase1.html y clase1.js), no hubo conceptos, fue ejercicio
