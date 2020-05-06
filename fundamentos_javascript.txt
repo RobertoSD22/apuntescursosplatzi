@@ -9,6 +9,12 @@
 
 ===== TIPS & RECORDAR =====
 
+    - 1ra clase - "El asincronismo es el concepto primordial, divide un dev que esta aprendiendo con uno más pro"
+    
+    - Repositorio donde que se utiliza en el curso:              https://github.com/platzi/FundamentosJSCurso
 
 
 ===== RESUMEN CLASES =====
+
+1   -   Presentación
+2   -   Nos brindan un repositorio de github
