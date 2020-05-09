@@ -55,6 +55,18 @@ DESESTRUCTURAR OBJETOS (clase7.js y clase7.html)
     - Se puede recibir un objeto en una funcion y si se quiere asignar uno de sus atributos a una variable, constante o let, se puede hacer:
         var {atributo} = objeto
 
+PARAMETROS POR REFERENCIA (clase8.js y clase8.html)
+
+    - Los objetos que pasamos a una funcion como parametros se pasan por refrencia, lo que quiere decir que sus atributos se ven afectados en la funcion
+    - Si pasamos unicamente un atrbuto del objeto como parametro, el objeto no se ve afectado
+    /SE PUEDE RETORNAR UN OBJETO NUEVO!! una referencia nueva, donde se modifica un atributo
+    function cumpleanos2(persona) {
+        return {
+            ...persona, //crea un objeto diferente
+            edad: persona.edad +=1
+        }
+    }
+
 ===== TIPS & RECORDAR =====
 
     - 1ra clase - "El asincronismo es el concepto primordial, divide un dev que esta aprendiendo con uno más pro"
@@ -79,3 +91,4 @@ DESESTRUCTURAR OBJETOS (clase7.js y clase7.html)
 7   -   EJERCICIO Alcande Funciones - SIDE EFECT, Variables Globales (clase5.js y clase5.html)
 8   -   EJERCICIO Objetos - OBJETOS, NUEVA FORMA de enviar un objeto como parametro o recibirlo en una funcion (clase6.js y clase6.html)
 9   -   EJERCICIO Desestructurar objetos - Generar un variable a partir de {} (clase7.js y clase7.html)
+10  -   EJERCICIO Parametros por referencia - ...objeto , un objeto que pasa como parametro si pasa la refrencia (clase8.js y clase8.html)
