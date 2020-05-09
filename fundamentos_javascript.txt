@@ -7,6 +7,12 @@
 
 ===== CONCEPTOS DE LAS CLASES =====
 
+INTERPOLACION
+
+    - Se utiliza para validar variables dentro de las cadenas
+    - Se utilian comillas invertidas ``
+    - Ejemplo:
+        `${var1} ${var2}`
 
 
 ===== TIPS & RECORDAR =====
@@ -24,4 +30,4 @@
 1   -   Presentación
 2   -   Nos brindan un repositorio de github
 3   -   Variables (clase1.html y clase1.js), no hubo conceptos, fue ejercicio
-4   -   EJERCICIO - Strings, INTERPOLACION, chartAt, substr, toUpperCase, toLowerCase, length
+4   -   EJERCICIO - Strings, INTERPOLACION, chartAt, substr, toUpperCase, toLowerCase, length (clase2.js, clase2.html)
