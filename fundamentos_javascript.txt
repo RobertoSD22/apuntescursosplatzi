@@ -67,6 +67,12 @@ PARAMETROS POR REFERENCIA (clase8.js y clase8.html)
         }
     }
 
+COMPARAR VARIABLES (clase9.js y clase9.html)
+
+    - ==    con dos iguales (compara el mismo valor)
+    - ===   con tres iguales (compara el mismo valor y el tipo)
+    - La comparacion entre objetos depende de su referencia, REPASAR EJERCICIO 9!!
+
 ===== TIPS & RECORDAR =====
 
     - 1ra clase - "El asincronismo es el concepto primordial, divide un dev que esta aprendiendo con uno más pro"
@@ -92,3 +98,4 @@ PARAMETROS POR REFERENCIA (clase8.js y clase8.html)
 8   -   EJERCICIO Objetos - OBJETOS, NUEVA FORMA de enviar un objeto como parametro o recibirlo en una funcion (clase6.js y clase6.html)
 9   -   EJERCICIO Desestructurar objetos - Generar un variable a partir de {} (clase7.js y clase7.html)
 10  -   EJERCICIO Parametros por referencia - ...objeto , un objeto que pasa como parametro si pasa la refrencia (clase8.js y clase8.html)
+11  -   EJERCICIO COMPARACIONES - revisar ejercicio! (clase9.js y clase9.html)
