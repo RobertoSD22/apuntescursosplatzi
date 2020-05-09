@@ -73,6 +73,17 @@ COMPARAR VARIABLES (clase9.js y clase9.html)
     - ===   con tres iguales (compara el mismo valor y el tipo)
     - La comparacion entre objetos depende de su referencia, REPASAR EJERCICIO 9!!
 
+
+
+ESTRUCTURAS DE CONTROL (Inicia en la clase 12)
+
+    - Nos permiten decidir el flujo de nuestro codigo
+
+    CONDICIONALES (clase10.js y clase10.html)
+
+        - IF: desición
+
+
 ===== TIPS & RECORDAR =====
 
     - 1ra clase - "El asincronismo es el concepto primordial, divide un dev que esta aprendiendo con uno más pro"
@@ -99,3 +110,4 @@ COMPARAR VARIABLES (clase9.js y clase9.html)
 9   -   EJERCICIO Desestructurar objetos - Generar un variable a partir de {} (clase7.js y clase7.html)
 10  -   EJERCICIO Parametros por referencia - ...objeto , un objeto que pasa como parametro si pasa la refrencia (clase8.js y clase8.html)
 11  -   EJERCICIO COMPARACIONES - revisar ejercicio! (clase9.js y clase9.html)
+12  -   EJERCICIO CONDICIONALES - Nada nuevo, normal (clase10.js y clase10.html)
