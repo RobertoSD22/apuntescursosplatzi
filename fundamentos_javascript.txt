@@ -24,3 +24,4 @@
 1   -   Presentación
 2   -   Nos brindan un repositorio de github
 3   -   Variables (clase1.html y clase1.js), no hubo conceptos, fue ejercicio
+4   -   EJERCICIO - Strings, INTERPOLACION, chartAt, substr, toUpperCase, toLowerCase, length
