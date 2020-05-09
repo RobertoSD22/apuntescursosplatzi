@@ -50,6 +50,11 @@ OBJETOS (clase6.js y clase6.html)
     - Tambien se puede enviar un nuevo objeto al llamar la funcion
     - EJEMPLO: imprimir({nombre: 'Roberto'})
 
+DESESTRUCTURAR OBJETOS (clase7.js y clase7.html)
+
+    - Se puede recibir un objeto en una funcion y si se quiere asignar uno de sus atributos a una variable, constante o let, se puede hacer:
+        var {atributo} = objeto
+
 ===== TIPS & RECORDAR =====
 
     - 1ra clase - "El asincronismo es el concepto primordial, divide un dev que esta aprendiendo con uno más pro"
@@ -73,3 +78,4 @@ OBJETOS (clase6.js y clase6.html)
 6   -   EJERCICIO Funciones - Funciones y parametros de las funciones (clase4.js y clase4.html)
 7   -   EJERCICIO Alcande Funciones - SIDE EFECT, Variables Globales (clase5.js y clase5.html)
 8   -   EJERCICIO Objetos - OBJETOS, NUEVA FORMA de enviar un objeto como parametro o recibirlo en una funcion (clase6.js y clase6.html)
+9   -   EJERCICIO Desestructurar objetos - Generar un variable a partir de {} (clase7.js y clase7.html)
