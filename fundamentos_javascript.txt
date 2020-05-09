@@ -91,6 +91,7 @@ ESTRUCTURAS DE CONTROL (Inicia en la clase 12)
                   Las variables pueden cambiar de tipo
     - 4ta clase - La manera de almacenar decimales en javascript no estan precisa, ya que destina cierta cantidad de bytes en la memoria ram de la computadora
                   para asignar un decimal, para sobrepasar este problema hay un ejemplo en el archivo clase3.js
+    - 13ra clase- Las constantes deben declararse con notacion de BD, NOMBRE_CONSTANTE
                   
 
     - Repositorio donde que se utiliza en el curso:              https://github.com/platzi/FundamentosJSCurso
@@ -111,3 +112,4 @@ ESTRUCTURAS DE CONTROL (Inicia en la clase 12)
 10  -   EJERCICIO Parametros por referencia - ...objeto , un objeto que pasa como parametro si pasa la refrencia (clase8.js y clase8.html)
 11  -   EJERCICIO COMPARACIONES - revisar ejercicio! (clase9.js y clase9.html)
 12  -   EJERCICIO CONDICIONALES - Nada nuevo, normal (clase10.js y clase10.html)
+13  -   EJERCICIO FUNCIONES QUE RETORTAN VALORES - Magic numbers, Constantes, funciones más pequeñas (NO GENERE ARCHIVO)
