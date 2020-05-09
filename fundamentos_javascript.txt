@@ -14,12 +14,29 @@ INTERPOLACION
     - Ejemplo:
         `${var1} ${var2}`
 
+NUMEROS
+
+    - += Es como el ++ pero en este le dices el numero que quieres que aumente o es como:
+         var = var + var2 
+         var += var2
+    - -= Igual al += pero restando
+
+
+FUNCIONES PARA NUMEROS
+
+    - Math.round    Redondea un numero con decimales
+    - parseFloat    Convierte una variable a numero con decimales
+    - toFixed       Convierte un numero a una cadena indicandole el numero de decimales que se quiere tener
+
 
 ===== TIPS & RECORDAR =====
 
     - 1ra clase - "El asincronismo es el concepto primordial, divide un dev que esta aprendiendo con uno más pro"
     - 3ra clase - Las variables pueden ir declaradas e inicializadas en una sola fila
                   Las variables pueden cambiar de tipo
+    - 4ta clase - La manera de almacenar decimales en javascript no estan precisa, ya que destina cierta cantidad de bytes en la memoria ram de la computadora
+                  para asignar un decimal, para sobrepasar este problema hay un ejemplo en el archivo clase3.js
+                  
 
     - Repositorio donde que se utiliza en el curso:              https://github.com/platzi/FundamentosJSCurso
 
@@ -30,4 +47,5 @@ INTERPOLACION
 1   -   Presentación
 2   -   Nos brindan un repositorio de github
 3   -   Variables (clase1.html y clase1.js), no hubo conceptos, fue ejercicio
-4   -   EJERCICIO - Strings, INTERPOLACION, chartAt, substr, toUpperCase, toLowerCase, length (clase2.js, clase2.html)
+4   -   EJERCICIO Strings - INTERPOLACION, chartAt, substr, toUpperCase, toLowerCase, length (clase2.js, clase2.html)
+5   -   EJERCICIO Numeros - Javascript no almacena correctamente los decimales, Math.round, parseFloat, toFixed, +=, -=
