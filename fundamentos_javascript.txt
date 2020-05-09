@@ -42,6 +42,14 @@ ALCANCE DE LAS FUNCIONES (clase5.js y clase5.html)
                    Cambiar el valor de una variable global dentro de un metodo
                    Si se agrega un parametro dentro del método con eso cambia
 
+OBJETOS (clase6.js y clase6.html)
+    - Los objetos se definen delimitados mediante llaves {}
+    - Un atributo se compone de una clave (key) y un valor (value), que se separan entre sí por dos puntos “”:"".
+    - Se puede pasar como parametro en una funcion uno de sus atributos o los que se necesiten!!
+    - EJEMPLO: function imprimir({objeto.atributo}) {console.log(atributo)}
+    - Tambien se puede enviar un nuevo objeto al llamar la funcion
+    - EJEMPLO: imprimir({nombre: 'Roberto'})
+
 ===== TIPS & RECORDAR =====
 
     - 1ra clase - "El asincronismo es el concepto primordial, divide un dev que esta aprendiendo con uno más pro"
@@ -64,3 +72,4 @@ ALCANCE DE LAS FUNCIONES (clase5.js y clase5.html)
 5   -   EJERCICIO Numeros - Javascript no almacena correctamente los decimales, Math.round, parseFloat, toFixed, +=, -= (clase3.js, clase3.html)
 6   -   EJERCICIO Funciones - Funciones y parametros de las funciones (clase4.js y clase4.html)
 7   -   EJERCICIO Alcande Funciones - SIDE EFECT, Variables Globales (clase5.js y clase5.html)
+8   -   EJERCICIO Objetos - OBJETOS, NUEVA FORMA de enviar un objeto como parametro o recibirlo en una funcion (clase6.js y clase6.html)
