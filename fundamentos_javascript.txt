@@ -82,6 +82,9 @@ ESTRUCTURAS DE CONTROL (Inicia en la clase 12)
     CONDICIONALES (clase10.js y clase10.html)
 
         - IF: desición
+    
+    ARROW FUNCTIONS (clase12.js y clase12.html)
+
 
 
 ===== TIPS & RECORDAR =====
@@ -113,3 +116,4 @@ ESTRUCTURAS DE CONTROL (Inicia en la clase 12)
 11  -   EJERCICIO COMPARACIONES - revisar ejercicio! (clase9.js y clase9.html)
 12  -   EJERCICIO CONDICIONALES - Nada nuevo, normal (clase10.js y clase10.html)
 13  -   EJERCICIO FUNCIONES QUE RETORTAN VALORES - Magic numbers, Constantes, funciones más pequeñas (NO GENERE ARCHIVO)
+14  -   EJERCICIO ARROW FUNCTIONS (ESTAN INCREIBLES!!!!!!!!!)
