@@ -87,7 +87,8 @@ ESTRUCTURAS DE CONTROL (Inicia en la clase 12)
 
     ESTRUCTURAS REPETITIVAS
 
-        - FOR: Nos permite ejecutar la tarea de manera repetitiva
+        - FOR: Nos permite ejecutar la tarea de manera repetitiva (clase13.js y clase13.html)
+        - WHILE (clase14.js y clase14.html)
 
 
 
@@ -122,3 +123,4 @@ ESTRUCTURAS DE CONTROL (Inicia en la clase 12)
 13  -   EJERCICIO FUNCIONES QUE RETORTAN VALORES - Magic numbers, Constantes, funciones más pequeñas (NO GENERE ARCHIVO)
 14  -   EJERCICIO ARROW FUNCTIONS (ESTAN INCREIBLES!!!!!!!!!) (clase12.js y clase12.html)
 15  -   EJERCICIO FOR (clase13.js y clase13.html)
+16  -   EJERCICIO WHILE - Hay un ejemplo de DEBUGGER!!!!!!!!!!!!!! (clase14.js y clase14.html)
