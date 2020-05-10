@@ -108,7 +108,7 @@ FILTER ARRAY (clase18.js y clase18.html)
 
 MAP ARRAY (clase19.js y clase19.html)
 
-    -Genera un nuevo arreglo
+    - Genera un nuevo arreglo
     - Puede alterar el mismo si modificas los atributos nada más (hay que usar ... para generar nuevos objetos)
 
 
@@ -147,5 +147,6 @@ MAP ARRAY (clase19.js y clase19.html)
 17  -   EJERCICIO DO WHILE - No hubo nada nuevo
 18  -   EJERCICIO SWITCH - SWITCH, PROMPT!!! (clase16.js y clase16.html)
 19  -   EJERCICIO ARRAYS - Las 2 formas de acceder al valor de un atributo de un objeto (clase17.js y clase17.html)
-20  -   EJERCICIO FILTER ARRAY - Funcion para filtrar un arreglo (clase18.js y clase18.html)
-21  -   EJERCICIO MAP ARRAY - Funcion para generar un nuevo arreglo a partir de una validación (clase19.js y clase19.html)
+20  -   EJERCICIO FILTER ARRAY - Función para filtrar un arreglo (clase18.js y clase18.html)
+21  -   EJERCICIO MAP ARRAY - Función para generar un nuevo arreglo a partir de una validación (clase19.js y clase19.html)
+22  -   EJERCICIO REDUCE ARRAY - Función para contabilizar un atributo de un objeto, regresa un number (clase20.js y clase20.html)
