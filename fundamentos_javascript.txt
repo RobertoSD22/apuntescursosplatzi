@@ -96,6 +96,16 @@ PROMPT
 
     - Sirve para mandar una ventanita de pregunta en la que ingresa un dato  (clase16.js y clase16.html)
 
+ARRAYS (clase17.js y clase17.html)
+
+    - Los arrays son estructuras que nos permiten organizar elementos dentro de una collección. 
+
+FILTER ARRAY (clase18.js y clase18.html)
+
+    - Funcion del array que nos permite filtrar un arreglo bajo una condicion
+    - arreglo.filter()
+    - Nos regresa igual un arreglo
+
 
 ===== TIPS & RECORDAR =====
 
@@ -130,4 +140,6 @@ PROMPT
 15  -   EJERCICIO FOR (clase13.js y clase13.html)
 16  -   EJERCICIO WHILE - Hay un ejemplo de DEBUGGER!!!!!!!!!!!!!! (clase14.js y clase14.html)
 17  -   EJERCICIO DO WHILE - No hubo nada nuevo
-18  -   EJERCICIO SWITCH - SWITCH, PROMPT!!!
+18  -   EJERCICIO SWITCH - SWITCH, PROMPT!!! (clase16.js y clase16.html)
+19  -   EJERCICIO ARRAYS - Las 2 formas de acceder al valor de un atributo de un objeto (clase17.js y clase17.html)
+20  -   EJERCICIO FILTER ARRAY - Funcion para filtrar un arreglo (clase18.js y clase18.html)
