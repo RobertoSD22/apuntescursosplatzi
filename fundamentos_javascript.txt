@@ -89,6 +89,7 @@ ESTRUCTURAS DE CONTROL (Inicia en la clase 12)
 
         - FOR: Nos permite ejecutar la tarea de manera repetitiva (clase13.js y clase13.html)
         - WHILE (clase14.js y clase14.html)
+        - DO WHILE (clase15.js y clase15.html)
 
 
 
@@ -124,3 +125,4 @@ ESTRUCTURAS DE CONTROL (Inicia en la clase 12)
 14  -   EJERCICIO ARROW FUNCTIONS (ESTAN INCREIBLES!!!!!!!!!) (clase12.js y clase12.html)
 15  -   EJERCICIO FOR (clase13.js y clase13.html)
 16  -   EJERCICIO WHILE - Hay un ejemplo de DEBUGGER!!!!!!!!!!!!!! (clase14.js y clase14.html)
+17  -   EJERCICIO DO WHILE - No hubo nada nuevo
