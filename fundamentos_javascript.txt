@@ -143,6 +143,11 @@ EVENT LOOP (asincronismo en Javascript)
     - JavaScript sólo puede hacer una cosa a la vez, sin embargo; es capaz de delegar la ejecución de ciertas funciones a otros procesos. 
       Este modelo de concurrencia se llama EventLoop.
 
+CALLBACK (clase28.js y clase28.html)
+
+    - Un callback es una función que se pasa a otra función como un argumento.
+      Esta función se invoca, después, dentro de la función externa para completar alguna acción.
+
 ===== TIPS & RECORDAR =====
 
     - Cuando hay un error en Javascript el codigo que sigue despues de esa linea ya no se ejecuta
@@ -157,6 +162,7 @@ EVENT LOOP (asincronismo en Javascript)
                   
 
     - Repositorio donde que se utiliza en el curso:              https://github.com/platzi/FundamentosJSCurso
+    - API Pokemon                                                https://pokeapi.co/
 
     - CTRL + R = Limpia la consola de google!!!!!!!
     - ALT + UP = Mueve el codigo seleccionada hacia arriba!!!!
@@ -193,4 +199,5 @@ EVENT LOOP (asincronismo en Javascript)
 27  -   EJERCICIO HERENCIA NUEVA - Herencia con CLASS, EXTENDS, SUPER, CONSTRUCTOR (clase25.js y clase25.html)
 28  -   EJERCICIO FUNCIONES COMO PARAMETROS - Tambien se puede mandar una funcion como parametro (clase25.js y clase25.html)
 29  -   VIDEO YOUTUBE ASINCRONISMO , Event loop
-30  -   EJERCICIO ASINCRONISMO, fue sencillo
+30  -   EJERCICIO ASINCRONISMO, fue sencillo (clase50.html)
+31  -   EJERCICIO CALLBACK, Con JQuery hicimos un servicio que pide datos (clase28.js y clase28.html)
