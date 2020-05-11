@@ -137,6 +137,12 @@ HERENCIA NUEVA
 
     - A partir de ECMAScript2015 se mejora la herencia, se usa la palabra clave extends
 
+EVENT LOOP (asincronismo en Javascript)
+
+    - Java solo ejecuta una tarea a la vez (Single thread) y delega esas operaciones a otros procesos
+    - JavaScript sólo puede hacer una cosa a la vez, sin embargo; es capaz de delegar la ejecución de ciertas funciones a otros procesos. 
+      Este modelo de concurrencia se llama EventLoop.
+
 ===== TIPS & RECORDAR =====
 
     - Cuando hay un error en Javascript el codigo que sigue despues de esa linea ya no se ejecuta
@@ -186,3 +192,4 @@ HERENCIA NUEVA
 26  -   EJERCICIO HERENCIA MANUAL - Dar un repaso, es algo complicado (clase24.js y clase24.html)
 27  -   EJERCICIO HERENCIA NUEVA - Herencia con CLASS, EXTENDS, SUPER, CONSTRUCTOR (clase25.js y clase25.html)
 28  -   EJERCICIO FUNCIONES COMO PARAMETROS - Tambien se puede mandar una funcion como parametro (clase25.js y clase25.html)
+29  -   VIDEO YOUTUBE ASINCRONISMO , Event loop
