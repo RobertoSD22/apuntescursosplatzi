@@ -193,3 +193,4 @@ EVENT LOOP (asincronismo en Javascript)
 27  -   EJERCICIO HERENCIA NUEVA - Herencia con CLASS, EXTENDS, SUPER, CONSTRUCTOR (clase25.js y clase25.html)
 28  -   EJERCICIO FUNCIONES COMO PARAMETROS - Tambien se puede mandar una funcion como parametro (clase25.js y clase25.html)
 29  -   VIDEO YOUTUBE ASINCRONISMO , Event loop
+30  -   EJERCICIO ASINCRONISMO, fue sencillo
