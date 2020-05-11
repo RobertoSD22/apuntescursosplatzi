@@ -111,6 +111,22 @@ MAP ARRAY (clase19.js y clase19.html)
     - Genera un nuevo arreglo
     - Puede alterar el mismo si modificas los atributos nada más (hay que usar ... para generar nuevos objetos)
 
+REDUCE ARRAY (clase20.js y clase20.html)
+
+    - Contabiliza el atributo de un objeto que se encuentra en un arreglo, o contabiliza un arreglo de numeros
+
+
+
+CLASES EN JAVASCRIPT (clase21.js y clase21.html)
+
+    - Cuando hablamos de objetos en Javascript hablamos de prototipos y no tanto de clases
+    - Hay clases pero no existe la herencia como tal
+    - Objeto.prototype.funcion GENERA UNA NUEVA FUNCION PARA EL OBJETO
+
+
+
+
+
 
 ===== TIPS & RECORDAR =====
 
@@ -150,3 +166,4 @@ MAP ARRAY (clase19.js y clase19.html)
 20  -   EJERCICIO FILTER ARRAY - Función para filtrar un arreglo (clase18.js y clase18.html)
 21  -   EJERCICIO MAP ARRAY - Función para generar un nuevo arreglo a partir de una validación (clase19.js y clase19.html)
 22  -   EJERCICIO REDUCE ARRAY - Función para contabilizar un atributo de un objeto, regresa un number (clase20.js y clase20.html)
+23  -   EJERCICIO CLASES - Objeto.prototype.funcion GENERA UNA NUEVA FUNCION PARA EL OBJETO (clase21.js y clase21.html)
