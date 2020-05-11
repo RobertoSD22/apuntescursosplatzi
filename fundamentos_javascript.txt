@@ -184,4 +184,5 @@ HERENCIA NUEVA
 24  -   EJERCICIO MODIFICAR FUNCION - Cuando se cambia a una arrow function ya no se llama automaticamente la funcion (clase22.js y clase22.html)
 25  -   EJERCICIO THIS ARROW FUNCTION - El problema de la clase pasada es que THIS cambia de conexto y se vuelve WINDOW
 26  -   EJERCICIO HERENCIA MANUAL - Dar un repaso, es algo complicado (clase24.js y clase24.html)
-27  -   EJERCICIO HERENCIA NUEVA - Herencia con CLASS, EXTENDS, SUPER, CONSTRUCTOR
+27  -   EJERCICIO HERENCIA NUEVA - Herencia con CLASS, EXTENDS, SUPER, CONSTRUCTOR (clase25.js y clase25.html)
+28  -   EJERCICIO FUNCIONES COMO PARAMETROS - Tambien se puede mandar una funcion como parametro (clase25.js y clase25.html)
