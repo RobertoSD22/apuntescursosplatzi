@@ -124,7 +124,9 @@ CLASES EN JAVASCRIPT (clase21.js y clase21.html)
     - Objeto.prototype.funcion GENERA UNA NUEVA FUNCION PARA EL OBJETO
 
 
+THIS EN ARROW FUNCTION 
 
+    - Cuando el this esta dentro de un arrow function se vuelve el THIS global, el que apunta a WINDOW !!!
 
 
 
@@ -171,4 +173,5 @@ CLASES EN JAVASCRIPT (clase21.js y clase21.html)
 21  -   EJERCICIO MAP ARRAY - Función para generar un nuevo arreglo a partir de una validación (clase19.js y clase19.html)
 22  -   EJERCICIO REDUCE ARRAY - Función para contabilizar un atributo de un objeto, regresa un number (clase20.js y clase20.html)
 23  -   EJERCICIO CLASES - Objeto.prototype.funcion GENERA UNA NUEVA FUNCION PARA EL OBJETO (clase21.js y clase21.html)
-24  -   EJERCICIO MODIFICAR FUNCION - Cuando se cambia a una arrow function ya no se llama automaticamente la funcion
+24  -   EJERCICIO MODIFICAR FUNCION - Cuando se cambia a una arrow function ya no se llama automaticamente la funcion (clase22.js y clase22.html)
+25  -   EJERCICIO THIS ARROW FUNCTION - El problema de la clase pasada es que THIS cambia de conexto y se vuelve WINDOW
