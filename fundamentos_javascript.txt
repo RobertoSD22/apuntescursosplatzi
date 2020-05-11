@@ -124,11 +124,14 @@ CLASES EN JAVASCRIPT (clase21.js y clase21.html)
     - Objeto.prototype.funcion GENERA UNA NUEVA FUNCION PARA EL OBJETO
 
 
-THIS EN ARROW FUNCTION 
+THIS EN ARROW FUNCTION (No hice el archivo, porque no hizo nada nuevo)
 
     - Cuando el this esta dentro de un arrow function se vuelve el THIS global, el que apunta a WINDOW !!!
 
+HERENCIA PROTOTIPAL (clase24.js y clase24.html)
 
+    - No existen las clases en javascript ni la herencia, hay herencia prototipal
+    - Object es el prototipo base de todos los objetos
 
 ===== TIPS & RECORDAR =====
 
@@ -175,3 +178,4 @@ THIS EN ARROW FUNCTION
 23  -   EJERCICIO CLASES - Objeto.prototype.funcion GENERA UNA NUEVA FUNCION PARA EL OBJETO (clase21.js y clase21.html)
 24  -   EJERCICIO MODIFICAR FUNCION - Cuando se cambia a una arrow function ya no se llama automaticamente la funcion (clase22.js y clase22.html)
 25  -   EJERCICIO THIS ARROW FUNCTION - El problema de la clase pasada es que THIS cambia de conexto y se vuelve WINDOW
+26  -   EJERCICIO HERENCIA MANUAL - Dar un repaso, es algo complicado (clase24.js y clase24.html)
