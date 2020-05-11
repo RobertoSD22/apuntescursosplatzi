@@ -20,6 +20,7 @@ NUMEROS (clase3.js, clase3.html)
          var = var + var2 
          var += var2
     - -= Igual al += pero restando 
+    - *= Igual pero multiplicando
 
 
 FUNCIONES PARA NUMEROS (clase3.js, clase3.html)
@@ -147,6 +148,12 @@ CALLBACK (clase28.js y clase28.html)
 
     - Un callback es una función que se pasa a otra función como un argumento.
       Esta función se invoca, después, dentro de la función externa para completar alguna acción.
+    
+MULTIPLES REQUEST (clase29.js y clase29.html)
+
+    - No sabemos en que orden llegan las respuestas de los request, puede ser indistinto, depende del navegador
+    - No hay manera de saber en que orden nos respondera el servidor
+    - Se anidan las funciones de callback para que se ejecuten en orden (se pierde el asincronismo pero se gana el orden) SE LE LLAMA CALLBACK HELL
 
 ===== TIPS & RECORDAR =====
 
@@ -201,3 +208,5 @@ CALLBACK (clase28.js y clase28.html)
 29  -   VIDEO YOUTUBE ASINCRONISMO , Event loop
 30  -   EJERCICIO ASINCRONISMO, fue sencillo (clase50.html)
 31  -   EJERCICIO CALLBACK, Con JQuery hicimos un servicio que pide datos (clase28.js y clase28.html)
+32  -   EJERCICIO MULTIPLES REQUEST, Lo hice con la API de pokemon, lo importante es que NO HAY UN ORDEN en que se responden todos los request (clase29.js y clase29.html)
+33  -   EJERCICIO MULTIPLES REQUEST, CALLBACK HELL
