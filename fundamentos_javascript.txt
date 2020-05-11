@@ -130,6 +130,8 @@ CLASES EN JAVASCRIPT (clase21.js y clase21.html)
 
 ===== TIPS & RECORDAR =====
 
+    - Cuando hay un error en Javascript el codigo que sigue despues de esa linea ya no se ejecuta
+
     - 1ra clase - "El asincronismo es el concepto primordial, divide un dev que esta aprendiendo con uno más pro"
     - 3ra clase - Las variables pueden ir declaradas e inicializadas en una sola fila
                   Las variables pueden cambiar de tipo
@@ -141,6 +143,8 @@ CLASES EN JAVASCRIPT (clase21.js y clase21.html)
     - Repositorio donde que se utiliza en el curso:              https://github.com/platzi/FundamentosJSCurso
 
     - CTRL + R = Limpia la consola de google!!!!!!!
+    - ALT + UP = Mueve el codigo seleccionada hacia arriba!!!!
+    
 
 ===== RESUMEN CLASES =====
 
@@ -167,3 +171,4 @@ CLASES EN JAVASCRIPT (clase21.js y clase21.html)
 21  -   EJERCICIO MAP ARRAY - Función para generar un nuevo arreglo a partir de una validación (clase19.js y clase19.html)
 22  -   EJERCICIO REDUCE ARRAY - Función para contabilizar un atributo de un objeto, regresa un number (clase20.js y clase20.html)
 23  -   EJERCICIO CLASES - Objeto.prototype.funcion GENERA UNA NUEVA FUNCION PARA EL OBJETO (clase21.js y clase21.html)
+24  -   EJERCICIO MODIFICAR FUNCION - Cuando se cambia a una arrow function ya no se llama automaticamente la funcion
