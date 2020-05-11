@@ -133,9 +133,14 @@ HERENCIA PROTOTIPAL (clase24.js y clase24.html)
     - No existen las clases en javascript ni la herencia, hay herencia prototipal
     - Object es el prototipo base de todos los objetos
 
+HERENCIA NUEVA
+
+    - A partir de ECMAScript2015 se mejora la herencia, se usa la palabra clave extends
+
 ===== TIPS & RECORDAR =====
 
     - Cuando hay un error en Javascript el codigo que sigue despues de esa linea ya no se ejecuta
+    - NO HAY CLASES, todos son PROTOTIPOS
 
     - 1ra clase - "El asincronismo es el concepto primordial, divide un dev que esta aprendiendo con uno más pro"
     - 3ra clase - Las variables pueden ir declaradas e inicializadas en una sola fila
@@ -179,3 +184,4 @@ HERENCIA PROTOTIPAL (clase24.js y clase24.html)
 24  -   EJERCICIO MODIFICAR FUNCION - Cuando se cambia a una arrow function ya no se llama automaticamente la funcion (clase22.js y clase22.html)
 25  -   EJERCICIO THIS ARROW FUNCTION - El problema de la clase pasada es que THIS cambia de conexto y se vuelve WINDOW
 26  -   EJERCICIO HERENCIA MANUAL - Dar un repaso, es algo complicado (clase24.js y clase24.html)
+27  -   EJERCICIO HERENCIA NUEVA - Herencia con CLASS, EXTENDS, SUPER, CONSTRUCTOR
