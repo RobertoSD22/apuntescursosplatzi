@@ -209,4 +209,5 @@ MULTIPLES REQUEST (clase29.js y clase29.html)
 30  -   EJERCICIO ASINCRONISMO, fue sencillo (clase50.html)
 31  -   EJERCICIO CALLBACK, Con JQuery hicimos un servicio que pide datos (clase28.js y clase28.html)
 32  -   EJERCICIO MULTIPLES REQUEST, Lo hice con la API de pokemon, lo importante es que NO HAY UN ORDEN en que se responden todos los request (clase29.js y clase29.html)
-33  -   EJERCICIO MULTIPLES REQUEST, CALLBACK HELL
+33  -   EJERCICIO MULTIPLES REQUEST, CALLBACK HELL (clase30.js y clase30.html)
+34  -   EJERCICIO ERRORES REQUEST, muy simple, solo agrego la funcion "fail", lo complicado es que movio lo que arrojaba la consola a cada callback (clase31.js y clase31.html)
