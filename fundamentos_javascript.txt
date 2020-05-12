@@ -155,6 +155,32 @@ MULTIPLES REQUEST (clase29.js y clase29.html)
     - No hay manera de saber en que orden nos respondera el servidor
     - Se anidan las funciones de callback para que se ejecuten en orden (se pierde el asincronismo pero se gana el orden) SE LE LLAMA CALLBACK HELL
 
+PROMESAS (IMAGEN1.png) (clase32.js y clase32.html)
+
+    - VALORES que aun no conocemos
+    - Nos ayudan a evitar el uso de multiples callbacks anidados para controlar las peticiones
+    - Tienen 3 estados:
+        - PENDING: Cuando creamos la promesa, es el estado por default
+        - FULLFILLED (fulfil): Cuando la promesa se resuelve sadisfactiramente   .then(val =>)
+        - REJECTED (riyected): Cuando ocurre un error                            .catch(err =>)
+    - Como se crea una promesa:
+        - new Promise(function(resolve, reject){}) 
+        - resolve: es una funcion que se llama cuando fue exitosa la peticion
+        - reject: es una funcion que se llama cuando hubo error en la peticion
+    - Cuando ocurre un error o cuando se resuelve exitosamente:
+        new Promise(funcition(resolve, reject){
+            ...
+        }).then (parametro =>{
+            ...
+        }).catch (parametro => {
+            ...
+        })
+    - Puede haber promesas anidadas en el .then (IMAGEN1.png)
+
+    - IMPORTANTE, el RESOLVE manda llamar al THEN
+    - IMPORTANTE, el REJECT manda llamar al CATCH
+
+
 ===== TIPS & RECORDAR =====
 
     - Cuando hay un error en Javascript el codigo que sigue despues de esa linea ya no se ejecuta
@@ -211,3 +237,4 @@ MULTIPLES REQUEST (clase29.js y clase29.html)
 32  -   EJERCICIO MULTIPLES REQUEST, Lo hice con la API de pokemon, lo importante es que NO HAY UN ORDEN en que se responden todos los request (clase29.js y clase29.html)
 33  -   EJERCICIO MULTIPLES REQUEST, CALLBACK HELL (clase30.js y clase30.html)
 34  -   EJERCICIO ERRORES REQUEST, muy simple, solo agrego la funcion "fail", lo complicado es que movio lo que arrojaba la consola a cada callback (clase31.js y clase31.html)
+35  -   EJERCICIO PROMESAS, PENDING, FULLFILLED, REJECTED - RESOLVE REJECT (clase32.js y clase32.html) 
