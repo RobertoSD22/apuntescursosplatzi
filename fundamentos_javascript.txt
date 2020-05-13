@@ -190,11 +190,17 @@ ASYNC-AWAIT (clase35.js y clase35.html)
     - Y encerrar el llamado a Promises.all() dentro de un bloque try … catch.
 
 
+CONSTANTES
+
+    - No se puede reasignar el valor, pero se puede modificar el contenido
+    - Por ejemplo en un array se le pueden agregar más valores, pero no asignarle un nuevo arreglo (= [1], esto no)
+
 ===== TIPS & RECORDAR =====
 
     - Cuando hay un error en Javascript el codigo que sigue despues de esa linea ya no se ejecuta
     - NO HAY CLASES, todos son PROTOTIPOS
     - Math.random Da un valor entre 0 y 1, si lo multiplicas puedes incrementar el valor :D
+    - Math.abs transoforma un numero negativo a positivo
 
     - 1ra clase - "El asincronismo es el concepto primordial, divide un dev que esta aprendiendo con uno más pro"
     - 3ra clase - Las variables pueden ir declaradas e inicializadas en una sola fila
@@ -260,3 +266,5 @@ ASYNC-AWAIT (clase35.js y clase35.html)
 43  -   EJERCICIO SIMON DICE 5 - Agrego las validaciones para saber si sigue bien el orden o no (Simon Dice.html)
 44  -   EJERCICIO SIMON DICE 6 - Métodos para cuando ganas y pierdes, SWAL para las alertas (Simon Dice.html)
 45  -   Despedida, no hubo conceptos
+46  -   VAR, CONST y LET - Alcances e hizo un ejemplo que tenia hoisting (clase35.html)
+47  -   DATES - Hizo una funcion que resta fechas en base a milisegundos
