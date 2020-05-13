@@ -214,6 +214,15 @@ ESTRUCTURAS DE DATOS INMUTABLES
     -Las estructuras de datos inmutables forman parte de los principios de la Programación Funcional y nos permiten evitar tener efectos colaterales en los datos.
     -n otras palabras, que hayan modificaciones en las variables sin nuestro consentimiento, produciendo comportamientos inesperados en el programa.
 
+
+CONTEXTO AL LLAMAR UNA FUNCION
+
+    - El contexto (o alcance) de una función es por lo general, window.
+
+    - Usando el método .bind, enviamos la referencia a la función sin ejecutarla, pasando el contexto como parámetro.
+    - Usando el método .call, ejecutamos inmediatamente la función con el contexto indicado
+    - Usando el método .apply, es similar a .call pero los parámetros adicionales se pasan como un arreglo de valores
+
 ===== TIPS & RECORDAR =====
 
     - Cuando hay un error en Javascript el codigo que sigue despues de esa linea ya no se ejecuta
@@ -291,3 +300,4 @@ ESTRUCTURAS DE DATOS INMUTABLES
 49  -   MEMOIZACION (clase39.html)
 50  -   CLOUSERES - No hice el ejercicio
 51  -   ESTRUCTURAS DE DATOS INMUTABLES - No hice el ejercicio, simplemente es clonar el objeto, sin alterar el primero
+51  -   CONTEXTO, bind, call, apply (clase48.html)
