@@ -202,7 +202,12 @@ MEMOIZACION (clase38.html)
     - ir almacenando el resultado invariable de una función para que no sea necesario volver a ejecutar todas las instrucciones de nuevo,  cuando se vuelva a llamar con los mismos parámetros
     - Es similar a usar memoria cache.
 
+CLOUSERES
 
+    - Se pronuncia "cloushure"
+    - Un closure, básicamente, es una función que recuerda el estado de las variables al momento de ser invocada
+    - Conserva este estado a través de reiteradas ejecuciones.
+    - Un aspecto fundamental de los closures es que son funciones que retornan otras funciones.
 
 ===== TIPS & RECORDAR =====
 
@@ -279,3 +284,4 @@ MEMOIZACION (clase38.html)
 47  -   DATES - Hizo una funcion que resta fechas en base a milisegundos (clase37.html)
 48  -   RECURSIVIDAD (clase38.html)
 49  -   MEMOIZACION (clase39.html)
+50  -   CLOUSERES - No hice el ejercicio
