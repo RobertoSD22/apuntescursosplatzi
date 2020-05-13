@@ -223,6 +223,15 @@ CONTEXTO AL LLAMAR UNA FUNCION
     - Usando el método .call, ejecutamos inmediatamente la función con el contexto indicado
     - Usando el método .apply, es similar a .call pero los parámetros adicionales se pasan como un arreglo de valores
 
+
+PUNTO Y COMA
+
+    El punto y coma es opcional en JavaScript, excepto en algunos casos:
+
+        - Cuando usamos varias instrucciones en una mísma línea
+        - Al comenzar la próxima línea con un array
+        - Al comenzar la próxima línea con un template string
+
 ===== TIPS & RECORDAR =====
 
     - Cuando hay un error en Javascript el codigo que sigue despues de esa linea ya no se ejecuta
@@ -301,3 +310,4 @@ CONTEXTO AL LLAMAR UNA FUNCION
 50  -   CLOUSERES - No hice el ejercicio
 51  -   ESTRUCTURAS DE DATOS INMUTABLES - No hice el ejercicio, simplemente es clonar el objeto, sin alterar el primero
 51  -   CONTEXTO, bind, call, apply (clase48.html)
+52  -   3 ESCENARIOS donde se usa PUNTO Y COMA
