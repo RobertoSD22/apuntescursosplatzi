@@ -5,6 +5,7 @@
     Javascript
     Chrome
     JQuery para las peticiones
+    Sweet Alert (para las alertas del Simon Dice)
 
 ===== CONCEPTOS DE LAS CLASES =====
 
@@ -205,6 +206,8 @@ ASYNC-AWAIT (clase35.js y clase35.html)
 
     - Repositorio donde que se utiliza en el curso:              https://github.com/platzi/FundamentosJSCurso
     - API Pokemon                                                https://pokeapi.co/
+    - Sweet Alert                                                https://sweetalert.js.org/
+                                                                 https://cdnjs.com/libraries/sweetalert (De aqui tomamos la ruta de sweetaler)
 
     - CTRL + R = Limpia la consola de google!!!!!!!
     - ALT + UP = Mueve el codigo seleccionada hacia arriba!!!!
@@ -255,3 +258,4 @@ ASYNC-AWAIT (clase35.js y clase35.html)
 41  -   EJERCICIO SIMON DICE 3 - Agrego Iluminación a los colores, esta padre, le salio un error con el var, tuvo que cambiar al let, porque se queda con el ultimo valor que tuvo var el setTimeOut (Simon Dice.html)
 42  -   EJERCICIO SIMON DICE 4 - Agrego el evento click, uso el BIND para cambiar el THIS (Simon Dice.html)
 43  -   EJERCICIO SIMON DICE 5 - Agrego las validaciones para saber si sigue bien el orden o no (Simon Dice.html)
+44  -   EJERCICIO SIMON DICE 6 - Métodos para cuando ganas y pierdes, SWAL para las alertas (Simon Dice.html)
