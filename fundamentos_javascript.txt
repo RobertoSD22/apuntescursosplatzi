@@ -196,7 +196,7 @@ CONSTANTES
     - Por ejemplo en un array se le pueden agregar más valores, pero no asignarle un nuevo arreglo (= [1], esto no)
 
 
-MEMOIZACION
+MEMOIZACION (clase38.html)
 
     - La memoización es una técnica de programación que nos permite ahorrar cómputo o procesamiento en JavaScript
     - ir almacenando el resultado invariable de una función para que no sea necesario volver a ejecutar todas las instrucciones de nuevo,  cuando se vuelva a llamar con los mismos parámetros
@@ -278,3 +278,4 @@ MEMOIZACION
 46  -   VAR, CONST y LET - Alcances e hizo un ejemplo que tenia hoisting (clase36.html)
 47  -   DATES - Hizo una funcion que resta fechas en base a milisegundos (clase37.html)
 48  -   RECURSIVIDAD (clase38.html)
+49  -   MEMOIZACION (clase39.html)
