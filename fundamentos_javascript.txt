@@ -253,4 +253,5 @@ ASYNC-AWAIT (clase35.js y clase35.html)
 39  -   EJERCICIO SIMON DICE 1 - Declaramos la clase, inicializamos constructor, obtuvimos los elementos con su id (Simon Dice.html)
 40  -   EJERCICIO SIMON DICE 2 - Genero un arreglo de numeros random hasta el 3, puso nivel 1 y guardo en un objeto todos los colores (Simon Dice.html)
 41  -   EJERCICIO SIMON DICE 3 - Agrego Iluminación a los colores, esta padre, le salio un error con el var, tuvo que cambiar al let, porque se queda con el ultimo valor que tuvo var el setTimeOut (Simon Dice.html)
-42  -   EJERCICIO SIMON DICE 4 - Agrego el evento click, uso el BIND para cambiar el THIS
+42  -   EJERCICIO SIMON DICE 4 - Agrego el evento click, uso el BIND para cambiar el THIS (Simon Dice.html)
+43  -   EJERCICIO SIMON DICE 5 - Agrego las validaciones para saber si sigue bien el orden o no (Simon Dice.html)
