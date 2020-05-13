@@ -4,6 +4,7 @@
 
     Javascript
     Chrome
+    JQuery para las peticiones
 
 ===== CONCEPTOS DE LAS CLASES =====
 
@@ -239,3 +240,4 @@ PROMESAS (IMAGEN1.png) (clase32.js y clase32.html)
 34  -   EJERCICIO ERRORES REQUEST, muy simple, solo agrego la funcion "fail", lo complicado es que movio lo que arrojaba la consola a cada callback (clase31.js y clase31.html)
 35  -   EJERCICIO PROMESAS, PENDING, FULLFILLED, REJECTED - RESOLVE REJECT (clase32.js y clase32.html) 
 36  -   EJERCICIO MULTIPLES PROMESAS (clase33.js y clase33.html)
+37  -   EJERCICIO MULTIPLES PROMESAS ASINCRONAS (Muy bueno!!!!, resumio todo en unas lineas) (clase34.js y clase34.html)
