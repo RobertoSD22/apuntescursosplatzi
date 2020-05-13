@@ -259,3 +259,4 @@ ASYNC-AWAIT (clase35.js y clase35.html)
 42  -   EJERCICIO SIMON DICE 4 - Agrego el evento click, uso el BIND para cambiar el THIS (Simon Dice.html)
 43  -   EJERCICIO SIMON DICE 5 - Agrego las validaciones para saber si sigue bien el orden o no (Simon Dice.html)
 44  -   EJERCICIO SIMON DICE 6 - Métodos para cuando ganas y pierdes, SWAL para las alertas (Simon Dice.html)
+45  -   Despedida, no hubo conceptos
