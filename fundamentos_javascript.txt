@@ -193,6 +193,7 @@ ASYNC-AWAIT (clase35.js y clase35.html)
 
     - Cuando hay un error en Javascript el codigo que sigue despues de esa linea ya no se ejecuta
     - NO HAY CLASES, todos son PROTOTIPOS
+    - Math.random Da un valor entre 0 y 1, si lo multiplicas puedes incrementar el valor :D
 
     - 1ra clase - "El asincronismo es el concepto primordial, divide un dev que esta aprendiendo con uno más pro"
     - 3ra clase - Las variables pueden ir declaradas e inicializadas en una sola fila
@@ -250,3 +251,4 @@ ASYNC-AWAIT (clase35.js y clase35.html)
 37  -   EJERCICIO MULTIPLES PROMESAS ASINCRONAS (Muy bueno!!!!, resumio todo en unas lineas) (clase34.js y clase34.html)
 38  -   EJERCICIO ASYNC-AWAIT - Mejoro el codigo, PERO NO TODOS LOS NAVEGADORES LO SOPORTAN, google si (clase35.js y clase35.html)
 39  -   EJERCICIO SIMON DICE 1 - Declaramos la clase, inicializamos constructor, obtuvimos los elementos con su id (Simon Dice.html)
+40  -   EJERCICIO SIMON DICE 2 - Genero un arreglo de numeros random hasta el 3, puso nivel 1 y guardo en un objeto todos los colores (Simon Dice.html) 
