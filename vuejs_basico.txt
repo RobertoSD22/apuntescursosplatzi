@@ -37,6 +37,7 @@ EXPRESIONES
 
     - Son la manera que nos da Vue de crear templates de manera dinamica dentro de nuestro html
     - Se hacen con {{}}
+    - Tambien se puede ejecutar cualquier tipo de codigo javascript valido (no for, while, do while, if else)
 
 RENDERING DECLARATIVO (IMAGEN1)
 
@@ -53,8 +54,12 @@ RENDERING DECLARATIVO (IMAGEN1)
 
 ===== TIPS & RECORDAR =====
 
+    - JSON stringify - Cambia un objeto de javascript a una cadena JSON
+
 ===== RESUMEN CLASES =====
 
 1   -   Introducción al curso
 2   -   QUE es VUE, caracteristicas, descripciones
-3   -   PROBLEMA que resuelve VUE, REACTIVIDAD, PROPIEDADES PRINCIPALES DE VUEJS (el, data), EXPRESIONES 
+3   -   PROBLEMA que resuelve VUE, REACTIVIDAD, PROPIEDADES PRINCIPALES DE VUEJS (el, data), EXPRESIONES (Esta en el Codepen)
+4   -   DECLARATIVE RENDERING, TWO WAY DATA BINDING
+5   -   EXPRESIONES y PROPIEDADES, ejemplo de que se puede hacer dentro de {{}} (Esta en el Codepen)
