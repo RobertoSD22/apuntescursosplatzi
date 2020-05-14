@@ -1,0 +1,47 @@
+=================== APUNTES DEL CURSO DE Javascript BASICO =======================
+
+===== HERRAMIENTAS =====
+
+    Codepen
+
+
+===== CONCEPTOS DE LAS CLASES =====
+
+VUEJS
+
+    - Versatil: Se puede usar para cosas muy sencillas o muy  complejas
+    - Performante: Es muy pequeño de peso, esta pensado y optimizado para hacer mutaciones en el dom
+    - Es un Framework progresivo por su versatilidad
+    - Es una libreria que se encarga de resolver el problema de la vista
+    - Vue es una libreria enfocada en la vista que utiliza el virtual dom y es totalmente reactiva
+    - CARACTERISTICAS PRINCIPALES:
+        - El sistema de componente - Nos permite modularizar
+        - El sistema declarativo - Nos permite usar el dom
+
+PROBLEMA QUE RESUELVE VUEJS
+
+    - Linkear (relacionar) nuestra parte de Javascript con HTML
+    - Poder hacer que un elemento HTML tome su texto o valor en base a un valor que tenemos en nuestro HTml
+
+REACTIVIDAD
+
+    - Que la pantalla se actualice cuando cambian los valores (vueJS nos ayuda con eso)
+
+PROPIEDADES VUEJS
+
+    - el: pseudo selector de css, nos permite determinar cual es el elemento del DOM al cual se va a atachar nuestra aplicacion
+          todo lo que este afuera de este elemento, esta fuera de la aplicación de VueJS y no tiene control sobre esos elementos
+    - data: es una función que devuelve un objeto, dentro de este objeto podemos definir todas las propiedades que podemos utilizar dentro de nuestro template
+
+EXPRESIONES
+
+    - Son la manera que nos da Vue de crear templates de manera dinamica dentro de nuestro html
+    - Se hacen con {{}}
+
+===== TIPS & RECORDAR =====
+
+===== RESUMEN CLASES =====
+
+1   -   Introducción al curso
+2   -   QUE es VUE, caracteristicas, descripciones
+3   -   PROBLEMA que resuelve VUE, REACTIVIDAD, PROPIEDADES PRINCIPALES DE VUEJS (el, data), EXPRESIONES
