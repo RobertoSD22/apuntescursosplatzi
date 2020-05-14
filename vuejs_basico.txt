@@ -63,6 +63,14 @@ ATRIBUTOS DINAMICOS / DIRECTIVAS (app.js , index.html , styles.css)
         - v-if , v-show, v-else
         - v-if = Si las variables no cumplen, ni siquiera aparecen en el DOM
         - v-show = Si las variables no cumplen, tiene un display: none
+    
+    Directivas de renderizado de listas
+
+        - v-for nos permite iterar sobre elementos de un array
+        - key va junto con v-for, le permite a vue identificar de manera uniboca a cada uno de los elementos
+          va junto con v-bind, por ejemplo v-bind:key="index"
+        - Puede utilizarse tambien el indice, por ejemplo:
+          v-for="(objeto, indice) in arreglo"
 
 ===== TIPS & RECORDAR =====
 
@@ -79,3 +87,4 @@ ATRIBUTOS DINAMICOS / DIRECTIVAS (app.js , index.html , styles.css)
 5   -   EXPRESIONES y PROPIEDADES, ejemplo de que se puede hacer dentro de {{}} (Esta en el Codepen)
 6   -   DIRECTIVAS (Atributos dinamigos), v-bind (app.js , index.html , styles.css)
 7   -   DIRECTIVAS (Control de flujo), v-if, v-show, v-else, v-else-if
+8   -   DIRECTIVAS (Iteración de elementos), v-for, key, index
