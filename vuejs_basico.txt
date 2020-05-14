@@ -58,10 +58,17 @@ ATRIBUTOS DINAMICOS / DIRECTIVAS (app.js , index.html , styles.css)
     - v-bind y el atributo de html permiten que se les agregue una variable de VueJS!!!!!, ejemplo
         <img v-bind:src="img" v-bind:alt="name"/> (img y name son variables declaradas en data de vue)
 
+    Directivas para control de flujo:
+
+        - v-if , v-show, v-else
+        - v-if = Si las variables no cumplen, ni siquiera aparecen en el DOM
+        - v-show = Si las variables no cumplen, tiene un display: none
 
 ===== TIPS & RECORDAR =====
 
     - JSON stringify - Cambia un objeto de javascript a una cadena JSON
+
+    - Windows + .      Podemos sacar un emojin
 
 ===== RESUMEN CLASES =====
 
@@ -71,3 +78,4 @@ ATRIBUTOS DINAMICOS / DIRECTIVAS (app.js , index.html , styles.css)
 4   -   DECLARATIVE RENDERING, TWO WAY DATA BINDING
 5   -   EXPRESIONES y PROPIEDADES, ejemplo de que se puede hacer dentro de {{}} (Esta en el Codepen)
 6   -   DIRECTIVAS (Atributos dinamigos), v-bind (app.js , index.html , styles.css)
+7   -   DIRECTIVAS (Control de flujo), v-if, v-show, v-else, v-else-if
