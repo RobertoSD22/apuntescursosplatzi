@@ -44,4 +44,4 @@ EXPRESIONES
 
 1   -   Introducción al curso
 2   -   QUE es VUE, caracteristicas, descripciones
-3   -   PROBLEMA que resuelve VUE, REACTIVIDAD, PROPIEDADES PRINCIPALES DE VUEJS (el, data), EXPRESIONES
+3   -   PROBLEMA que resuelve VUE, REACTIVIDAD, PROPIEDADES PRINCIPALES DE VUEJS (el, data), EXPRESIONES 
