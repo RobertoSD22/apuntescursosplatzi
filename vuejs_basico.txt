@@ -38,6 +38,19 @@ EXPRESIONES
     - Son la manera que nos da Vue de crear templates de manera dinamica dentro de nuestro html
     - Se hacen con {{}}
 
+RENDERING DECLARATIVO (IMAGEN1)
+
+    - El Declarative Rendering es la opción que nos propone VueJS para interactuar con el DOM
+    - Two Way Data Binding: bindeo de los dos lados (vista(HTML) y estado(Javascript))
+        1.- La vista se encarga de decirle al estado que hay cambios, a lo cual el estado va a reaccionar y mandar una nueva vista.
+        2.- El estado se encarga de decirle a la vista como y cuando tiene que compilar y cual es el resultado que se tiene que lograr, 
+            esto lo hace con una función que se llama render.
+
+    - PERMITE TENER SINCRONIZADO el browser con lo que tengo en el estado!!!
+    - Si el usuario hace algun cambio dentro de la vista voy a actualizar mi estado
+    - Si mi estado cambia por alguna cosa de javascript como una funcion de javascript entonces cambia mi vista
+    - Se genera un circulo virtuoso en donde tenemos un linkeo en tiempo real de lo que esta en el HTML con lo que esta en Javascript
+
 ===== TIPS & RECORDAR =====
 
 ===== RESUMEN CLASES =====
