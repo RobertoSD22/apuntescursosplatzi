@@ -32,6 +32,7 @@ PROPIEDADES VUEJS
     - el: pseudo selector de css, nos permite determinar cual es el elemento del DOM al cual se va a atachar nuestra aplicacion
           todo lo que este afuera de este elemento, esta fuera de la aplicación de VueJS y no tiene control sobre esos elementos
     - data: es una función que devuelve un objeto, dentro de este objeto podemos definir todas las propiedades que podemos utilizar dentro de nuestro template
+    - method: es un objeto de la instancia de vue donde se pueden definir funciones
 
 EXPRESIONES
 
@@ -72,6 +73,13 @@ ATRIBUTOS DINAMICOS / DIRECTIVAS (app.js , index.html , styles.css)
         - Puede utilizarse tambien el indice, por ejemplo:
           v-for="(objeto, indice) in arreglo"
 
+THIS
+
+    -  A traves de esta Keyword pueden acceder a las propiedades o métodos que hay dentro de la instancia de Vue
+
+
+
+
 ===== TIPS & RECORDAR =====
 
     - JSON stringify - Cambia un objeto de javascript a una cadena JSON
@@ -87,4 +95,5 @@ ATRIBUTOS DINAMICOS / DIRECTIVAS (app.js , index.html , styles.css)
 5   -   EXPRESIONES y PROPIEDADES, ejemplo de que se puede hacer dentro de {{}} (Esta en el Codepen)
 6   -   DIRECTIVAS (Atributos dinamigos), v-bind (app.js , index.html , styles.css)
 7   -   DIRECTIVAS (Control de flujo), v-if, v-show, v-else, v-else-if
-8   -   DIRECTIVAS (Iteración de elementos), v-for, key, index
+8   -   DIRECTIVAS (Iteración de elementos), v-for, key, index (vue v-for.html y vue v-for.js)
+9   -   DIRECTIVAS (Manejo de eventos), v-on, THIS, METHOD para la instancia de Vue
