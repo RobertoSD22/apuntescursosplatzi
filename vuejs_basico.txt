@@ -77,7 +77,12 @@ THIS
 
     -  A traves de esta Keyword pueden acceder a las propiedades o métodos que hay dentro de la instancia de Vue
 
+CLASS (atributo de los estilos) con VUEJS
 
+    - Se puede utilizar v-bind:class="vue validacion = 'clase'"
+    - o se puede utilizar con objetos v-bind:class="{'clase' : vue variable}"
+
+    - Tambien se puede usa v-bind:class="" y class="" al mismo tiempo en un elemento de html
 
 
 ===== TIPS & RECORDAR =====
@@ -86,6 +91,8 @@ THIS
 
     - Windows + .      Podemos sacar un emojin
 
+    - Tal vez se pueda usar v-bid y un atributo normal del componente de html al mismo tiempo como con class (REVISAR)
+
 ===== RESUMEN CLASES =====
 
 1   -   Introducción al curso
@@ -93,7 +100,8 @@ THIS
 3   -   PROBLEMA que resuelve VUE, REACTIVIDAD, PROPIEDADES PRINCIPALES DE VUEJS (el, data), EXPRESIONES (Esta en el Codepen)
 4   -   DECLARATIVE RENDERING, TWO WAY DATA BINDING
 5   -   EXPRESIONES y PROPIEDADES, ejemplo de que se puede hacer dentro de {{}} (Esta en el Codepen)
-6   -   DIRECTIVAS (Atributos dinamigos), v-bind (app.js , index.html , styles.css)
-7   -   DIRECTIVAS (Control de flujo), v-if, v-show, v-else, v-else-if
-8   -   DIRECTIVAS (Iteración de elementos), v-for, key, index (vue v-for.html y vue v-for.js)
-9   -   DIRECTIVAS (Manejo de eventos), v-on, THIS, METHOD para la instancia de Vue
+6   -   DIRECTIVAS(Atributos dinamigos - v-bind (app.js , index.html , styles.css)
+7   -   DIRECTIVAS Control de flujo - v-if, v-show, v-else, v-else-if
+8   -   DIRECTIVAS Iteración de elementos - v-for, key, index (vue v-for.html y vue v-for.js)
+9   -   DIRECTIVAS Manejo de eventos - v-on, THIS, METHOD para la instancia de Vue
+10  -   DIRECTIVAS Classes (estilos) - v-bind con objetos para las clases, normal con validaciones, v-bind:class y class al mismo tiempo
