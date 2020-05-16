@@ -103,6 +103,9 @@ SISTEMA DE COMPONENTES
     - Cada componente es reutilizable a lo largo del proyecto, tiene su lógica, su estructura y su diseño
     - TIENE SEMANTICA EN EL CODIGO GRACIAS A ESTO (Concepto del curso de front developer)
 
+    - CREACION - Cuando creamos un componente Vue nos exije tener un unico componente padre
+                 Se usa Vue.component('nombe', {codigo igual en que la instancia de VueJs})
+
 ===== TIPS & RECORDAR =====
 
     
@@ -137,3 +140,4 @@ SISTEMA DE COMPONENTES
 13  -   DIRECTIVAS v-model
 14  -   EJERCICIO (practica_clase14)
 15  -   SISTEMA DE COMPONENTES, la segunda función importante de vue
+16  -   EJERCICIO Vue.component https://codepen.io/robertosd22/pen/QWjZOXO
