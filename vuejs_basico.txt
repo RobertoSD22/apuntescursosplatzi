@@ -126,4 +126,6 @@ CLASS (atributo de los estilos) con VUEJS
 9   -   DIRECTIVAS Manejo de eventos - v-on, THIS, METHOD para la instancia de Vue
 10  -   DIRECTIVAS Classes (estilos) - v-bind con objetos para las clases, normal con validaciones, v-bind:class y class al mismo tiempo
 11  -   DIRECTIVAS styles - v-bind:style , split join reverse , TIP cadena HEXADECIMAL 
-12  -   DIRECTIVAS v-model
+12  -   COMPUTED y WATCH
+13  -   DIRECTIVAS v-model
+14  -   EJERCICIO (practica_clase14)
