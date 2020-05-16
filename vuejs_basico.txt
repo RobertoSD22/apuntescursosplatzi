@@ -106,8 +106,17 @@ SISTEMA DE COMPONENTES
     - CREACION - Cuando creamos un componente Vue nos exije tener un unico componente padre
                  Se usa Vue.component('nombe', {codigo igual en que la instancia de VueJs})
 
-            - Cuando declaras el nombre en notación de camello 'RobertoShirasago' al declararlo en HTML lo cambia a <roberto-shirasago>
-            - Se utiliza PROPS para recibir los objetos del componente padre
+                - Cuando declaras el nombre en notación de camello 'RobertoShirasago' al declararlo en HTML lo cambia a <roberto-shirasago>
+
+            - La comunicación de PADRES -> HIJOS debe ser con propiedades
+
+                - Se utiliza PROPS para recibir los objetos del componente padre
+                - props: ['variableDelPadre']
+    
+            - La comunicación de HIJOS -> PADRES debe ser con eventos
+
+                - Se utiliza this$emit( 'unNombreParaElEvento', parametrosParaElPadre ) en JS
+                - Se utiliza v-on:un-nombre-para-el-evento="nombreDelEventoPadre" en HTML
 
 ===== TIPS & RECORDAR =====
 
@@ -124,7 +133,7 @@ SISTEMA DE COMPONENTES
         - .split('')         Sobre una cadena, hace que se convierta en un array
         - .reverse()         Sobre un arreglo, hace que los elementos cambien de posicion
         - .join()            Sobre un arreglo, concatena todos los elementos de un arreglo y genera una secuencia
- 
+                             this.colorBitcoin = this.colorBitcoin.split('').reverse().join(''); F4F4F4 -> 4F4F4F
 
 ===== RESUMEN CLASES =====
 
@@ -145,3 +154,4 @@ SISTEMA DE COMPONENTES
 15  -   SISTEMA DE COMPONENTES, la segunda función importante de vue
 16  -   EJERCICIO Vue.component https://codepen.io/robertosd22/pen/QWjZOXO
 17  -   EJERCICIO props
+18  -   EJERCICIO this.$emit
