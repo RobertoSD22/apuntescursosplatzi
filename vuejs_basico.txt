@@ -6,10 +6,11 @@
     NodeJS          12.16.3
     NPM             6.14.4
     Vetur           Plugin oficial de VueJS (dice que la extensión esta habilitada globalmente)
-    Vs Code ESLint  Plugin es el inter de nuestro codigo cuando se genere la aplicación con el ESelite (Revisar el nombre, no se entiende bien)
+    Vs Code ESLint  Plugin es el inter de nuestro codigo cuando se genere la aplicación con el CLI
                     permite detectar errores y posibles antipatrones, prblemas de template al momento de configurar nuestro codigo javascript
     Prettier        Plugin complementa con Eslint para formatear el codigo y no tener que acomodar los tabs
     Vue JS devtools Chrome Plugin - Vue.js devtools https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
+    CLI VUE         https://cli.vuejs.org/
 
 ===== CONCEPTOS DE LAS CLASES =====
 
@@ -136,9 +137,22 @@ SISTEMA DE COMPONENTES
         - CREATED: Es bueno usarlo cuando se tiene que usar información desde un servidor
         - MOUNTED: Ya tienes disponible información del DOM (Es el evento que se ejecuta cuando se agrega al DOM)
 
-    NPM
+NPM
 
-        - Nos permite generar y descargar las dependencias de vuejs
+    - Nos permite generar y descargar las dependencias de vuejs
+
+CLI VUE
+
+    - Una herramienta de desarrollo que nos permite generar la estructura basica de una aplicación de VueJS
+    - Reduce el esfuerzo de configuración y de que podamos tener el proyecto listo para trabajar
+    - Se instala con npm install -g @vue/cli
+    - Para crear un proyecto es con: vue create "nombre_proyecto" (debes ubicarte en la carpeta donde lo quieras)
+
+SINGLE FILE COMPONETS
+
+    - Componentes escritos en archivos
+    - Son archivos .vue que nos ofrece el framework para trabajar con la logica(javascript), con el css y con html
+    - Los archivos .vue no son entendibles por el browser, el cli genera un archivo un codigo entendible por el browser
 
 ===== TIPS & RECORDAR =====
 
@@ -149,6 +163,7 @@ SISTEMA DE COMPONENTES
 
     - Tal vez se pueda usar v-bid y un atributo normal del componente de html al mismo tiempo como con class (REVISAR)
     - Los colores HEXADECIMALES tienen su contraparte volteando la cadena!! por ejemplo f4f4f4 es blanco y 4f4f4f es negro
+    - <style scope> : El scope indica que solo se va a aplicar a ese archivo .vue
 
     FUNCIONES Javascript
 
@@ -183,3 +198,5 @@ SISTEMA DE COMPONENTES
 21  -   REPASO (VUE.webp)
 22  -   EJERCICIO Repaso en codepen (no lo hice)
 23  -   INSTALACIÓN de HERRAMIENTAS (plugins vs code, extension chrome, nodejs)
+24  -   CLI (Pasos para generar un proyecto vuejs), tienes que tener instalado el node.js
+25  -   SINGLE FILE COMPONENTES (archivos.vue), explicación de como quedo configurado nuestro proyecto
