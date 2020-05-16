@@ -11,6 +11,7 @@
     Prettier        Plugin complementa con Eslint para formatear el codigo y no tener que acomodar los tabs
     Vue JS devtools Chrome Plugin - Vue.js devtools https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
     CLI VUE         https://cli.vuejs.org/
+    Tailwind CSS    Framework para usar clases en css (simplfica los estilos en clases más cortas)
 
 ===== CONCEPTOS DE LAS CLASES =====
 
@@ -150,12 +151,14 @@ CLI VUE
     - npm install -g @vue/cli           Con este comando se instala (posterior a node.js)
     - vue create "nombre_proyecto"      Con este creas un proyecto ya configurado (debes ubicarte en la carpeta donde lo quieras)
                                         Si se vuelve a correr se puede ver la configuración guardada por defecto, en este caso platzi
-    - npm run lint :                    Busca errores de linteo en nuestra aplicación
-    - npm run build:                    Genera nuestro codigo productivo, entendible para el navegador
-    - npm i -g serve:                   Genera un servidor web en nuestra computadora
-                                        Revisa que la carpeta dist tenga el codigo correcto funcionando
-    - serve -s dist                     Levanta ese servidor web
-    - vue ui                            User interface, genera una aplicación web local para gestionar los proyectos
+    - npm run lint :                    Busca errores de linteo en nuestra aplicación (Hay que estar dentro del proyecto)
+    - npm run build:                    Genera nuestro codigo productivo, entendible para el navegador (Hay que estar dentro del proyecto)
+    - npm i -g serve:                   Genera un servidor web en nuestra computadora (Hay que estar dentro del proyecto)
+                                        Revisa que la carpeta dist tenga el codigo correcto funcionando (Hay que estar dentro del proyecto)
+    - serve -s dist                     Levanta ese servidor web (Hay que estar dentro del proyecto)
+    - vue ui                            User interface, genera una aplicación web local para gestionar los proyectos (Hay que estar dentro del proyecto)
+
+    - vue add @ianaya89/tailwind        Es un plugin que genero el profesor con Tailwind (Hay que estar dentro del proyecto)
 
 SINGLE FILE COMPONETS
 
@@ -210,3 +213,4 @@ SINGLE FILE COMPONETS
 24  -   CLI (Pasos para generar un proyecto vuejs), tienes que tener instalado el node.js
 25  -   SINGLE FILE COMPONENTES (archivos.vue), explicación de como quedo configurado nuestro proyecto
 26  -   COMANDOS en nuestra aplicación vue, npm run serve, npm run build, npm run lint, etc
+27  -   TAILWIND Instalación, revisión de clases que genera, etc.
