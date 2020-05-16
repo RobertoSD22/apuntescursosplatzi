@@ -96,6 +96,13 @@ CLASS (atributo de los estilos) con VUEJS
 
     - Tambien se puede usa v-bind:class="" y class="" al mismo tiempo en un componente de html
 
+SISTEMA DE COMPONENTES
+
+    - El sistema de componentes es la segunda funcionalidad importante que tiene VueJS.
+    - Esta basado en la especificación de Web Components API
+    - Cada componente es reutilizable a lo largo del proyecto, tiene su lógica, su estructura y su diseño
+    - TIENE SEMANTICA EN EL CODIGO GRACIAS A ESTO (Concepto del curso de front developer)
+
 ===== TIPS & RECORDAR =====
 
     
@@ -129,3 +136,4 @@ CLASS (atributo de los estilos) con VUEJS
 12  -   COMPUTED y WATCH
 13  -   DIRECTIVAS v-model
 14  -   EJERCICIO (practica_clase14)
+15  -   SISTEMA DE COMPONENTES, la segunda función importante de vue
