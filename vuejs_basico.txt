@@ -27,12 +27,19 @@ REACTIVIDAD
 
     - Que la pantalla se actualice cuando cambian los valores (vueJS nos ayuda con eso)
 
-PROPIEDADES VUEJS
+PROPIEDADES/OBJETOS VUEJS
 
     - el: pseudo selector de css, nos permite determinar cual es el elemento del DOM al cual se va a atachar nuestra aplicacion
           todo lo que este afuera de este elemento, esta fuera de la aplicación de VueJS y no tiene control sobre esos elementos
     - data: es una función que devuelve un objeto, dentro de este objeto podemos definir todas las propiedades que podemos utilizar dentro de nuestro template
     - method: es un objeto de la instancia de vue donde se pueden definir funciones
+    - computed: es un objeto que contiene funciones que devuelven un valor a partir de otras variables
+                y que VueJS se encarga de actualizar cuando una de esas variables cambia de valor
+    - watch: es un objeto que contiene funciones que ejecutan un codigo a partir de un cambio en las variables
+             el nombre de la funcion tiene que ser el nombre de una variable en data
+    
+
+    - computed y watch: Son propiedades que se calculan en tiempo real en base a los valores de otras propiedades
 
 EXPRESIONES
 
