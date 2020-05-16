@@ -3,7 +3,13 @@
 ===== HERRAMIENTAS =====
 
     Codepen
-
+    NodeJS          12.16.3
+    NPM             6.14.4
+    Vetur           Plugin oficial de VueJS (dice que la extensión esta habilitada globalmente)
+    Vs Code ESLint  Plugin es el inter de nuestro codigo cuando se genere la aplicación con el ESelite (Revisar el nombre, no se entiende bien)
+                    permite detectar errores y posibles antipatrones, prblemas de template al momento de configurar nuestro codigo javascript
+    Prettier        Plugin complementa con Eslint para formatear el codigo y no tener que acomodar los tabs
+    Vue JS devtools Chrome Plugin - Vue.js devtools https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
 
 ===== CONCEPTOS DE LAS CLASES =====
 
@@ -130,11 +136,16 @@ SISTEMA DE COMPONENTES
         - CREATED: Es bueno usarlo cuando se tiene que usar información desde un servidor
         - MOUNTED: Ya tienes disponible información del DOM (Es el evento que se ejecuta cuando se agrega al DOM)
 
+    NPM
+
+        - Nos permite generar y descargar las dependencias de vuejs
+
 ===== TIPS & RECORDAR =====
 
     
 
     - Windows + .      Podemos sacar un emojin
+    - node --version   Para revisar si se instalo correctamente node.js (se hace en un cmd)
 
     - Tal vez se pueda usar v-bid y un atributo normal del componente de html al mismo tiempo como con class (REVISAR)
     - Los colores HEXADECIMALES tienen su contraparte volteando la cadena!! por ejemplo f4f4f4 es blanco y 4f4f4f es negro
@@ -171,3 +182,4 @@ SISTEMA DE COMPONENTES
 20  -   EJERCICIO Life Cycle Hooks (ciclo de vida de los componentes) (IMAGEN2), MOUNTED, CREATED
 21  -   REPASO (VUE.webp)
 22  -   EJERCICIO Repaso en codepen (no lo hice)
+23  -   INSTALACIÓN de HERRAMIENTAS (plugins vs code, extension chrome, nodejs)
