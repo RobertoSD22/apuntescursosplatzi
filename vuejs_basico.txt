@@ -79,6 +79,11 @@ ATRIBUTOS DINAMICOS / DIRECTIVAS (app.js , index.html , styles.css)
           va junto con v-bind, por ejemplo v-bind:key="index"
         - Puede utilizarse tambien el indice, por ejemplo:
           v-for="(objeto, indice) in arreglo"
+    
+    v-model
+
+        - Nos permite linkear lo que esta pasando en nuestro form a traves de los inputs o
+          combos, se va actualizando la información del usuario
 
 THIS
 
@@ -121,3 +126,4 @@ CLASS (atributo de los estilos) con VUEJS
 9   -   DIRECTIVAS Manejo de eventos - v-on, THIS, METHOD para la instancia de Vue
 10  -   DIRECTIVAS Classes (estilos) - v-bind con objetos para las clases, normal con validaciones, v-bind:class y class al mismo tiempo
 11  -   DIRECTIVAS styles - v-bind:style , split join reverse , TIP cadena HEXADECIMAL 
+12  -   DIRECTIVAS v-model
