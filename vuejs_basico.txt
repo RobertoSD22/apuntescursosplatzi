@@ -170,3 +170,4 @@ SISTEMA DE COMPONENTES
 19  -   EJERCICIO SLOT (ejemplos/slot_basico.html, ejemplos/slot_basico.js), TEMPLATE
 20  -   EJERCICIO Life Cycle Hooks (ciclo de vida de los componentes) (IMAGEN2), MOUNTED, CREATED
 21  -   REPASO (VUE.webp)
+22  -   EJERCICIO Repaso en codepen (no lo hice)
