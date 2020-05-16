@@ -110,8 +110,11 @@ SISTEMA DE COMPONENTES
 
             - La comunicación de PADRES -> HIJOS debe ser con propiedades
 
-                - Se utiliza PROPS para recibir los objetos del componente padre
+                - PROPS: Se utiliza para recibir los objetos del componente padre
                 - props: ['variableDelPadre']
+    
+                - SLOT: Se utiliza para mandar codigo HTML al hijo (ejemplos/slot_basico.html, ejemplos/slot_basico.js)
+                - TEMPLATE: Es el tag que se utiliza para enviar el codigo HTML al hijo
     
             - La comunicación de HIJOS -> PADRES debe ser con eventos
 
@@ -155,3 +158,4 @@ SISTEMA DE COMPONENTES
 16  -   EJERCICIO Vue.component https://codepen.io/robertosd22/pen/QWjZOXO
 17  -   EJERCICIO props
 18  -   EJERCICIO this.$emit
+19  -   EJERCICIO SLOT (ejemplos/slot_basico.html, ejemplos/slot_basico.js), TEMPLATE
