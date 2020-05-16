@@ -111,15 +111,24 @@ SISTEMA DE COMPONENTES
             - La comunicación de PADRES -> HIJOS debe ser con propiedades
 
                 - PROPS: Se utiliza para recibir los objetos del componente padre
-                - props: ['variableDelPadre']
+                  props: ['variableDelPadre']
     
                 - SLOT: Se utiliza para mandar codigo HTML al hijo (ejemplos/slot_basico.html, ejemplos/slot_basico.js)
+                  <slot name="nombreDelSlot"></slot>
                 - TEMPLATE: Es el tag que se utiliza para enviar el codigo HTML al hijo
+                  <template v-slot="nombreDelSlot"></template>
     
             - La comunicación de HIJOS -> PADRES debe ser con eventos
 
                 - Se utiliza this$emit( 'unNombreParaElEvento', parametrosParaElPadre ) en JS
                 - Se utiliza v-on:un-nombre-para-el-evento="nombreDelEventoPadre" en HTML
+
+    - LIFE CYCLE HOOKS (IMAGEN2)
+
+        - Ciclo de vida de los componentes - a medida que se crean los componentes se pueden lanzar eventos
+        - Por ejemplo cuando se crea el componente, cuando se destruye, cuando se actualiza
+        - CREATED: Es bueno usarlo cuando se tiene que usar información desde un servidor
+        - MOUNTED: Ya tienes disponible información del DOM (Es el evento que se ejecuta cuando se agrega al DOM)
 
 ===== TIPS & RECORDAR =====
 
@@ -159,3 +168,4 @@ SISTEMA DE COMPONENTES
 17  -   EJERCICIO props
 18  -   EJERCICIO this.$emit
 19  -   EJERCICIO SLOT (ejemplos/slot_basico.html, ejemplos/slot_basico.js), TEMPLATE
+20  -   EJERCICIO Life Cycle Hooks (ciclo de vida de los componentes) (IMAGEN2), MOUNTED, CREATED
