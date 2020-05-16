@@ -145,8 +145,17 @@ CLI VUE
 
     - Una herramienta de desarrollo que nos permite generar la estructura basica de una aplicación de VueJS
     - Reduce el esfuerzo de configuración y de que podamos tener el proyecto listo para trabajar
-    - Se instala con npm install -g @vue/cli
-    - Para crear un proyecto es con: vue create "nombre_proyecto" (debes ubicarte en la carpeta donde lo quieras)
+    - Nos permite generar una versión de desarrollo y una de productivo
+
+    - npm install -g @vue/cli           Con este comando se instala (posterior a node.js)
+    - vue create "nombre_proyecto"      Con este creas un proyecto ya configurado (debes ubicarte en la carpeta donde lo quieras)
+                                        Si se vuelve a correr se puede ver la configuración guardada por defecto, en este caso platzi
+    - npm run lint :                    Busca errores de linteo en nuestra aplicación
+    - npm run build:                    Genera nuestro codigo productivo, entendible para el navegador
+    - npm i -g serve:                   Genera un servidor web en nuestra computadora
+                                        Revisa que la carpeta dist tenga el codigo correcto funcionando
+    - serve -s dist                     Levanta ese servidor web
+    - vue ui                            User interface, genera una aplicación web local para gestionar los proyectos
 
 SINGLE FILE COMPONETS
 
@@ -200,3 +209,4 @@ SINGLE FILE COMPONETS
 23  -   INSTALACIÓN de HERRAMIENTAS (plugins vs code, extension chrome, nodejs)
 24  -   CLI (Pasos para generar un proyecto vuejs), tienes que tener instalado el node.js
 25  -   SINGLE FILE COMPONENTES (archivos.vue), explicación de como quedo configurado nuestro proyecto
+26  -   COMANDOS en nuestra aplicación vue, npm run serve, npm run build, npm run lint, etc
