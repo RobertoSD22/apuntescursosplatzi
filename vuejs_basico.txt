@@ -134,6 +134,7 @@ SISTEMA DE COMPONENTES
 
                 - Se utiliza this$emit( 'unNombreParaElEvento', parametrosParaElPadre ) en JS
                 - Se utiliza v-on:un-nombre-para-el-evento="nombreDelEventoPadre" en HTML
+                             v-on: se puede sustituir por @, quedando como @click @blur
 
     - LIFE CYCLE HOOKS (IMAGEN2)
 
@@ -254,3 +255,4 @@ FILTROS
 30  -   EJERCICIO Consumiendo API, FETCH, v-bind por : (api.js)
 31  -   EJERCICIO Filtros, NUMERAL (filter.js)
 32  -   EJERCICIO Rutas dinamicas (esta bien perro)  path: "/coin/:id"
+33  -   EJERCICIO Rutas dinamicas 2 - v-on: por @, this.$router
