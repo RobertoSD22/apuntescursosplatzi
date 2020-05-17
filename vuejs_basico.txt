@@ -179,9 +179,10 @@ SINGLE PAGE APLICATION
 
     - El ejercicio se esta generando en base a una sola página, lo que va a ir cambiando es una porcion del contenido (como en el proyecto de SCT)
     - VUE ROUTER Es una herramienta oficial para hacer este tipo de cambios
-    - <router-view\>   Es la etiquieta que nos proporciona el router para decirle en donde se incrustara el codigo que cambie
-    - <router-link\>   Nos redirecciona una ruta ya generada
-    - path: "*"        Nos redirecciona cuando ponen una ruta que no existe
+    - <router-view\>    Es la etiquieta que nos proporciona el router para decirle en donde se incrustara el codigo que cambie
+    - <router-link\>    Nos redirecciona una ruta ya generada
+    - path: "*"         Nos redirecciona cuando ponen una ruta que no existe
+    - path: "/coin/:id" Podemos generar una ruta dinamica
 
 PUGLINS
 
@@ -252,3 +253,4 @@ FILTROS
 29  -   EJERCICIO V-Router, SINGLE PAGE APLICATION, PLUGINS (Vue.use)
 30  -   EJERCICIO Consumiendo API, FETCH, v-bind por : (api.js)
 31  -   EJERCICIO Filtros, NUMERAL (filter.js)
+32  -   EJERCICIO Rutas dinamicas (esta bien perro)  path: "/coin/:id"
