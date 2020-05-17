@@ -12,7 +12,7 @@
     Vue JS devtools Chrome Plugin - Vue.js devtools https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
     CLI VUE         https://cli.vuejs.org/
     Tailwind CSS    Framework para usar clases en css (simplfica los estilos en clases más cortas)
-
+    FETCH           https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
     - Para que funcione Prettier: funciona el Prettier, es cuestión de que se metan a los setting de Visual Studio y busquen Format On Save, y activen la opción
 
@@ -76,6 +76,7 @@ ATRIBUTOS DINAMICOS / DIRECTIVAS (app.js , index.html , styles.css)
     - Herramientas que nos da vue para que los atributos HTML tengan valores dinamicos
     - v-bind y el atributo de html permiten que se les agregue una variable de VueJS!!!!!, ejemplo
         <img v-bind:src="img" v-bind:alt="name"/> (img y name son variables declaradas en data de vue)
+    - v-bid puede ser remplazado por :src o :alt (ES LA UNICA DIRECTIVA QUE PUEDE SUSTITUIR)
 
     Directivas para control de flujo:
 
@@ -186,7 +187,14 @@ PUGLINS
     - Vue.use(plugin) : Además de importarlo anteriormente, nos permite utilizar el plugin
     - Agrega funcionalidades, como Vue es progresivo nos permite escalar nuestra aplicación
 
+FETCH
+
+    - Es una funcionalidad nueva que disponen los browsers para hacer interaciones http, con servidores o API´s
+    - 
+
 ===== TIPS & RECORDAR =====
+
+    - CoinCap           https://coincap.io/
 
     - Windows + .      Podemos sacar un emojin
     - node --version   Para revisar si se instalo correctamente node.js (se hace en un cmd)
@@ -234,3 +242,4 @@ PUGLINS
 27  -   TAILWIND Instalación, revisión de clases que genera, etc.
 28  -   EJERCICIO Agregan los componentes PxHeader, PxIcon y PxAssetsTable (ya estaban por default en su repositorio solo los importamos en App.vue)
 29  -   EJERCICIO V-Router, SINGLE PAGE APLICATION, PLUGINS (Vue.use)
+30  -   EJERCICIO Consumiendo API, FETCH, v-bind por :
