@@ -167,6 +167,9 @@ CLI VUE
     - npm i -S                          Guarda la libreria en nuestro package.json
     - npm i -S vue-router               Para importar la libreria de vue-router
     - npm i -S numeral                  Para la libreria que usa los filtros
+    - npm i -S @saeris/vue-spinner      Para la pantalla del louder
+    - npm i -S vue-chartkick            Para la tabla que esta dentro del detalle
+    - npm i -S chart.js                 Para cargar el tipo de grafica
 
 
 SINGLE FILE COMPONETS
@@ -256,3 +259,4 @@ FILTROS
 31  -   EJERCICIO Filtros, NUMERAL (filter.js)
 32  -   EJERCICIO Rutas dinamicas (esta bien perro)  path: "/coin/:id"
 33  -   EJERCICIO Rutas dinamicas 2 - v-on: por @, this.$router
+34  -   EJERCICIO Se implementan vue-chartkick y vue-spinners
