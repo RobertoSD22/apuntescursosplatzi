@@ -13,6 +13,9 @@
     CLI VUE         https://cli.vuejs.org/
     Tailwind CSS    Framework para usar clases en css (simplfica los estilos en clases más cortas)
 
+
+    - Para que funcione Prettier: funciona el Prettier, es cuestión de que se metan a los setting de Visual Studio y busquen Format On Save, y activen la opción
+
 ===== CONCEPTOS DE LAS CLASES =====
 
 VUEJS
@@ -165,10 +168,9 @@ SINGLE FILE COMPONETS
     - Componentes escritos en archivos
     - Son archivos .vue que nos ofrece el framework para trabajar con la logica(javascript), con el css y con html
     - Los archivos .vue no son entendibles por el browser, el cli genera un archivo un codigo entendible por el browser
+    - No se pueden crear archivos .vue con el nombre de componentes de HTML ya generados
 
 ===== TIPS & RECORDAR =====
-
-    
 
     - Windows + .      Podemos sacar un emojin
     - node --version   Para revisar si se instalo correctamente node.js (se hace en un cmd)
@@ -214,3 +216,4 @@ SINGLE FILE COMPONETS
 25  -   SINGLE FILE COMPONENTES (archivos.vue), explicación de como quedo configurado nuestro proyecto
 26  -   COMANDOS en nuestra aplicación vue, npm run serve, npm run build, npm run lint, etc
 27  -   TAILWIND Instalación, revisión de clases que genera, etc.
+28  -   EJERCICIO Agregan los componentes PxHeader, PxIcon y PxAssetsTable (ya estaban por default en su repositorio solo los importamos en App.vue)
