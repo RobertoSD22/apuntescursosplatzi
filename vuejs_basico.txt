@@ -165,6 +165,7 @@ CLI VUE
     - vue add @ianaya89/tailwind        Es un plugin que genero el profesor con Tailwind (Hay que estar dentro del proyecto)
     - npm i -S                          Guarda la libreria en nuestro package.json
     - npm i -S vue-router               Para importar la libreria de vue-router
+    - npm i -S numeral                  Para la libreria que usa los filtros
 
 
 SINGLE FILE COMPONETS
@@ -190,7 +191,12 @@ PUGLINS
 FETCH
 
     - Es una funcionalidad nueva que disponen los browsers para hacer interaciones http, con servidores o API´s
-    - 
+
+FILTROS
+
+    - Son una utilidad que nos da Vue JS que nos permite modificar el valor de la vista sin modificar el valor de la propiedad
+    - Tiene su mismo valor, pero tiene una adaptación en pantalla
+    - Vamos a usar la libreria "numeral"
 
 ===== TIPS & RECORDAR =====
 
@@ -210,6 +216,8 @@ FETCH
         - .reverse()         Sobre un arreglo, hace que los elementos cambien de posicion
         - .join()            Sobre un arreglo, concatena todos los elementos de un arreglo y genera una secuencia
                              this.colorBitcoin = this.colorBitcoin.split('').reverse().join(''); F4F4F4 -> 4F4F4F
+        - .includes()        Sobre una cadena, busca si hay un caracter que le pases como parametro, por ejemplo:
+                             'roberto'.includes('t') esto nos daria TRUE
 
 ===== RESUMEN CLASES =====
 
@@ -242,4 +250,5 @@ FETCH
 27  -   TAILWIND Instalación, revisión de clases que genera, etc.
 28  -   EJERCICIO Agregan los componentes PxHeader, PxIcon y PxAssetsTable (ya estaban por default en su repositorio solo los importamos en App.vue)
 29  -   EJERCICIO V-Router, SINGLE PAGE APLICATION, PLUGINS (Vue.use)
-30  -   EJERCICIO Consumiendo API, FETCH, v-bind por :
+30  -   EJERCICIO Consumiendo API, FETCH, v-bind por : (api.js)
+31  -   EJERCICIO Filtros, NUMERAL (filter.js)
