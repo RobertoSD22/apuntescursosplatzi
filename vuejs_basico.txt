@@ -162,6 +162,9 @@ CLI VUE
     - vue ui                            User interface, genera una aplicación web local para gestionar los proyectos (Hay que estar dentro del proyecto)
 
     - vue add @ianaya89/tailwind        Es un plugin que genero el profesor con Tailwind (Hay que estar dentro del proyecto)
+    - npm i -S                          Guarda la libreria en nuestro package.json
+    - npm i -S vue-router               Para importar la libreria de vue-router
+
 
 SINGLE FILE COMPONETS
 
@@ -169,6 +172,19 @@ SINGLE FILE COMPONETS
     - Son archivos .vue que nos ofrece el framework para trabajar con la logica(javascript), con el css y con html
     - Los archivos .vue no son entendibles por el browser, el cli genera un archivo un codigo entendible por el browser
     - No se pueden crear archivos .vue con el nombre de componentes de HTML ya generados
+
+SINGLE PAGE APLICATION
+
+    - El ejercicio se esta generando en base a una sola página, lo que va a ir cambiando es una porcion del contenido (como en el proyecto de SCT)
+    - VUE ROUTER Es una herramienta oficial para hacer este tipo de cambios
+    - <router-view\>   Es la etiquieta que nos proporciona el router para decirle en donde se incrustara el codigo que cambie
+    - <router-link\>   Nos redirecciona una ruta ya generada
+    - path: "*"        Nos redirecciona cuando ponen una ruta que no existe
+
+PUGLINS
+
+    - Vue.use(plugin) : Además de importarlo anteriormente, nos permite utilizar el plugin
+    - Agrega funcionalidades, como Vue es progresivo nos permite escalar nuestra aplicación
 
 ===== TIPS & RECORDAR =====
 
@@ -217,3 +233,4 @@ SINGLE FILE COMPONETS
 26  -   COMANDOS en nuestra aplicación vue, npm run serve, npm run build, npm run lint, etc
 27  -   TAILWIND Instalación, revisión de clases que genera, etc.
 28  -   EJERCICIO Agregan los componentes PxHeader, PxIcon y PxAssetsTable (ya estaban por default en su repositorio solo los importamos en App.vue)
+29  -   EJERCICIO V-Router, SINGLE PAGE APLICATION, PLUGINS (Vue.use)
