@@ -205,9 +205,9 @@ FILTROS
 
 PROBLEMAS DE REACTIVIDAD
 
+    - Cuando a un objeto AGREGAS o ELIMINAS un atributo
     - El problema solo se da en objetos o en arrays
     - Cosas que no se establecieron en data
-    - Cuando a un objeto agregas un nuevo atributo que no estuvo al inicio
     - this.$set(objecto, nombre_propiedad, valor) soluciona problemas de reactividad con Vue
 
 ===== TIPS & RECORDAR =====
@@ -230,6 +230,7 @@ PROBLEMAS DE REACTIVIDAD
                              this.colorBitcoin = this.colorBitcoin.split('').reverse().join(''); F4F4F4 -> 4F4F4F
         - .includes()        Sobre una cadena, busca si hay un caracter que le pases como parametro, por ejemplo:
                              'roberto'.includes('t') esto nos daria TRUE
+        - .sort((a,b))       Funcion para ordenar un arreglo, le llega el elemento actual y el que le sigue en el arreglo         
 
 ===== RESUMEN CLASES =====
 
@@ -269,3 +270,4 @@ PROBLEMAS DE REACTIVIDAD
 34  -   EJERCICIO Se implementan vue-chartkick y vue-spinners
 35  -   EJERCICIO PROBLEMAS DE REACTIVIDAD, this.$set en los botones, el loading para esos botones de detalle 
         (solo muestra la ventanida de carga en ese, son los que se cambian por el link)
+36  -   EJERCICIO Se agrega funcionalidad para filtrar los registros encontrados y para ordenar en ascendente y descendente
