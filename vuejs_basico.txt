@@ -203,6 +203,13 @@ FILTROS
     - Tiene su mismo valor, pero tiene una adaptación en pantalla
     - Vamos a usar la libreria "numeral"
 
+PROBLEMAS DE REACTIVIDAD
+
+    - El problema solo se da en objetos o en arrays
+    - Cosas que no se establecieron en data
+    - Cuando a un objeto agregas un nuevo atributo que no estuvo al inicio
+    - this.$set(objecto, nombre_propiedad, valor) soluciona problemas de reactividad con Vue
+
 ===== TIPS & RECORDAR =====
 
     - CoinCap           https://coincap.io/
@@ -260,3 +267,5 @@ FILTROS
 32  -   EJERCICIO Rutas dinamicas (esta bien perro)  path: "/coin/:id"
 33  -   EJERCICIO Rutas dinamicas 2 - v-on: por @, this.$router
 34  -   EJERCICIO Se implementan vue-chartkick y vue-spinners
+35  -   EJERCICIO PROBLEMAS DE REACTIVIDAD, this.$set en los botones, el loading para esos botones de detalle 
+        (solo muestra la ventanida de carga en ese, son los que se cambian por el link)
