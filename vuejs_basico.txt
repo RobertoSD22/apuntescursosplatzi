@@ -13,6 +13,7 @@
     CLI VUE         https://cli.vuejs.org/
     Tailwind CSS    Framework para usar clases en css (simplfica los estilos en clases más cortas)
     FETCH           https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+    NETLIFY         https://www.netlify.com/  (Para montar la página en un servidor a partir de git)
 
     - Para que funcione Prettier: funciona el Prettier, es cuestión de que se metan a los setting de Visual Studio y busquen Format On Save, y activen la opción
 
@@ -271,3 +272,5 @@ PROBLEMAS DE REACTIVIDAD
 35  -   EJERCICIO PROBLEMAS DE REACTIVIDAD, this.$set en los botones, el loading para esos botones de detalle 
         (solo muestra la ventanida de carga en ese, son los que se cambian por el link)
 36  -   EJERCICIO Se agrega funcionalidad para filtrar los registros encontrados y para ordenar en ascendente y descendente
+37  -   EJERCICIO Mejoras, links en el header, convertidor de dolares a bitcoins, loader en botones de links
+38  -   EJERCICIO subir a GitHub y montar en NETLIFY
