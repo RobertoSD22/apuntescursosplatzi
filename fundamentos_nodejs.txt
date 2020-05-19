@@ -2,7 +2,50 @@
 
 ===== HERRAMIENTAS =====
 
+    Nodejs      12.16.3
+    npm         6.14.4
+
 ===== CONCEPTOS DE LAS CLASES =====
+
+NODEJS
+
+    - Es un entorno de ejecución de Javascript fuera del navegador
+    - Se crea en 2009 y es orientado a servidores (v8 en 2008)
+    - Puedes ejecutarlo en:
+        - servidores
+        - herramientas
+        - en una laptop por ejemplo
+    
+CARACTERÍSTICAS
+
+    - Concurrente - Aun que sea monohilo, sus entradas y salidas son asíncronas
+                    Un proceso por cada núcleo del procesador
+    - Corre sobre el Motor V8   - Entorno de ejecución de JS creado por Google y libre desde 2008
+                                  Convierte JS en código máquina en lugar de interpretarlo en tiempo real
+                                  Esta escrito en c++ y es super rápido
+    - Módulos   - Funciona en base a módulos
+                - Todo lo que no sea sintaxis de programación, son módulos
+                - Muchos módulos vienen por defecto en el paquete de Node
+    - Orientado a Eventos   - Hay un bucle de eventos que se ejecuta constantemente
+                            - El bucle permite que se programe de forma reactiva
+                              (cuando suceda esta cosa dispara mi código, 
+                               cuando se cree un archivo ejecuta mi código, 
+                               cuando tengamos un error ejecuta mi código, etc.)
+
+EVENT LOOP
+
+    - Es un bucle (como un while) que se esta ejecutando todo el tiempo
+    - Hay un proceso que gestiona de forma aumatica para que funcione de forma asincrona
+    - El bucle no se bloquea, todo se ejecuta aparte
+
+    (IMAGEN 1)
+    1.- El Event Queue es el que envia los eventos que ejecutamos
+    2.- El Event Loop se encarga de ejecutarlos
+    3.- En caso de que sean complicados o tarde mucho tiempo en ejecutarlos los manda al Thread Pool
+
+    THREAD POOL (IMAGEN 2)
+
+        - Ejecuta un hilo por cada una de las tareas que se le deleguen
 
 ===== TIPS & RECORDAR =====
 
@@ -12,3 +55,4 @@
 ===== RESUMEN CLASES =====
 
 1   -   Introducción, Articulo que habla de como instalar nodejs
+2   -   Que es NODEJS, sus caracteristicas y un poco de historia
