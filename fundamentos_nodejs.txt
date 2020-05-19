@@ -46,6 +46,7 @@ EVENT LOOP
     THREAD POOL (IMAGEN 2)
 
         - Ejecuta un hilo por cada una de las tareas que se le deleguen
+        - Puede regresar el hilo al event loop para que otra tarea del callback Queue lo encole en una nueva petición
 
 ===== TIPS & RECORDAR =====
 
@@ -56,3 +57,4 @@ EVENT LOOP
 
 1   -   Introducción, Articulo que habla de como instalar nodejs
 2   -   Que es NODEJS, sus caracteristicas y un poco de historia
+3   -   Conceptos del EVENT LOOP, funcionamiento, y conceptos del THREAD POOL, funcionamiento
