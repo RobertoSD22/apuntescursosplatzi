@@ -1,0 +1,14 @@
+=================== APUNTES DEL CURSO DE Javascript BASICO =======================
+
+===== HERRAMIENTAS =====
+
+===== CONCEPTOS DE LAS CLASES =====
+
+===== TIPS & RECORDAR =====
+
+    node -v         Versión del nodejs
+    npm -v          Versión del gestor de paquetes
+
+===== RESUMEN CLASES =====
+
+1   -   Introducción, Articulo que habla de como instalar nodejs
