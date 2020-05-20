@@ -60,12 +60,12 @@ MONOHILO
         5.- Se ejecuta
         6.- Se cierra el proceso, y termina
 
-    DESVENTAJAS MONOHILO (monohilo.js)
+    DESVENTAJAS MONOHILO (conceptos/monohilo.js)
 
         - Si no se manejan bien los errores y uno truena, ya no continua con los procesos posteriores
         - Debes estar pendiente de todo el código
 
-VARIABLES DE ENTORNO
+VARIABLES DE ENTORNO (conceptos/entorno.js)
 
     - Se declaran como:                                      process.env.NOMBRE_VARIABLE en el archivo JS
     - Para llamarla en BASH (GITBASH por ejemplo) sería:     NOMBRE=Roberto node archivo.js
@@ -103,6 +103,7 @@ NODEMON
 1   -   Introducción, Articulo que habla de como instalar nodejs
 2   -   Que es NODEJS, sus caracteristicas y un poco de historia
 3   -   Conceptos del EVENT LOOP, funcionamiento, y conceptos del THREAD POOL, funcionamiento
-4   -   MONOHILO, las desventajas y como funciona el interprete de nodejs, ejercicio (monohilo.js)
-5   -   VARIABLES DE ENTORNO, como se declaran, como se les pasa un valor en windows y bash, como se pone el valor por default
+4   -   MONOHILO, las desventajas y como funciona el interprete de nodejs, ejercicio (conceptos/monohilo.js)
+5   -   VARIABLES DE ENTORNO, como se declaran, como se les pasa un valor en windows y bash, como se pone el valor por default (conceptos/entorno.js)
 6   -   NODEMON, Instalación con npm, PM2, no lo instale, es para producción
+7   -   CALLBACKS, Un ejercicio con las funciones asincronas, para ver como se regresan los valores en orden (async/callback.js)
