@@ -52,6 +52,12 @@ git diff                        - +hashArchivo1 +hashArchivo2 te muestra las dif
 git log                         - +archivo - Te muestra la historia de ese archivo, como ha ido cambiando
 git log --stat                  - Te muestra los cambios en "bytes" que hubo exactamente en cada commit
 git show                        - +archivo - Te muestra todos los cambios que hubieron en un archivo
+git clone urlservidorremoto     - Para descargar el repositorio desde un servidor remoto como github, gitlab, bitbucket
+git push                        - Para enviar los cambios al repositorio remoto (IMAGEN5)
+git fetch                       - Lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local (en caso de que hayan, por supuesto).(IMAGEN5)
+git merge                       - Combina los cambios de nuestro repositorio local con el del repositorio remoto para ponerlo en nuestro directorio de trabajo (IMAGEN5)
+git pull                        - Funciona los comandos fetch y merge para ejecutar uno solo, como push
+
 
 STAGING                 - Es un area en memoria ram que utiliza git para preparar los archivos y enviarlos a repositorio
 MASTER                  - Es el nombre por defecto del repositorio donde guardamos nuestros archivos con sus cambios
@@ -67,6 +73,12 @@ ARCHIVOS UNTRACKET      - Cuando un archivo aun no se rastrea por GIT, no se les
     - MASTER            - La rama/branch que va a producción
     - DEVELOPMENT       - La rama/branch que contiene las nuevas features, caracteristicas y experimentos
     - HOTFIX            - La rama/branch en la que se arreglan los bugs y que se tienen que unir a la rama master tan printo como sea posible
+
+
+SERVIDOR REMOTO/REPOSITORIO REMOTO
+
+    -  Un nuevo estado que deben seguir nuestros archivos para conectarse y trabajar con equipos de cualquier parte del mundo.
+    -  Estos servidores remotos pueden estar alojados en GitHub, GitLab, BitBucket.
 
 ===== TIPS & RECORDAR =====
 
@@ -88,3 +100,4 @@ ARCHIVOS UNTRACKET      - Cuando un archivo aun no se rastrea por GIT, no se les
 11  - Practicando con git show, git diff y git log
 12  - Git RESET SOFT y HARD, GIT CHECKOUT +CODIGO
 13  - Direferencia entre git rm y reset, RM los borra del disco, reset cambia a un estado anterior.
+14  - SERVIDORES REMOTOS (GitHub, GitLab, BitBucket), descripcion de los comandos PUSH, FECTH, MERGE y PULL
