@@ -4,6 +4,7 @@
 
     Nodejs      12.16.3
     npm         6.14.4
+    Nodemon     npm install -g nodemon   
 
 ===== CONCEPTOS DE LAS CLASES =====
 
@@ -75,12 +76,27 @@ VARIABLES DE ENTORNO
 
     - Las variables de entorno se ponen en mayusculas (viene desde que se usaban en servidores Linux)
 
+NODEMON
+
+    - Es una herramienta que cada que detecte cambios en el código o en las dependencias que estemos usando
+      va a volver a ejecutar ese codigo
+    - Se installa con:  npm install -g nodemon (LA -g ES DE GLOBAL, una instalación global)
+    - Se ejecuta con:   nodemon archivo.js
+
+    - PM2 es parecido, pero es para PRODUCCIÓN, no para desarrollo, tiene muchas cosas 
+
 ===== TIPS & RECORDAR =====
 
-    node -v         Versión del nodejs
-    npm -v          Versión del gestor de paquetes
+    node -v                 Versión del nodejs
+    npm -v                  Versión del gestor de paquetes
+    npm install -g nodemon  Instalación del Nodemon GLOBAL
+    npm install -h pm2      Instalación del PM2 GLOBAL
 
     Ctrl + K + S    En lista los shortcuts que tiene visual y los puedes editar
+
+
+    Nodemon         https://nodemon.io/
+    PM2             https://pm2.keymetrics.io/
 
 ===== RESUMEN CLASES =====
 
@@ -89,3 +105,4 @@ VARIABLES DE ENTORNO
 3   -   Conceptos del EVENT LOOP, funcionamiento, y conceptos del THREAD POOL, funcionamiento
 4   -   MONOHILO, las desventajas y como funciona el interprete de nodejs, ejercicio (monohilo.js)
 5   -   VARIABLES DE ENTORNO, como se declaran, como se les pasa un valor en windows y bash, como se pone el valor por default
+6   -   NODEMON, Instalación con npm, PM2, no lo instale, es para producción
