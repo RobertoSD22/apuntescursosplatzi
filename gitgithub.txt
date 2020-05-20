@@ -87,4 +87,4 @@ ARCHIVOS UNTRACKET      - Cuando un archivo aun no se rastrea por GIT, no se les
 10  - Practicando el git init, git add, git rm --cached, git commit -m, git config, git add ., git log
 11  - Practicando con git show, git diff y git log
 12  - Git RESET SOFT y HARD, GIT CHECKOUT +CODIGO
-
+13  - Direferencia entre git rm y reset, RM los borra del disco, reset cambia a un estado anterior.
