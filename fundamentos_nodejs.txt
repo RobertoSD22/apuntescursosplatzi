@@ -64,6 +64,17 @@ MONOHILO
         - Si no se manejan bien los errores y uno truena, ya no continua con los procesos posteriores
         - Debes estar pendiente de todo el código
 
+VARIABLES DE ENTORNO
+
+    - Se declaran como:                                      process.env.NOMBRE_VARIABLE en el archivo JS
+    - Para llamarla en BASH (GITBASH por ejemplo) sería:     NOMBRE=Roberto node archivo.js
+      Se pueden poner varias al mismo tiempo:                NOMBRE=x APELLIDO=z node archivo.js (Con un espacio se separan)
+    - En windows primero se hace:                            SET NOMBRE_VARIABLE=VALOR
+      Luego:                                                 node archivio.js               
+    - Para ponerle un valor por DEFAULT:                     process.env.NOMBRE_VARIABLE || 'Valor por default' en el archivo JS
+
+    - Las variables de entorno se ponen en mayusculas (viene desde que se usaban en servidores Linux)
+
 ===== TIPS & RECORDAR =====
 
     node -v         Versión del nodejs
@@ -76,3 +87,5 @@ MONOHILO
 1   -   Introducción, Articulo que habla de como instalar nodejs
 2   -   Que es NODEJS, sus caracteristicas y un poco de historia
 3   -   Conceptos del EVENT LOOP, funcionamiento, y conceptos del THREAD POOL, funcionamiento
+4   -   MONOHILO, las desventajas y como funciona el interprete de nodejs, ejercicio (monohilo.js)
+5   -   VARIABLES DE ENTORNO, como se declaran, como se les pasa un valor en windows y bash, como se pone el valor por default
