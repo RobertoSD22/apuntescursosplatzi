@@ -85,7 +85,7 @@ NODEMON
 
     - PM2 es parecido, pero es para PRODUCCIÓN, no para desarrollo, tiene muchas cosas
 
-PROMESAS
+PROMESAS (async/promises.js)
 
     - Pueden estar:
         Resueltas
@@ -93,6 +93,12 @@ PROMESAS
         Fallar
     - new Promise(function(resolve,reject){})
     - Siempre poner el callback para los errores
+
+ASYC AWAIT (async/asyncAwait.js)
+
+    - Con esto podemos realizar tareas asincronas en orden
+    - Se le ponen a las funciones el "async" antes de la declaración
+    - Se le ponen a las llamadas el "await" antes de mandarlas llamar
 
 ===== TIPS & RECORDAR =====
 
@@ -117,4 +123,5 @@ PROMESAS
 6   -   NODEMON, Instalación con npm, PM2, no lo instale, es para producción
 7   -   CALLBACKS, Un ejercicio con las funciones asincronas, para ver como se regresan los valores en orden (async/callback.js)
 8   -   CALLBACK HELL, Ejercicio ejemplo(comentado) de un callbackhell y como corregirlo un poco con una funcion de RECURSIVIDAD (async/callbackhell.js)
-9   -   PROMESAS, Ejercicio con promesas (promises.js), no explica mucho de los estados, pero hay que recordar que son PENDING, FULLFIT, REJETED
+9   -   PROMESAS, Ejercicio con promesas (async/promises.js), no explica mucho de los estados, pero hay que recordar que son PENDING, FULLFIT, REJETED
+10  -   ASYNC-AWAIT, Se utiliza para que las funciones asincronas se ejecuten en orden, Ejercicio (async/asyncAwait.js)
