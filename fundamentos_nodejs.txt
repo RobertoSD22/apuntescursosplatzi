@@ -107,3 +107,4 @@ NODEMON
 5   -   VARIABLES DE ENTORNO, como se declaran, como se les pasa un valor en windows y bash, como se pone el valor por default (conceptos/entorno.js)
 6   -   NODEMON, Instalación con npm, PM2, no lo instale, es para producción
 7   -   CALLBACKS, Un ejercicio con las funciones asincronas, para ver como se regresan los valores en orden (async/callback.js)
+8   -   CALLBACK HELL, Ejercicio ejemplo(comentado) de un callbackhell y como corregirlo un poco con una funcion de RECURSIVIDAD (async/callbackhell.js)
