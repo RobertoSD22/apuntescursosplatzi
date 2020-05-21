@@ -29,6 +29,7 @@ touch           - Crea archivos (DE TODO TIPO!!!, solo hay que agregar la extens
 comando --help  - Te indica todas las combinaciones de argumentos que hay para el comando y una descripción
 Ctrl + l        - Limpia la consola (otra forma de limpiar la consola) ES UNA COMBINACIÓN DE TECLAS! no un comando
 Esc + Shift +zz - Te saca de del editor de textos llamado "vim", este editor lo manda por default si haces un commit y no agregas un comentario
+Esc + i         - VIM - hace que puedas editar!
 
 ===== CONCEPTOS DE LAS CLASES =====
 
@@ -41,6 +42,7 @@ git reset ARCHIVO CODIGO --soft - Vuelve a una versión anterior del archivo o d
 git rm --catched                - +archivo - Remueve el archivo de staging, lo manda a UNTRACKET (aun que tenga cambios y tenga todo un historial)
 git rm --force                  - +archivo - Eimina el archivo de git y del disco duro, guarda que existio alguna vez por si lo queremos RECUPERAR
 git commit                      - +archivo - El archivo pasa de staging al repositorio (se genera una nueva versión de cambios)
+git commit -am                  - +archivo - Hace el commit + el add al mismo tiempo (solo funciona con archivos que ya se les hizo el add previamente (que esten Tracked))
 git checkout                    - Con este comando te traes los ultimos cambios que hubo en el repositorio
 git checkout CODIGO             - Vuelves a la versión de ese archivo, si le das commit se queda así, sino para regresar usas:.
 git checkout master             - Vuelves a la versión más reciente
@@ -52,12 +54,15 @@ git diff                        - +hashArchivo1 +hashArchivo2 te muestra las dif
 git log                         - +archivo - Te muestra la historia de ese archivo, como ha ido cambiando
 git log --stat                  - Te muestra los cambios en "bytes" que hubo exactamente en cada commit
 git show                        - +archivo - Te muestra todos los cambios que hubieron en un archivo
+
 git clone urlservidorremoto     - Para descargar el repositorio desde un servidor remoto como github, gitlab, bitbucket
 git push                        - Para enviar los cambios al repositorio remoto (IMAGEN5)
 git fetch                       - Lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local (en caso de que hayan, por supuesto).(IMAGEN5)
 git merge                       - Combina los cambios de nuestro repositorio local con el del repositorio remoto para ponerlo en nuestro directorio de trabajo (IMAGEN5)
 git pull                        - Funciona los comandos fetch y merge para ejecutar uno solo, como push
 
+git branch                      - +NombreRama genera una nueva rama a partir del punto en el que estas en Head (IMAGEN6)
+git checkout                    - +NombreRama te puedes mover entre ramas
 
 STAGING                 - Es un area en memoria ram que utiliza git para preparar los archivos y enviarlos a repositorio
 MASTER                  - Es el nombre por defecto del repositorio donde guardamos nuestros archivos con sus cambios
@@ -101,3 +106,5 @@ SERVIDOR REMOTO/REPOSITORIO REMOTO
 12  - Git RESET SOFT y HARD, GIT CHECKOUT +CODIGO
 13  - Direferencia entre git rm y reset, RM los borra del disco, reset cambia a un estado anterior.
 14  - SERVIDORES REMOTOS (GitHub, GitLab, BitBucket), descripcion de los comandos PUSH, FECTH, MERGE y PULL
+15  - BRANCH, Creación, commit -am (para hacer el add al mismo tiempo), cambiarnos entre ramas con git checkout,
+      cree la rama desarrollo e integramos el div de cabecera, esc + i para insertar codigo en vim (IMAGEN6)
