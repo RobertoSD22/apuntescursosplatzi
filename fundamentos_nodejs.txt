@@ -126,6 +126,11 @@ TRY CATCH  (modulos/errores.js)
     - Los errores sincronos se propagan entre los métodos
     - Los errores ascrincronos no, es necesario méter el catch en ellos
 
+PROCESOS HIJOS
+
+    - Ejecutar otros procesos que no son los propios, crea un hilo para ellos
+    - Se ejecutan con EXEC o con SPAWN
+
 ===== TIPS & RECORDAR =====
 
     node -v                 Versión del nodejs
@@ -156,3 +161,5 @@ TRY CATCH  (modulos/errores.js)
 12  -   FILE SYSTEM, Objeto que nos sirve para leer, crear, borrar archivos (modulos/fs.js)
 13  -   CONSOLE, console.table, console.group - console.endGroup, console.count (modulos/consola.js), console.countReset()
 14  -   ERRORES, sincronos y asincronos (modulos/errores.js)
+15  -   PROCESOS HIJOS, SPWAN y EXEC, solo me funciono spawn corriendo desde el gitbash en nodemon 
+        y solo comandos de linux (los de git no funcionaron ni los de node) (procesoHijo.js)
