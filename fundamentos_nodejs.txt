@@ -100,6 +100,12 @@ ASYC AWAIT (async/asyncAwait.js)
     - Se le ponen a las funciones el "async" antes de la declaración
     - Se le ponen a las llamadas el "await" antes de mandarlas llamar
 
+MODULOS GLOBALES
+
+    - Son modulos que ya estan cargados en nodejs
+    - "global" es el objeto donde estan guardados todos los modulos globales
+    - Es mejor no crear variables globales, un ejemplo puede ser con global.miVariable = 'ValorGlobal'
+
 ===== TIPS & RECORDAR =====
 
     node -v                 Versión del nodejs
@@ -109,6 +115,7 @@ ASYC AWAIT (async/asyncAwait.js)
 
     Ctrl + K + S    En lista los shortcuts que tiene visual y los puedes editar
 
+    clearInterval()         Es una función que para el setInterval (modulos/globales.js)
 
     Nodemon         https://nodemon.io/
     PM2             https://pm2.keymetrics.io/
@@ -125,3 +132,4 @@ ASYC AWAIT (async/asyncAwait.js)
 8   -   CALLBACK HELL, Ejercicio ejemplo(comentado) de un callbackhell y como corregirlo un poco con una funcion de RECURSIVIDAD (async/callbackhell.js)
 9   -   PROMESAS, Ejercicio con promesas (async/promises.js), no explica mucho de los estados, pero hay que recordar que son PENDING, FULLFIT, REJETED
 10  -   ASYNC-AWAIT, Se utiliza para que las funciones asincronas se ejecuten en orden, Ejercicio (async/asyncAwait.js)
+11  -   GLOBALES, la existencia de modulos que ya vienen precargados por nodejs, algunas funciones, el objeto GLOBAL que accede a todas ellas, clearInterval
