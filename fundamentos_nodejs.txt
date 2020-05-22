@@ -106,6 +106,13 @@ MODULOS GLOBALES
     - "global" es el objeto donde estan guardados todos los modulos globales
     - Es mejor no crear variables globales, un ejemplo puede ser con global.miVariable = 'ValorGlobal'
 
+FILE SYSTEM
+
+    - Modulo global de los más usados
+    - Permite acceder a los archivos de nuestro sistema, cambiarlos, escribirlos, leerlos, cambiarles el nombre
+    - Todo lo que se haga con filesystem es de forma ASINCRONA 
+      (hay métodos sincronos pero no se recomiendan porque no se puede ejecutar los otros procesos)
+
 ===== TIPS & RECORDAR =====
 
     node -v                 Versión del nodejs
@@ -133,3 +140,4 @@ MODULOS GLOBALES
 9   -   PROMESAS, Ejercicio con promesas (async/promises.js), no explica mucho de los estados, pero hay que recordar que son PENDING, FULLFIT, REJETED
 10  -   ASYNC-AWAIT, Se utiliza para que las funciones asincronas se ejecuten en orden, Ejercicio (async/asyncAwait.js)
 11  -   GLOBALES, la existencia de modulos que ya vienen precargados por nodejs, algunas funciones, el objeto GLOBAL que accede a todas ellas, clearInterval
+12  -   FILE SYSTEM, Objeto que nos sirve para leer, crear, borrar archivos (modulos/fs.js)
