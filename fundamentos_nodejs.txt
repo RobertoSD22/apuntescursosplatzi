@@ -114,6 +114,18 @@ FILE SYSTEM
       (hay métodos sincronos pero no se recomiendan porque no se puede ejecutar los otros procesos)
     - readFile (leer), writteFile (crear/escribir), unlink (borrar)
 
+CONSOLE (modulos/consola.js)
+
+    - console.table
+    - console.group y console.endGroup
+    - console.count y console.countReset
+
+TRY CATCH  (modulos/errores.js)
+
+    - Para envolver las funciones y manejarlas
+    - Los errores sincronos se propagan entre los métodos
+    - Los errores ascrincronos no, es necesario méter el catch en ellos
+
 ===== TIPS & RECORDAR =====
 
     node -v                 Versión del nodejs
@@ -142,4 +154,5 @@ FILE SYSTEM
 10  -   ASYNC-AWAIT, Se utiliza para que las funciones asincronas se ejecuten en orden, Ejercicio (async/asyncAwait.js)
 11  -   GLOBALES, la existencia de modulos que ya vienen precargados por nodejs, algunas funciones, el objeto GLOBAL que accede a todas ellas, clearInterval
 12  -   FILE SYSTEM, Objeto que nos sirve para leer, crear, borrar archivos (modulos/fs.js)
-13  -   CONSOLE, console.table, console.group - console.endGroup, console.count (modulos/consola.js)
+13  -   CONSOLE, console.table, console.group - console.endGroup, console.count (modulos/consola.js), console.countReset()
+14  -   ERRORES, sincronos y asincronos (modulos/errores.js)
