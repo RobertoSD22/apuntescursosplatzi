@@ -131,12 +131,18 @@ PROCESOS HIJOS
     - Ejecutar otros procesos que no son los propios, crea un hilo para ellos
     - Se ejecutan con EXEC o con SPAWN
 
+MODULOS NATIVOS DE C++
+
+    - Hay que instalar el node-gyp para manejarlos
+    - Se usa node-gyp (lo instale y desinstale)
+
 ===== TIPS & RECORDAR =====
 
     node -v                 Versión del nodejs
     npm -v                  Versión del gestor de paquetes
     npm install -g nodemon  Instalación del Nodemon GLOBAL
     npm install -h pm2      Instalación del PM2 GLOBAL
+    npm install -g node-gyp Para manejar modulos nativos de C++
 
     Ctrl + K + S    En lista los shortcuts que tiene visual y los puedes editar
 
@@ -163,3 +169,4 @@ PROCESOS HIJOS
 14  -   ERRORES, sincronos y asincronos (modulos/errores.js)
 15  -   PROCESOS HIJOS, SPWAN y EXEC, solo me funciono spawn corriendo desde el gitbash en nodemon 
         y solo comandos de linux (los de git no funcionaron ni los de node) (procesoHijo.js)
+16  -   C++ MODULOS, pidio instalar phyton, no hice el ejercicio, tira muchos errores, desinstale el node-gyp
