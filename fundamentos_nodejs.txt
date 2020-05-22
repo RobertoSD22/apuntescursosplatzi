@@ -112,6 +112,7 @@ FILE SYSTEM
     - Permite acceder a los archivos de nuestro sistema, cambiarlos, escribirlos, leerlos, cambiarles el nombre
     - Todo lo que se haga con filesystem es de forma ASINCRONA 
       (hay métodos sincronos pero no se recomiendan porque no se puede ejecutar los otros procesos)
+    - readFile (leer), writteFile (crear/escribir), unlink (borrar)
 
 ===== TIPS & RECORDAR =====
 
@@ -141,3 +142,4 @@ FILE SYSTEM
 10  -   ASYNC-AWAIT, Se utiliza para que las funciones asincronas se ejecuten en orden, Ejercicio (async/asyncAwait.js)
 11  -   GLOBALES, la existencia de modulos que ya vienen precargados por nodejs, algunas funciones, el objeto GLOBAL que accede a todas ellas, clearInterval
 12  -   FILE SYSTEM, Objeto que nos sirve para leer, crear, borrar archivos (modulos/fs.js)
+13  -   CONSOLE, console.table, console.group - console.endGroup, console.count (modulos/consola.js)
