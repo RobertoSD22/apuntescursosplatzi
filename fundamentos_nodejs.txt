@@ -19,7 +19,7 @@ NODEJS
     
 CARACTERÍSTICAS
 
-    - Concurrente - Aun que sea monohilo, sus entradas y salidas son asíncronas
+    - Concurrente - Aun que sea MONOHILO, sus entradas y salidas son asíncronas
                     Un proceso por cada núcleo del procesador
     - Corre sobre el Motor V8   - Entorno de ejecución de JS creado por Google y libre desde 2008
                                   Convierte JS en código máquina en lugar de interpretarlo en tiempo real
@@ -106,35 +106,40 @@ MODULOS GLOBALES
     - "global" es el objeto donde estan guardados todos los modulos globales
     - Es mejor no crear variables globales, un ejemplo puede ser con global.miVariable = 'ValorGlobal'
 
-FILE SYSTEM
+    FILE SYSTEM
 
-    - Modulo global de los más usados
-    - Permite acceder a los archivos de nuestro sistema, cambiarlos, escribirlos, leerlos, cambiarles el nombre
-    - Todo lo que se haga con filesystem es de forma ASINCRONA 
-      (hay métodos sincronos pero no se recomiendan porque no se puede ejecutar los otros procesos)
-    - readFile (leer), writteFile (crear/escribir), unlink (borrar)
+        - Modulo global de los más usados
+        - Permite acceder a los archivos de nuestro sistema, cambiarlos, escribirlos, leerlos, cambiarles el nombre
+        - Todo lo que se haga con filesystem es de forma ASINCRONA 
+        (hay métodos sincronos pero no se recomiendan porque no se puede ejecutar los otros procesos)
+        - readFile (leer), writteFile (crear/escribir), unlink (borrar)
 
-CONSOLE (modulos/consola.js)
+    CONSOLE (modulos/consola.js)
 
-    - console.table
-    - console.group y console.endGroup
-    - console.count y console.countReset
+        - console.table
+        - console.group y console.endGroup
+        - console.count y console.countReset
 
-TRY CATCH  (modulos/errores.js)
+    TRY CATCH  (modulos/errores.js)
 
-    - Para envolver las funciones y manejarlas
-    - Los errores sincronos se propagan entre los métodos
-    - Los errores ascrincronos no, es necesario méter el catch en ellos
+        - Para envolver las funciones y manejarlas
+        - Los errores sincronos se propagan entre los métodos
+        - Los errores ascrincronos no, es necesario méter el catch en ellos
 
-PROCESOS HIJOS
+    PROCESOS HIJOS
 
-    - Ejecutar otros procesos que no son los propios, crea un hilo para ellos
-    - Se ejecutan con EXEC o con SPAWN
+        - Ejecutar otros procesos que no son los propios, crea un hilo para ellos
+        - Se ejecutan con EXEC o con SPAWN
 
-MODULOS NATIVOS DE C++
+    MODULOS NATIVOS DE C++
 
-    - Hay que instalar el node-gyp para manejarlos
-    - Se usa node-gyp (lo instale y desinstale)
+        - Hay que instalar el node-gyp para manejarlos
+        - Se usa node-gyp (lo instale y desinstale)
+
+    HTTP (http.js)
+
+        - Crear un servidor o conectarnos directamente desde nodejs sin pasar por otro archivo
+        - require('http') para mandarlo llamar
 
 ===== TIPS & RECORDAR =====
 
@@ -170,3 +175,4 @@ MODULOS NATIVOS DE C++
 15  -   PROCESOS HIJOS, SPWAN y EXEC, solo me funciono spawn corriendo desde el gitbash en nodemon 
         y solo comandos de linux (los de git no funcionaron ni los de node) (procesoHijo.js)
 16  -   C++ MODULOS, pidio instalar phyton, no hice el ejercicio, tira muchos errores, desinstale el node-gyp
+17  -   HTTP, modulo para crear un servidor (http.js)
