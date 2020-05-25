@@ -141,6 +141,20 @@ MODULOS GLOBALES
         - Crear un servidor o conectarnos directamente desde nodejs sin pasar por otro archivo
         - require('http') para mandarlo llamar
 
+    OS (os.js)
+
+        - Para acceder a todo lo que hay dentro de la máquina, todo lo que hay en el sistema operativo, etc.
+            - arch
+            - platform
+            - cpus
+            - constants
+            - freemem
+            - totalmem
+            - homedir
+            - tmpdir
+            - hostname
+            - networkInterfaces
+
 ===== TIPS & RECORDAR =====
 
     node -v                 Versión del nodejs
@@ -176,3 +190,4 @@ MODULOS GLOBALES
         y solo comandos de linux (los de git no funcionaron ni los de node) (procesoHijo.js)
 16  -   C++ MODULOS, pidio instalar phyton, no hice el ejercicio, tira muchos errores, desinstale el node-gyp
 17  -   HTTP, modulo para crear un servidor (http.js)
+18  -   OS, modulo para obtener datos del sistema operativo, de la computadora, etc. (os.js)
