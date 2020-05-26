@@ -194,6 +194,18 @@ FUNCIONES UTILES (se usan frecuentemente)
     - MOMENT    La utilizamos para facilitar el manejo de fechas
     - SHARP     Manejo de imagenes (hacerlas mas chicas, cambiarles el color)
 
+
+DATO ALMACENADOS VS DATOS EN MEMORIA
+
+    - Los datos en memoria son mucho mas faciles de tomar, procesar, etc.
+    - Los datos almacenados son menos faciles
+    
+    - Los datos en memoria tienen menos capacidad (4, 8, 12 GB)
+    - Los datos almacenados tienen mayor capcidad de almacenaje (4, 8, 12 TB)
+
+    - Los datos en memoria se liberan /destruyen
+    - Los datos almacenados se conservan
+
 ===== TIPS & RECORDAR =====
 
     - EN PLATZI hay un curso para webPack para poner a funcionar modulos de NPM (https://platzi.com/clases/webpack/)
@@ -241,4 +253,5 @@ FUNCIONES UTILES (se usan frecuentemente)
 19  -   PROCESS, Cuando necesitamos obtener información de los eventons de NODEJS (processNODE.js)
 20  -   NPM, Hablo del gestor de paquetes, enseño la url, dio npm init (no lo hice) y enseño el package.json
 21  -   MODULOS, corrimos un modulo con js y uno con mjs (ecmascript6), no los empaquetamos, solo se quedaron ahi en la carpeta los archivos
-22  -   MODULOS UTILES, recomienda 3 modulos que usaremos siempre: BYCRIPT, MOMENT y SHARP
+22  -   MODULOS UTILES, recomienda 3 modulos que usaremos siempre: BYCRIPT, MOMENT y SHARP (paquetes(utiles))
+23  -   DATOS ALMACENADOS VS EN MEMORIA (solo es explicación no hicimos ningun ejercicip)
