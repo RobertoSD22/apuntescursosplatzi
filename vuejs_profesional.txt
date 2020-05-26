@@ -1,0 +1,11 @@
+=================== APUNTES DEL CURSO DE Javascript BASICO =======================
+
+===== HERRAMIENTAS =====
+
+===== CONCEPTOS DE LAS CLASES =====
+
+===== TIPS & RECORDAR =====
+
+===== RESUMEN CLASES =====
+
+1   -   INTRODUCCIÓN (Vamos a ver Vuex, Nutx y Vue Router)
