@@ -226,6 +226,9 @@ TRUCOS (trucos/)
         - En un callback el error siempre es el primer parametro
         - El callback siempre es la ultima funcion que se pasa
 
+SCRAPING (Puppeteer) (herramientas/scrapping)
+
+    - Habre un navegador y de ahi puedes obtener la información 
 
 ===== TIPS & RECORDAR =====
 
@@ -281,3 +284,4 @@ TRUCOS (trucos/)
 26  -   TRUCOS, como saber cuanto dura un proceso (trucos/bechmarking.js)
 27  -   TRUCOS, debugger.. no hice el ejercicio
 28  -   TRUCOS, error first callback
+29  -   SCRAPING (Puppeteer) (herramientas/scrapping)
