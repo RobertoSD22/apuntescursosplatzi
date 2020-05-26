@@ -187,6 +187,13 @@ CREAR MODULOS
         - DIFERENCIA:
             Pareciera que solo la syntax. import es mas nueva y estará, de acuerdo con lo que dijo el profesor, disponible en la version 12.1+ de nodejs.
 
+
+FUNCIONES UTILES (se usan frecuentemente)
+
+    - BYCRIPT   Para cifrar cadenas (contraseñas por ejemplo), tambien puede funcionar con promesas (paquetes/utiles/bycript.js)
+    - MOMENT    La utilizamos para facilitar el manejo de fechas
+    - SHARP     Manejo de imagenes (hacerlas mas chicas, cambiarles el color)
+
 ===== TIPS & RECORDAR =====
 
     - EN PLATZI hay un curso para webPack para poner a funcionar modulos de NPM (https://platzi.com/clases/webpack/)
@@ -197,6 +204,11 @@ CREAR MODULOS
     npm install -h pm2      Instalación del PM2 GLOBAL
     npm install -g node-gyp Para manejar modulos nativos de C++
     npm init                Para instalar el gestor de paquetes
+    npm init -y             Para instalar el gestor de paquetes sin que haga preguntas
+
+    npm i bycript           Para instalar la herramienta de cifrado que recomendo el profesor
+    npm i moment            Para instalar la herramienta para fechas que recomento el profesor
+    npm i SHARP             Para instalar la herramienta para manejo de imagenes que recomento el prof
 
     Ctrl + K + S    En lista los shortcuts que tiene visual y los puedes editar
 
@@ -229,3 +241,4 @@ CREAR MODULOS
 19  -   PROCESS, Cuando necesitamos obtener información de los eventons de NODEJS (processNODE.js)
 20  -   NPM, Hablo del gestor de paquetes, enseño la url, dio npm init (no lo hice) y enseño el package.json
 21  -   MODULOS, corrimos un modulo con js y uno con mjs (ecmascript6), no los empaquetamos, solo se quedaron ahi en la carpeta los archivos
+22  -   MODULOS UTILES, recomienda 3 modulos que usaremos siempre: BYCRIPT, MOMENT y SHARP
