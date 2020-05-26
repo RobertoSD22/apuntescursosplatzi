@@ -275,3 +275,4 @@ TRUCOS (trucos/)
 24  -   BUFFER guardan datos en memoria en forma de binarios(memoria/buffer.js)
 25  -   STREAM no entendi el ejercicio, estuvo feo malo, confuso (memoria/stream.js)
 26  -   TRUCOS, como saber cuanto dura un proceso (trucos/bechmarking.js)
+27  -   TRUCOS, debugger.. no hice el ejercicio
