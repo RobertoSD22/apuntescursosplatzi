@@ -206,6 +206,11 @@ DATO ALMACENADOS VS DATOS EN MEMORIA
     - Los datos en memoria se liberan /destruyen
     - Los datos almacenados se conservan
 
+BUFFERS
+
+    - Datos en binario que se mueven de un lado a otro (como en fs)
+    - Nos permite trabajar con el dato en la version mas cruda que podamos tener
+
 ===== TIPS & RECORDAR =====
 
     - EN PLATZI hay un curso para webPack para poner a funcionar modulos de NPM (https://platzi.com/clases/webpack/)
@@ -255,3 +260,4 @@ DATO ALMACENADOS VS DATOS EN MEMORIA
 21  -   MODULOS, corrimos un modulo con js y uno con mjs (ecmascript6), no los empaquetamos, solo se quedaron ahi en la carpeta los archivos
 22  -   MODULOS UTILES, recomienda 3 modulos que usaremos siempre: BYCRIPT, MOMENT y SHARP (paquetes(utiles))
 23  -   DATOS ALMACENADOS VS EN MEMORIA (solo es explicación no hicimos ningun ejercicip)
+24  -   BUFFER guardan datos en memoria en forma de binarios(memoria/buffer.js)
