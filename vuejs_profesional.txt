@@ -4,8 +4,30 @@
 
 ===== CONCEPTOS DE LAS CLASES =====
 
+VUEJS 
+
+    - COMPLEJIDAD
+
+        - VUEJS esta pensado para manejar diferentes tipos de complejidades
+        - Hay 2 tipos de complejidades:
+            - INHERENTE.-  Es la que se hereda del proyecto y no se puede modificar. 
+                          (por ejemplo: si tengo que hacer una aplicación de musica, tiene que ser de musica y no de otra cosa)
+            - INSTRUMENTAL.- Es la que podemos controlar, las herramientas que vamos a utilizar
+                             Cuanto tiempo tardamos en integrar vuejs, babel, preprocesadores, etc.
+        - Deben crecer a la par, sino hay disparidad, puedes tener muchisimas herramientas para resolver
+          un problema sencillo, o puedes tener un gran problema resuelto con herramientas muy basicas
+
+    - Es el FRAMEWORK PROGRESIVO  porque nos permite progresivamente ir escalando nuestra aplicación a medida que lo vamos necesitando.
+    - Es ORIENTADO a la vista
+    - Es REACTIVO (se enlaza el código con la vista) (IMAGEN2)
+    - Está basado en Core, es una librería pequeña, resuelve algo específico y concreto. Sin embargo es escalable y extendible. (IMAGEN1)
+    - Los archivos integran HTML, JAVASCRIPT y CSS
+
 ===== TIPS & RECORDAR =====
+
+    - La imagen 1 muestra como se va aumentando de algo específico a algo más escalable y las librerias que se usan
 
 ===== RESUMEN CLASES =====
 
 1   -   INTRODUCCIÓN (Vamos a ver Vuex, Nutx y Vue Router)
+2   -   VUEJS, conceptos, COMPLEJIDADES (Es nuevo), FRAMEWORK PROGRESIVO, ORIENTADO A LA VISTA, REACTIVO (Two ways data binding)
