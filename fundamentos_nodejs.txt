@@ -154,6 +154,14 @@ MODULOS GLOBALES
             - tmpdir
             - hostname
             - networkInterfaces
+    
+    PROCESS (processNode.js)
+
+        - Podemos acceder a los procesos que se ejecutan en NODE
+        - Podemos saber cuando se va a terminar el event loop (exit)
+        - Podemos saber que proceso trono
+        - NO NECESITA el require, unicamente el "process.EVENTO('NOMBRE_EVENTO')
+        - EXIT - En este evento ya no se pueden ejecutar procesos asincronos
 
 ===== TIPS & RECORDAR =====
 
@@ -191,3 +199,4 @@ MODULOS GLOBALES
 16  -   C++ MODULOS, pidio instalar phyton, no hice el ejercicio, tira muchos errores, desinstale el node-gyp
 17  -   HTTP, modulo para crear un servidor (http.js)
 18  -   OS, modulo para obtener datos del sistema operativo, de la computadora, etc. (os.js)
+19  -   PROCESS, Cuando necesitamos obtener información de los eventons de NODEJS (processNODE.js)
