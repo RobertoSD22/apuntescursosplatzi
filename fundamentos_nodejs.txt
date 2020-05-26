@@ -206,10 +206,15 @@ DATO ALMACENADOS VS DATOS EN MEMORIA
     - Los datos en memoria se liberan /destruyen
     - Los datos almacenados se conservan
 
-BUFFERS
+BUFFERS (memoria/buffer.js)
 
     - Datos en binario que se mueven de un lado a otro (como en fs)
     - Nos permite trabajar con el dato en la version mas cruda que podamos tener
+
+STREAMS (memoria/stream.js)
+
+    - Son el paso de datos entre un punto y otro (es como el camino entre ellos)
+    - CHUNK es un pedazo de los datos que se estan enviando en el canal (streams)
 
 ===== TIPS & RECORDAR =====
 
@@ -261,3 +266,4 @@ BUFFERS
 22  -   MODULOS UTILES, recomienda 3 modulos que usaremos siempre: BYCRIPT, MOMENT y SHARP (paquetes(utiles))
 23  -   DATOS ALMACENADOS VS EN MEMORIA (solo es explicación no hicimos ningun ejercicip)
 24  -   BUFFER guardan datos en memoria en forma de binarios(memoria/buffer.js)
+25  -   STREAM no entendi el ejercicio, estuvo feo malo, confuso (memoria/stream.js)
