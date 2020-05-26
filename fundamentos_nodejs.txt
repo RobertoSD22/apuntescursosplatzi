@@ -163,13 +163,43 @@ MODULOS GLOBALES
         - NO NECESITA el require, unicamente el "process.EVENTO('NOMBRE_EVENTO')
         - EXIT - En este evento ya no se pueden ejecutar procesos asincronos
 
+NPM
+
+    - Es un gestor de paquetes
+    - Las versiones 0.   suelen ser BETA
+    - Revisar la ultima publicación
+    - package.json - tiene la información de los paquetes, del mismo NPM, etc
+    - "npm init" y con eso instalas el gestor de paquetes
+
+CREAR MODULOS
+
+    - Se pueden hacer a traves de require('ruta_proyecto') y module.export (paquetes\modulo)
+
+    - Se puede hacer a traves de import y export default (paquetes\modulo\es6)
+      Y el comando: node --experimental-modules archivo.mjs
+      Los archivos son .mjs
+
+      MJS (Es funcionalidad ecmascript6)
+
+        - Es una forma más sencilla, y también recomendadA por la documentación de V8, de importar y exportar módulos de JavaScript. 
+          No cambia ninguna funcionalidad más allá de diferenciar de forma más sencilla qué es un módulo y que no.
+
+Fuentes:
+
+
+    - DIFERENCIA:
+        Pareciera que solo la syntax. import es mas nueva y estará, de acuerdo con lo que dijo el profesor, disponible en la version 12.1+ de nodejs.
+
 ===== TIPS & RECORDAR =====
+
+    - EN PLATZI hay un curso para webPack para poner a funcionar modulos de NPM (https://platzi.com/clases/webpack/)
 
     node -v                 Versión del nodejs
     npm -v                  Versión del gestor de paquetes
     npm install -g nodemon  Instalación del Nodemon GLOBAL
     npm install -h pm2      Instalación del PM2 GLOBAL
     npm install -g node-gyp Para manejar modulos nativos de C++
+    npm init                Para instalar el gestor de paquetes
 
     Ctrl + K + S    En lista los shortcuts que tiene visual y los puedes editar
 
@@ -200,3 +230,4 @@ MODULOS GLOBALES
 17  -   HTTP, modulo para crear un servidor (http.js)
 18  -   OS, modulo para obtener datos del sistema operativo, de la computadora, etc. (os.js)
 19  -   PROCESS, Cuando necesitamos obtener información de los eventons de NODEJS (processNODE.js)
+20  -   NPM, Hablo del gestor de paquetes, enseño la url, dio npm init (no lo hice) y enseño el package.json
