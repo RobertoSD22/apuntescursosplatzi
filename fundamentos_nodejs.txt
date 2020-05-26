@@ -184,11 +184,8 @@ CREAR MODULOS
         - Es una forma más sencilla, y también recomendadA por la documentación de V8, de importar y exportar módulos de JavaScript. 
           No cambia ninguna funcionalidad más allá de diferenciar de forma más sencilla qué es un módulo y que no.
 
-Fuentes:
-
-
-    - DIFERENCIA:
-        Pareciera que solo la syntax. import es mas nueva y estará, de acuerdo con lo que dijo el profesor, disponible en la version 12.1+ de nodejs.
+        - DIFERENCIA:
+            Pareciera que solo la syntax. import es mas nueva y estará, de acuerdo con lo que dijo el profesor, disponible en la version 12.1+ de nodejs.
 
 ===== TIPS & RECORDAR =====
 
@@ -231,3 +228,4 @@ Fuentes:
 18  -   OS, modulo para obtener datos del sistema operativo, de la computadora, etc. (os.js)
 19  -   PROCESS, Cuando necesitamos obtener información de los eventons de NODEJS (processNODE.js)
 20  -   NPM, Hablo del gestor de paquetes, enseño la url, dio npm init (no lo hice) y enseño el package.json
+21  -   MODULOS, corrimos un modulo con js y uno con mjs (ecmascript6), no los empaquetamos, solo se quedaron ahi en la carpeta los archivos
