@@ -118,3 +118,4 @@ SERVIDOR REMOTO/REPOSITORIO REMOTO
 16  - MERGE, hice merge sobre la rama master combinando los cambios que habia en la rama desarrollo, me salio un conflicto
       intente repararlo desde Visual Studio Code pero quito los cambios que hice en MASTER, igual funciono pero no es lo mejor
       me falta aprender como quitar los conflictos.
+17  - CONFLICTOS, soluciono un conflicto sencillo, y uso visual studio para poder arreglarlo (hizo solo el merge sobre master, falta el merge sobre la otra rama)
