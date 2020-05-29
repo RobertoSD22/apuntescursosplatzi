@@ -32,6 +32,33 @@ COMANDOS
       y los parámetros son INFORMACIÓN ADICIONAL para la ejecución del programa
     - Ejemplo: comando -flag1 -flag2 arg1 arg2
 
+
+ORGANIZACIÓN DE INFORMACIÓN
+
+El almacenamiento de la información supone responder dos preguntas:
+
+    - ¿Como vamos a lograr que esa información este presente una vez que apagamos la computadora y volvemos a prender?
+
+        ~ El sistema operativo se encarga, con un soporte que es un disco rigido.
+
+    - ¿Como vamos a organizar esa información de modo que cuando la necesitemos la tengamos rapidamente accesible?
+
+        ~ Nosotros lo resolvemos, y CONTAMOS con 2 herramientas: ARCHIVOS y DIRECTORIOS
+
+ARCHIVOS
+
+    - Es el guarda la información
+    - Se identifican por: 
+        ~ NOMBRE
+        ~ UBICACIÓN
+    - NOMBRE COMPLETO sería el PATH, por ejemplo: /directorio/subdirectorio/archivos
+    - Dentro de un sistema de archivos, no puede haber un archivo con el mismo nombre en la misma ubicación
+    - Los NOMBRES, tienen ciertas reglas dependiendo del sistema operativo (como la cantidad de caracteres, los caracteres especiales)
+
+DIRECTORIOS
+
+    - La manera en que organizamos los archivos/información
+
 ===== TIPS & RECORDAR =====
 
     ---------COMANDOS----------
@@ -40,10 +67,29 @@ COMANDOS
     echo + mensaje              Muestra un mensaje en pantalla
     man                         MANUAL, te muestra información sobre otros comandos, como por ejemplo man + date (sale información de date)
     history                     Todos los comandos que se ejecutaron
+    
+    --------- COMANDOS DIRECTORIOS ----------
+    ls                          Ver los archivos de un directorio
+    ls -a                       Todos los archivos, incluso los ocultos
+    ls -l                       Listo los archivos
+    pwd                         Print working directory, muestra la ruta actual donde te encuentras
+    cd                          Change Directory, para movernos entre directorios
+    cd ~                        Me lleva al home
+    cd -                        Me lleva al ultimo directorio visitado
+    mkdir                       Crear un directorio
+    rmdir                       Borra el directorio
+    cp + archivo + directorio   Copiar un archivo a la ruta que se le diga (el ultimo parametro indicta el directorio o ruta)
+    rm                          Borra el archivo
+    mv + archivo + directorio   Mover un archivo
 
     ---------- URL ------------
     - Para instalar Ubuntu primero hay que configurar el PowerShell de Windows siguiendo estos pasos:
       https://platzi.com/clases/1748-terminal/24394-windows-subsystem-for-linux-wsl-como-acceder-a-la-/
+
+    ----------RECORDAR----------
+
+    - Un directorio no se puede borrar si tiene contenido
+    - Si te vas al directorio: /mnt/c/Users/<nombre de tu usuario> se pueden usuar los archivos que tengo en windows
 
 ===== RESUMEN CLASES =====
 
