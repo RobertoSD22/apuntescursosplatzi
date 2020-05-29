@@ -1,0 +1,50 @@
+=================== APUNTES DEL CURSO =======================
+
+===== HERRAMIENTAS =====
+
+    Ubuntu
+
+
+===== CONCEPTOS DE LAS CLASES =====
+
+¿Que es la terminal?
+
+    - La terminal es un PROGRAMA que recibe las instrucciones que le damos 
+      y las TRADUCE en algo que la computadora puede comprender
+      y en conjunto con el sistema operativo EJECUTA esas instrucciones y muestra el resultado
+    - ENTORNO conocido como INTERFASE de TEXTO
+    - La razón para usar este tipo de interfaces y no una gráfica es la EFICIENCIA
+    - Otro tema es que a través de la terminal se puede automatizar tareas
+
+    - Incluye además de los comandos algunas utilidades propias:
+        ~ Comodines
+        ~ Combinación de teclas
+        ~ Sustitución de comandos
+
+COMANDOS
+
+    - Un comando consiste en:
+         ~ NOMBRE DEL PROGRAMA
+         ~ MODIFICADORES
+         ~ PARÁMETROS
+    - La diferencia entre los parámetros y los modificadores, 
+      los modificadores ALTERAN lo que el programa va a hacer
+      y los parámetros son INFORMACIÓN ADICIONAL para la ejecución del programa
+    - Ejemplo: comando -flag1 -flag2 arg1 arg2
+
+===== TIPS & RECORDAR =====
+
+    ---------COMANDOS----------
+
+    date                        Te trae la fecha actual
+    echo + mensaje              Muestra un mensaje en pantalla
+    man                         MANUAL, te muestra información sobre otros comandos, como por ejemplo man + date (sale información de date)
+    history                     Todos los comandos que se ejecutaron
+
+    ---------- URL ------------
+    - Para instalar Ubuntu primero hay que configurar el PowerShell de Windows siguiendo estos pasos:
+      https://platzi.com/clases/1748-terminal/24394-windows-subsystem-for-linux-wsl-como-acceder-a-la-/
+
+===== RESUMEN CLASES =====
+
+1   -   Instalación de Ubuntu, conceptos de TERMINAL, conceptos de COMANDOS (NOMBRE DEL PROGRAMA, MODIFICADORES, PARÁMETROS), algunos comandos
