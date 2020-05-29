@@ -48,3 +48,4 @@ COMANDOS
 ===== RESUMEN CLASES =====
 
 1   -   Instalación de Ubuntu, conceptos de TERMINAL, conceptos de COMANDOS (NOMBRE DEL PROGRAMA, MODIFICADORES, PARÁMETROS), algunos comandos
+2   -   La segunda clase viene el enlace con el que instale Ubuntu jajaja deberían ponerlo al principio
