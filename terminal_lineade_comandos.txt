@@ -47,7 +47,7 @@ El almacenamiento de la información supone responder dos preguntas:
 
 ARCHIVOS
 
-    - Es el guarda la información
+    - Son los que GUARDAN la información
     - Se identifican por: 
         ~ NOMBRE
         ~ UBICACIÓN
@@ -57,11 +57,11 @@ ARCHIVOS
 
 DIRECTORIOS
 
-    - La manera en que organizamos los archivos/información
+    - La manera en que ORGANIZAMOS los archivos/información
 
 ===== TIPS & RECORDAR =====
 
-    ---------COMANDOS----------
+    ---------COMANDOS CLASE 1----------
 
     date                        Te trae la fecha actual
     echo + mensaje              Muestra un mensaje en pantalla
@@ -95,3 +95,4 @@ DIRECTORIOS
 
 1   -   Instalación de Ubuntu, conceptos de TERMINAL, conceptos de COMANDOS (NOMBRE DEL PROGRAMA, MODIFICADORES, PARÁMETROS), algunos comandos
 2   -   La segunda clase viene el enlace con el que instale Ubuntu jajaja deberían ponerlo al principio
+3   -   ARCHIVOS, DOCUMENTOS y los comandos para administrar archivos y directorios
