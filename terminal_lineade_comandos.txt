@@ -59,19 +59,32 @@ DIRECTORIOS
 
     - La manera en que ORGANIZAMOS los archivos/información
 
+TIPOS DE ARCHIVOS
+
+    - BINARIOS.-    Esta pensado de tal manera que lo interprete una computadora (imagenes, docuementos, musica, videos)
+    - TEXTO.-       Tambien son binarios pero corresonden con caracteres (se encuentran en configuraciones, codigo fuente, paginas web)
+    
+        ~ UTILIDADES INTERACTIVAS.- Se usan para trabar con archivos de texto, reaccionan al comando que ejecutas y muestra en pantalla
+            - VIM
+            - NANO
+
 ===== TIPS & RECORDAR =====
 
-    ---------COMANDOS CLASE 1----------
+    ---------COMANDOS CLASE 1 (4)----------
 
     date                        Te trae la fecha actual
     echo + mensaje              Muestra un mensaje en pantalla
     man                         MANUAL, te muestra información sobre otros comandos, como por ejemplo man + date (sale información de date)
     history                     Todos los comandos que se ejecutaron
     
-    --------- COMANDOS DIRECTORIOS ----------
+    --------- COMANDOS DIRECTORIOS (17)----------
     ls                          Ver los archivos de un directorio
-    ls -a                       Todos los archivos, incluso los ocultos
-    ls -l                       Listo los archivos
+    ls -l                       Lista los archivos
+    ls -a                       Lista los archivos, incluso los ocultos
+    ls -lh                      Lista los archivos pero MUESTRA el tamaño en KB y MB  (OJOOOOOOOOOOOO)
+    ls -t                       Ordena los archivos por fecha de modificación (descendente)
+    ls -S                       Ordena los archivos por tamaño de archivo
+    ls -x                       Ordena por nombre y despues por extensión
     pwd                         Print working directory, muestra la ruta actual donde te encuentras
     cd                          Change Directory, para movernos entre directorios
     cd ~                        Me lleva al home
@@ -82,6 +95,29 @@ DIRECTORIOS
     rm                          Borra el archivo
     mv + archivo + directorio   Mover un archivo
 
+    mv + archivo + archivo      Renombra un archivo
+
+    --------- COMANDOS UTILIDADES INTERACTIVAS VIM (8)----------
+
+    vim                         Abre el editor de VIM
+    vim + un_nombre_archivo     Crea un archivo nuevo y lo abre
+    vim + un_archivo_ya_creado  Abre ese archivo y se puede editar
+    i                           Permite comenzar a escribir
+    ESC                         Salir del modo escribir
+    :w                          Guarda la información escrita en el archivo
+    :q                          Permite salir
+    :qa!                        Forza la salida
+    :x                          Guardar y salir al mismo tiempo (w + q)
+
+    --------- COMANDOS UTILIDADES INTERACTIVAS NANO (4)----------
+
+    nano                        Abre el editor de NANO
+    nano + un_nombre_archivo    Crea un archivo nuevo y lo abre
+    nano + un_archivo_ya_creado Abre ese archivo y se puede editar
+    CTRL + x                    Salir del programa
+
+
+
     ---------- URL ------------
     - Para instalar Ubuntu primero hay que configurar el PowerShell de Windows siguiendo estos pasos:
       https://platzi.com/clases/1748-terminal/24394-windows-subsystem-for-linux-wsl-como-acceder-a-la-/
@@ -90,9 +126,12 @@ DIRECTORIOS
 
     - Un directorio no se puede borrar si tiene contenido
     - Si te vas al directorio: /mnt/c/Users/<nombre de tu usuario> se pueden usuar los archivos que tengo en windows
+    - mv, cp, rm tambien funcionan con directorios
 
 ===== RESUMEN CLASES =====
 
 1   -   Instalación de Ubuntu, conceptos de TERMINAL, conceptos de COMANDOS (NOMBRE DEL PROGRAMA, MODIFICADORES, PARÁMETROS), algunos comandos
 2   -   La segunda clase viene el enlace con el que instale Ubuntu jajaja deberían ponerlo al principio
 3   -   ARCHIVOS, DOCUMENTOS y los comandos para administrar archivos y directorios
+4   -   EJERCICIO con directorios, más COMANDOS para listar y ordenar directorios/archivos
+5   -   UTILIDADES INTERACTIVAS, Nano y VIM, vimos conceptos, comandos dentro de cada una de las utilidades
