@@ -122,22 +122,27 @@ UTILIDADES BATCH/PROCESAMIENTO POR LOTES
     --------- COMANDOS UTILIDADES BATCH PARA VER CONTENIDO (5)----------
 
     cat                         Puedes ver el contenido COMPLETO de un archivo
-    head                        Puedes ver las PRIMERAS 10 lineas del contenido de un archivo
+    head                        Puedes ver las PRIMERAS 10 lineas del contenido de un archivo (se puede modificar a MAS lineas)
     head -n 5                   Puedes ver las PRIMERAS 5 lineas (ya es pasandole un modificador y un parámetro)
     tail                        Puedes ver las ULTIMAS 10 lineas del contenido de un archivo
     tail -n 5                   Puedes ver las ULTIMAS 5 lienas (el número obviamente puede varias, es un ejemplo el 5)
 
-    --------- COMANDOS UTILIDADES BATCH AVANZADAS (14)----------
+    --------- COMANDOS UTILIDADES BATCH AVANZADAS (16)----------
 
     grep                            Búsqueda por expresiones regulares
     grep +palabra +archivo          Busca la palabra dentro del archivo
     grep -i +palabra +archivo       Busca la palabra dentro del archivo SIN IMPORTAR si son mayúsculas o minúsculas
-    grep -i +"palabra$" +archivo    Busca las palabras que terminen con "$" gracias al pesitos (NO ME FUNCIONO, tuve que preguntar en los comentarios)
+    grep "palabra$" +archivo        Busca las palabras que terminen con "$" gracias al pesitos (NO ME FUNCIONO, tuve que preguntar en los comentarios)
+    grep "^palabra" +archivo        Busca las palabras que empiecen con ^
     
     sed                             Tratamiento de flujos (sprit editor) MODIFICAR con expresiones regulares
-    sed s/+palabra_cambiar/
-        +palabra_nueva/g            Sustituye todas las palabras que se especifican despues de s/ por las que estan despues de palabra_cambiar/ y
+    sed "s/+palabra_cambiar/+palabra_nueva/g"
+                                    Sustituye todas las palabras que se especifican despues de s/ por las que estan despues de palabra_cambiar/ y
                                     la g es para que lo haga de manera GLOBAL en todo el archivo (P.D. NO GUARDA LOS CAMBIOS EN EL ARCHIVO, lo hace en memoria)
+    
+    sed "s/palabra_cambiar/palabra_nueva; s/palabra2_cambiar/palabra2_nueva"    
+                                    Se pueden cambiar varias palabras separando por ;
+
     sed '$d'                        Elimina la ultima linea del archivo (NO GUARDA LOS CAMBIOS)
 
     awk                             Tratamiento de archivos de texto delimitados (por ejemplo por comas o pipes)
@@ -175,3 +180,4 @@ UTILIDADES BATCH/PROCESAMIENTO POR LOTES
 4   -   EJERCICIO con directorios, más COMANDOS para listar y ordenar directorios/archivos
 5   -   UTILIDADES INTERACTIVAS, Nano y VIM, vimos conceptos, comandos dentro de cada una de las utilidades
 6   -   BATCH/PROCESAMIENTO POR LOTES, Cat, Head, Tail, Grep, Sed, Awk  hicimos ejercicios con todos, muy buenos
+7   -   LECTURA de información de BACTH, tenia dos modificadores nuevos para sed y para grep
