@@ -72,6 +72,24 @@ UTILIDADES BATCH/PROCESAMIENTO POR LOTES
 
     - Programas que procesan texto y emiten un resultado
 
+
+PROCESAMIENTO DE DATOS
+
+    - Datos --- Proceso --- Datos procesados/información  (Este es el esquema más clasico, como una maquina de jugos)
+    - Esto se conoce como FLUJOS (desde que inicia hasta que sale)
+    - En la terminal conoce de 3 flujos
+        ~ ENTRADA STANDART
+        ~ SALIDA STANDART
+        ~ ERROR STANDART
+
+        ~ La ENTRADA standart puede ser el teclado pero la podemos cambiar por un archivo
+        ~ La SALIDA standart puede ser el monitor pero lo podemos cambiar por un archivo
+    
+    PIPES / TUBERIAS
+
+        - Enlazan varios procesos para que no los hagamos por nosotros
+
+
 ===== TIPS & RECORDAR =====
 
     ---------COMANDOS CLASE 1 (4)----------
@@ -139,9 +157,15 @@ UTILIDADES BATCH/PROCESAMIENTO POR LOTES
     sed "s/+palabra_cambiar/+palabra_nueva/g"
                                     Sustituye todas las palabras que se especifican despues de s/ por las que estan despues de palabra_cambiar/ y
                                     la g es para que lo haga de manera GLOBAL en todo el archivo (P.D. NO GUARDA LOS CAMBIOS EN EL ARCHIVO, lo hace en memoria)
+
+    sed -i "s/+palabra_cambiar/+palabra_nueva/g"
+                                    Guarda los cambios en el archivo
     
     sed "s/palabra_cambiar/palabra_nueva; s/palabra2_cambiar/palabra2_nueva"    
                                     Se pueden cambiar varias palabras separando por ;
+                                
+    sed "s/palabra/palabra_nueva/w nuevo_archivo.txt"
+                                    El resultado de la sustitución lo guarda en un nuevo archivo
 
     sed '$d'                        Elimina la ultima linea del archivo (NO GUARDA LOS CAMBIOS)
 
@@ -162,6 +186,17 @@ UTILIDADES BATCH/PROCESAMIENTO POR LOTES
           si luego de esto lo quieres pasar a un archivo lo puedes hacer con este operador: > que veremos en siguientes clases
     NOTA2: Con -i, sed si modifica el archivo
 
+
+    --------- FLUJOS (5)----------
+
+    comando > archivo               La salida del comando la manda a un archivo, por ejemplo un ls -l > archivo_nuevo.txt 
+    comando >> archivo              AGREGA a un archivo que ya existe la información que esta obteniendo del comando
+    comando | comando               Genera un flujo entre dos flujos, concatena procesos, por ejemplo:
+                                    ls -l > archivo.txt | ls -lah >> archivo.txt
+
+    more                            Para archivos muy grandes va mostrando la información con forme se le aprieta a la barra espaciadora
+    wc                              Word Count, cuenta el numero de caracteres en un flujo
+
     ---------- URL ------------
     - Para instalar Ubuntu primero hay que configurar el PowerShell de Windows siguiendo estos pasos:
       https://platzi.com/clases/1748-terminal/24394-windows-subsystem-for-linux-wsl-como-acceder-a-la-/
@@ -181,3 +216,4 @@ UTILIDADES BATCH/PROCESAMIENTO POR LOTES
 5   -   UTILIDADES INTERACTIVAS, Nano y VIM, vimos conceptos, comandos dentro de cada una de las utilidades
 6   -   BATCH/PROCESAMIENTO POR LOTES, Cat, Head, Tail, Grep, Sed, Awk  hicimos ejercicios con todos, muy buenos
 7   -   LECTURA de información de BACTH, tenia dos modificadores nuevos para sed y para grep
+8   -   PROCESAMIENTO de datos, FLUJOS, >, >>, | 
