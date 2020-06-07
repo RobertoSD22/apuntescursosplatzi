@@ -14,7 +14,7 @@
       y en conjunto con el sistema operativo EJECUTA esas instrucciones y muestra el resultado
     - ENTORNO conocido como INTERFASE de TEXTO
     - La razón para usar este tipo de interfaces y no una gráfica es la EFICIENCIA
-    - Otro tema es que a través de la terminal se puede automatizar tareas
+    - Otro tema es que a través de la terminal se puede AUTOMATIZAR tareas
 
     - Incluye además de los comandos algunas utilidades propias:
         ~ Comodines
@@ -24,7 +24,7 @@
 COMANDOS
 
     - Un comando consiste en:
-         ~ NOMBRE DEL PROGRAMA
+         ~ NOMBRE DEL PROGRAMA/COMANDO
          ~ MODIFICADORES
          ~ PARÁMETROS
     - La diferencia entre los parámetros y los modificadores, 
@@ -41,7 +41,7 @@ El almacenamiento de la información supone responder dos preguntas:
 
         ~ El sistema operativo se encarga, con un soporte que es un disco rigido.
 
-    - ¿Como vamos a organizar esa información de modo que cuando la necesitemos la tengamos rapidamente accesible?
+    - ¿Como vamos a ORGANIZAR esa información de modo que cuando la necesitemos la tengamos rapidamente accesible?
 
         ~ Nosotros lo resolvemos, y CONTAMOS con 2 herramientas: ARCHIVOS y DIRECTORIOS
 
@@ -61,12 +61,16 @@ DIRECTORIOS
 
 TIPOS DE ARCHIVOS
 
-    - BINARIOS.-    Esta pensado de tal manera que lo interprete una computadora (imagenes, docuementos, musica, videos)
+    - BINARIOS.-    Esta pensado de tal manera que lo interprete una computadora (imagenes, documentos, música, videos)
     - TEXTO.-       Tambien son binarios pero corresonden con caracteres (se encuentran en configuraciones, codigo fuente, paginas web)
     
         ~ UTILIDADES INTERACTIVAS.- Se usan para trabar con archivos de texto, reaccionan al comando que ejecutas y muestra en pantalla
             - VIM
             - NANO
+
+UTILIDADES BATCH/PROCESAMIENTO POR LOTES
+
+    - Programas que procesan texto y emiten un resultado
 
 ===== TIPS & RECORDAR =====
 
@@ -94,7 +98,6 @@ TIPOS DE ARCHIVOS
     cp + archivo + directorio   Copiar un archivo a la ruta que se le diga (el ultimo parametro indicta el directorio o ruta)
     rm                          Borra el archivo
     mv + archivo + directorio   Mover un archivo
-
     mv + archivo + archivo      Renombra un archivo
 
     --------- COMANDOS UTILIDADES INTERACTIVAS VIM (8)----------
@@ -116,7 +119,43 @@ TIPOS DE ARCHIVOS
     nano + un_archivo_ya_creado Abre ese archivo y se puede editar
     CTRL + x                    Salir del programa
 
+    --------- COMANDOS UTILIDADES BATCH PARA VER CONTENIDO (5)----------
 
+    cat                         Puedes ver el contenido COMPLETO de un archivo
+    head                        Puedes ver las PRIMERAS 10 lineas del contenido de un archivo
+    head -n 5                   Puedes ver las PRIMERAS 5 lineas (ya es pasandole un modificador y un parámetro)
+    tail                        Puedes ver las ULTIMAS 10 lineas del contenido de un archivo
+    tail -n 5                   Puedes ver las ULTIMAS 5 lienas (el número obviamente puede varias, es un ejemplo el 5)
+
+    --------- COMANDOS UTILIDADES BATCH AVANZADAS (14)----------
+
+    grep                            Búsqueda por expresiones regulares
+    grep +palabra +archivo          Busca la palabra dentro del archivo
+    grep -i +palabra +archivo       Busca la palabra dentro del archivo SIN IMPORTAR si son mayúsculas o minúsculas
+    grep -i +"palabra$" +archivo    Busca las palabras que terminen con "$" gracias al pesitos (NO ME FUNCIONO, tuve que preguntar en los comentarios)
+    
+    sed                             Tratamiento de flujos (sprit editor) MODIFICAR con expresiones regulares
+    sed s/+palabra_cambiar/
+        +palabra_nueva/g            Sustituye todas las palabras que se especifican despues de s/ por las que estan despues de palabra_cambiar/ y
+                                    la g es para que lo haga de manera GLOBAL en todo el archivo (P.D. NO GUARDA LOS CAMBIOS EN EL ARCHIVO, lo hace en memoria)
+    sed '$d'                        Elimina la ultima linea del archivo (NO GUARDA LOS CAMBIOS)
+
+    awk                             Tratamiento de archivos de texto delimitados (por ejemplo por comas o pipes)
+    awk -F +'DELIMITADOR'
+        +'{ print $1 }' +archivo    Procesa el archivo, el -F +'DELIMITADOR' nos indica cual va a ser el delimitador por el va a separar
+                                    el +'{ print $1}' indica que va a imprimir la primera COLUMNA despues de procesarlo y separarlo
+                                    +archivo es el documento que va procesar
+    awk -F +'DELIMITADOR'
+    +'NR > 0 && $3 > 1 { print $1 }' Igual que el aterior pero valida con NR (Number Rows) sea mayor a 0 y con $3 LA COLUMNA 3 tenga caracteres, TODO para imprimir
+
+    $1 * $2                         TAMBIEN se pueden hacer calculos con las columnas que salen despues de delimitar!! WOW
+
+    $NUMERO                         Es la columna
+    NR                              Son todas las filas en el documento
+
+    NOTA: sed no guarda los cambios pero podemos hacer modificaciones durante la lectura de un input de manera muy sencilla con expresiones regulares,
+          si luego de esto lo quieres pasar a un archivo lo puedes hacer con este operador: > que veremos en siguientes clases
+    NOTA2: Con -i, sed si modifica el archivo
 
     ---------- URL ------------
     - Para instalar Ubuntu primero hay que configurar el PowerShell de Windows siguiendo estos pasos:
@@ -135,3 +174,4 @@ TIPOS DE ARCHIVOS
 3   -   ARCHIVOS, DOCUMENTOS y los comandos para administrar archivos y directorios
 4   -   EJERCICIO con directorios, más COMANDOS para listar y ordenar directorios/archivos
 5   -   UTILIDADES INTERACTIVAS, Nano y VIM, vimos conceptos, comandos dentro de cada una de las utilidades
+6   -   BATCH/PROCESAMIENTO POR LOTES, Cat, Head, Tail, Grep, Sed, Awk  hicimos ejercicios con todos, muy buenos
