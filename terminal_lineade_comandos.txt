@@ -217,3 +217,4 @@ PROCESAMIENTO DE DATOS
 6   -   BATCH/PROCESAMIENTO POR LOTES, Cat, Head, Tail, Grep, Sed, Awk  hicimos ejercicios con todos, muy buenos
 7   -   LECTURA de información de BACTH, tenia dos modificadores nuevos para sed y para grep
 8   -   PROCESAMIENTO de datos, FLUJOS, >, >>, | 
+9   -   EJERCICIO de practica con >, >>, vim, ect.
