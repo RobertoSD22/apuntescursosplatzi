@@ -10,3 +10,5 @@
 
 1   -   Un comunicado de una Expert Session el 10 de Junio del 2020
 2   -   Presentación de la teacher
+3   -   Classroom Instructions, Es una guia para los pasos que tienes que hacer en las clases (son 9), te dice que debes
+        escuchar, grabar tu voz y escucharla, repetir, leer, completar las sentecias, etc.
