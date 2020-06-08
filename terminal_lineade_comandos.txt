@@ -89,6 +89,25 @@ PROCESAMIENTO DE DATOS
 
         - Enlazan varios procesos para que no los hagamos por nosotros
 
+FOREGROUND PROCESOS/PRIMER PLANO
+
+    - Son los procesos normales que se ejecutan cuando mandamos un comando
+    - Se les llama "primer plano" porque no te devuelven el control hasta que terminan
+
+BACKGROUND PROCESOS/SEGUNDO PLANO
+
+    - Se ejecutaran por detrás, devolviendo el control inmediatamente a pesar de que sean tardados
+    - Se utiliza el "&" al final del comando
+    - Cuando termina aparece un [1]
+
+    - Ctrl + z cuando ya ejecutaste el proceso y lo quieres mandar a BACKGROUND
+    - "fg" para traer de vuelta el proceso que se mando a BACKGROUND
+
+    - IDENTIFICAR PROCESOS EN SEGUNDO PLANO:
+
+        ~ PS
+        ~ TOP
+
 
 ===== TIPS & RECORDAR =====
 
@@ -197,6 +216,22 @@ PROCESAMIENTO DE DATOS
     more                            Para archivos muy grandes va mostrando la información con forme se le aprieta a la barra espaciadora
     wc                              Word Count, cuenta el numero de caracteres en un flujo
 
+    --------- BACKGROUND (10)----------
+
+    comando + &                     Se agrega al final del comando para mandar el proceso a un segundo plano
+    Ctrl + z                        Si ya inicio el proceso sin el & y se quiere mandar a background se utiliza esa combinación de teclas
+    Ctrl + c                        Detiene el proceso que se esta ejecutando utilizando esa combinación de teclas
+    fg                              Cuando se mando a background un proceso y se quiere traer de vuelta a primer plano o foreground
+    ps                              Identifica los procesos que están corriendo en segundo plano
+    ps ax                           Muestra mas procesos (tambien los eliminados con kill)
+    top                             Igual muestra los procesos, en tiempo real meustra como van cambiando los procesos, se pueden matar los procesos
+                                    q Sales de la interfaz de top
+    kill +numero_proceso            Manda señales al proceso para que se detenga (los procesos envian señales constantemente), el número de proceso
+                                    se puede obtener al ejecutar el comando "ps"
+    kill -9 +numero_proceso         Corta inmediatamente el proceso, no manda señales, lo corta "abruptamente" 
+    killal +nombre_archivo          Es igual que kill, solo cambia por el nombre del archivo el número del proceso
+    
+
     ---------- URL ------------
     - Para instalar Ubuntu primero hay que configurar el PowerShell de Windows siguiendo estos pasos:
       https://platzi.com/clases/1748-terminal/24394-windows-subsystem-for-linux-wsl-como-acceder-a-la-/
@@ -218,3 +253,4 @@ PROCESAMIENTO DE DATOS
 7   -   LECTURA de información de BACTH, tenia dos modificadores nuevos para sed y para grep
 8   -   PROCESAMIENTO de datos, FLUJOS, >, >>, | 
 9   -   EJERCICIO de practica con >, >>, vim, ect.
+10  -   BACKGROUND, FOREGROUND, &, Ctrl + Z, fg, ps, top, kill, killal todooooo para correr procesos en segundo plano, detenerlos o monitorearlos
