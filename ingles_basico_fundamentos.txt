@@ -1,6 +1,11 @@
 =================== APUNTES DEL CURSO =======================
 
-===== HERRAMIENTAS =====
+GREETINGS AND INTRODUCING YOURSELF
+
+    Hello I´m Robert
+    Good morning Robert. How are you? I´m Sam
+    I´m fine thanks. How about you.
+    fine too
 
 ===== CONCEPTOS DE LAS CLASES =====
 
