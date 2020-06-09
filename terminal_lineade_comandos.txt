@@ -9,9 +9,9 @@
 
 ¿Que es la terminal?
 
-    - La terminal es un PROGRAMA que recibe las instrucciones que le damos 
+    - La terminal es un PROGRAMA que recibe las INSTRUCCIONES que le damos 
       y las TRADUCE en algo que la computadora puede comprender
-      y en conjunto con el sistema operativo EJECUTA esas instrucciones y muestra el resultado
+      en conjunto con el sistema operativo EJECUTA esas instrucciones y muestra el resultado
     - ENTORNO conocido como INTERFASE de TEXTO
     - La razón para usar este tipo de interfaces y no una gráfica es la EFICIENCIA
     - Otro tema es que a través de la terminal se puede AUTOMATIZAR tareas
@@ -55,10 +55,6 @@ ARCHIVOS
     - Dentro de un sistema de archivos, no puede haber un archivo con el mismo nombre en la misma ubicación
     - Los NOMBRES, tienen ciertas reglas dependiendo del sistema operativo (como la cantidad de caracteres, los caracteres especiales)
 
-DIRECTORIOS
-
-    - La manera en que ORGANIZAMOS los archivos/información
-
 TIPOS DE ARCHIVOS
 
     - BINARIOS.-    Esta pensado de tal manera que lo interprete una computadora (imagenes, documentos, música, videos)
@@ -67,6 +63,12 @@ TIPOS DE ARCHIVOS
         ~ UTILIDADES INTERACTIVAS.- Se usan para trabar con archivos de texto, reaccionan al comando que ejecutas y muestra en pantalla
             - VIM
             - NANO
+
+DIRECTORIOS
+
+    - La manera en que ORGANIZAMOS los archivos/información
+
+
 
 UTILIDADES BATCH/PROCESAMIENTO POR LOTES
 
@@ -85,9 +87,9 @@ PROCESAMIENTO DE DATOS
         ~ La ENTRADA standart puede ser el teclado pero la podemos cambiar por un archivo
         ~ La SALIDA standart puede ser el monitor pero lo podemos cambiar por un archivo
     
-    PIPES / TUBERIAS
+PIPES / TUBERIAS
 
-        - Enlazan varios procesos para que no los hagamos por nosotros
+    - Enlazan varios procesos para que no los hagamos por nosotros
 
 FOREGROUND PROCESOS/PRIMER PLANO
 
@@ -186,6 +188,17 @@ COMPRESIÓN DE ARCHIVOS
     - Como cuando queremos enviar archivos muy pesados a otro lugar/pais/otra persona
     - se usa el comando gzip
     - tar cf  cando queremos AGRUPAR varios archivos en uno (NO LOS COMPRIME)
+
+
+BÚSQUEDA DE ARCHIVOS
+
+    - locate    Es una herramienta que permite hacer una busqueda en todo el sistema de archivos simplemente diciendo el nombre del archivo que buscas
+                NECESITA hacerle un "sudo updatedb" porque utiliza un sistema de base de datos para poder hacer la búsqueda
+                OCUPA el nombre correcto con la extensión :( si no busca muchas cosas
+    - whereis   Se utiliza para ubicar archivos binarios osease comandos
+    - find      Es la más compleja de las 3, busca dentro de un arbol de directorios en base a criterios
+
+
 
 ===== TIPS & RECORDAR =====
 
@@ -330,7 +343,7 @@ COMPRESIÓN DE ARCHIVOS
     apt install +programa           Para instalar un programa que se desee en Ubuntu (o distribuciones de DEBIAN) NO ME FUNCIONO
 
 
-    --------- COMPRIMIR ARCHIVOS (1)----------
+    --------- COMPRIMIR ARCHIVOS (8)----------
 
     gzip +archivo                           Comprime un archivo (le pone una extención .gz)
     gzip -d +archivo                        Para descomprimir un archivo que se comprimio
@@ -342,7 +355,18 @@ COMPRESIÓN DE ARCHIVOS
     tar czf +nombrearchivocomprimido.tgz +todoslosarchivosquesequierencombinar
                                             Cuando queremos agrupar varios archivos y aparte COMPRIMIRLOS
     tar tzf +nombrearchivocomprimido.tgz    Igual para ver el contenido
-    tar xzf +nombrearchivocomprimido.tgz    Igual para descomprimir el archivo    
+    tar xzf +nombrearchivocomprimido.tgz    Igual para descomprimir el archivo 
+
+
+    --------- ADMINISTRADORES DE PAQUETES (3)----------
+
+    locate +archivo                 Busca el archivo
+    sudo updatedb                   Actualiza la base de datos que necesita locate para encontrar los archivos                   
+
+    whereis +comando                Busca comandos (los archivos de esos comandos)
+
+    find . -user roberto -perm 777  Busca en el directorio actual o subdirectorios, los archivos de roberto, con todos los permisos (es un ejemplo)
+    find . -type f -mtime +7        Busca en el directorio actual o subdirectorios, archivos de tipo FILE (-f), que hayan sido MODIFICADOS en los ultimos 7 días (-mtime +7)
 
     ---------- URL ------------
     - Para instalar Ubuntu primero hay que configurar el PowerShell de Windows siguiendo estos pasos:
@@ -372,3 +396,5 @@ COMPRESIÓN DE ARCHIVOS
 13  -   MANEJO DE PAQUETES, ADMINISTRADORES de paquetes, PAQUETES BINARIOS (apt, zypper, rpm), PAQUETES de Lenguajes (pip,composer,npm) y AMBOS (conda,homebrew),
         Solo vimos el de apt pero no funciono en mi computadora, hizo un ejemplo con pip y NO uso conda o homebrew
 14  -   COMPRIMIR ARCHIVOS, gzip y tar, el primero es para comprimir, el segundo solo agrupa pero se pueden convinar agregando "z" al modificador
+15  -   BUSQUEDA DE ARCHIVOS, instale locate!!! con "sudo apt install mlocate" (esta instalación si funciono), vimos tambien whereis (muy simple) y vimos find con varios
+        ejemplos de como se puede utilizar, incluso viene un exec para que despues de encontrar ejecute algo
