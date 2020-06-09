@@ -318,3 +318,4 @@ SEGURIDAD / PERMISOS
 10  -   BACKGROUND, FOREGROUND, &, Ctrl + Z, fg, ps, top, kill, killal todooooo para correr procesos en segundo plano, detenerlos o monitorearlos
 11  -   PERMISOS, como se leen los permisos, chmod para cambiarlos, chwon para cambiar al dueño, chgrp para cambiar el grupo y sudo que se combina con ellos
         para dar permisos como si fuera el usuario ROOT/ADMINISTRADOR
+12  -   EJERCICIO, preguntas sobre permisos, las respuestas se quedan en el curso
