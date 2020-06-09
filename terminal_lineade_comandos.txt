@@ -155,6 +155,30 @@ SEGURIDAD / PERMISOS
     - El usuario dios tambien se le conoce como ROOT / RAIZ 
     
         ~ SUDO, es el comando que actua como el usuario root, es como los permisos de administrador
+    
+MANEJO DE PAQUETES
+
+    - Es comun usar software que no viene con el software de fabrica, 
+      se necesita saber de donde obtener, descargar, copiar los archivos a donde es necesario y hacer alguna configuración
+    - PAQUETES DE SOFTWARE - Son programas que realizan esas tareas por nosotros
+    - ADMINISTRADORES DE PAQUETES - Saben de donde realizar las descargas, que otros paquetes ya estan instalados, como configurar sin que haya problemas
+
+        ~ ADMINISTRADOR DE PAQUETES/PAQUETES BINARIOS, Dependiendo del sistema operativo instalado, por ejemplo:
+
+            * apt           Para distribuciones de Linux basadas DEBIAN como Ubuntu (la que estamos usando)
+            * zypper        Para distribuciones de Linux basadas SUSE
+            * rpm           Es el universal pero es más rustico
+        
+        - Dependiendo del LENGUAJE de programación
+
+            * pip           Phyton
+            * composer      PHP
+            * npm           Nodejs
+
+        - Para Paquetes binarios o de lenguajes
+
+            * conda
+            * homebrew
 
 ===== TIPS & RECORDAR =====
 
@@ -279,7 +303,7 @@ SEGURIDAD / PERMISOS
     killal +nombre_archivo          Es igual que kill, solo cambia por el nombre del archivo el número del proceso
 
 
-    --------- PERMISOS (9)----------
+    --------- PERMISOS (11)----------
 
     chmod                           Modifica los permisos sobre el archivo,directorio o link
     chmod o/u/g                     OTHERS modifica los permisos para los demás, U para usuario y G es para grupo
@@ -291,8 +315,15 @@ SEGURIDAD / PERMISOS
     chown                           Cambia el dueño del documento
     chgrp                           Cambia el grupo del documento
     sudo                            Es el comando que actua como el usuario ROOT, puedes poner por ejemplo: "sudo chown usuario"  y forza a cambiar el usuario dueño
-
     getent passwd                   Muestra todos los usuarios del sistema
+
+
+    --------- ADMINISTRADORES DE PAQUETES (1)----------
+
+    apt install +programa           Para instalar un programa que se desee en Ubuntu (o distribuciones de DEBIAN) NO ME FUNCIONO
+
+
+
 
     ---------- URL ------------
     - Para instalar Ubuntu primero hay que configurar el PowerShell de Windows siguiendo estos pasos:
@@ -319,3 +350,5 @@ SEGURIDAD / PERMISOS
 11  -   PERMISOS, como se leen los permisos, chmod para cambiarlos, chwon para cambiar al dueño, chgrp para cambiar el grupo y sudo que se combina con ellos
         para dar permisos como si fuera el usuario ROOT/ADMINISTRADOR
 12  -   EJERCICIO, preguntas sobre permisos, las respuestas se quedan en el curso
+13  -   MANEJO DE PAQUETES, ADMINISTRADORES de paquetes, PAQUETES BINARIOS (apt, zypper, rpm), PAQUETES de Lenguajes (pip,composer,npm) y AMBOS (conda,homebrew),
+        Solo vimos el de apt pero no funciono en mi computadora, hizo un ejemplo con pip y NO uso conda o homebrew
