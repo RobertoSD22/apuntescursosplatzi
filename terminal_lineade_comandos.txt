@@ -216,7 +216,21 @@ EJECUTAR COMANDOS DE FORMA REMOTA
 
 MAIL
 
-    - Se utilizara POSTFIX un servidor de correo que se encargará de las tareas de comunicación con los servidores de destino.
+    - Se utilizara POSTFIX un servidor de correo que se encargará de las tareas de comunicación con los servidores de destino. 
+      (NO FUNCIONO!!, probe con lo que decían en los comentarios y ni así)
+
+
+VARIABLES DE ENTORNO
+
+    - Son definiciones globales a la que todos los procesos tienen acceso, especificamente el sistema operativo o la terminal
+    - echo $PATH es un ejemplo de poder ver lo que tiene la variable de entorno PATH, con $ se le indica que es una variable
+    - Se crear o asignar para un comando o para toda la sesión
+    - TODA LA SESIÓN:
+        ~ export VAR= valor (SOLO VIVE MIENTRAS ESTA ABIERTA LA TERMINAL)
+
+
+
+
 
 ===== TIPS & RECORDAR =====
 
@@ -401,13 +415,21 @@ MAIL
     ssh +urlotroservidor            se conecta de forma segura con otra computadora o servidor
 
 
-    --------- MAIL (1)----------
+    --------- MAIL (4)----------
 
     sudo apt update                                 Para tener el sistema de paquetes de ubuntu actualizados al día
     sudo DEBIAN_PRIORITY=low apt install postfix    Para instalar el servidor de correo POSTFIX (SE DEBEN SEGUIR LAS INSTRUCCIONES DE LA CLASE: 
                                                     https://platzi.com/clases/1748-terminal/24407-configuracion-de-un-servicio-de-mailing/)
     sudo apt install mailutils                      Para instalar las utilidades de correo
     echo “Hola Mundo!” | mail -s “Testing” TU_EMAIL Para validar que se configuro bien
+
+
+    --------- VARIABLE DE ENTORNO (1)----------
+
+    export NOMBRE_VARIABLE=valor                    Con esto creamos una variable de entorno global
+
+
+
 
 
     ---------- URL ------------
@@ -445,3 +467,4 @@ MAIL
         igual enseño el comando MAIL pero tampoco lo puedo ejecutar
 18  -   MAIL, Una redacción donde viene como instalar un servidor de correo en la computadora, solo segui los pasos, hice unas pruebas, no fallo pero no llego 
         (revisare despues porque solo vi en el celular)
+19  -   VARIABLES DE ENTORNO, vimos como crearlas, se pueden ejecutar por toda la sesión o por comandos, solo duran mientras este abierta TERMINAL
