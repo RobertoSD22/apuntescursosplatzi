@@ -108,6 +108,53 @@ BACKGROUND PROCESOS/SEGUNDO PLANO
         ~ PS
         ~ TOP
 
+SEGURIDAD / PERMISOS
+
+    - Unix fue diseñado como un sistema multiusuario, por lo que ciertas cuestiones básicas de seguridad estan intrinsecas dentro del sistema
+    - Una de estas cuestiones intrinsecas es que los archivos de un usuario no puedan ser accedidos por otro usuario salvo que le den permisos
+    - TODOS LOS ARCHIVOS DE UNIX TIENEN:
+        ~ Dueño
+        ~ Grupo
+        ~ Que se le permite hacer a otra persona que no sea el dueño o el Grupo
+    - LAS OPERACIONES QUE SE PUEDEN HACER SOBRE UN ARCHIVO SON:
+        ~ Lectura
+        ~ Escritura
+        ~ Ejecución
+    - ¿COMO se leen los permisos?
+
+        El primer caracter nos dice:
+            d - significa que es un directorio
+            -  - significa que es un archivo
+            l   - significa que es un link o puntero a otro directorio
+
+        Posterior, se lee de 3 en 3 caracteres, por ejemplo:
+            rwx rwx rwx
+
+            - Los primeros 3 son los permisos que tiene el dueño del archivo
+            - Los segundos 3 son los permisos que tiene el grupo de usuarios donde esta el archivo (puede estar en un grupo)
+            - Los ultimos 3 son los permisos que tienen todos los otros usuarios que no son ni el dueño ni el grupo
+
+        Los permísos son:
+            r es de read osease permiso de lectura
+            w es de writte osease permiso de escritura
+            x es de execute osease permiso de ejecución
+
+    - Para ALTERAR los PERMISOS se tienen los comandos:
+
+        ~chmod  Es el principal que nos cambia individualmente los permisos
+        ~chown  Cambia propietario del archivo
+        ~chgrp  Cambia quien es el grupo de usuarios que puede acceder al archivo
+
+        - Esos comandos pueden recibir un numero que representa los permisos que puede tener, por ejemplo: (IMAGEN 1)
+
+            0 - ningun permiso
+            4 - permiso de lectura
+            6 - permiso de lectura y escritura
+            7 - todos los permisos
+    
+    - El usuario dios tambien se le conoce como ROOT / RAIZ 
+    
+        ~ SUDO, es el comando que actua como el usuario root, es como los permisos de administrador
 
 ===== TIPS & RECORDAR =====
 
@@ -230,7 +277,22 @@ BACKGROUND PROCESOS/SEGUNDO PLANO
                                     se puede obtener al ejecutar el comando "ps"
     kill -9 +numero_proceso         Corta inmediatamente el proceso, no manda señales, lo corta "abruptamente" 
     killal +nombre_archivo          Es igual que kill, solo cambia por el nombre del archivo el número del proceso
-    
+
+
+    --------- PERMISOS (9)----------
+
+    chmod                           Modifica los permisos sobre el archivo,directorio o link
+    chmod o/u/g                     OTHERS modifica los permisos para los demás, U para usuario y G es para grupo
+    chmod o-w/r/x                   W es para modificar el permiso de escritura, X ejecución, R los de lectura, el - para quitar, el + para dar
+    chmod o-w +archivo              Y por ultimo se le dice el archivo     
+    chmod +w                        Le da permisos a todos!!!
+    chmod +numero                   El número es la represetación en codigo binario para un permiso(0,4,6,7 son los números más normales) (ver IMAGEN 1)
+    chmod +numero+numero+numero     El primer numero es para el dueño, el segundo para el grupo y el ultimo para los otros      
+    chown                           Cambia el dueño del documento
+    chgrp                           Cambia el grupo del documento
+    sudo                            Es el comando que actua como el usuario ROOT, puedes poner por ejemplo: "sudo chown usuario"  y forza a cambiar el usuario dueño
+
+    getent passwd                   Muestra todos los usuarios del sistema
 
     ---------- URL ------------
     - Para instalar Ubuntu primero hay que configurar el PowerShell de Windows siguiendo estos pasos:
@@ -254,3 +316,5 @@ BACKGROUND PROCESOS/SEGUNDO PLANO
 8   -   PROCESAMIENTO de datos, FLUJOS, >, >>, | 
 9   -   EJERCICIO de practica con >, >>, vim, ect.
 10  -   BACKGROUND, FOREGROUND, &, Ctrl + Z, fg, ps, top, kill, killal todooooo para correr procesos en segundo plano, detenerlos o monitorearlos
+11  -   PERMISOS, como se leen los permisos, chmod para cambiarlos, chwon para cambiar al dueño, chgrp para cambiar el grupo y sudo que se combina con ellos
+        para dar permisos como si fuera el usuario ROOT/ADMINISTRADOR
