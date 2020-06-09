@@ -214,7 +214,9 @@ EJECUTAR COMANDOS DE FORMA REMOTA
         ~ primero ssh, luego los parametros: el usuario y el host (a donde me quiero conectar)
 
 
+MAIL
 
+    - Se utilizara POSTFIX un servidor de correo que se encargará de las tareas de comunicación con los servidores de destino.
 
 ===== TIPS & RECORDAR =====
 
@@ -394,9 +396,18 @@ EJECUTAR COMANDOS DE FORMA REMOTA
     wget +urlsistema                Descarga la pagina html entera!!
 
 
-     --------- SSH (1)----------
+    --------- SSH (1)----------
 
-    ssh +urlotroservidor            se conecta de forma segura con otra computadora o servidor                       
+    ssh +urlotroservidor            se conecta de forma segura con otra computadora o servidor
+
+
+    --------- MAIL (1)----------
+
+    sudo apt update                                 Para tener el sistema de paquetes de ubuntu actualizados al día
+    sudo DEBIAN_PRIORITY=low apt install postfix    Para instalar el servidor de correo POSTFIX (SE DEBEN SEGUIR LAS INSTRUCCIONES DE LA CLASE: 
+                                                    https://platzi.com/clases/1748-terminal/24407-configuracion-de-un-servicio-de-mailing/)
+    sudo apt install mailutils                      Para instalar las utilidades de correo
+    echo “Hola Mundo!” | mail -s “Testing” TU_EMAIL Para validar que se configuro bien
 
 
     ---------- URL ------------
@@ -432,3 +443,5 @@ EJECUTAR COMANDOS DE FORMA REMOTA
 16  -   INTERACCIÓN HTTP, vimos como se hace una petición a una url de un servidor, como arroja la página, o descarga la página completa con CURL y WGET
 17  -   SSH, nos enseño los comandos desde su computadora pero no funcionan en la mia porque no tengo configurado todo lo que tiene el, 
         igual enseño el comando MAIL pero tampoco lo puedo ejecutar
+18  -   MAIL, Una redacción donde viene como instalar un servidor de correo en la computadora, solo segui los pasos, hice unas pruebas, no fallo pero no llego 
+        (revisare despues porque solo vi en el celular)
