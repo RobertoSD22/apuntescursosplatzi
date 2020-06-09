@@ -205,6 +205,13 @@ SERVIDORES/HTTP
         ~ curl  Se utiliza para hacer un pedido "CRUDO" al servidor
         ~ wget  Realiza descargas desde servidores
 
+EJECUTAR COMANDOS DE FORMA REMOTA
+
+    - De una computadora a otra
+    - El problema es que la información al viajar por la red puede ser captada por alguien más (agentes malisiosos)
+    - Una solución es usar conexiones seguras (la información viaja encriptada, no tal cual la escribimos)
+    - Utilizamos ssh (secure shell o terminal segura), de la siguiente manera:
+        ~ primero ssh, luego los parametros: el usuario y el host (a donde me quiero conectar)
 
 
 
@@ -378,7 +385,7 @@ SERVIDORES/HTTP
     find . -type f -mtime +7        Busca en el directorio actual o subdirectorios, archivos de tipo FILE (-f), que hayan sido MODIFICADOS en los ultimos 7 días (-mtime +7)
 
 
-    --------- COMUNICACIÓN HTTP (5)----------
+    --------- COMUNICACIÓN HTTP (4)----------
 
     curl +urlsistema                Hace una petición al servidor, por ejemplo: curl https://platzi.com , regresa el código de la página de platzi
     curl -v +urlsistema             Manda tambien la comunicación que hay además de la página
@@ -387,8 +394,9 @@ SERVIDORES/HTTP
     wget +urlsistema                Descarga la pagina html entera!!
 
 
+     --------- SSH (1)----------
 
-
+    ssh +urlotroservidor            se conecta de forma segura con otra computadora o servidor                       
 
 
     ---------- URL ------------
@@ -422,3 +430,5 @@ SERVIDORES/HTTP
 15  -   BUSQUEDA DE ARCHIVOS, instale locate!!! con "sudo apt install mlocate" (esta instalación si funciono), vimos tambien whereis (muy simple) y vimos find con varios
         ejemplos de como se puede utilizar, incluso viene un exec para que despues de encontrar ejecute algo
 16  -   INTERACCIÓN HTTP, vimos como se hace una petición a una url de un servidor, como arroja la página, o descarga la página completa con CURL y WGET
+17  -   SSH, nos enseño los comandos desde su computadora pero no funcionan en la mia porque no tengo configurado todo lo que tiene el, 
+        igual enseño el comando MAIL pero tampoco lo puedo ejecutar
