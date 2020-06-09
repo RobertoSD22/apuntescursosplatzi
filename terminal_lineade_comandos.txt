@@ -198,6 +198,15 @@ BÚSQUEDA DE ARCHIVOS
     - whereis   Se utiliza para ubicar archivos binarios osease comandos
     - find      Es la más compleja de las 3, busca dentro de un arbol de directorios en base a criterios
 
+SERVIDORES/HTTP
+
+    - Http sirve para intercambiar texto, por lo que la terminal nos puede ayudar a interactuar con el servidor
+    - COMANDOS http:
+        ~ curl  Se utiliza para hacer un pedido "CRUDO" al servidor
+        ~ wget  Realiza descargas desde servidores
+
+
+
 
 
 ===== TIPS & RECORDAR =====
@@ -358,7 +367,7 @@ BÚSQUEDA DE ARCHIVOS
     tar xzf +nombrearchivocomprimido.tgz    Igual para descomprimir el archivo 
 
 
-    --------- ADMINISTRADORES DE PAQUETES (3)----------
+    --------- BÚSQUEDAS (5)----------
 
     locate +archivo                 Busca el archivo
     sudo updatedb                   Actualiza la base de datos que necesita locate para encontrar los archivos                   
@@ -367,6 +376,20 @@ BÚSQUEDA DE ARCHIVOS
 
     find . -user roberto -perm 777  Busca en el directorio actual o subdirectorios, los archivos de roberto, con todos los permisos (es un ejemplo)
     find . -type f -mtime +7        Busca en el directorio actual o subdirectorios, archivos de tipo FILE (-f), que hayan sido MODIFICADOS en los ultimos 7 días (-mtime +7)
+
+
+    --------- COMUNICACIÓN HTTP (5)----------
+
+    curl +urlsistema                Hace una petición al servidor, por ejemplo: curl https://platzi.com , regresa el código de la página de platzi
+    curl -v +urlsistema             Manda tambien la comunicación que hay además de la página
+    curl -v +urlsistema > /dev/null Manda aun archivo que no existe la salida, pero ayuda para ver la información que uno quiere ver, en este caso el HEAD
+
+    wget +urlsistema                Descarga la pagina html entera!!
+
+
+
+
+
 
     ---------- URL ------------
     - Para instalar Ubuntu primero hay que configurar el PowerShell de Windows siguiendo estos pasos:
@@ -398,3 +421,4 @@ BÚSQUEDA DE ARCHIVOS
 14  -   COMPRIMIR ARCHIVOS, gzip y tar, el primero es para comprimir, el segundo solo agrupa pero se pueden convinar agregando "z" al modificador
 15  -   BUSQUEDA DE ARCHIVOS, instale locate!!! con "sudo apt install mlocate" (esta instalación si funciono), vimos tambien whereis (muy simple) y vimos find con varios
         ejemplos de como se puede utilizar, incluso viene un exec para que despues de encontrar ejecute algo
+16  -   INTERACCIÓN HTTP, vimos como se hace una petición a una url de un servidor, como arroja la página, o descarga la página completa con CURL y WGET
