@@ -169,16 +169,23 @@ MANEJO DE PAQUETES
             * zypper        Para distribuciones de Linux basadas SUSE
             * rpm           Es el universal pero es más rustico
         
-        - Dependiendo del LENGUAJE de programación
+        ~ Dependiendo del LENGUAJE de programación
 
             * pip           Phyton
             * composer      PHP
             * npm           Nodejs
 
-        - Para Paquetes binarios o de lenguajes
+        ~ Para Paquetes binarios o de lenguajes
 
             * conda
             * homebrew
+
+
+COMPRESIÓN DE ARCHIVOS
+
+    - Como cuando queremos enviar archivos muy pesados a otro lugar/pais/otra persona
+    - se usa el comando gzip
+    - tar cf  cando queremos AGRUPAR varios archivos en uno (NO LOS COMPRIME)
 
 ===== TIPS & RECORDAR =====
 
@@ -323,7 +330,19 @@ MANEJO DE PAQUETES
     apt install +programa           Para instalar un programa que se desee en Ubuntu (o distribuciones de DEBIAN) NO ME FUNCIONO
 
 
+    --------- COMPRIMIR ARCHIVOS (1)----------
 
+    gzip +archivo                           Comprime un archivo (le pone una extención .gz)
+    gzip -d +archivo                        Para descomprimir un archivo que se comprimio
+    tar cf +nombrearchivocomprimido.tar +todoslosarchivosquesequierencombinar   
+                                            Cuando queremos agrupar varios archivos en uno (NO COMPRIME), cf (CREATE FILE) por ejemplo:  
+                                            "tar cf archivoGrande.tar roberto/*" (todos los archivos que esten dentro de la carpeta roberto)
+    tar tf +nombrearchivocomprimido.tar     Para ver el condenido de un archivo .tar
+    tar xf +nombrearchivocomprimido.tar     Para descomprimirlo
+    tar czf +nombrearchivocomprimido.tgz +todoslosarchivosquesequierencombinar
+                                            Cuando queremos agrupar varios archivos y aparte COMPRIMIRLOS
+    tar tzf +nombrearchivocomprimido.tgz    Igual para ver el contenido
+    tar xzf +nombrearchivocomprimido.tgz    Igual para descomprimir el archivo    
 
     ---------- URL ------------
     - Para instalar Ubuntu primero hay que configurar el PowerShell de Windows siguiendo estos pasos:
@@ -352,3 +371,4 @@ MANEJO DE PAQUETES
 12  -   EJERCICIO, preguntas sobre permisos, las respuestas se quedan en el curso
 13  -   MANEJO DE PAQUETES, ADMINISTRADORES de paquetes, PAQUETES BINARIOS (apt, zypper, rpm), PAQUETES de Lenguajes (pip,composer,npm) y AMBOS (conda,homebrew),
         Solo vimos el de apt pero no funciono en mi computadora, hizo un ejemplo con pip y NO uso conda o homebrew
+14  -   COMPRIMIR ARCHIVOS, gzip y tar, el primero es para comprimir, el segundo solo agrupa pero se pueden convinar agregando "z" al modificador
