@@ -29,7 +29,7 @@ touch           - Crea archivos (DE TODO TIPO!!!, solo hay que agregar la extens
 comando --help  - Te indica todas las combinaciones de argumentos que hay para el comando y una descripción
 Ctrl + l        - Limpia la consola (otra forma de limpiar la consola) ES UNA COMBINACIÓN DE TECLAS! no un comando
 Esc + Shift +zz - Te saca de del editor de textos llamado "vim", este editor lo manda por default si haces un commit y no agregas un comentario
-Esc + i         - VIM - hace que puedas editar!
+i               - VIM - hace que puedas editar!
 
 ===== CONCEPTOS DE LAS CLASES =====
 
@@ -55,12 +55,24 @@ git log                         - +archivo - Te muestra la historia de ese archi
 git log --stat                  - Te muestra los cambios en "bytes" que hubo exactamente en cada commit
 git show                        - +archivo - Te muestra todos los cambios que hubieron en un archivo
 
+---- SERVIDOR REMOTO BASICO (5) ----
 git clone urlservidorremoto     - Para descargar el repositorio desde un servidor remoto como github, gitlab, bitbucket
 git push                        - Para enviar los cambios al repositorio remoto (IMAGEN5)
 git fetch                       - Lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local (en caso de que hayan, por supuesto).(IMAGEN5)
 git merge                       - Combina los cambios de nuestro repositorio local con el del repositorio remoto para ponerlo en nuestro directorio de trabajo (IMAGEN5)
 git pull                        - Funciona los comandos fetch y merge para ejecutar uno solo, como push
 
+
+---- SERVIDOR REMOTO (6) ----
+git remote add origin urlserv   - Para enlazar el repositorio a un servidor remoto (EL PROYECTO ya tiene que estar creado)
+git remote                      - Te muestra "origin" que en teoria es donde se enlazo
+git remote -v                   - Te muestra la url del servidor remoto al que esta enlazado
+git push origin master          - Git envia a origin (el servidor remoto), los cambios que hay en master
+git pull origin master          - Para obtener los cambios desde origin hacia master
+git pull origin branchname --allow-unrelated-histories
+                                - Para cuando manda un error porque tienen archivos diferentes el local con el servidor remoto (LA PRIMERA VEZ QUE SE ENLAZAN)
+
+---- BRANCHES (3) ----
 git branch                      - Te muestra que ramas existen y pinta en verde (git bash) la rama en la que te encuentras
 git branch                      - +NombreRama genera una nueva rama a partir del punto en el que estas en Head (IMAGEN6)
 git checkout                    - +NombreRama te puedes mover entre ramas
@@ -119,3 +131,5 @@ SERVIDOR REMOTO/REPOSITORIO REMOTO
       intente repararlo desde Visual Studio Code pero quito los cambios que hice en MASTER, igual funciono pero no es lo mejor
       me falta aprender como quitar los conflictos.
 17  - CONFLICTOS, soluciono un conflicto sencillo, y uso visual studio para poder arreglarlo (hizo solo el merge sobre master, falta el merge sobre la otra rama)
+18  - ENLAZAR SERVIDOR REMOTO, "git remote add origin urlservidor" para enlazar con GitHub, HUBO PROBLEMA y se uso el "git pull origin master --allow-unrelated-histories",
+      este problema pasa cuando al parecer no ha habido push al servidor y se tiene un archivo (README.md) nuevo en el servidor remoto
