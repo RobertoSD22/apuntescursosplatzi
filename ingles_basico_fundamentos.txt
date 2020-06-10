@@ -1,6 +1,6 @@
 =================== APUNTES DEL CURSO =======================
 
-GREETINGS AND INTRODUCING YOURSELF
+GREETINGS AND INTRODUCING YOURSELF -- Saludos
 
     Hello I´m Robert
     Good morning Robert. How are you? I´m Sam
@@ -45,3 +45,4 @@ GOOD BYE GREETINGS (5)
 4   -   GREETINGS AND INTRODUCING YOURSELF
 5   -   MORE GREETINGS
 6   -   HELLO GREETINGS, GOOD BYE GREETINGS
+7   -   INTRODUCE YOURSELF, i´m Robert, you´re teacher, i am Robert, you are teacher, hicimos un ejercicio
