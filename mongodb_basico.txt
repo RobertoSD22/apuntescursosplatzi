@@ -1,0 +1,11 @@
+=================== APUNTES DEL CURSO =======================
+
+===== HERRAMIENTAS =====
+
+===== CONCEPTOS DE LAS CLASES =====
+
+===== TIPS & RECORDAR =====
+
+===== RESUMEN CLASES =====
+
+1   -   Se presenta, dice que vamos a usar una API REST, postman, python y flask
