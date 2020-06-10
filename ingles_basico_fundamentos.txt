@@ -7,6 +7,31 @@ GREETINGS AND INTRODUCING YOURSELF
     I´m fine thanks. How about you.
     fine too
 
+MORE GREETINGS
+
+    How´s everything?
+    How is it going?
+    Good afternoon
+    Good evening
+
+HELLO GREETINGS (6)
+
+    Hi
+    Hello
+    Hello, how are you
+    Good morning
+    Good afternoon
+    Good evening
+
+GOOD BYE GREETINGS (5)
+
+    Bye
+    Good bye
+    See you
+    See you later
+    So long!
+
+
 ===== CONCEPTOS DE LAS CLASES =====
 
 ===== TIPS & RECORDAR =====
@@ -17,3 +42,6 @@ GREETINGS AND INTRODUCING YOURSELF
 2   -   Presentación de la teacher
 3   -   Classroom Instructions, Es una guia para los pasos que tienes que hacer en las clases (son 9), te dice que debes
         escuchar, grabar tu voz y escucharla, repetir, leer, completar las sentecias, etc.
+4   -   GREETINGS AND INTRODUCING YOURSELF
+5   -   MORE GREETINGS
+6   -   HELLO GREETINGS, GOOD BYE GREETINGS
