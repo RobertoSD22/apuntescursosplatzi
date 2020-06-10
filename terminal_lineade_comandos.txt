@@ -16,11 +16,6 @@
     - La razón para usar este tipo de interfaces y no una gráfica es la EFICIENCIA
     - Otro tema es que a través de la terminal se puede AUTOMATIZAR tareas
 
-    - Incluye además de los comandos algunas utilidades propias:
-        ~ Comodines
-        ~ Combinación de teclas
-        ~ Sustitución de comandos
-
 COMANDOS
 
     - Un comando consiste en:
@@ -60,32 +55,39 @@ TIPOS DE ARCHIVOS
     - BINARIOS.-    Esta pensado de tal manera que lo interprete una computadora (imagenes, documentos, música, videos)
     - TEXTO.-       Tambien son binarios pero corresonden con caracteres (se encuentran en configuraciones, codigo fuente, paginas web)
     
-        ~ UTILIDADES INTERACTIVAS.- Se usan para trabar con archivos de texto, reaccionan al comando que ejecutas y muestra en pantalla
-            - VIM
-            - NANO
+    - UTILIDADES INTERACTIVAS.- Se usan para trabar con archivos de texto, reaccionan al comando que ejecutas y muestra en pantalla
+        ~ VIM
+        ~ NANO
 
 DIRECTORIOS
 
     - La manera en que ORGANIZAMOS los archivos/información
 
 
-
 UTILIDADES BATCH/PROCESAMIENTO POR LOTES
 
     - Programas que procesan texto y emiten un resultado
+    - Para revisar la información en un archivo estan los comandos:
+        ~ CAT
+        ~ HEAD
+        ~ TAIL
 
+    PROCESAMIENTO DE DATOS
 
-PROCESAMIENTO DE DATOS
+        - Datos --- Proceso --- Datos procesados/información  (Este es el esquema más clasico, como una maquina de jugos)
+        - Esto se conoce como FLUJOS (desde que inicia hasta que sale)
+        - En la terminal conoce de 3 flujos
+            ~ ENTRADA STANDART
+            ~ SALIDA STANDART
+            ~ ERROR STANDART
 
-    - Datos --- Proceso --- Datos procesados/información  (Este es el esquema más clasico, como una maquina de jugos)
-    - Esto se conoce como FLUJOS (desde que inicia hasta que sale)
-    - En la terminal conoce de 3 flujos
-        ~ ENTRADA STANDART
-        ~ SALIDA STANDART
-        ~ ERROR STANDART
-
-        ~ La ENTRADA standart puede ser el teclado pero la podemos cambiar por un archivo
-        ~ La SALIDA standart puede ser el monitor pero lo podemos cambiar por un archivo
+            ~ La ENTRADA standart puede ser el teclado pero la podemos cambiar por un archivo
+            ~ La SALIDA standart puede ser el monitor pero lo podemos cambiar por un archivo
+        
+        - Los comandos para procesar por lotes/batch:
+            ~ GREP
+            ~ SED
+            ~ AWK
     
 PIPES / TUBERIAS
 
@@ -202,15 +204,15 @@ SERVIDORES/HTTP
 
     - Http sirve para intercambiar texto, por lo que la terminal nos puede ayudar a interactuar con el servidor
     - COMANDOS http:
-        ~ curl  Se utiliza para hacer un pedido "CRUDO" al servidor
-        ~ wget  Realiza descargas desde servidores
+        ~ CURL  Se utiliza para hacer un pedido "CRUDO" al servidor
+        ~ WGET  Realiza descargas desde servidores
 
 EJECUTAR COMANDOS DE FORMA REMOTA
 
     - De una computadora a otra
     - El problema es que la información al viajar por la red puede ser captada por alguien más (agentes malisiosos)
     - Una solución es usar conexiones seguras (la información viaja encriptada, no tal cual la escribimos)
-    - Utilizamos ssh (secure shell o terminal segura), de la siguiente manera:
+    - Utilizamos SSH (secure shell o terminal segura), de la siguiente manera:
         ~ primero ssh, luego los parametros: el usuario y el host (a donde me quiero conectar)
 
 
@@ -229,8 +231,18 @@ VARIABLES DE ENTORNO
         ~ export VAR= valor (SOLO VIVE MIENTRAS ESTA ABIERTA LA TERMINAL)
 
 
+AUTOMATIZACIÓN DE TAREAS/SCRIPTING BASH
 
+    - Todo lo que vimos en el curso se puede tomar como un lenguaje de programación, con lo cual se pueden generar scripts
+    - Esto se hace por si se quieren ejecutar varias tareas a través de un archivo
 
+    - .SH es la extensión de los scripts (en minúsculas)
+    - DENTRO del script empiezas con: #!/bin/bash y con esto le dices quien será el interprete que pueda ejecutar todos los comandos del script
+    - Ejemplo de una validación:
+        if [ ! -d "/tmp/robert"]; then  El ! para negar, El -d para decir que es un directorio, luego la ruta, se traduce como:
+                                        SI EL DIRECTORIO NO EXISTE ENTONCES....
+        fi                              Termina la validación
+    - EJECUTAR: necesitas ./ <-- la ruta del archivo y luego el nombre del archivo, por ejemplo ./miarchivo.sh
 
 ===== TIPS & RECORDAR =====
 
@@ -360,7 +372,7 @@ VARIABLES DE ENTORNO
     chmod                           Modifica los permisos sobre el archivo,directorio o link
     chmod o/u/g                     OTHERS modifica los permisos para los demás, U para usuario y G es para grupo
     chmod o-w/r/x                   W es para modificar el permiso de escritura, X ejecución, R los de lectura, el - para quitar, el + para dar
-    chmod o-w +archivo              Y por ultimo se le dice el archivo     
+    chmod o-w +archivo              Y por ultimo se le dice el archivo  (EL PERMISO VA INMEDIATAMENTE DESPUES DE LA PERSONA)   
     chmod +w                        Le da permisos a todos!!!
     chmod +numero                   El número es la represetación en codigo binario para un permiso(0,4,6,7 son los números más normales) (ver IMAGEN 1)
     chmod +numero+numero+numero     El primer numero es para el dueño, el segundo para el grupo y el ultimo para los otros      
@@ -468,3 +480,5 @@ VARIABLES DE ENTORNO
 18  -   MAIL, Una redacción donde viene como instalar un servidor de correo en la computadora, solo segui los pasos, hice unas pruebas, no fallo pero no llego 
         (revisare despues porque solo vi en el celular)
 19  -   VARIABLES DE ENTORNO, vimos como crearlas, se pueden ejecutar por toda la sesión o por comandos, solo duran mientras este abierta TERMINAL
+20  -   AUTOMATIZACIÓN DE TAREAS, SCRIPTING BASH, como crear un script básico, aqui menciona que bash es un LENGUAJE de PROGRAMACIÓN,
+        Cree un script, funciono bien excepto porque parece estarse saltando la validación
