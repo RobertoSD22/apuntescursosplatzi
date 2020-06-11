@@ -72,3 +72,4 @@ HERRAMIENTAS MAS USADAS
 3   -   HERRAMIENTAS MÁS USADAS, versiones de java 8 y 11, Maven y Gradle, Spring y Hibernate, Ecipse Netbeans y IntelliJ IDEA
 4   -   INSTALACIÓN IntelliJ, OpenJDK 8 y OpenJDK 11 (no tuve problemas, todo lo puse en D: )
 5   -   INSTALACIÓN de lo mismo pero en MAC (no lo segui, solo vi el video)
+6   -   INSTALACIÓN de lo mismo pero en Linux (no lo segui, es una lectura)
