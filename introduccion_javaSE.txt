@@ -1,0 +1,26 @@
+=================== APUNTES DEL CURSO =======================
+
+===== HERRAMIENTAS =====
+
+===== CONCEPTOS DE LAS CLASES =====
+
+JAVA
+
+    - Java es un lenguaje de programación orientado a objetos
+    - Java es un lenguaje de alto nivel (el lenguaje de bajo nivel es lenguaje de maquina) (los lenguajes alto nivel son faciles de manipular, modernos, etc)
+    - Tiene dos CATEGORIAS:
+        ~ Java SE (Standard Edition)    Construye aplicaciones de escritorio o consola
+        ~ Java EE (Enterprice Edition)  Se construyen aplicaciones en web, distribuidas, la interacción con el usuario es más amigable
+    - James Gosling fue el creador
+    - Creado en 1991
+    - Es multiplataforma (corre en cualquier sistema operativo) 
+      WORA (Writte Once Run Anywhere)
+    - 2009 lo adquiere ORACLE (compra SunMicrosystems)
+
+===== TIPS & RECORDAR =====
+
+    - AFIANZAR conocimientos, para eso este curso
+
+===== RESUMEN CLASES =====
+
+1   -   Historia de Java, QUE ES Java, creación, creador, compra por Oracle, CATEGORIAS de Java
