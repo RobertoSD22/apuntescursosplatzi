@@ -4,8 +4,26 @@
 
 ===== CONCEPTOS DE LAS CLASES =====
 
+BASES DE DATOS NOSQL (IMAGEN 1)
+
+    - Hay cuatro grandes familias:
+        ~ KEY VALUE STORES                  EJEMPLO: Redis, Memcached        
+          Tienen una estructura simple: llave - valor (key - value), Son utilizadas para guardar cache y guardar sesiones,
+          son bastante rapidas al contestar, por su simplicidad no se pueden modelar casos de la vida real
+
+        ~ GRAFOS (Graph databases)          EJEMPLO: Neo4J, JanusGraph
+          Tiene mayores relaciones, en ese sentido es mejor que las bases de datos relacionales
+
+        ~ Columnares (Wide-column stores)   EJEMPLO: Cassandra, HBase
+          Tienen DOS LLAVES, una llave de fila y uno de columna, se hacen queries mas rapidos y guardan grandes cantidades de información
+          son utilizadas para Big Data, el inconveniente es modelar datos es complicado
+
+        ~ Documentos (Document databases)   EJEMPLO: MongoDB, Couchbase
+          Nos permiten guardar JSON en collecciones, nos ayuda a modelar casos de la vida real, guardar datos es MUY sencillo
+
 ===== TIPS & RECORDAR =====
 
 ===== RESUMEN CLASES =====
 
 1   -   Se presenta, dice que vamos a usar una API REST, postman, python y flask
+2   -   CLASIFICACION NOSQL BD, 4 grandes tipos: KEY-VALUE, GRAFOS, COLUMNARES y DOCUMENTOS (IMAGEN 1)
