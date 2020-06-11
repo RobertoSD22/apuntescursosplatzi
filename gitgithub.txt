@@ -69,13 +69,16 @@ git remote                      - Te muestra "origin" que en teoria es donde se 
 git remote -v                   - Te muestra la url del servidor remoto al que esta enlazado
 git push origin master          - Git envia a origin (el servidor remoto), los cambios que hay en master
 git pull origin master          - Para obtener los cambios desde origin hacia master
-git pull origin branchname --allow-unrelated-histories
+git pull origin master --allow-unrelated-histories
                                 - Para cuando manda un error porque tienen archivos diferentes el local con el servidor remoto (LA PRIMERA VEZ QUE SE ENLAZAN)
+
+git remote remove origin        - No es parte del curso, pero se puede desenlazar el servidor remoto con este comando
 
 ---- BRANCHES (3) ----
 git branch                      - Te muestra que ramas existen y pinta en verde (git bash) la rama en la que te encuentras
 git branch                      - +NombreRama genera una nueva rama a partir del punto en el que estas en Head (IMAGEN6)
 git checkout                    - +NombreRama te puedes mover entre ramas
+git merge branch1 branch2       - Para combinar los cambios entre ramas
 
 STAGING                 - Es un area en memoria ram que utiliza git para preparar los archivos y enviarlos a repositorio
 MASTER                  - Es el nombre por defecto del repositorio donde guardamos nuestros archivos con sus cambios
@@ -104,11 +107,30 @@ SERVIDOR REMOTO/REPOSITORIO REMOTO
     -  Un nuevo estado que deben seguir nuestros archivos para conectarse y trabajar con equipos de cualquier parte del mundo.
     -  Estos servidores remotos pueden estar alojados en GitHub, GitLab, BitBucket.
 
+
+
+LLAVES PUBLICAS Y PRIVADAS
+
+    - Tambien se le conoce como "cifrado asimetrico de un solo camino"
+    - Las llaves (pública y privada) están vinculadas matemáticamente, que quiere decir que lo que yo cifre con
+      mi llave pública, solo lo abre mi llave privada
+    - La llave pública es la que se comparte, para que los demás cifren su mensaje y tu lo puedas decoficicar con la llave privada
+    - Es tan PODEROSO este cifrado que se usa en finanzas
+
+    PASOS:
+    1.- Ambas personas deben crear su llave pública y privada.
+    2.- Ambas personas pueden compartir su llave pública a las otras partes (recuerda que esta llave es pública, no hay problema si la “interceptan”).
+    3.- La persona que quiere compartir un mensaje puede usar la llave pública de la otra persona para cifrar los archivos y 
+        asegurarse que solo puedan ser descifrados con la llave privada de la persona con la que queremos compartir el mensaje.
+    4.- El mensaje está cifrado y puede ser enviado a la otra persona sin problemas en caso de que los archivos sean interceptados.
+    5.- La persona a la que enviamos el mensaje cifrado puede usar su llave privada para descifrar el mensaje y ver los archivos.
+
 ===== TIPS & RECORDAR =====
 
 - En windows se usa c:\  pero en linux y unix unicamente se usa \
 - Por defecto gitbash te abre la carpeta en windows de tu usuario (C:\User\Roberto   por ejemplo)
-- En windows las mayusculas y minusculas no importan cuando se trata de nombres de carpetas (EN LINUX Y UNIX SI, puedes tener la carpeta "User" con mayuscula y "user" con minuscula y son diferentes)
+- En windows las mayusculas y minusculas no importan cuando se trata de nombres de carpetas (EN LINUX Y UNIX SI, puedes tener la carpeta "User" con mayúscula 
+  y "user" con minuscula y son diferentes)
 - .gitignore tambien cuenta como un archivo para ser trackeado
 - En la clase 9 en los comentarios del video dice que se le puede cambiar el nombre e la rama MASTER!
 - Los cambios "ATOMICOS" es que cada archivo se guarda de manera independiente
@@ -133,3 +155,4 @@ SERVIDOR REMOTO/REPOSITORIO REMOTO
 17  - CONFLICTOS, soluciono un conflicto sencillo, y uso visual studio para poder arreglarlo (hizo solo el merge sobre master, falta el merge sobre la otra rama)
 18  - ENLAZAR SERVIDOR REMOTO, "git remote add origin urlservidor" para enlazar con GitHub, HUBO PROBLEMA y se uso el "git pull origin master --allow-unrelated-histories",
       este problema pasa cuando al parecer no ha habido push al servidor y se tiene un archivo (README.md) nuevo en el servidor remoto
+19  - LLAVES PUBLICAS/PRIVADAS, explicación y conceptos, publica para encriptar, privada para desencriptar
