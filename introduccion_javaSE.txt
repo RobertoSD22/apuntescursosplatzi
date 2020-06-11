@@ -54,7 +54,15 @@ HERRAMIENTAS MAS USADAS
        Hay 3 en esta carrera:
         ~ Eclipse
         ~ Netbeans
-        ~ IntelliJ IDEA 
+        ~ IntelliJ IDEA
+
+
+Método MAIN
+
+    - Es el punto de entrada de nuestra aplciación en Java
+    - No es exclusivo de Java, hay otros lenguajes de programación que lo usan como Kotlin o Dart
+    - Si se ejecuta la aplicación y no existe el método lanza la excepción 
+      "In class NoMain: void main (String args[]) no esta definido"
 
 
 ===== TIPS & RECORDAR =====
@@ -73,3 +81,4 @@ HERRAMIENTAS MAS USADAS
 4   -   INSTALACIÓN IntelliJ, OpenJDK 8 y OpenJDK 11 (no tuve problemas, todo lo puse en D: )
 5   -   INSTALACIÓN de lo mismo pero en MAC (no lo segui, solo vi el video)
 6   -   INSTALACIÓN de lo mismo pero en Linux (no lo segui, es una lectura)
+7   -   MÉTODO MAIN, Hola mundo con IntelliJ
