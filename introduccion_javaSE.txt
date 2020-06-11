@@ -19,6 +19,7 @@ JAVA
     - Es multiplataforma (corre en cualquier sistema operativo) 
       WORA (Writte Once Run Anywhere)
     - 2009 lo adquiere ORACLE (compra SunMicrosystems)
+    - Java es un lenguaje COMPILADO (javascript, PHP son interpretados)
 
 JDK
 
@@ -64,6 +65,13 @@ Método MAIN
     - Si se ejecuta la aplicación y no existe el método lanza la excepción 
       "In class NoMain: void main (String args[]) no esta definido"
 
+ETAPAS de la creación de codigo en JAVA
+
+    - Cuando damos "RUN" se activa el compilador de java (IMAGEN 1)
+    - bytecode es el lenguaje que puede leer nuestra computadora
+    - COMPILAR nos ayuda a saber que el codigo no tiene errores
+    - .class contiene el BYTECODE y no expone el codigo fuente
+
 
 ===== TIPS & RECORDAR =====
 
@@ -82,3 +90,4 @@ Método MAIN
 5   -   INSTALACIÓN de lo mismo pero en MAC (no lo segui, solo vi el video)
 6   -   INSTALACIÓN de lo mismo pero en Linux (no lo segui, es una lectura)
 7   -   MÉTODO MAIN, Hola mundo con IntelliJ
+8   -   ETAPAS para la programación en JAVA, conceptos de COMPILADO e INTERPRETADO, BYTECODE, .class
