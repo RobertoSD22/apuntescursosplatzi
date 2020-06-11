@@ -17,10 +17,31 @@ JAVA
       WORA (Writte Once Run Anywhere)
     - 2009 lo adquiere ORACLE (compra SunMicrosystems)
 
+JDK
+
+    - Java Development Kit
+    - Se compone de 3 cosas:
+        ~ JRE (Java Runtime Environment)    Es la máquina virtual de java, lo que lo hace ser multiplataforma.
+        ~ Compilador de Java                Es el que hace que nuestro codigo se traduzca a bytecode, se lo pasa a la JRE para que lo corra
+        ~ API de desarrollo                 Es una base o clases para que podamos empezar a codificar
+
+VERSIONES LTS
+
+    - Son las versiones a las que se les da soporte por 3 años, versiones en las que podemos confiar
+    - La versión 8 y 11 son versiones LTS
+    - La versión 11 es la primera que tiene LICENCIA (que va a cobrar!!)
+
+OpenJDK
+
+    - Es la versión de java jdk que no cobra, impulsada por James Gosling
+
+
+
 ===== TIPS & RECORDAR =====
 
     - AFIANZAR conocimientos, para eso este curso
 
 ===== RESUMEN CLASES =====
 
-1   -   Historia de Java, QUE ES Java, creación, creador, compra por Oracle, CATEGORIAS de Java
+1   -   Historia de Java, QUE ES Java, creación, creador, compra por Oracle, CATEGORIAS de Java, su presentación fue muy pequeña!!!
+2   -   JDK, JRE, Compilador, API de desarrollo, OPENJDK, Versiones LTS
