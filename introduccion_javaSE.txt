@@ -2,6 +2,10 @@
 
 ===== HERRAMIENTAS =====
 
+    Java 8
+    Java 11
+    Open JDK
+
 ===== CONCEPTOS DE LAS CLASES =====
 
 JAVA
@@ -36,12 +40,34 @@ OpenJDK
     - Es la versión de java jdk que no cobra, impulsada por James Gosling
 
 
+HERRAMIENTAS MAS USADAS
+
+    - Java 8 y 11
+    - Maven y un poco menos Gradle
+    - Spring y Hibernate
+    - IDE (Entorno de Desarrollo Integrado / Integrate Development Environment)
+      Es un entorno de programación que ha sido empaquetado como un programa de aplicación
+      TIENE:
+        ~ Un EDITOR DE CODIGO, mas amigable con colores más didacticos y ayudas de donde estas fallando
+        ~ Tiene un COMPILADOR para que no lo ejecutes por aparte
+        ~ Un DEPURADOR
+        - Un CONSTRUCTOR DE INTERFAZ GRÁFICA, para los programás que necesitan interfaz con java
+       Hay 3 en esta carrera:
+        ~ Eclipse
+        ~ Netbeans
+        ~ IntelliJ IDEA 
+
 
 ===== TIPS & RECORDAR =====
 
     - AFIANZAR conocimientos, para eso este curso
 
+    JRE Java Runtime Enviroment
+    JDK Java Development Kit
+    IDE Integrate Development Enviroment
+
 ===== RESUMEN CLASES =====
 
 1   -   Historia de Java, QUE ES Java, creación, creador, compra por Oracle, CATEGORIAS de Java, su presentación fue muy pequeña!!!
 2   -   JDK, JRE, Compilador, API de desarrollo, OPENJDK, Versiones LTS
+3   -   HERRAMIENTAS MÁS USADAS, versiones de java 8 y 11, Maven y Gradle, Spring y Hibernate, Ecipse Netbeans y IntelliJ IDEA
