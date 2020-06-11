@@ -2,9 +2,8 @@
 
 ===== HERRAMIENTAS =====
 
-    Java 8
-    Java 11
-    Open JDK
+    Open JDK 8 y 11
+    IntelliJ Versión: 2020.1.2
 
 ===== CONCEPTOS DE LAS CLASES =====
 
@@ -71,3 +70,4 @@ HERRAMIENTAS MAS USADAS
 1   -   Historia de Java, QUE ES Java, creación, creador, compra por Oracle, CATEGORIAS de Java, su presentación fue muy pequeña!!!
 2   -   JDK, JRE, Compilador, API de desarrollo, OPENJDK, Versiones LTS
 3   -   HERRAMIENTAS MÁS USADAS, versiones de java 8 y 11, Maven y Gradle, Spring y Hibernate, Ecipse Netbeans y IntelliJ IDEA
+4   -   INSTALACIÓN IntelliJ, OpenJDK 8 y OpenJDK 11 (no tuve problemas, todo lo puse en D: )
