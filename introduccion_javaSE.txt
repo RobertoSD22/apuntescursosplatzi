@@ -65,12 +65,14 @@ Método MAIN
     - Si se ejecuta la aplicación y no existe el método lanza la excepción 
       "In class NoMain: void main (String args[]) no esta definido"
 
+
 ETAPAS de la creación de codigo en JAVA
 
     - Cuando damos "RUN" se activa el compilador de java (IMAGEN 1)
     - bytecode es el lenguaje que puede leer nuestra computadora
     - COMPILAR nos ayuda a saber que el codigo no tiene errores
     - .class contiene el BYTECODE y no expone el codigo fuente
+
 
 VARIABLES
 
@@ -80,12 +82,20 @@ VARIABLES
         ~ VALOR
     - Los nombre de las variables deben ser unicos
 
+
 CONVENCION DE NOMBRES EN JAVA
 
     - En sensible a mayusculas y minusculas
     - Las variables deben comenzar con letra, $ o _
     - Se usa camelcase
     - Las variables pueden ser "Variables constantes", se utilizan MAYUSCULAS
+
+
+Técnica de Naming: Camel Case
+
+    Upper Camel Case    Empieza con mayuscula (Se usa nombrando Clases)
+    Lower Camel Case    Empieza con minúscula (Se usa nombrando Variables, Métodos)
+
 
 ===== TIPS & RECORDAR =====
 
