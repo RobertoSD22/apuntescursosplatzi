@@ -80,6 +80,13 @@ VARIABLES
         ~ VALOR
     - Los nombre de las variables deben ser unicos
 
+CONVENCION DE NOMBRES EN JAVA
+
+    - En sensible a mayusculas y minusculas
+    - Las variables deben comenzar con letra, $ o _
+    - Se usa camelcase
+    - Las variables pueden ser "Variables constantes", se utilizan MAYUSCULAS
+
 ===== TIPS & RECORDAR =====
 
     - AFIANZAR conocimientos, para eso este curso
@@ -102,3 +109,5 @@ VARIABLES
         tambien dicen que cambien a través de la consola la versión de Java, yo solo la pude cambiar con las variables de entorno
 10  -   VARIABLES, conceptos y ejercicio en el IntelliJ (se llama Variables.java)
 11  -   ACTUALIZANDO VARIABLES, muy facil, solo actualizo int´s y Strings, el ejercicio es el UpdatingVariables.java
+12  -   CONVENCION DE VARIABLES, se usa camelCase, pueden usarse $ o _ PERO nunca deben iniciar con numero, 
+        las variables constantes se utilizan MAYUSCULAS
