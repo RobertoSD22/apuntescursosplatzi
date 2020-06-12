@@ -91,3 +91,5 @@ ETAPAS de la creación de codigo en JAVA
 6   -   INSTALACIÓN de lo mismo pero en Linux (no lo segui, es una lectura)
 7   -   MÉTODO MAIN, Hola mundo con IntelliJ
 8   -   ETAPAS para la programación en JAVA, conceptos de COMPILADO e INTERPRETADO, BYTECODE, .class
+9   -   JShell, sirve para probar pequeños codigos, pero no me funciona, le doy enter y no ejecuta el codigo (solo funciona con java 9 en adelante)
+        tambien dicen que cambien a través de la consola la versión de Java, yo solo la pude cambiar con las variables de entorno
