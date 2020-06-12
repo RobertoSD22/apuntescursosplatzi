@@ -101,3 +101,4 @@ VARIABLES
 9   -   JShell, sirve para probar pequeños codigos, pero no me funciona, le doy enter y no ejecuta el codigo (solo funciona con java 9 en adelante)
         tambien dicen que cambien a través de la consola la versión de Java, yo solo la pude cambiar con las variables de entorno
 10  -   VARIABLES, conceptos y ejercicio en el IntelliJ (se llama Variables.java)
+11  -   ACTUALIZANDO VARIABLES, muy facil, solo actualizo int´s y Strings, el ejercicio es el UpdatingVariables.java
