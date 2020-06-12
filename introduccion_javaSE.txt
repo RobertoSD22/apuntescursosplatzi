@@ -72,6 +72,13 @@ ETAPAS de la creación de codigo en JAVA
     - COMPILAR nos ayuda a saber que el codigo no tiene errores
     - .class contiene el BYTECODE y no expone el codigo fuente
 
+VARIABLES
+
+    - Un espacio de memoria al que le asignamos un contenido
+    - Las variables en Java se compondrán de un:
+        ~ NOMBRE
+        ~ VALOR
+    - Los nombre de las variables deben ser unicos
 
 ===== TIPS & RECORDAR =====
 
@@ -93,3 +100,4 @@ ETAPAS de la creación de codigo en JAVA
 8   -   ETAPAS para la programación en JAVA, conceptos de COMPILADO e INTERPRETADO, BYTECODE, .class
 9   -   JShell, sirve para probar pequeños codigos, pero no me funciona, le doy enter y no ejecuta el codigo (solo funciona con java 9 en adelante)
         tambien dicen que cambien a través de la consola la versión de Java, yo solo la pude cambiar con las variables de entorno
+10  -   VARIABLES, conceptos y ejercicio en el IntelliJ (se llama Variables.java)
