@@ -109,6 +109,17 @@ TIPOS DE DATOS NUMERICOS (IMAGEN 2)
     float: Ocupan 4 bytes de memoria y su rango es de 1.40129846432481707e-45 hasta 3.40282346638528860e+38. Así como long, debemos colocar una letra F al final.
     double: Ocupan 8 bytes de memoria y su rango es de 4.94065645841246544e-324d hasta 1.79769313486231570e+308d.
 
+TIPOS DE DATOS CHAR Y BOOLEAN
+
+    char: Ocupa 2 bytes y solo puede almacenar 1 dígito, debemos usar comillas simples en vez de comillas dobles.
+    boolean: Son un tipo de dato lógico, solo aceptan los valores true y false. También ocupa 2 bytes y almacena únicamente 1 dígito.
+
+DATOS COMODINES PARA VAR
+
+    - Los da por defecto a la hora de generar el var (no lo dice en la clase, solo menciona algo en la clase 15 minuto 7:30)
+    INT
+    DOUBLE
+
 ===== TIPS & RECORDAR =====
 
     - AFIANZAR conocimientos, para eso este curso
@@ -133,4 +144,6 @@ TIPOS DE DATOS NUMERICOS (IMAGEN 2)
 11  -   ACTUALIZANDO VARIABLES, muy facil, solo actualizo int´s y Strings, el ejercicio es el UpdatingVariables.java
 12  -   CONVENCION DE VARIABLES, se usa camelCase, pueden usarse $ o _ PERO nunca deben iniciar con numero, 
         las variables constantes se utilizan MAYUSCULAS
-13  -   TIPOS DE DATOS NUMERICOS, byte(1 byte), short(2bytes), int(4bytes), long(8bytes), float(4bytes), double(8bytes) ... 10 posiciones para int, -128 a 127 para byt
+13  -   CAMEL CASE - Upper Camel Case (para clases) Lower Camel Case (para metodos y variables)
+14  -   TIPOS DE DATOS NUMERICOS, byte(1 byte), short(2bytes), int(4bytes), long(8bytes), float(4bytes), double(8bytes) ... 10 posiciones para int, -128 a 127 para byt
+15  -   TIPOS DE DATOS CHAR Y BOOLEAN char (2 bytes), boolean (2 bytes), var a partir de la versión 10 de java
