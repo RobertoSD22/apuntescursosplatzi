@@ -217,6 +217,10 @@ IF (IfStatement.java)
     - Las condicionales son la forma en las que computadoras toman decisiones
 
 
+SCOPE
+
+    - Es el alcance de la variable, puede estar a nivel de método, a nivel de condición o a nvidel de clase
+
 
 
 
@@ -258,4 +262,5 @@ IF (IfStatement.java)
         NOTA: Es importante que la versión sea la misma o superior cuando ejecutamos el jar
 21  -   EJERCICIO, da 3 ejercicios, 1 de variables, 1 de cast y el ultimo una pregunta rara que no respondi.
 22  -   IF, un ejercicio de como se utiliza el IF (IfStatement.java)
+23  -   SCOPE, lo vimos a nivel condición y a nivel método, ELSE vimos como funciona
 
