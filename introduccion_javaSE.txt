@@ -242,7 +242,15 @@ OPERADORES LOGICOS (LogicOperations.java)
     - !     NOT
 
 
+FUNCIONES (IMAGEN 7)
 
+    - Les dijo funciones pero yo más bien creo que son Métodos
+    - Sirven para organizar y modularizar el código además de evitar código repetido y reutilizar
+    - Se componen de:
+        ~ MODIFICADOR DE ACCESO
+        ~ PARÁMETRO DE RETORNO
+        ~ NOMBRE
+        ~ PARAMETRO O PARAMETROS DE ENTRADA
 
 
 
@@ -284,4 +292,4 @@ OPERADORES LOGICOS (LogicOperations.java)
 23  -   SCOPE, lo vimos a nivel condición y a nivel método, ELSE vimos como funciona
 24  -   OPERADORES! , Relacionales, Equidad y Logicos, IF ELSE (LogicOperations.java)
 25  -   SWTICH, un ejercicio con el, muy sencillo el ejercicio, no explica mucho. (SwitchStatement.java)
-
+26  -   FUNCIONES, no se porque le llama así, se supone que se llaman métodos. Conceptos y como se componen (no hizo ningun ejercicio)
