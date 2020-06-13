@@ -142,6 +142,20 @@ OPERADORES DE INCREMENTO Y DECREMENTO(IMAGEN 5) (IncrementDecrement.java)
     - Prefijo:  Antes de la variable ++i    POR EJEMPLO: int a = 100 + ++i      Incrementaria i antes de llevar acabo la asignación
     - Posfijo:  Después de la variable i++  POR EJEMPLO: int a = 100 + i++      Incrementaria i hasta despues que se haga la asignación
 
+
+CLASE MATH
+
+    - Sirve para hacer operaciones Aritmeticas
+    - Esta: 
+         ~ PI           (para saber el valor de PI)
+         ~ E            (para saber el valor de numero Exponencial de Euror)
+         ~ Math.ceil    (recondea hacia arriba un número)
+         ~ Math.floor   (redonde hacia abajo un número)
+         ~ Math.pow     (obtiene la potencia de un número, primero el numero y luego la potencia)
+         ~ Math.sqrt    (obtiene la raiz cuadrada de un número)
+         ~ Math.max     (obtiene el mayor entre dos números)
+
+
 ===== TIPS & RECORDAR =====
 
     - AFIANZAR conocimientos, para eso este curso
@@ -170,3 +184,4 @@ OPERADORES DE INCREMENTO Y DECREMENTO(IMAGEN 5) (IncrementDecrement.java)
 14  -   TIPOS DE DATOS NUMERICOS, byte(1 byte), short(2bytes), int(4bytes), long(8bytes), float(4bytes), double(8bytes) ... 10 posiciones para int, -128 a 127 para byt
 15  -   TIPOS DE DATOS CHAR Y BOOLEAN char (2 bytes), boolean (2 bytes), var a partir de la versión 10 de java
 16  -   OPERADORES DE ASIGNACIÓN y OPERADORES DE INCREMENTO Y DECREMENTO, +=, -=, /=, %=, *=, ++, --, a++, ++a (Estos ultimos son las FORMAS de usarlo) (IncrementDecrement.java)
+17  -   MATH, revisamos algunas funciones y constantes de la clase Math, PI, E, Math.ceil, Math.floor, Math.pow, Math.max y Mat.sqrt
