@@ -283,4 +283,5 @@ OPERADORES LOGICOS (LogicOperations.java)
 22  -   IF, un ejercicio de como se utiliza el IF (IfStatement.java)
 23  -   SCOPE, lo vimos a nivel condición y a nivel método, ELSE vimos como funciona
 24  -   OPERADORES! , Relacionales, Equidad y Logicos, IF ELSE (LogicOperations.java)
+25  -   SWTICH, un ejercicio con el, muy sencillo el ejercicio, no explica mucho. (SwitchStatement.java)
 
