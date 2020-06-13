@@ -212,6 +212,10 @@ JAR
     NOTA: Es importante que la versión sea la misma o superior cuando ejecutamos el jar
 
 
+IF (IfStatement.java)
+
+    - Las condicionales son la forma en las que computadoras toman decisiones
+
 
 
 
@@ -253,4 +257,5 @@ JAR
 20  -   JAR, que es, conceptos, como hacer que el proyecto en intelliJ cree un JAR y como correr JAR desde consola
         NOTA: Es importante que la versión sea la misma o superior cuando ejecutamos el jar
 21  -   EJERCICIO, da 3 ejercicios, 1 de variables, 1 de cast y el ultimo una pregunta rara que no respondi.
+22  -   IF, un ejercicio de como se utiliza el IF (IfStatement.java)
 
