@@ -223,6 +223,25 @@ SCOPE
 
 
 
+OPERADORES DE EQUIDAD (LogicOperations.java)
+
+    - ==    Igualdad
+    - !=    Desigualdad
+
+OPERADORES RELACIONALES (LogicOperations.java)
+
+    - <     Menor que
+    - >     Mayor que
+    - <=    Menor o igual que
+    - >=    Mayor o igual que
+
+OPERADORES LOGICOS (LogicOperations.java)
+
+    - &&    AND
+    - ||    OR
+    - !     NOT
+
+
 
 
 
@@ -263,4 +282,5 @@ SCOPE
 21  -   EJERCICIO, da 3 ejercicios, 1 de variables, 1 de cast y el ultimo una pregunta rara que no respondi.
 22  -   IF, un ejercicio de como se utiliza el IF (IfStatement.java)
 23  -   SCOPE, lo vimos a nivel condición y a nivel método, ELSE vimos como funciona
+24  -   OPERADORES! , Relacionales, Equidad y Logicos, IF ELSE (LogicOperations.java)
 
