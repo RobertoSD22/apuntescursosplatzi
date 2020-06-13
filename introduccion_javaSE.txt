@@ -252,4 +252,5 @@ JAR
 19  -   CASTING 2, Vimos más casteos, donde no es neceario ser explicito, donde si lo es, cuando casteas un char a int, char no cabe en short
 20  -   JAR, que es, conceptos, como hacer que el proyecto en intelliJ cree un JAR y como correr JAR desde consola
         NOTA: Es importante que la versión sea la misma o superior cuando ejecutamos el jar
+21  -   EJERCICIO, da 3 ejercicios, 1 de variables, 1 de cast y el ultimo una pregunta rara que no respondi.
 
