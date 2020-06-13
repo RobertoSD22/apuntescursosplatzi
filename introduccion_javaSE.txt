@@ -162,6 +162,18 @@ CAST NUMEROS (Casting.java)
     - Cuando necesitas un número exacto casteas a doble
     - Cuando necesitas un número estimado casteas a int
 
+CAST ENTRE TIPOS DE DATOS (IMAGEN 6)
+
+    - Una variable de menos rango puede caber en una de mayor rango (como byte en short)
+    - CUANDO OCURRE este escenario no es necesario agregar el CAST explicito, por ejemplo: int numero = 101; long = numero; <--- sin usar (long)
+    - CUANDO ES AL REVES, si es necesario agregar el cast, por ejemplo: long a = 10110010; int b = (int) a;
+
+    - SI asignas el valor sin hacer el cast se pierde la EXACTITUD                                                                  IMPORTANTEEEEEEEEEEEEE
+    - SI asignas haciendo el cast conserva la EXACTITUD
+
+    - Si casteas un char a int , el número que aparece es el codigo ASCII del número que esta en el char, NO el número como tal     IMPORTANTEEEEEEEEEEEEE
+
+    - CHAR no cabe en SHORT a pesar de que ambos sean de 2 bytes de capacidad                                                       IMPORTANTEEEEEEEEEEEEE
 
 ===== TIPS & RECORDAR =====
 
@@ -193,4 +205,5 @@ CAST NUMEROS (Casting.java)
 16  -   OPERADORES DE ASIGNACIÓN y OPERADORES DE INCREMENTO Y DECREMENTO, +=, -=, /=, %=, *=, ++, --, a++, ++a (Estos ultimos son las FORMAS de usarlo) (IncrementDecrement.java)
 17  -   MATH, revisamos algunas funciones y constantes de la clase Math, PI, E, Math.ceil, Math.floor, Math.pow, Math.max y Mat.sqrt (MathematicOperations.java)
 18  -   CASTING (con numeros int y double), ejemplos de EXACTITUD (casteando a doble), ejemplos de ESTIMACIÓN (casteando a entero) (Casting.java)
+19  -   CASTING 2, Vimos más casteos, donde no es neceario ser explicito, donde si lo es, cuando casteas un char a int, char no cabe en short
 
