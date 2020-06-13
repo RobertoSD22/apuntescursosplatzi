@@ -257,6 +257,7 @@ FUNCIONES (IMAGEN 7)
 ===== TIPS & RECORDAR =====
 
     - AFIANZAR conocimientos, para eso este curso
+    - Los métodos staticos solo mandan llamar otros métodos staticos!!!!!!!!! :O (por ejemplo main, si llama otro método debe ser estatico) IMPORTANTEEEEEEEEEEEEE
 
     JRE Java Runtime Enviroment
     JDK Java Development Kit
@@ -293,3 +294,4 @@ FUNCIONES (IMAGEN 7)
 24  -   OPERADORES! , Relacionales, Equidad y Logicos, IF ELSE (LogicOperations.java)
 25  -   SWTICH, un ejercicio con el, muy sencillo el ejercicio, no explica mucho. (SwitchStatement.java)
 26  -   FUNCIONES, no se porque le llama así, se supone que se llaman métodos. Conceptos y como se componen (no hizo ningun ejercicio)
+27  -   EJERCICIO de FUNCIONES lo hicimos utilizando la clase Math, estuvo sencillo (Funciones.java)
