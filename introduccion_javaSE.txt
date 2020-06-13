@@ -165,15 +165,59 @@ CAST NUMEROS (Casting.java)
 CAST ENTRE TIPOS DE DATOS (IMAGEN 6)
 
     - Una variable de menos rango puede caber en una de mayor rango (como byte en short)
-    - CUANDO OCURRE este escenario no es necesario agregar el CAST explicito, por ejemplo: int numero = 101; long = numero; <--- sin usar (long)
-    - CUANDO ES AL REVES, si es necesario agregar el cast, por ejemplo: long a = 10110010; int b = (int) a;
+    - CAST AUTOMÁTICO = CUANDO OCURRE este escenario no es necesario agregar el CAST explicito, por ejemplo: int numero = 101; long = numero; <--- sin usar (long)
+    - CAST EXPLICITO = CUANDO ES AL REVES, si es necesario agregar el cast, por ejemplo: long a = 10110010; int b = (int) a;
 
     - SI asignas el valor sin hacer el cast se pierde la EXACTITUD                                                                  IMPORTANTEEEEEEEEEEEEE
-    - SI asignas haciendo el cast conserva la EXACTITUD
-
+    - SI asignas haciendo el cast conserva la EXACTITUD                                                                             IMPORTANTEEEEEEEEEEEEE
     - Si casteas un char a int , el número que aparece es el codigo ASCII del número que esta en el char, NO el número como tal     IMPORTANTEEEEEEEEEEEEE
-
     - CHAR no cabe en SHORT a pesar de que ambos sean de 2 bytes de capacidad                                                       IMPORTANTEEEEEEEEEEEEE
+
+
+JAR
+
+    - Abreviatura de JAVA ARCHIVE
+    - Son un tipo de comprimido donde utilizan el formato ZIP
+    - Contienen codigo complicado de java (*.class)
+
+    ¿COMO HABILITO LA OPCIÓN PARA QUE MI PROYECTO GENERE UN JAR? (Solo en intelliJ, no sabemos si funciona en otro IDE)
+
+    1-  Click en el menú FILE
+    2-  Click en la opción "Porject Structure"
+    3-  En el menú de la izquierda, en la opción "Artifact" (aparece vacia cuando la seleccionas)
+    4-  Click en el "+" de la parte de arriba
+    5-  Despliega un Menú donde viene la opción "JAR"
+    6-  En la opción "from modules with dependencies" (Es para que se encargue de seleccionar la clase con método MAIN que usaras para tu JAR)
+    7-  Aparece una pantalla para que selecciones la clase principal (La opción dice: Main Class) y abre las clases que tienes y seleccionas la que
+        contiene el método main
+    8-  Luego das click en el botón OK, y en la ventana de atrás otra vez OK
+    9-  Crea la carpeta "META-INF" con el archivo adentro "MANIFEST"
+    10- HASTA AQUI SE HABILITO LA OPCIÓN PARA GENERAR EL JAR
+
+    ¿COMO LO GENERO?
+
+    1-  Click en el menú Build
+    2-  Click en el submenu Build Artifacs
+    3-  Aparece una especie de menú pequeño donde se le da "Build" (dice Actions, en la parte de arriba del menú)
+    4-  En la carpeta "OUT", agrega el archivo JAR creado :O
+
+    ¿COMO LO CORRO?
+    1-  En la consola hay que posicionarse dentro de la carpeta que contiene el JAR (Si hasta adentro donde se encuentra el archivo)
+    2-  Ahi con el comando java -jar NOMBE_JAR.jar  y listo!!!!!!! lo corre
+
+    MANIFEST
+
+        - Contiene las instrucciones de como funciona nuestro JAR
+    
+    NOTA: Es importante que la versión sea la misma o superior cuando ejecutamos el jar
+
+
+
+
+
+
+
+
 
 ===== TIPS & RECORDAR =====
 
@@ -206,4 +250,6 @@ CAST ENTRE TIPOS DE DATOS (IMAGEN 6)
 17  -   MATH, revisamos algunas funciones y constantes de la clase Math, PI, E, Math.ceil, Math.floor, Math.pow, Math.max y Mat.sqrt (MathematicOperations.java)
 18  -   CASTING (con numeros int y double), ejemplos de EXACTITUD (casteando a doble), ejemplos de ESTIMACIÓN (casteando a entero) (Casting.java)
 19  -   CASTING 2, Vimos más casteos, donde no es neceario ser explicito, donde si lo es, cuando casteas un char a int, char no cabe en short
+20  -   JAR, que es, conceptos, como hacer que el proyecto en intelliJ cree un JAR y como correr JAR desde consola
+        NOTA: Es importante que la versión sea la misma o superior cuando ejecutamos el jar
 
