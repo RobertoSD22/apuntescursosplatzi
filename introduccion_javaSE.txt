@@ -296,6 +296,12 @@ ARREGLOS
     - Se definen como: TipoDato[] nombreVariable = new TipoDato[capacidad];
                        TipoDato[][] cities = new String[númeroFilas][númeroColumnas];
 
+INDICE
+
+    - La posición en la que se encuentra un valor en el arreglo
+    - Empieza en 0
+
+
 
 ===== TIPS & RECORDAR =====
 
@@ -347,3 +353,4 @@ ARREGLOS
 34  -   BREAK, CONTINUE, RETURN - Es una redacción MUY cortita de como se usan, casi no viene nada de "CONTINUE" me quedo con dudas
 35  -   ARREGLOS, pura explicación de como funcionan, SON OBJETOS eso es importante recordarlo, bidimensionales, tridimensionales, etc.
 36  -   DELCARACIÓN ARREGLOS, un ejercicio para saber como se declaran, no estuvo dificil, no hice el ejercicio
+37  -   INDICES, la posición de un valor en el arreglo!, explicación y un ejercicio secillo
