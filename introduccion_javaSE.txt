@@ -346,3 +346,4 @@ ARREGLOS
 33  -   FOR ejercicio, no lo hice, estaba muy sencillo
 34  -   BREAK, CONTINUE, RETURN - Es una redacción MUY cortita de como se usan, casi no viene nada de "CONTINUE" me quedo con dudas
 35  -   ARREGLOS, pura explicación de como funcionan, SON OBJETOS eso es importante recordarlo, bidimensionales, tridimensionales, etc.
+36  -   DELCARACIÓN ARREGLOS, un ejercicio para saber como se declaran, no estuvo dificil, no hice el ejercicio
