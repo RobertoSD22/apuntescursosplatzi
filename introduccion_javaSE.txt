@@ -337,3 +337,4 @@ FOR
 31  -   DO WHILE expicación, WHILE explicación, CLASE SCANNER!! permite recibir datos desde la consola (copie la clase DoWhileLoop.java)
 32  -   WHILE ejercicio y OPERADOR TERNEARIO (el de ? : )
 33  -   FOR ejercicio, no lo hice, estaba muy sencillo
+34  -   BREAK, CONTINUE, RETURN - Es una redacción MUY cortita de como se usan, casi no viene nada de "CONTINUE" me quedo con dudas
