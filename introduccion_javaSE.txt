@@ -171,7 +171,7 @@ CAST ENTRE TIPOS DE DATOS (IMAGEN 6)
     - SI asignas el valor sin hacer el cast se pierde la EXACTITUD                                                                  IMPORTANTEEEEEEEEEEEEE
     - SI asignas haciendo el cast conserva la EXACTITUD                                                                             IMPORTANTEEEEEEEEEEEEE
     - Si casteas un char a int , el número que aparece es el codigo ASCII del número que esta en el char, NO el número como tal     IMPORTANTEEEEEEEEEEEEE
-    - CHAR no cabe en SHORT a pesar de que ambos sean de 2 bytes de capacidad                                                       IMPORTANTEEEEEEEEEEEEE
+    - CHAR no cabe en SHORT a pesar de que ambos sean de 2 bytes de capacidad (char va de los 65,000 y short a los 32,000 por eso)  IMPORTANTEEEEEEEEEEEEE
 
 
 JAR
@@ -335,6 +335,7 @@ INDICE
 17  -   MATH, revisamos algunas funciones y constantes de la clase Math, PI, E, Math.ceil, Math.floor, Math.pow, Math.max y Mat.sqrt (MathematicOperations.java)
 18  -   CASTING (con numeros int y double), ejemplos de EXACTITUD (casteando a doble), ejemplos de ESTIMACIÓN (casteando a entero) (Casting.java)
 19  -   CASTING 2, Vimos más casteos, donde no es neceario ser explicito, donde si lo es, cuando casteas un char a int, char no cabe en short
+        el char no cabe en el short porque el char va de los 65,000 caracteres y el short hasta los 32,000
 20  -   JAR, que es, conceptos, como hacer que el proyecto en intelliJ cree un JAR y como correr JAR desde consola
         NOTA: Es importante que la versión sea la misma o superior cuando ejecutamos el jar
 21  -   EJERCICIO, da 3 ejercicios, 1 de variables, 1 de cast y el ultimo una pregunta rara que no respondi.
@@ -355,3 +356,4 @@ INDICE
 36  -   DELCARACIÓN ARREGLOS, un ejercicio para saber como se declaran, no estuvo dificil, no hice el ejercicio
 37  -   INDICES, la posición de un valor en el arreglo!, explicación y un ejercicio secillo
 38  -   FOR ANIDADOS, Agrego al ejercicio anterior de arreglos bidimensionales los for anidados, toca el tema de FOR EACH
+39  -   DESPEDIDA, Solo nos dijo que continuaramos con el siguiente curso
