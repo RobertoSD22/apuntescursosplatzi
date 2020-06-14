@@ -262,7 +262,12 @@ JAVADOC
         ~ /**/      de multiples lineas
         ~ /** */    DOCUMENTACIÓN DE JAVADOC
 
+¿COMO HABILITAR QUE MUESTRE EL JAVADOC EN INTELLIJ? (que lo muestre en el pop up cuando te posicionas sobre el método o clase)
 
+    1- Click en el menú File
+    2- Click en la opción settings
+    3- Opción EDITOR < GENERAL < CODE COMPLETION
+    4- Seleccionar el check "Show the documentation popup in ---- ms"
 
 
 ===== TIPS & RECORDAR =====
