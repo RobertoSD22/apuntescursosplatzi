@@ -354,3 +354,4 @@ INDICE
 35  -   ARREGLOS, pura explicación de como funcionan, SON OBJETOS eso es importante recordarlo, bidimensionales, tridimensionales, etc.
 36  -   DELCARACIÓN ARREGLOS, un ejercicio para saber como se declaran, no estuvo dificil, no hice el ejercicio
 37  -   INDICES, la posición de un valor en el arreglo!, explicación y un ejercicio secillo
+38  -   FOR ANIDADOS, Agrego al ejercicio anterior de arreglos bidimensionales los for anidados, toca el tema de FOR EACH
