@@ -284,6 +284,12 @@ OPERADOR TERNARIO
     - Sirve para evaluar como el IF!, es el que utilizamos en una sola linea, con ? : 
 
 
+FOR
+
+    - Igual al do while y al while pero nos permite manejar el número de ciclos!!!!
+
+
+
 ===== TIPS & RECORDAR =====
 
     - AFIANZAR conocimientos, para eso este curso
@@ -330,3 +336,4 @@ OPERADOR TERNARIO
 30  -   JAVADOC3, solo es una redacción donde vienen los tipos de comentarios que se pueden poner... (IMAGEN8)
 31  -   DO WHILE expicación, WHILE explicación, CLASE SCANNER!! permite recibir datos desde la consola (copie la clase DoWhileLoop.java)
 32  -   WHILE ejercicio y OPERADOR TERNEARIO (el de ? : )
+33  -   FOR ejercicio, no lo hice, estaba muy sencillo
