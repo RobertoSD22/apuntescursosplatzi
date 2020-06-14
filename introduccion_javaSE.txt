@@ -269,6 +269,16 @@ JAVADOC
     3- Opción EDITOR < GENERAL < CODE COMPLETION
     4- Seleccionar el check "Show the documentation popup in ---- ms"
 
+WHILE & DO WHILE
+
+    - DO WHILE al menos entra una vez, mientras que WHILE no entra a menos que se cumpla la condición
+
+SCANNER
+
+    - Con esa clase recibimos datos del teclado en la consola
+    - Scanner sc = new Scanner(System.in);
+      int opcionSeleccionada = Integer.valueOf(sc.nextLine()) //con esta obtener la linea capturada
+
 
 ===== TIPS & RECORDAR =====
 
@@ -314,3 +324,4 @@ JAVADOC
 28  -   JAVADOC , para que sirve, los 3 tipos de comentarios y cual es el bueno en JAVADOC (aun no dice como generar la documentación en HTML)
 29  -   JAVADOC2, como habilitarlo en IntelliJ.. pero no dijo como generarlo
 30  -   JAVADOC3, solo es una redacción donde vienen los tipos de comentarios que se pueden poner... (IMAGEN8)
+31  -   DO WHILE expicación, WHILE explicación, CLASE SCANNER!! permite recibir datos desde la consola (copie la clase DoWhileLoop.java)
