@@ -312,3 +312,5 @@ JAVADOC
 26  -   FUNCIONES, no se porque le llama así, se supone que se llaman métodos. Conceptos y como se componen (no hizo ningun ejercicio)
 27  -   EJERCICIO de FUNCIONES lo hicimos utilizando la clase Math, estuvo sencillo (Funciones.java)
 28  -   JAVADOC , para que sirve, los 3 tipos de comentarios y cual es el bueno en JAVADOC (aun no dice como generar la documentación en HTML)
+29  -   JAVADOC2, como habilitarlo en IntelliJ.. pero no dijo como generarlo
+30  -   JAVADOC3, solo es una redacción donde vienen los tipos de comentarios que se pueden poner... (IMAGEN8)
