@@ -289,6 +289,13 @@ FOR
     - Igual al do while y al while pero nos permite manejar el número de ciclos!!!!
 
 
+ARREGLOS
+
+    - Son objetos en los que podemos guardar más de una variable, una lista de elementos
+    - Si guardas arrays dentro de arrays se vuelven multidimensionales
+    - Se definen como: TipoDato[] nombreVariable = new TipoDato[capacidad];
+                       TipoDato[][] cities = new String[númeroFilas][númeroColumnas];
+
 
 ===== TIPS & RECORDAR =====
 
@@ -338,3 +345,4 @@ FOR
 32  -   WHILE ejercicio y OPERADOR TERNEARIO (el de ? : )
 33  -   FOR ejercicio, no lo hice, estaba muy sencillo
 34  -   BREAK, CONTINUE, RETURN - Es una redacción MUY cortita de como se usan, casi no viene nada de "CONTINUE" me quedo con dudas
+35  -   ARREGLOS, pura explicación de como funcionan, SON OBJETOS eso es importante recordarlo, bidimensionales, tridimensionales, etc.
