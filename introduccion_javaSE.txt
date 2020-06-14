@@ -252,6 +252,17 @@ FUNCIONES (IMAGEN 7)
         ~ NOMBRE
         ~ PARAMETRO O PARAMETROS DE ENTRADA
 
+JAVADOC
+
+    - Es una buena practica documentar el código
+    - Nos ayuda a comprender que hace el código
+    - Genera documentación HTML
+    - Hay 3 formas de generar documentos:
+        ~ //        de una sola linea
+        ~ /**/      de multiples lineas
+        ~ /** */    DOCUMENTACIÓN DE JAVADOC
+
+
 
 
 ===== TIPS & RECORDAR =====
@@ -295,3 +306,4 @@ FUNCIONES (IMAGEN 7)
 25  -   SWTICH, un ejercicio con el, muy sencillo el ejercicio, no explica mucho. (SwitchStatement.java)
 26  -   FUNCIONES, no se porque le llama así, se supone que se llaman métodos. Conceptos y como se componen (no hizo ningun ejercicio)
 27  -   EJERCICIO de FUNCIONES lo hicimos utilizando la clase Math, estuvo sencillo (Funciones.java)
+28  -   JAVADOC , para que sirve, los 3 tipos de comentarios y cual es el bueno en JAVADOC (aun no dice como generar la documentación en HTML)
