@@ -32,6 +32,10 @@ PILARES DE LA ORIENTACIÓN A OBJETOS
 UML
 
     - Unified Modeling Language (Lenguaje de Modelado Unificado)
+    - Las clases en UML tienen:
+        ~ Identidad (el nombre)
+        ~ Estado (Los atributos)
+        ~ Comportamiento (Los métodos)
 
 
 OBJETOS
@@ -47,6 +51,14 @@ COMPORTAMIENTOS
 
     - Serán todas las operaciones del objeto, suelen ser verbos o sustantivo y verbo
 
+CLASES
+
+    - Modelo sobre el cual se construirá nuestro objeto
+
+ABSTRACCIÓN
+
+    - Analizar un objeto para generar un molde
+
 ===== TIPS & RECORDAR =====
 
     - VERBO =       Método / Comportamiento
@@ -55,5 +67,6 @@ COMPORTAMIENTOS
 
 ===== RESUMEN CLASES =====
 
-1   CONCEPTOS: ORIENTACIÓN A OBJETOS, PARADIGMA, ELEMENTOS DE LA OO, PILARES DE LA OO, UML
+1   CONCEPTOS: ORIENTACIÓN A OBJETOS, Paradigma, Elementos de la OO, Pilares de la OO, UML
 2   CONCEPTOS: Objetos, propiedades(sustantivos), métodos (verbos)
+3   CONCEPTOS: Clases y Abstracción
