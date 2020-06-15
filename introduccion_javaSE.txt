@@ -18,7 +18,7 @@ JAVA
     - Creado en 1991
     - Es multiplataforma (corre en cualquier sistema operativo) 
       WORA (Writte Once Run Anywhere)
-    - 2009 lo adquiere ORACLE (compra SunMicrosystems)
+    - 2010 lo adquiere ORACLE (compra SunMicrosystems)
     - Java es un lenguaje COMPILADO (javascript, PHP son interpretados)
 
 JDK
@@ -49,7 +49,7 @@ HERRAMIENTAS MAS USADAS
       Es un entorno de programación que ha sido empaquetado como un programa de aplicación
       TIENE:
         ~ Un EDITOR DE CODIGO, mas amigable con colores más didacticos y ayudas de donde estas fallando
-        ~ Tiene un COMPILADOR para que no lo ejecutes por aparte
+        ~ Tiene un COMPILADOR para que no lo ejecutes aparte
         ~ Un DEPURADOR
         - Un CONSTRUCTOR DE INTERFAZ GRÁFICA, para los programás que necesitan interfaz con java
        Hay 3 en esta carrera:
@@ -60,7 +60,7 @@ HERRAMIENTAS MAS USADAS
 
 Método MAIN
 
-    - Es el punto de entrada de nuestra aplciación en Java
+    - Es el punto de entrada de nuestra aplicación en Java
     - No es exclusivo de Java, hay otros lenguajes de programación que lo usan como Kotlin o Dart
     - Si se ejecuta la aplicación y no existe el método lanza la excepción 
       "In class NoMain: void main (String args[]) no esta definido"
@@ -113,7 +113,7 @@ TIPOS DE DATOS NUMERICOS (IMAGEN 2)
 
 TIPOS DE DATOS CHAR Y BOOLEAN
 
-    char: Ocupa 2 bytes y solo puede almacenar 1 dígito, debemos usar comillas simples en vez de comillas dobles.
+    char: Ocupa 2 bytes y solo puede almacenar 1 dígito, debemos usar comillas simples en vez de comillas dobles. El rango es de los -65,436 a los 65,436
     boolean: Son un tipo de dato lógico, solo aceptan los valores true y false. También ocupa 2 bytes y almacena únicamente 1 dígito.
 
 
@@ -141,6 +141,24 @@ OPERADORES DE INCREMENTO Y DECREMENTO(IMAGEN 5) (IncrementDecrement.java)
 
     - Prefijo:  Antes de la variable ++i    POR EJEMPLO: int a = 100 + ++i      Incrementaria i antes de llevar acabo la asignación
     - Posfijo:  Después de la variable i++  POR EJEMPLO: int a = 100 + i++      Incrementaria i hasta despues que se haga la asignación
+
+OPERADORES DE EQUIDAD (LogicOperations.java)
+
+    - ==    Igualdad
+    - !=    Desigualdad
+
+OPERADORES RELACIONALES (LogicOperations.java)
+
+    - <     Menor que
+    - >     Mayor que
+    - <=    Menor o igual que
+    - >=    Mayor o igual que
+
+OPERADORES LOGICOS (LogicOperations.java)
+
+    - &&    AND
+    - ||    OR
+    - !     NOT
 
 
 MATH (MathematicOperacions.java)
@@ -222,26 +240,6 @@ SCOPE
     - Es el alcance de la variable, puede estar a nivel de método, a nivel de condición o a nvidel de clase
 
 
-
-OPERADORES DE EQUIDAD (LogicOperations.java)
-
-    - ==    Igualdad
-    - !=    Desigualdad
-
-OPERADORES RELACIONALES (LogicOperations.java)
-
-    - <     Menor que
-    - >     Mayor que
-    - <=    Menor o igual que
-    - >=    Mayor o igual que
-
-OPERADORES LOGICOS (LogicOperations.java)
-
-    - &&    AND
-    - ||    OR
-    - !     NOT
-
-
 FUNCIONES (IMAGEN 7)
 
     - Les dijo funciones pero yo más bien creo que son Métodos
@@ -310,7 +308,8 @@ INDICE
 
     JRE Java Runtime Enviroment
     JDK Java Development Kit
-    IDE Integrate Development Enviroment
+    IDE Integrated Development Enviroment
+    jar Java Archive
 
 ===== RESUMEN CLASES =====
 
