@@ -33,9 +33,27 @@ UML
 
     - Unified Modeling Language (Lenguaje de Modelado Unificado)
 
+
+OBJETOS
+
+    - Aquellos que tienen propiedades y comportamientos
+    - Pueden ser físicos o conceptuales
+
+PROPIEDADES
+
+    - También pueden llamarse atributos, serán sustantivos
+
+COMPORTAMIENTOS
+
+    - Serán todas las operaciones del objeto, suelen ser verbos o sustantivo y verbo
+
 ===== TIPS & RECORDAR =====
+
+    - VERBO =       Método / Comportamiento
+    - SUSTANTIVO =  Atributo / Propiedad
 
 
 ===== RESUMEN CLASES =====
 
 1   CONCEPTOS: ORIENTACIÓN A OBJETOS, PARADIGMA, ELEMENTOS DE LA OO, PILARES DE LA OO, UML
+2   CONCEPTOS: Objetos, propiedades(sustantivos), métodos (verbos)
