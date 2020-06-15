@@ -1,0 +1,41 @@
+=================== APUNTES DEL CURSO =======================
+
+===== HERRAMIENTAS =====
+
+
+===== CONCEPTOS DE LAS CLASES =====
+
+PARADIGMA
+
+    - Es una teoría que suministra la base y modelo para resolver problemas
+
+ORIENTACIÓN A OBJETOS
+
+    - ABSTRAER (palabra clave aquí) la información
+    - Surge a partir de los problemas que tenemos y necesitamos plasmar en código
+    - Observar los problemas en forma de objetos
+
+ELEMENTOS DE LA ORIENTACIÓN A OBJETOS
+
+    - Clases
+    - Propiedades
+    - Métodos 
+    - Objetos
+
+PILARES DE LA ORIENTACIÓN A OBJETOS
+
+    - Herencia
+    - Polimorfismo
+    - Encapsulamiento
+    - Abstracción
+
+UML
+
+    - Unified Modeling Language (Lenguaje de Modelado Unificado)
+
+===== TIPS & RECORDAR =====
+
+
+===== RESUMEN CLASES =====
+
+1   CONCEPTOS: ORIENTACIÓN A OBJETOS, PARADIGMA, ELEMENTOS DE LA OO, PILARES DE LA OO, UML
