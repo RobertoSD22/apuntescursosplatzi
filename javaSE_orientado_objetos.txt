@@ -59,6 +59,17 @@ ABSTRACCIÓN
 
     - Analizar un objeto para generar un molde
 
+
+MODULARIDAD
+
+    - Subdividir un sistema en varios elementos o componentes
+    - Nos permite:
+        ~ Reutilizar código
+        ~ Evitar colapsos (Porque solo deja de funcionar una parte, no toda la aplicación)
+        ~ Mantenible
+        ~ Legibilidad
+        ~ Resolución rápida de problemas
+
 ===== TIPS & RECORDAR =====
 
     - VERBO =       Método / Comportamiento
