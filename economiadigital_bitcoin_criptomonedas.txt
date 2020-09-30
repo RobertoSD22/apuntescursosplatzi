@@ -13,9 +13,21 @@
 
 BLOKCHAIN
 
-- un sistema que permite la emisión controlada de las monedas digitales, 
+- Un sistema que permite la emisión controlada de las monedas digitales, 
   además de funcionar como un libro público que registra cada una de las transacciones realizadas, 
   lo que asegura que cada moneda solo pueda ocuparse una vez
+
+ALTCOINS
+
+- Las Altcoins o criptomonedas alternativas comenzaron a crearse en 2011 producto del incremento de su popularidad.
+- En el TOP 10 de criptomonedas de 2020, se encuentran: Bitcoin, Ethereum, Ripple, Tether, Bitcoin Cash, Bitcoin SV, Litecoin, Binance Coin, EOS, Tezos
+- Hay cuatro términos comúnmente usados para categorizar las altcoins que tienen propiedades similares o específicas:
+    ~ Monedas de Privacidad: Altcoins con la finalidad de poder proporcionar transacciones privadas. Ejemplo: Monero, Zcash, Dash, etc
+    ~ Monedas estables o Stablecoins: ancladas al valor de una moneda fiduciaria con la finalidad de disminuir el riesgo de inversión debido a la volatilidad en el 
+      cripto ecosistema manteniendo su precio estable en el tiempo. Ejemplo: Tether, USD Coin, etc.
+    ~ Tokens de Exchanges: Altcoins creadas por los exchanges o intercambios con la finalidad de ser usada en sus plataformas de trading y servicios. Ejemplo: Binance Coin, KuCoin, etc.
+    ~ Monedas digitales del Banco Central (CBDC): Altcoin o criptomoneda creada y respaldada por un banco central o entidad gubernamental. Ejemplo: El Banco Central de Inglaterra anunció 
+      el lanzamiento de su CBDC. Experiencias similares se están dando en China, Francia, USA, etc.
 
 
 ===== TIPS & RECORDAR =====
@@ -29,4 +41,5 @@ BLOKCHAIN
 2   -   HISTORIA, Más conceptos e historia, esta interesante, ya los conocia, hablaron por ejemplo de las pizzas que se compraron con bitcoin
 3   -   ¿QUE ES BITCOIN?, Explicación de bitcoin, como funciona, me quedaron dudas de que la mineria esta implicada en la transaccion con bitcoin,
         tambien venia que es un sistema peer-to-peer, un poco sobre wallets, limites de 21 millones, etc.
+4   -   ALTCOINS, ejemplos y categorias, interesante!!!, no sabía que había categorias
 
