@@ -8,6 +8,8 @@
 - Bitcoin es la primera criptomoneda o activo financiero digital descentralizado
 - Permite realizar transacciones de forma segura, privada y sin intermediarios alrededor del mundo
 - A inicios de 2009, todo cambió; el Bitcoin fue presentado al mundo a través de la tecnología Blockchain
+- Bitcoin es un sistema Peer-to-Peer o sistema de pares distribuidos. Es decir, no existe un ente o servidor central que tenga control o del que dependa el ecosistema
+- El hecho de que bitcoin se limite a 21 millones promueve a los participantes de la red a su acumulación
 
 BLOKCHAIN
 
@@ -24,5 +26,7 @@ BLOKCHAIN
 ===== RESUMEN CLASES =====
 
 1   -   Descripción de las mentorias expert, son videollamadas donde se resulven dudas, por el momento no es muy interesante que digamos.
-2   -   Más conceptos e historia, esta interesante, ya los conocia, hablaron por ejemplo de las pizzas que se compraron con bitcoin
+2   -   HISTORIA, Más conceptos e historia, esta interesante, ya los conocia, hablaron por ejemplo de las pizzas que se compraron con bitcoin
+3   -   ¿QUE ES BITCOIN?, Explicación de bitcoin, como funciona, me quedaron dudas de que la mineria esta implicada en la transaccion con bitcoin,
+        tambien venia que es un sistema peer-to-peer, un poco sobre wallets, limites de 21 millones, etc.
 
