@@ -1,16 +1,28 @@
 =================== APUNTES DEL CURSO =======================
 
-
 ===== HERRAMIENTAS =====
 
 
 ===== CONCEPTOS DE LAS CLASES =====
 
+- Bitcoin es la primera criptomoneda o activo financiero digital descentralizado
+- Permite realizar transacciones de forma segura, privada y sin intermediarios alrededor del mundo
+- A inicios de 2009, todo cambió; el Bitcoin fue presentado al mundo a través de la tecnología Blockchain
+
+BLOKCHAIN
+
+- un sistema que permite la emisión controlada de las monedas digitales, 
+  además de funcionar como un libro público que registra cada una de las transacciones realizadas, 
+  lo que asegura que cada moneda solo pueda ocuparse una vez
+
 
 ===== TIPS & RECORDAR =====
+
+    - 22 de Mayo del 2010 se compraron las pizzas con bitcoin, lo conocen como el "Bitcoin Pizza Day"
 
 
 ===== RESUMEN CLASES =====
 
 1   -   Descripción de las mentorias expert, son videollamadas donde se resulven dudas, por el momento no es muy interesante que digamos.
+2   -   Más conceptos e historia, esta interesante, ya los conocia, hablaron por ejemplo de las pizzas que se compraron con bitcoin
 
