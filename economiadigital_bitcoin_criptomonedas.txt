@@ -61,3 +61,4 @@ CLAVE PRIVADA (o dirección privada)
 7   -   Ejemplos de plataformas para comprar bitcoins o hacer trade
 8   -   Claves privadas y claves publicas, explicación de que son, támbien hablan de Binance (igual que Bitso), lo importante de la clase es que
         tengamos un lugar donde nosotros tengamos nuestra clave privada, no que la tenga la billetera online
+9   -   Recomendaciones de seguridad, algunos ejemplos y recomendaciones para transacciones y seguridad, como la autenticación en dos pasos
