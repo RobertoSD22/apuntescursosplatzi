@@ -65,6 +65,19 @@ ACTIVO FINANCIERO
 
   - NO es considerado un activo financiero legal debido a su protocolo inicial. Es decir, no posee un organismo de control similar a un Banco Central o marco jurídico que lo respalde
 
+BALLENAS
+
+  - Las ballenas son inversionistas con alto poder adquisitivo y amplio recorrido en el mundo de las inversiones, conociendo por tanto los patrones de funcionamiento de los activos financieros, 
+    y elevando así las probabilidades de éxito en sus transacciones.
+  - Debido al gran volumen de negociación, las ballenas pueden afectar en gran medida el comportamiento del precio de un cripto activo.
+  - IMPORTANTE:  en el ecosistema de las criptomonedas existen herramientas que nos permiten ver los movimientos de las ballenas, ayudándonos a entender cuáles son sus intereses en un cripto activo en particular 
+                 y así accionar en mayor probabilidad a favor del movimiento del precio.
+                 https://whale-alert.io/alerts
+
+TRADERS RETAIL
+
+  - Son inversionistas individuales o minoristas y buscan generar rentabilidad a partir de sus movimientos en el cripto mercado
+  - Suelen tener una mentalidad de inversión de corto plazo
 
 ===== TIPS & RECORDAR =====
 
@@ -95,3 +108,4 @@ ACTIVO FINANCIERO
 12  -   Que es un SATOSHI, cuanto vale, porque se llama así, tambien unas recomendaciones de como hacer la transformación de dolares a bitcoin y al revés
 13  -   Hablan de si BITCOIN es un ACTIVO FINANCIERO, una explicación  de eso, tambien de como se ha utilizado en comparación con el oro.
 14  -   Historia del bitcoin
+15  -   BALLENAS y TRADES RETAIL, una explicación de que son y dan algunas páginas interesantes para ver información de ballenas o como estan dispersados los bitcoins entre la gente
