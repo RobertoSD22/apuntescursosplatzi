@@ -7,7 +7,12 @@
 
 - Bitcoin es la primera criptomoneda o activo financiero digital descentralizado
 - Permite realizar transacciones de forma segura, privada y sin intermediarios alrededor del mundo
-- A inicios de 2009, todo cambió; el Bitcoin fue presentado al mundo a través de la tecnología Blockchain
+- 2009, todo cambió; el Bitcoin fue presentado al mundo a través de la tecnología Blockchain
+- 2010 venta de pizza
+- 2011 alcanza al dolar en precio
+- 2012 Nace la fundacion bitcoin
+- 2016 Japon acepta bitcoin
+- 2017 su maximo historico
 - Bitcoin es un sistema Peer-to-Peer o sistema de pares distribuidos. Es decir, no existe un ente o servidor central que tenga control o del que dependa el ecosistema
 - El hecho de que bitcoin se limite a 21 millones promueve a los participantes de la red a su acumulación
 
@@ -89,3 +94,4 @@ ACTIVO FINANCIERO
 11  -   Plataformas de inversión, BINANCE, BITFINEX, COINBASE, KUCOIN, BITMEX, ponen una breve explicación de como funcionan o descripción de la empresa
 12  -   Que es un SATOSHI, cuanto vale, porque se llama así, tambien unas recomendaciones de como hacer la transformación de dolares a bitcoin y al revés
 13  -   Hablan de si BITCOIN es un ACTIVO FINANCIERO, una explicación  de eso, tambien de como se ha utilizado en comparación con el oro.
+14  -   Historia del bitcoin
