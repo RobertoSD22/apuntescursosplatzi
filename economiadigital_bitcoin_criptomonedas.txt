@@ -29,11 +29,25 @@ ALTCOINS
     ~ Monedas digitales del Banco Central (CBDC): Altcoin o criptomoneda creada y respaldada por un banco central o entidad gubernamental. Ejemplo: El Banco Central de Inglaterra anunció 
       el lanzamiento de su CBDC. Experiencias similares se están dando en China, Francia, USA, etc.
 
+BILLETERAS
+
+- Las billeteras o wallets son software o programas que te permiten almacenar, enviar y recibir Bitcoin y criptomonedas
+- Su función es almacenar las claves privadas necesarias para proteger el saldo y transacciones registradas en una clave pública en la blockchain
+
+CLAVE PUBLICA (o dirección publica)
+
+- La clave o dirección pública es el código que podemos compartir a los demás usuarios para que puedan enviar dinero de forma exitosa a nuestra billetera
+- A través de ella podemos recibir, consultar, y ver nuestros estados de cuenta
+
+CLAVE PRIVADA (o dirección privada)
+
+- La clave privada en cambio es un código que no podemos compartir con nadie, pues podrían con ella acceder a nuestros fondos y extraer nuestro dinero
 
 ===== TIPS & RECORDAR =====
 
-    - 22 de Mayo del 2010 se compraron las pizzas con bitcoin, lo conocen como el "Bitcoin Pizza Day"
-
+  - 22 de Mayo del 2010 se compraron las pizzas con bitcoin, lo conocen como el "Bitcoin Pizza Day"
+  - Recordemos que con las billeteras online no tenemos acceso a las claves privadas, pues pertenecen directamente al Exchange por lo que 
+    nunca será buena idea almacenar nuestro dinero por mucho tiempo en este tipo de billeteras
 
 ===== RESUMEN CLASES =====
 
@@ -45,4 +59,5 @@ ALTCOINS
 5   -   Narrativa de Venezuela y Argentina, como ayuda el bitcoin y la adopción de la misma
 6   -   Ventajas y desvenatajas de usar bitcoin, una narrativa interesante
 7   -   Ejemplos de plataformas para comprar bitcoins o hacer trade
-
+8   -   Claves privadas y claves publicas, explicación de que son, támbien hablan de Binance (igual que Bitso), lo importante de la clase es que
+        tengamos un lugar donde nosotros tengamos nuestra clave privada, no que la tenga la billetera online
