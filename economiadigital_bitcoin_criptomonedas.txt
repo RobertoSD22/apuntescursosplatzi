@@ -69,4 +69,5 @@ CLAVE PRIVADA (o dirección privada)
 8   -   Tipos de wallets, escritorio, app movil, hardware y en linea
 9   -   Claves privadas y claves publicas, explicación de que son, támbien hablan de Binance (igual que Bitso), lo importante de la clase es que
         tengamos un lugar donde nosotros tengamos nuestra clave privada, no que la tenga la billetera online
-10   -   Recomendaciones de seguridad, algunos ejemplos y recomendaciones para transacciones y seguridad, como la autenticación en dos pasos
+10  -   Recomendaciones de seguridad, algunos ejemplos y recomendaciones para transacciones y seguridad, como la autenticación en dos pasos
+11  -   Plataformas de inversión, BINANCE, BITFINEX, COINBASE, KUCOIN, BITMEX, ponen una breve explicación de como funcionan o descripción de la empresa
