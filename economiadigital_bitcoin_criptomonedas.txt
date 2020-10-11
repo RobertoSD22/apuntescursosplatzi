@@ -134,3 +134,4 @@ COINMARKETCAP
 17  -   TIPOS DE PORTAFOLIOS, Viene de la mano del anterior, explican, de este no tome nota porque es muy parecido al de inversores.
 18  -   COINMARKETCAP, como funciona, que herramientas tiene, etc.
 19  -   Regla del 90/90/90, solo lei no escribi nada, hablan mucho del riesgo y dan recomendaciones
+20  -   Gestión de Emociones, explicasión de porque debes contrar las emciones.
