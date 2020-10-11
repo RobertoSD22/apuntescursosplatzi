@@ -31,8 +31,8 @@ ALTCOINS
 
 BILLETERAS
 
-- Las billeteras o wallets son software o programas que te permiten almacenar, enviar y recibir Bitcoin y criptomonedas
-- Su función es almacenar las claves privadas necesarias para proteger el saldo y transacciones registradas en una clave pública en la blockchain
+  - Las billeteras o wallets son software o programas que te permiten almacenar, enviar y recibir Bitcoin y criptomonedas
+  - Su función es almacenar las claves privadas necesarias para proteger el saldo y transacciones registradas en una clave pública en la blockchain
 
 TIPOS DE BILLETERAS
 
@@ -43,20 +43,22 @@ TIPOS DE BILLETERAS
 
 CLAVE PUBLICA (o dirección publica)
 
-- La clave o dirección pública es el código que podemos compartir a los demás usuarios para que puedan enviar dinero de forma exitosa a nuestra billetera
-- A través de ella podemos recibir, consultar, y ver nuestros estados de cuenta
+  - La clave o dirección pública es el código que podemos compartir a los demás usuarios para que puedan enviar dinero de forma exitosa a nuestra billetera
+  - A través de ella podemos recibir, consultar, y ver nuestros estados de cuenta
 
 CLAVE PRIVADA (o dirección privada)
 
-- La clave privada en cambio es un código que no podemos compartir con nadie, pues podrían con ella acceder a nuestros fondos y extraer nuestro dinero
+  - La clave privada en cambio es un código que no podemos compartir con nadie, pues podrían con ella acceder a nuestros fondos y extraer nuestro dinero
 
 SATOSHI
 
-- Un satoshi es la medida mínima en la que se puede fragmentar un bitcoin
-- 1 bitcoin es equivalente a 100 millones de satoshis, equivale a 0,00000001 BTC
-- El nombre está asociado al creador del bitcoin: Satoshi Nakamoto, quién definió así las reglas en el protocolo inicial del BTC.
+  - Un satoshi es la medida mínima en la que se puede fragmentar un bitcoin
+  - 1 bitcoin es equivalente a 100 millones de satoshis, equivale a 0,00000001 BTC
+  - El nombre está asociado al creador del bitcoin: Satoshi Nakamoto, quién definió así las reglas en el protocolo inicial del BTC.
 
+ACTIVO FINANCIERO
 
+  - NO es considerado un activo financiero legal debido a su protocolo inicial. Es decir, no posee un organismo de control similar a un Banco Central o marco jurídico que lo respalde
 
 
 ===== TIPS & RECORDAR =====
@@ -85,4 +87,5 @@ SATOSHI
         tengamos un lugar donde nosotros tengamos nuestra clave privada, no que la tenga la billetera online
 10  -   Recomendaciones de seguridad, algunos ejemplos y recomendaciones para transacciones y seguridad, como la autenticación en dos pasos
 11  -   Plataformas de inversión, BINANCE, BITFINEX, COINBASE, KUCOIN, BITMEX, ponen una breve explicación de como funcionan o descripción de la empresa
-12  -   Ques un SATOSHI, cuanto vale, porque se llama así, tambien unas recomendaciones de como hacer la transformación de dolares a bitcoin y al revés
+12  -   Que es un SATOSHI, cuanto vale, porque se llama así, tambien unas recomendaciones de como hacer la transformación de dolares a bitcoin y al revés
+13  -   Hablan de si BITCOIN es un ACTIVO FINANCIERO, una explicación  de eso, tambien de como se ha utilizado en comparación con el oro.
