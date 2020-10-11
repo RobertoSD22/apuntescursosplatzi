@@ -85,6 +85,20 @@ TIPOS DE INVERSORES
   - SWING - Mediano plazo (semanas, días)
   - LARGO PLAZO
 
+COINMARKETCAP
+
+  - Una de las herramientas más importantes para los cripto inversores, pues en ella encontramos toda la información básica y relevante del mercado. 
+    Desde capitalización, precio actual de todas las criptomonedas, volumen, gráficos, histórico de precio, ranking de todas las criptomonedas existentes, y más.
+  - Algunas de las características que encontramos al ingresar a la plataforma son:
+
+    - Market Cap (Capitalización de Mercado): Es decir la cantidad total de dólares americanos o capitalización que tiene bitcoin y cada una de las criptomonedas.
+    - Price (Precio): La cotización actual en dólares americanos de cada criptomoneda, promediando el precio de todas las plataformas de inversión.
+    - Volume (Volumen): La cantidad de dinero que ha tenido movimiento en las últimas 24 horas en dólares americanos de cada una de las criptomonedas.
+    - Circulating Supply (Cantidad en Circulación): El número de monedas que se encuentran en circulación hasta el momento, es decir de los 21 millones 
+      de BTC que van a existir hoy sólo se han minado 18 millones BTC en promedio.
+    - Change 24h (Cambio del precio): El resultado de la última fluctuación del precio en las últimas 24 horas en términos porcentuales. 
+      Es decir, podemos ver si el precio de la criptomoneda en particular ha aumentado su cotización respecto al día anterior o viceversa.
+    - Price Graph 7D (Gráfico del Precio): Un gráfico general del precio en la última semana, sin ahondar en muchos detalles.
 
 ===== TIPS & RECORDAR =====
 
@@ -118,3 +132,4 @@ TIPOS DE INVERSORES
 15  -   BALLENAS y TRADES RETAIL, una explicación de que son y dan algunas páginas interesantes para ver información de ballenas o como estan dispersados los bitcoins entre la gente
 16  -   TIPOS DE INVERSORES, explicación de que son cada uno y luego una explicación de "cual quieres ser tu"
 17  -   TIPOS DE PORTAFOLIOS, Viene de la mano del anterior, explican, de este no tome nota porque es muy parecido al de inversores.
+18  -   COINMARKETCAP, como funciona, que herramientas tiene, etc.
