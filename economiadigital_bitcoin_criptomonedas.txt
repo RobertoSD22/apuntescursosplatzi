@@ -79,6 +79,13 @@ TRADERS RETAIL
   - Son inversionistas individuales o minoristas y buscan generar rentabilidad a partir de sus movimientos en el cripto mercado
   - Suelen tener una mentalidad de inversión de corto plazo
 
+TIPOS DE INVERSORES
+
+  - INTRADIA - A corto plazo (durante el dia)
+  - SWING - Mediano plazo (semanas, días)
+  - LARGO PLAZO
+
+
 ===== TIPS & RECORDAR =====
 
   - 22 de Mayo del 2010 se compraron las pizzas con bitcoin, lo conocen como el "Bitcoin Pizza Day"
@@ -109,3 +116,4 @@ TRADERS RETAIL
 13  -   Hablan de si BITCOIN es un ACTIVO FINANCIERO, una explicación  de eso, tambien de como se ha utilizado en comparación con el oro.
 14  -   Historia del bitcoin
 15  -   BALLENAS y TRADES RETAIL, una explicación de que son y dan algunas páginas interesantes para ver información de ballenas o como estan dispersados los bitcoins entre la gente
+16  -   TIPOS DE INVERSORES, explicación de que son cada uno y luego una explicación de "cual quieres ser tu"
