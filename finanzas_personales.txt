@@ -23,6 +23,15 @@
 
     La inercia financiera hace que nuestro comportamiento financiero sea predecible y seamos manipulados por fuerzas externas
 
+- COMO FALLAMOS
+
+    Postergamos los costos y tomamos ahora los beneficios
+    Nos cuesta entender que "ese dinero se perdio"
+    Tomamos decisiones relativas no absolutas
+    Perder nos duele más que lo que nos alegra ganar
+    Nuestra emociones y el riesgo estan relacionados
+    Es fácil anclarnos cuando no conocemos información
+
 ===== HERRAMIENTAS =====
 
 ===== COMANDOS =====
@@ -37,3 +46,4 @@
 2   Terminos para finanzas personales (son 6) y despues se enfoco más en uno de ellos que es "BIENESTAR FINANCIERO" de hecho lo va a usar para todo el curso
 3   La inercia financiera hace que nos vayamos con la mercadotecnia, los periodos de compra
 4   Ejercicio de preguntas, puntuación 3/8
+5   Respuestas al ejercicio, entre más estes lejos del 8 es mejor (no me fue tan mal), tambien explica por que fallamos
