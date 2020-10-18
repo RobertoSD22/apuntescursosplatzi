@@ -76,6 +76,20 @@
     Deudas son dinero que nos han prestado y tenemos que devolver (gastos no previstos)
     Gastos son los que tenemos presupuestados
 
+- Formas de evaluar nuestras finanzas personales.
+    SUBJETIVA
+        Nivel de satisfacción personal.
+        Creencias
+        Aprendizajes Inconscientes
+        Guiones Mentales de Dinero
+    OBJETIVA
+        ¿Cuál es mi ingreso ?
+        ¿Que bienes tengo?
+        ¿Cuánta deuda he acumulado?
+        ¿Cuánto patrimonio tengo?
+    RELATIVA
+        Cómo me comparo
+        Con quien me comparo
 
 ===== HERRAMIENTAS =====
 
@@ -93,3 +107,4 @@
 4   Ejercicio de preguntas, puntuación 3/8
 5   Respuestas al ejercicio, entre más estes lejos del 8 es mejor (no me fue tan mal), tambien explica por que fallamos
 6   Vimos CONCEPTOS: Costo de Oportunidad, Distribución del ingreso, Escasez, Oferta y Demanda, Rentabilidad, Utilidad, Riesgo, Tasa de Interes, Flujo de caja y liquidez, Deudas y Gastos
+7   Forma de evaluar nuestras finanzas personales, esta clase no me llamo mucho la atención estuvo algo aburrida
