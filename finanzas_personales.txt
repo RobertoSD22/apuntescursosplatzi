@@ -1,5 +1,24 @@
 =================== APUNTES DEL CURSO DE GIT/GITHUB =======================
 
+- Existen muchos términos para hablar de finanzas personales:
+
+    Finanzas personales.-       Es la palabra más general, para cuando hablamos de la administración de nuestro dinero
+    Planeación financiera.-     Es la palabra más cercana a lo que hace un PROFESIONAL de las finanzas, como un couch
+    Libertad financiera.-       CUIDADO, es un termino que utilizan para vender ideas de ser millonario
+    Bienestar financiero.-      AGRUPA todos los conceptos
+    Independencia financiera.-  CUIDADO, venden la idea de cuales son las cosas buenas o malas de tus finanzas financieras
+    Salud financiera.-          ANALOGIA a nuestra salud desde el lado de las finanzas
+
+
+    Bienestar Financiero
+        Seguridad:
+            Presente: Tener control sobre nuestras finanzas dia a dia, mes a mes.
+            Futuro: Capacidad para enfrentar un shock financiero(una emergencia).
+
+        Libertad:
+            Presente: Para tomar decisiones que permiten disfrutar la vida.
+            Futuro: Ir por el camino adecuado para cumplir mis metas.
+
 ===== HERRAMIENTAS =====
 
 ===== COMANDOS =====
@@ -11,3 +30,4 @@
 ===== RESUMEN CLASES =====
 
 1   Presentación del profesor, hablo de los objetivos que vamos a tener y que las decisiones financieras se presentan en todo momento en cosas que ni imaginamos
+2   Terminos para finanzas personales (son 6) y despues se enfoco más en uno de ellos que es "BIENESTAR FINANCIERO" de hecho lo va a usar para todo el curso
