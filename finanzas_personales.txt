@@ -32,6 +32,51 @@
     Nuestra emociones y el riesgo estan relacionados
     Es fácil anclarnos cuando no conocemos información
 
+- COSTO DE OPORTUNIDAD
+
+    Cuando dejas ir una oportunidad por otra, cuando pones tu dinero en un lugar pero ya no lo pusiste en otro
+    La mejor opcion que estas dejando de tomar por otra
+
+- DISTRIBUCIÓN DEL INGRESO
+
+    Como distribuyes tu ingreso
+
+- ESCASEZ
+
+    Depende de la limitación de un bien (que tanto hay y cuando se demanda)
+
+- OFERTA Y DEMANDA
+
+    La oferta es lo que los productores ofresen
+    Demanda es lo que compren las personas de los productores
+
+- RENTABILIDAD (PORCENTAJE)
+
+    El porcentaje de ganancia de una inversión
+
+- UTILIDAD (MONTO)
+
+    El monto en pesos que tiene la ganancia de la inversión
+
+- RIESGO
+
+    La probabilidad de que el resultado que obtendremos sera diferente del que esperamos
+
+- TASA DE INTERES
+
+    El costo que asumimos por in credito
+
+- FLUJO DE CAJA Y LIQUIDEZ
+
+    Hace referencia a la forma en la que se mueve el efectivo.
+    Cuanto ingresa, cuando ingresa, cuanto gasta, cuando gasta
+
+- DEUDAS Y GASTOS
+
+    Deudas son dinero que nos han prestado y tenemos que devolver (gastos no previstos)
+    Gastos son los que tenemos presupuestados
+
+
 ===== HERRAMIENTAS =====
 
 ===== COMANDOS =====
@@ -47,3 +92,4 @@
 3   La inercia financiera hace que nos vayamos con la mercadotecnia, los periodos de compra
 4   Ejercicio de preguntas, puntuación 3/8
 5   Respuestas al ejercicio, entre más estes lejos del 8 es mejor (no me fue tan mal), tambien explica por que fallamos
+6   Vimos CONCEPTOS: Costo de Oportunidad, Distribución del ingreso, Escasez, Oferta y Demanda, Rentabilidad, Utilidad, Riesgo, Tasa de Interes, Flujo de caja y liquidez, Deudas y Gastos
