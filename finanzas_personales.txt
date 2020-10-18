@@ -19,6 +19,10 @@
             Presente: Para tomar decisiones que permiten disfrutar la vida.
             Futuro: Ir por el camino adecuado para cumplir mis metas.
 
+- INERCIA FINANCIERA
+
+    La inercia financiera hace que nuestro comportamiento financiero sea predecible y seamos manipulados por fuerzas externas
+
 ===== HERRAMIENTAS =====
 
 ===== COMANDOS =====
@@ -31,3 +35,4 @@
 
 1   Presentación del profesor, hablo de los objetivos que vamos a tener y que las decisiones financieras se presentan en todo momento en cosas que ni imaginamos
 2   Terminos para finanzas personales (son 6) y despues se enfoco más en uno de ellos que es "BIENESTAR FINANCIERO" de hecho lo va a usar para todo el curso
+3   La inercia financiera 
