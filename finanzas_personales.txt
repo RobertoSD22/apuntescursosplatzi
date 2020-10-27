@@ -113,3 +113,4 @@
 9   Tome el test de estres financiero y otro para guiones mentales (las creencias que tenemos sobre el dinero de donde vienen), sali "Vigilante" 
     Los "Vigilantes del Dinero" están alertas, vigilantes y preocupados por su salud financiera. Creen que es importante ahorrar y que las personas trabajen por su dinero y que no se les den ayudas financieras.
 10  Actualizamos un Excel con nuestros activos, deudas, pasivos, etc., esta padre, pero estan mejor los que ya tengo
+11  Evaluar la situación financiera a partir de otra, seguir personas que no nos estresen y nos ayuden a superarnos, medirnos contra los porcentajes por ejemplo del pais que ganan x cantidad.
