@@ -120,3 +120,4 @@
 14  Tener un fondo de emergencias LIQUIDO (las casas, coches y esas cosas no son faciles de vender) y que sea de 4 meses al menos
 15  Deudas y costo de oportunidad, lo que dejamos ir por estar pagando las deudas, las deudas no deberían sobrepasar el 10% de tus activos.
 16  Hicimos un presupuesto con el Excel en la pestaña de PRESUPUESTO ANUAL
+17  Planeación de objetivos, nos dio un PDF para que llenemos nuestros objetivos a 30, 60 y 360 días
