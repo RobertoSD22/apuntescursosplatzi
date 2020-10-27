@@ -91,11 +91,12 @@
         Cómo me comparo
         Con quien me comparo
 
-===== HERRAMIENTAS =====
 
-===== COMANDOS =====
+- CONCEPTOS DE EMPRESA
 
-===== CONCEPTOS DE LAS CLASES =====
+    - Estado de resultados: cuanto Gana, Gasta y tiene de Utilidad la empresa
+    - Flujo de caja: como se mueve el efectivo en la compañia
+    - Estado de situación financiera: muestra las cosas de valor de la empresa (activos), las deudas (pasivos) y el patrimonio de la empresa
 
 ===== TIPS & RECORDAR =====
 
@@ -115,3 +116,4 @@
 10  Actualizamos un Excel con nuestros activos, deudas, pasivos, etc., esta padre, pero estan mejor los que ya tengo
 11  Evaluar la situación financiera a partir de otra, seguir personas que no nos estresen y nos ayuden a superarnos, medirnos contra los porcentajes por ejemplo del pais que ganan x cantidad.
 12  Porque planear, porque el tiempo es el recurso mas importante!!!!
+13  Explicación del ahorro, complete el excel en la pestaña del 6to reto con el porcentaje de ahorro que hago al mes
