@@ -119,3 +119,4 @@
 13  Explicación del ahorro, complete el excel en la pestaña del 6to reto con el porcentaje de ahorro que hago al mes
 14  Tener un fondo de emergencias LIQUIDO (las casas, coches y esas cosas no son faciles de vender) y que sea de 4 meses al menos
 15  Deudas y costo de oportunidad, lo que dejamos ir por estar pagando las deudas, las deudas no deberían sobrepasar el 10% de tus activos.
+16  Hicimos un presupuesto con el Excel en la pestaña de PRESUPUESTO ANUAL
