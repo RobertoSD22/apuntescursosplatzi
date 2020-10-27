@@ -47,7 +47,7 @@
 
 - OFERTA Y DEMANDA
 
-    La oferta es lo que los productores ofresen
+    La oferta es lo que los productores ofrecen
     Demanda es lo que compren las personas de los productores
 
 - RENTABILIDAD (PORCENTAJE)
@@ -108,3 +108,5 @@
 5   Respuestas al ejercicio, entre más estes lejos del 8 es mejor (no me fue tan mal), tambien explica por que fallamos
 6   Vimos CONCEPTOS: Costo de Oportunidad, Distribución del ingreso, Escasez, Oferta y Demanda, Rentabilidad, Utilidad, Riesgo, Tasa de Interes, Flujo de caja y liquidez, Deudas y Gastos
 7   Forma de evaluar nuestras finanzas personales, esta clase no me llamo mucho la atención estuvo algo aburrida
+8   Se llamo "Identificar patrones y lecciones de nuestro pasado financiero" y hablo de ver en el pasado cuales fueron los errores que cometimos y como modificarlos
+    había un pdf de ejercicio con unas preguntas pero ya no lo hice porque en la misma clase hizo las preguntas
