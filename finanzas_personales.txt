@@ -122,3 +122,5 @@
 16  Hicimos un presupuesto con el Excel en la pestaña de PRESUPUESTO ANUAL
 17  Planeación de objetivos, nos dio un PDF para que llenemos nuestros objetivos a 30, 60 y 360 días
 18  Tablero de control, es la ultima pestaña del excel, ahi vienen los totales de lo que gastas y objetivos como "yo quiero que mi gasto se reduzca a 30%" o "yo quiero tener mas ingresos" etc.
+19  OBJETIVOS, los objetivos se pueden partir en pequeños objetivos para poder cumplirlos y no tener la sensación de que son imposibles. Nos enseña como llenar el PDF con los objetivos,
+    y como llenar el excel con esos mismos objetivos.
