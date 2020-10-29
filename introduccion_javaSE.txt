@@ -237,7 +237,7 @@ IF (IfStatement.java)
 
 SCOPE
 
-    - Es el alcance de la variable, puede estar a nivel de método, a nivel de condición o a nvidel de clase
+    - Es el ALCANCE de la variable, puede estar a nivel de método, a nivel de condición o a nvidel de clase
 
 
 FUNCIONES (IMAGEN 7)
