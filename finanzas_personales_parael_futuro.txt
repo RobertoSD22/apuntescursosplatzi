@@ -17,6 +17,9 @@ Tipos de arquetipos
     ~ Gornante -    Su negocio o profesión domina su vida
     ~ Acumulador -  El dinero es para guardarse y multiplicarse
 
+Gastos hormiga
+    - Gastos de manera reiterada no necesarios pero que afectan en gran medida nuestro prespuesto
+
 ===== TIPS & RECORDAR =====
 
 ===== RESUMEN CLASES =====
@@ -31,3 +34,4 @@ Tipos de arquetipos
     entretenido pero nada más, hablo más de los cimientos financieros (las ideas que nos dan los papás sobre el dinero).
 6   Habitos nocivos, nos enseño varios habitos nocivos pero no tenia ninguno de esos o al menos no muy marcado. Habitos basicos, son los habitos buenos,
     los que si debemos llevar acabo
+7   Gastos hormiga
