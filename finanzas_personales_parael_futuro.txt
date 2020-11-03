@@ -25,3 +25,5 @@ Tipos de arquetipos
     y Cuidador con 25, Conector 17, Romantico 15 y Celebridad 11
 3   Detox financiero, desentoxicación financiera, es cuando le das un giro a las finanzas despues de que te ha ido mal, cuando no estas sadisfecho, 
     cuando estas estresado y no tienes claro a donde vas
+4   Mapa financiero, es un excel con varias pestañas, las dos primeras (que son las que se llenan en esta clase) tienen preguntas y la otra el presupuesto
+    de los gatos que se tiene actualmente. Se usa para saber los objetivos que se tienen
