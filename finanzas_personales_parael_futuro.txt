@@ -55,6 +55,11 @@ Moderado
     A estos tres perfiles financieramente establecidos (si acudes a una entidad financiera ética te realizarán un cuestionario para determinar tu perfil), 
     podemos sumar 4 aspectos personales que también forman parte de la conformación de tu perfil.
 
+Tipo de renta variable
+    - Acciones
+    - Fondos de inversión
+    - índices
+
 ===== TIPS & RECORDAR =====
 
 ===== RESUMEN CLASES =====
@@ -87,3 +92,4 @@ Moderado
 21  Perfiles de inversionista!!!!!!, es una pagina con una redacción que te va diciendo que perfiles hay (son 3, conservador, moderado, agresivo)
 22  Portafolios de inversión, una página igual con una redacción con ejemplos de los portafolios, de como diversificar y es bueno
 23  Renta fija, explicación de que es y como funciona, renta fija es para principiantes
+24  Renta variable, una explicación de que es la renta variable, los tipos de renta variable (son 3)
