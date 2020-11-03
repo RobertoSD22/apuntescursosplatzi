@@ -29,6 +29,10 @@ Estaciones:
     Otoño: Hora de asumir responsabilidades. ¿Qué puedes mejorar de lo que aplicaste (consciente o inconscientemente) durante las estaciones pasadas?
     Invierno: El invierno puede tomarte en dos actitudes: preparado o no preparado. Esta estación es donde utilizas los medios que generaste durante la primavera. A veces el invierno tarda en aparecer.
 
+Red Financiera
+    Crea un soporte para tu vida, una red financiera, es el número de meses que puedes vivir sin reducir tu nivel de vida
+
+
 ===== TIPS & RECORDAR =====
 
 ===== RESUMEN CLASES =====
@@ -52,3 +56,4 @@ Estaciones:
 12  Interes compuesto, empezo con un ejemplo de un señor que come queso diario y subio 15 kilos despues de un mes, las cosas repetidas llevan a un bueno o mal resultado
 13  Estaciones financieras, nos explican que es
 14  Continuación a estaciones financieras, ESTACIONES ejemplos, usa los ejemplos que vienen en el excel en la pestaña de estacione de la vida
+15  Red financiera, nos da ejemplos y nos enseña en el excel como generarlos
