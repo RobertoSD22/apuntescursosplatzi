@@ -32,6 +32,28 @@ Estaciones:
 Red Financiera
     Crea un soporte para tu vida, una red financiera, es el número de meses que puedes vivir sin reducir tu nivel de vida
 
+Financieramente hablando, tenemos 3 tipos de perfiles :
+    Conservador
+    Moderado
+    Agresivo
+
+Conservador
+    Aquel perfil que prefiere un rendimiento garantizado. Está dispuesto a sacrificar ganancias, con tal de tener tranquila su mente. Un perfil conservador no soporta volatilidades.
+    No te espantes si tu perfil es conservador. De hecho, cuando somos novatos en inversiones, ser conservador es un gran activo, por que nos brinda la oportunidad de 
+    aprender de manera constante, pausada y atenta el maravilloso mundo de las inversiones.
+    Sin embargo, ten cuidado de no estancarte mucho en este perfil; al conservador puede llegar a costarle más trabajo lograr una meta financiera mediante inversiones.
+
+Agresivo
+    Este perfil, es aquel que soporta las volatilidades y que está dispuesto a perder parte de su dinero con tal de tener un rendimiento mayor.
+    Podríamos pensar, que este es el mejor perfil, sin embargo, no dejes que el dinero del ejemplo pasado te engañe. 
+    Tener constantemente un perfil agresivo en nuestras inversiones aunque puede resultar atractivo e inclusive sexy gracias a Hollywood, puede ser desgastante y muy peligroso.
+    Pon atención si este es tu perfil. Necesitas no sólo desarrollar el análisis financiero más profundo, sino el control y observación de tus emociones. 
+    Si buscas aventuras, no las busques en tus inversiones, mejor vete a escalar o a correr coches en alta velocidad, te resultará menos riesgoso en materia de tus finanzas (o sea, más barato).
+
+Moderado
+    De manera lógica, puedes llegar a la conclusión de que es la mezcla de los dos primeros perfiles.
+    A estos tres perfiles financieramente establecidos (si acudes a una entidad financiera ética te realizarán un cuestionario para determinar tu perfil), 
+    podemos sumar 4 aspectos personales que también forman parte de la conformación de tu perfil.
 
 ===== TIPS & RECORDAR =====
 
@@ -62,3 +84,4 @@ Red Financiera
 18  Pensiones publicas, nos enseño las paginas donde hacen el calculo de las pensiones
 19  Pensiones privadas, nos enseña página de una aseguradora.. el porcentaje era del 9% !!
 20  Inflación, nos da un ejemplo de como funciona la inflación
+21  Perfiles de inversionista!!!!!!, es una pagina con una redacción que te va diciendo que perfiles hay (son 3, conservador, moderado, agresivo)
