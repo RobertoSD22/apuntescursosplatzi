@@ -60,6 +60,12 @@ Tipo de renta variable
     - Fondos de inversión
     - índices
 
+Inversiones sofisticadas:
+    Crowdfunding: Inversionistas invierten capital en empresas emergentes a cambio de acciones o rendimiento.
+    Forex: Mercado donde se compran y venden divisas de diversos países.
+    Bienes raíces: Compra y venta de inmuebles para su reventa o para renta.
+    Criptomonedas: Activos digitales descentralizados.
+
 ===== TIPS & RECORDAR =====
 
 ===== RESUMEN CLASES =====
@@ -93,3 +99,4 @@ Tipo de renta variable
 22  Portafolios de inversión, una página igual con una redacción con ejemplos de los portafolios, de como diversificar y es bueno
 23  Renta fija, explicación de que es y como funciona, renta fija es para principiantes
 24  Renta variable, una explicación de que es la renta variable, los tipos de renta variable (son 3)
+25  Inversiones sofisticadas, nos explica que son (Criptomonedas por ejemplo)
