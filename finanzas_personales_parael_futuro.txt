@@ -27,3 +27,5 @@ Tipos de arquetipos
     cuando estas estresado y no tienes claro a donde vas
 4   Mapa financiero, es un excel con varias pestañas, las dos primeras (que son las que se llenan en esta clase) tienen preguntas y la otra el presupuesto
     de los gatos que se tiene actualmente. Se usa para saber los objetivos que se tienen
+5   Se continua con el mapa financiero, bueno solo dijo "llenenlo todo", no esta tan padre, trae una parte donde viene algo de interes compuesto que se ve
+    entretenido pero nada más, hablo más de los cimientos financieros (las ideas que nos dan los papás sobre el dinero).
