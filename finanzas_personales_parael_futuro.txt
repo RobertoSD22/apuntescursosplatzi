@@ -61,3 +61,4 @@ Red Financiera
 17  Diseño financiero, nos da un repaso de las cosas que vimos en las clases pasadas
 18  Pensiones publicas, nos enseño las paginas donde hacen el calculo de las pensiones
 19  Pensiones privadas, nos enseña página de una aseguradora.. el porcentaje era del 9% !!
+20  Inflación, nos da un ejemplo de como funciona la inflación
