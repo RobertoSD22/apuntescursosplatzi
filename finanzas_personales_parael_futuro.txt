@@ -58,3 +58,4 @@ Red Financiera
 14  Continuación a estaciones financieras, ESTACIONES ejemplos, usa los ejemplos que vienen en el excel en la pestaña de estacione de la vida
 15  Red financiera, nos da ejemplos y nos enseña en el excel como generarlos
 16  Pensar a muy largo plazo, nos vuelve a explicar el interes compuesto, como nos vemos a los 70 años!
+17  Diseño financiero, nos da un repaso de las cosas que vimos en las clases pasadas
