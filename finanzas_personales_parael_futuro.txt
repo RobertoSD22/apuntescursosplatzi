@@ -110,3 +110,4 @@ Tipos de jubilación
 24  Renta variable, una explicación de que es la renta variable, los tipos de renta variable (son 3)
 25  Inversiones sofisticadas, nos explica que son (Criptomonedas por ejemplo)
 26  Jubilación, explicación de que es, los tipos y sistemas
+27  Comparativo de pensiones, un cuadro donde enseña a Mexico, España y Colombia
