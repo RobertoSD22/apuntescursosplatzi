@@ -40,3 +40,4 @@ Gastos hormiga
 9   Cambiando habitos, nos enseño las pestañas del excel de "cambiando hábitos" y la que tiene las preguntas, nos explico más la pestaña de cambiando habitos
 10  Presupuesto anual, tambien son parte del excel, nos habla de hacer un presupuesto anual para que en caso de tener gastos anuales amortizarlos (dividirlos en varios meses)
 11  Vivir encima de las posibilidades, gastar de una manera basandonos en un ideal de vida, no gastar en cosas a meses nada más porque si o para querer aparentar
+12  Interes compuesto, empezo con un ejemplo de un señor que come queso diario y subio 15 kilos despues de un mes, las cosas repetidas llevan a un bueno o mal resultado
