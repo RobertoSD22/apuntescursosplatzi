@@ -66,6 +66,15 @@ Inversiones sofisticadas:
     Bienes raíces: Compra y venta de inmuebles para su reventa o para renta.
     Criptomonedas: Activos digitales descentralizados.
 
+Tipos de jubilación
+
+    Modalidad contributiva - tu aportas
+    Modalidad no contributiva - apoyos sociales
+
+¿Cómo funciona?
+    Sistema de reparto: Mi aporte va a parar a las pensiones de aquellos ciudadanos en edad de jubilación.
+    Sistema de capitalización: Fondo individual donde cada persona se encargará de sus propias aportaciones y vivirá con su acumulado.
+
 ===== TIPS & RECORDAR =====
 
 ===== RESUMEN CLASES =====
@@ -100,3 +109,4 @@ Inversiones sofisticadas:
 23  Renta fija, explicación de que es y como funciona, renta fija es para principiantes
 24  Renta variable, una explicación de que es la renta variable, los tipos de renta variable (son 3)
 25  Inversiones sofisticadas, nos explica que son (Criptomonedas por ejemplo)
+26  Jubilación, explicación de que es, los tipos y sistemas
