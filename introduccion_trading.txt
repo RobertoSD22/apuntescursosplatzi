@@ -1,5 +1,15 @@
 =================== APUNTES DEL CURSO DE INTROUCCION AL TRADING =======================
 
+- HISTORIA
+
+    ~ En Egipto, por el 300 B.C, el término hoy en día asociado a interés era percibido con el concepto de “dar vida” y con “fertilidad”.
+    ~ Roma financió gran parte de su expansión en los primeros años, gracias al movimiento préstamo-interés de la clase noble.
+    ~ La historia de los mercados bursátiles comienza con la llegada de la Corporación después del 1500 A.D, esta entidad protegía a 
+      los inversionistas del alto nivel de riesgo que presentaba una inversión en el mercado.
+    ~ The British East India Company fue la primera que instituyo el modelo de propiedad a través de acciones(shares of stock). Y esta empresa vino a cambiar al mundo.
+    ~ La primer empresa en volverse pública fue la “Dutch East India Company”, para el año 1602 esta corporación holandesa puso a disposición del público inversionista 
+      sus acciones en el Amsterdam Stock Exchange.
+
 
 ===== TIPS & RECORDAR =====
 
@@ -12,3 +22,4 @@
 4   Mesopotamia ya utilizaba renta, el interes, impuestos, ya se veian los prestamos
 5   Grecia, se veia como compraban tierras en mal estado y luego las vendian despues de corregirlas, tambien los territorios conquistados
     representaban una ganancia para el imperio Romando
+6   Platica sobre historia de Egipo - Roma - Pasion/Phormion, financiamiento de guerras, de rutas maritimas, corporaciones, British East India Company, Dutch East India Company
