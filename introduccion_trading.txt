@@ -38,6 +38,50 @@ CATEGORIAS Y TIPOS DE INVERSION
 
     - Instrumento de deuda donde un inversionista le hace un préstamo a una institución publica/agencia federal/institución privada, 
       a cambio de un pago de interés en un cierto plazo más el repago del capital a la fecha de vencimiento del bono.
+    
+  ACCIONES
+
+    - Inversión que representa la propiedad proporcional de una entidad corporativa o empresa pública. 
+    - Las acciones son la división de títulos de propiedad de una entidad corporativa o empresa pública.
+    - La manera en la que un inversionista obtiene un retorno de inversión (o una pérdida en su caso) es a través de dos vías:
+        ~ Dividendos de la empresa en caso de que los distribuya.
+        ~ Apreciación en el valor de la acción tras una transacción de venta(Capital Gains).
+    - El valor de la acción depende de varios factores que hacen que la inversión en el mercado bursátil de acciones sea de los instrumentos más volátiles y riesgosos:
+        ~ Ambiente del mercado en general(politica, economia, ambiente social).
+        ~ Ganancias de la compañía o del sector.
+        ~ Demanda o “hype” del sector o de la empresa(IPO, FANG).
+        ~ Factores “irracionales” o completamente random (como un tweet de su CEO).
+  
+  FONDOS DE INVERSION
+
+    - Vehículo de inversión donde se agrega a varios inversionistas con un fin o estrategia de inversión específica y generalmente dejando su administración y diversificación en manos de un “fund manager“
+    - Tipos de fondos:
+        ~ Mutual Funds.
+        ~ ETFs.
+        ~ Venture Capital Funds.
+        ~ Fondos de Fondos.
+        ~ Fondos de Pensión.
+        ~ Hedge Funds(Fondos de cobertura, es decir, fondos de inversión de alto riesgo, como Bridgewater Associates).
+  
+  SEGUROS DE VIDA
+
+    - Insurance(Seguros de vida): aunque no sea común considerarlos como una inversión, su popularidad está aumentando como estrategia de inversión.
+
+  DERIVADOS
+
+    - FOREX!, Intrumentos de inversión cuyo valor está basado en el precio o valor de otro activo subyacente (Para entenderlos de manera sencilla: 
+      Cuando exprimes una naranja, él jugo sale. El jugo es el derivado de la naranja).
+
+  OTROS PRODUCTOS (Vehiculos alternativos de inversión)
+
+    - Son más complejos y poco comunes. Ayudan a la diversificación de inversionistas sofisticados. Como por ejemplo, el Bitcoin.
+    - Ejemplos:
+      ~ Notas convertibles, notas reversibles, safe notes
+      ~ Muatual Funds Alternativos
+      ~ Notas de deuda con principal protegido
+      ~ Inverse exchenge trade funds
+      ~ Bons de catastrofe
+      ~ ICO´s y Criptomonedas
 
 ===== TIPS & RECORDAR =====
 
@@ -52,3 +96,6 @@ CATEGORIAS Y TIPOS DE INVERSION
     representaban una ganancia para el imperio Romando
 6   Platica sobre historia de Egipo - Roma - Pasion/Phormion, financiamiento de guerras, de rutas maritimas, corporaciones, British East India Company, Dutch East India Company
 7   Hablo de la primera bolsa bursatil, la creación de la bolsa de new york yy nos dejo 5 preguntas para responder acerca de esto mismo.
+8   Tipos de instrumentos de inversión, nos menciono 8 en especifico y hablo de los 3 primeros que son los bienes inmuebles, los productos de los bancos y los bonos
+9   Tipos de instrumentos de inversión 2, habla de los 5 restantes, de las acciones habla bastante así como de los fondos de inversión (ETFs). 
+    De los seguros de vida, derivados y otros productos como bitcoin habla muy poco y menciona que el curso no se centrara en ellos pero es bueno que los sepan
