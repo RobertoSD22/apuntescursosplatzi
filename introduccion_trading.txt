@@ -65,7 +65,8 @@ CATEGORIAS Y TIPOS DE INVERSION
   
   SEGUROS DE VIDA
 
-    - Insurance(Seguros de vida): aunque no sea común considerarlos como una inversión, su popularidad está aumentando como estrategia de inversión.
+    - Los seguros funcionana como vehiculo de inversion siempre y cuando sean seguros con retorno. Es decir , un seguro al que vas abonando por N periodos, y al final , si no mueres o no lo ejecutas, 
+      te regresan el monto aportado mas un interes. Sus tasas son tasa fija usualmente, el riesgo es muy bajo en estos productos por su cobertura del subyacente
 
   DERIVADOS
 
@@ -83,6 +84,11 @@ CATEGORIAS Y TIPOS DE INVERSION
       ~ Bons de catastrofe
       ~ ICO´s y Criptomonedas
 
+TIPOS DE INVERSIONISTAS
+
+  - Inversionistas pasivos: Son quienes hacen inversiones sin informarse o educarse para poder realizar ellos las decisiones. Le dejan el trabajo de toma de decisión a un tercero.
+  - Inversionistas activos: Son quienes se informan para tomar las decisiones que le interesan. El objetivo de este curso es generar inversionistas activos.
+
 ===== TIPS & RECORDAR =====
 
 ===== RESUMEN CLASES =====
@@ -99,3 +105,5 @@ CATEGORIAS Y TIPOS DE INVERSION
 8   Tipos de instrumentos de inversión, nos menciono 8 en especifico y hablo de los 3 primeros que son los bienes inmuebles, los productos de los bancos y los bonos
 9   Tipos de instrumentos de inversión 2, habla de los 5 restantes, de las acciones habla bastante así como de los fondos de inversión (ETFs). 
     De los seguros de vida, derivados y otros productos como bitcoin habla muy poco y menciona que el curso no se centrara en ellos pero es bueno que los sepan
+10  Tipos de Inversionistas, habla de los activos pasivos, pero a su vez dentro de ellos hay más tipos (como agresivo, moderado - moderado, conservador) y asu vez esos tienen mas
+    tipos (cognitivo, reactivo, cognitivo, reactivo, emocional, reactivo, cognitivo... son 7) y que en ellos se refleja el tipo de instrumento que utiliza cada uno 
