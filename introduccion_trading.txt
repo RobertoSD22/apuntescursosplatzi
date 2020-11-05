@@ -1,6 +1,6 @@
 =================== APUNTES DEL CURSO DE INTROUCCION AL TRADING =======================
 
-- HISTORIA
+HISTORIA
 
     ~ En Egipto, por el 300 B.C, el término hoy en día asociado a interés era percibido con el concepto de “dar vida” y con “fertilidad”.
     ~ Roma financió gran parte de su expansión en los primeros años, gracias al movimiento préstamo-interés de la clase noble.
@@ -12,6 +12,32 @@
     ~ El London Stock Exchange fue creado en 1801 FUE LA PRIMERA BOLSA DE VALORES y rápidamente el New York Stock Exchange fue inaugurado en 1817 
       y se convirtió en la Bolsa más importante y poderosa del Mundo.
 
+CATEGORIAS Y TIPOS DE INVERSION
+
+  - Bienes inmuebles (Real Estate en ingles)
+  - Productos Bancarios (Bank Products)
+  - Bonos (Bonds)
+  - Acciones (Stocks, ETF´s)
+  - Fondos de inversión y de Retiro/Pensiones (Mutal Funds, Pension/Retirement Funds)
+  - Seguros (Insurance)
+  - Opciones y Futuros (Options & Futures)
+  - Otros Productos (Alternative Investments)
+
+
+  BIENES INMUEBLES (Real Estate)
+
+    - Inversión en tierra y los edificios construidos sobre ella y/o el ecosistema natural habitado dentro de sus limites.
+    - Las 2 intenciones de los bienes inmuebles son COMERCIAL o RESIDENCIAL (comprando propiedades, o invirtiendo en instrumentos financieros relacionados).
+
+  PRODUCTOS BANCARIOS (Bank Products)
+
+    - Productos adquiridos de la banca. 
+    - Lo bueno de los productos bancarios es que son muy líquidos pero ofrecen un bajo interés.
+
+  BONOS (Bounds)
+
+    - Instrumento de deuda donde un inversionista le hace un préstamo a una institución publica/agencia federal/institución privada, 
+      a cambio de un pago de interés en un cierto plazo más el repago del capital a la fecha de vencimiento del bono.
 
 ===== TIPS & RECORDAR =====
 
