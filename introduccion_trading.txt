@@ -91,9 +91,13 @@ TIPOS DE INVERSIONISTAS
 
 INVERSIONISTA
 
-  El tiempo es el mejor amigo de un inversionista. El objetivo principal de un inversionista, independientemente de su vehículo de inversión, es generar valor sobre el tiempo.
-  El corto plazo no es tan importante para un inversionista, solamente en casos de que quiera generar cash-flow.
-  El interés compuesto existe gracias al tiempo.
+  - El tiempo es el mejor amigo de un inversionista. El objetivo principal de un inversionista, independientemente de su vehículo de inversión, es generar valor sobre el tiempo.
+  - El corto plazo no es tan importante para un inversionista, solamente en casos de que quiera generar cash-flow.
+  - El interés compuesto existe gracias al tiempo.
+
+  DIVIDENDO
+
+    - Es un ingreso pasivo y recurrente.
 
 ===== TIPS & RECORDAR =====
 
@@ -117,3 +121,4 @@ INVERSIONISTA
 12  Solo son las preguntas de la clase 7
 13  Empieza la introducción del módulo 2, va a hablar de la diferencia entre inversionista y trader, en esta clase se enfoco en el inversionista YYYY sobre todo en el INTERES COMPUESTO
 14  Da un ejemplo del interes compuesto, interesante, una inversión pasiva del 6% de interes.
+15  Da otro ejemplo del interes compuesto pero ahora con DIVIDENDOS, un ejemplo de Apple a 10 años
