@@ -89,6 +89,12 @@ TIPOS DE INVERSIONISTAS
   - Inversionistas pasivos: Son quienes hacen inversiones sin informarse o educarse para poder realizar ellos las decisiones. Le dejan el trabajo de toma de decisión a un tercero.
   - Inversionistas activos: Son quienes se informan para tomar las decisiones que le interesan. El objetivo de este curso es generar inversionistas activos.
 
+INVERSIONISTA
+
+  El tiempo es el mejor amigo de un inversionista. El objetivo principal de un inversionista, independientemente de su vehículo de inversión, es generar valor sobre el tiempo.
+  El corto plazo no es tan importante para un inversionista, solamente en casos de que quiera generar cash-flow.
+  El interés compuesto existe gracias al tiempo.
+
 ===== TIPS & RECORDAR =====
 
 ===== RESUMEN CLASES =====
@@ -109,3 +115,4 @@ TIPOS DE INVERSIONISTAS
     tipos (cognitivo, reactivo, cognitivo, reactivo, emocional, reactivo, cognitivo... son 7) y que en ellos se refleja el tipo de instrumento que utiliza cada uno
 11  3 retos, de esos el primero son 5 preguntas, el segundo es "en que quieres invertir" y el tercero es "que tipo de inversionista quieres ser"
 12  Solo son las preguntas de la clase 7
+13  Empieza la introducción del módulo 2, va a hablar de la diferencia entre inversionista y trader, en esta clase se enfoco en el inversionista YYYY sobre todo en el INTERES COMPUESTO
