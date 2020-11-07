@@ -116,3 +116,4 @@ INVERSIONISTA
 11  3 retos, de esos el primero son 5 preguntas, el segundo es "en que quieres invertir" y el tercero es "que tipo de inversionista quieres ser"
 12  Solo son las preguntas de la clase 7
 13  Empieza la introducción del módulo 2, va a hablar de la diferencia entre inversionista y trader, en esta clase se enfoco en el inversionista YYYY sobre todo en el INTERES COMPUESTO
+14  Da un ejemplo del interes compuesto, interesante, una inversión pasiva del 6% de interes.
