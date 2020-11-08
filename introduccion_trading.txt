@@ -133,3 +133,5 @@ TRADER
 15  Da otro ejemplo del interes compuesto pero ahora con DIVIDENDOS, un ejemplo de Apple a 10 años
 16  TRADER, explica lo que es el trading, quien es el mejor amigo del trader, da otros conceptos y pone un ejemplo muy bueno de acciones de MATCH y de AMAZON, como bajaron y el trader 
     empezo a sacarle ganancia a corto plazo, mostro al final una grafica de velas.
+17  FAMOSOS INVERSIONISTAS, claro enseño a Warren Buffet, pero tambien a su maestro de escuela Benjamin Graham, menciona su libro de "el inversor inteligente", tambien hablo de otros
+    famosos inversionistas y al final dio un repaso de que es un inversionista.
