@@ -99,6 +99,15 @@ INVERSIONISTA
 
     - Es un ingreso pasivo y recurrente.
 
+TRADER
+
+  - El mejor amigo del trader no es el tiempo. Es el movimiento de acción de precio.
+  - El objetivo del trader es generar valor maximizando su ganancia sobre la apreciación de capital que son obtenidas gracias a los movimiento en el precio que suceden en el mercado, 
+    generalmente en el corto y mediano plazos.
+  - Gracias al movimiento de Acción de Precio, existe la Volatilidad.
+  - Un trader usa técnicas de observación de patrones, tiene disciplina del análisis técnico y además debe tener cabeza fría en sus decisiones.
+
+
 ===== TIPS & RECORDAR =====
 
 ===== RESUMEN CLASES =====
@@ -122,3 +131,5 @@ INVERSIONISTA
 13  Empieza la introducción del módulo 2, va a hablar de la diferencia entre inversionista y trader, en esta clase se enfoco en el inversionista YYYY sobre todo en el INTERES COMPUESTO
 14  Da un ejemplo del interes compuesto, interesante, una inversión pasiva del 6% de interes.
 15  Da otro ejemplo del interes compuesto pero ahora con DIVIDENDOS, un ejemplo de Apple a 10 años
+16  TRADER, explica lo que es el trading, quien es el mejor amigo del trader, da otros conceptos y pone un ejemplo muy bueno de acciones de MATCH y de AMAZON, como bajaron y el trader 
+    empezo a sacarle ganancia a corto plazo, mostro al final una grafica de velas.
