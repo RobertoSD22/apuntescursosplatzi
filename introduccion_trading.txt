@@ -110,6 +110,18 @@ TRADER
 
 ===== TIPS & RECORDAR =====
 
+SHORT
+
+  - En un comentario en la clase 18 enseñan esto:
+    
+    Apostar a la baja es hacer un short.
+    Va a sonar complicado…pero un short es “tomar prestadas” las acciones de tu broker o exchange, venderlas inmediatamente a ese precio y devolverlas cuando el precio de ellas ha bajado.
+    Entonces, si hiciste short a 10 acciones de una compañía cuando estaban a $100, “tomaste prestado” el equivalente a $1000.
+    Si una semana después la acción está en $80, las recompras a ese precio (10 x $80) para devolverlas de inmediato y de los $1000 solo debes devolver el equivalente a 
+    $800 (porque eso es lo que cuestan las 10 acciones ahora).
+    Esa diferencia de $200 es la ganancia en un short exitoso.
+    Escribo “tomas prestadas” y “recompras” porque estos son pasos automáticos que hace la plataforma. Tu solo abres el short y cierras el short dentro de ella.
+
 ===== RESUMEN CLASES =====
 
 1   Presentación, el maestro explica a que se dedica, que llego a tener el 48% de rendimiento en 2 años, que el curso es para cualquiera
@@ -135,3 +147,5 @@ TRADER
     empezo a sacarle ganancia a corto plazo, mostro al final una grafica de velas.
 17  FAMOSOS INVERSIONISTAS, claro enseño a Warren Buffet, pero tambien a su maestro de escuela Benjamin Graham, menciona su libro de "el inversor inteligente", tambien hablo de otros
     famosos inversionistas y al final dio un repaso de que es un inversionista.
+18  FAMOSOS TRADERS, George Soros!! Rompio la banca inglesa forzando a que bajara la libra esterlina, muy interesante su historia... tambien hablaron del concepto de SHORT!!!, deje
+    un comentario en el apartado de TIPs
