@@ -1,0 +1,12 @@
+=================== APUNTES DEL CURSO PRACTICO DE SQL =======================
+
+HISTORIA
+
+    - SQL fue creada por IBM en los años 1970 y originalmente llamada SEQUEL.
+    - Relational Company empresa actualmente llamada Oracle creo el software Oracle V2 en 1979, cabe resaltar que ayudo a estandarizar el lenguaje de consultas en los motores de bases de datos.
+    - Durante los años ANSI/ISO han ido generando diferentes normativas que han permitido darle un impulso al lenguaje, 
+      ya que la mayoria de motores de bases de datos que conocemos comparten dichos atributos y esto nos ayuda a tener una interpretacion y aprendizaje escalar.
+
+===== TIPS & RECORDAR =====
+
+===== RESUMEN CLASES =====
