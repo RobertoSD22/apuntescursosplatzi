@@ -7,6 +7,21 @@ HISTORIA
     - Durante los años ANSI/ISO han ido generando diferentes normativas que han permitido darle un impulso al lenguaje, 
       ya que la mayoria de motores de bases de datos que conocemos comparten dichos atributos y esto nos ayuda a tener una interpretacion y aprendizaje escalar.
 
+OPERADORES UNARIOS
+
+    - Requiere una relación o tabla para funcionar.
+    - Proyección (π): Equivale al comando Select. Saca un número de columnas o atributos sin necesidad de hacer una unión con una segunda tabla.
+    - Selección (σ): Equivale al comando Where. Consiste en el filtrado de de tuplas.
+
+OPERADORES BINARIOS
+
+    - Requiere más de una tabla para operar.
+    - Producto cartesiano (x): Toma todos los elementos de una tabla y los combina con los elementos de la segunda tabla.
+    - Unión (∪): Obtiene los elementos que existen en una de las tablas o en la otra de las tablas.
+    - Diferencia (-): Obtiene los elementos que existe en una de las tablas pero que no corresponde a la otra tabla.
+
 ===== TIPS & RECORDAR =====
 
 ===== RESUMEN CLASES =====
+1   Historia de SQL, breve, primero lo creo IBM, la segunda versión Oracle, se standarizo para que cualquier BD use el mismo lenguaje.
+2   Algebra lineal, Simbolos que representan los operadores unarios (select y where/proyección y selección) y operadores binarios (producto cartesiano, unión, diferencia)
