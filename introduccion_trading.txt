@@ -113,6 +113,12 @@ EMPRESA PRIVADA
   - Los dueños privados toman las decisiones de quien puede adquirir participación en la empresa.
   - Propiedad privada puede durar mucho tiempo o indefinidamente.
   - Propiedad individual, grupal o por instituciones privadas (otras empresas privadas).
+  - Se conoce como Corporación Cerrada.
+  - Son propiedad de individuos o instituciones también privadas.
+  - No necesariamente es más pequeña o tiene menos recursos que una empresa pública.
+  - Emiten share of stock que no se pueden comprar públicamente, solo de manera privada.
+  - No son propiedad del gobierno.
+  - Tienen Responsabilidad Limitada.
 
 EMPRESA PUBLICA
 
@@ -134,6 +140,17 @@ SHORT
     $800 (porque eso es lo que cuestan las 10 acciones ahora).
     Esa diferencia de $200 es la ganancia en un short exitoso.
     Escribo “tomas prestadas” y “recompras” porque estos son pasos automáticos que hace la plataforma. Tu solo abres el short y cierras el short dentro de ella.
+
+REQUISITOS PARA QUE UNA EMPRESA PRIVADA SE HAGA PUBLICA:
+
+  Los requisitos dependen de la bolsa, generalmente las dimensiones financieras solicitudas:
+
+  Antiguedad.
+  Ingreso anual. Minimo $5,000,000 USD
+  Crecimiento anual.
+  Cumplir las regulaciones.
+  Valuaciones previas.
+  Modelos de negocio.
 
 ===== RESUMEN CLASES =====
 
@@ -167,3 +184,5 @@ SHORT
 20  Revisamos lo de las peliculas que dejo de tarea, luego dio un resumen de lo que veremos en el modulo 3 del curso (empresas privadas y publicas, mercados bursatiles, bolsas populares NYSE por ejemplo)
 21  EMPRESA PRIVADA, explico las caracteristicas de una empresa privada, hablaron un poco de Dell, y de las empresas que tiene el profesor.
 22  EMPRESA PUBLICA, explico las caracteristicas, estuvo más sencilla que la clase pasada
+23  EMPRESA PRIVADA parte 2, nos hablo que esta en una LLC (como se les llama a las empresas en estados unidos que se dedican al trading de acciones), 
+    tambien menciono otras caracteristicas de una empresa privada
