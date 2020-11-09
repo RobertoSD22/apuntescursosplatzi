@@ -114,6 +114,13 @@ EMPRESA PRIVADA
   - Propiedad privada puede durar mucho tiempo o indefinidamente.
   - Propiedad individual, grupal o por instituciones privadas (otras empresas privadas).
 
+EMPRESA PUBLICA
+
+  - Propiedad de la comunidad financiera inversora además de sus fundadores. (Cualquiera adquiere acciones)
+  - Propiedad pública cambia de manos constantemente (diariamente) a través del mercado bursátil. (Trading)
+  - Cualquiera puede comprar acciones pero las decisiones las toma el Consejo y los accionistas con derecho a voto.
+  - Los resultados financieros se deben mantener abiertos(estados de cuenta, estados de performance, etc.)
+
 ===== TIPS & RECORDAR =====
 
 SHORT
@@ -158,4 +165,5 @@ SHORT
 19  Resumen del trader como el de inversionista, habla del analisis tecnico un poco (ahora entendi que el analisis fundamental es la información de la empresa y el tecnico deben ser las graficas)
     y dejo dos retos, que son ver dos peliculas (una es un documental de Warren buffet)
 20  Revisamos lo de las peliculas que dejo de tarea, luego dio un resumen de lo que veremos en el modulo 3 del curso (empresas privadas y publicas, mercados bursatiles, bolsas populares NYSE por ejemplo)
-21  EMPRESA PRIVADA, explican las caracteristicas de una empresa privada, hablaron un poco de Dell, y de las empresas que tiene el profesor.
+21  EMPRESA PRIVADA, explico las caracteristicas de una empresa privada, hablaron un poco de Dell, y de las empresas que tiene el profesor.
+22  EMPRESA PUBLICA, explico las caracteristicas, estuvo más sencilla que la clase pasada
