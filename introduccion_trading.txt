@@ -107,6 +107,12 @@ TRADER
   - Gracias al movimiento de Acción de Precio, existe la Volatilidad.
   - Un trader usa técnicas de observación de patrones, tiene disciplina del análisis técnico y además debe tener cabeza fría en sus decisiones.
 
+EMPRESA PRIVADA
+
+  - Los resultados financieros se mantienen cerrados y no son compartidos.
+  - Los dueños privados toman las decisiones de quien puede adquirir participación en la empresa.
+  - Propiedad privada puede durar mucho tiempo o indefinidamente.
+  - Propiedad individual, grupal o por instituciones privadas (otras empresas privadas).
 
 ===== TIPS & RECORDAR =====
 
@@ -152,3 +158,4 @@ SHORT
 19  Resumen del trader como el de inversionista, habla del analisis tecnico un poco (ahora entendi que el analisis fundamental es la información de la empresa y el tecnico deben ser las graficas)
     y dejo dos retos, que son ver dos peliculas (una es un documental de Warren buffet)
 20  Revisamos lo de las peliculas que dejo de tarea, luego dio un resumen de lo que veremos en el modulo 3 del curso (empresas privadas y publicas, mercados bursatiles, bolsas populares NYSE por ejemplo)
+21  EMPRESA PRIVADA, explican las caracteristicas de una empresa privada, hablaron un poco de Dell, y de las empresas que tiene el profesor.
